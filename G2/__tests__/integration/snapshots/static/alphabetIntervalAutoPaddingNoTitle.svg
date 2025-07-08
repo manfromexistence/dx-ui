@@ -1,0 +1,495 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(78,121,167,1)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(242,142,44,1)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="572" height="417" x="52" y="16" fill="rgba(225,87,89,1)" d="m52 16 572 0 0 417-572 0z" class="area"/>
+        </g>
+        <g>
+          <path width="572" height="417" x="52" y="16" fill="rgba(118,183,178,1)" d="m52 16 572 0 0 417-572 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group"/>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="52" x2="624" y1="433" y2="433" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 64.0536 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 85.9693 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 107.885 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 129.8008 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 151.7165 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 173.6322 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 195.5479 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 217.4636 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 239.3793 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 261.295 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 283.2107 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 305.1264 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 327.0421 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 348.9579 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 370.8736 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 392.7893 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 414.705 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 436.6207 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 458.5364 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 480.4521 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 502.3678 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 524.2835 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 546.1992 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 568.115 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 590.0306 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 611.9464 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 64.0536 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">E</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 85.9693 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">T</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 107.885 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">A</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 129.8008 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">O</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 151.7165 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">I</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 173.6322 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">N</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 195.5479 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">S</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 217.4636 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">H</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 239.3793 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">R</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 261.295 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">D</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 283.2107 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">L</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 305.1264 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">C</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 327.0421 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">U</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 348.9579 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">M</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 370.8736 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">W</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 392.7893 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">F</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 414.705 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">G</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 436.6207 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">Y</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 458.5364 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">P</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 480.4521 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">B</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 502.3678 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">V</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 524.2835 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">K</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 546.1992 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">J</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 568.115 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">X</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 590.0306 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">Q</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 611.9464 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">Z</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group"/>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 433 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 367.341 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 301.6821 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 236.0231 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 170.3642 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 104.7052 572 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m52 39.0463 572 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="52" x2="52" y1="433" y2="16" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 433)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 367.341)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 301.6821)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 236.0231)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 170.3642)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 104.7052)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 52 39.0463)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 433)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 367.341)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.02</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 301.6821)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.04</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 236.0231)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.06</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 170.3642)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.08</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 104.7052)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.1</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 44 39.0463)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0.12</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group"/>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 52 16)">
+          <path width="572" height="417" fill="rgba(0,0,0,0)" d="m0 0 572 0 0 417-572 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path width="19.7241" height="268.1183" x="46.023" y="148.8817" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m46.023 148.8817 19.7241 0 0 268.1183-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="48.9816" x="418.59" y="368.0184" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m418.59 368.0184 19.7242 0 0 48.9816-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="91.3316" x="243.2644" y="325.6684" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m243.2644 325.6684 19.7241 0 0 91.3316-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="139.6238" x="199.433" y="277.3762" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m199.433 277.3762 19.724 0 0 139.6238-19.724 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="417" x="2.1916" y="0" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m2.1916 0 19.7241 0 0 417-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="75.1138" x="330.9272" y="341.8862" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m330.9272 341.8862 19.7241 0 0 75.1138-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="66.1514" x="352.8429" y="350.8486" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m352.843 350.8486 19.724 0 0 66.1514-19.724 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="200.0628" x="155.6015" y="216.9372" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m155.6015 216.9372 19.7242 0 0 200.0628-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="228.6901" x="89.8544" y="188.3099" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m89.8544 188.3099 19.7241 0 0 228.6901-19.724 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="5.0229" x="484.3372" y="411.9771" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m484.3372 411.977 19.7241 0 0 5.023-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="25.3444" x="462.4215" y="391.6556" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m462.4215 391.6556 19.724 0 0 25.3444-19.724 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="132.1386" x="221.3487" y="284.8614" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m221.3487 284.8614 19.7241 0 0 132.1386-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="78.9877" x="287.0958" y="338.0123" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m287.0958 338.0123 19.7241 0 0 78.9877-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="221.5661" x="111.7701" y="195.4339" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m111.7701 195.4339 19.7242 0 0 221.5661-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="246.4509" x="67.9387" y="170.5491" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m67.9387 170.5491 19.7241 0 0 246.4509-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="63.3281" x="396.6743" y="353.6719" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m396.6743 353.672 19.7242 0 0 63.328-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="3.1188" x="528.1686" y="413.8812" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m528.1686 413.8812 19.7241 0 0 3.1188-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="196.5501" x="177.5172" y="220.4499" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m177.5172 220.45 19.7242 0 0 196.55-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="207.7121" x="133.6858" y="209.2879" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m133.6858 209.288 19.7242 0 0 207.712-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="297.3037" x="24.1073" y="119.6963" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m24.1073 119.6963 19.7241 0 0 297.3037-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="90.5437" x="265.1801" y="326.4563" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m265.18 326.4563 19.7242 0 0 90.5437-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="32.1072" x="440.5057" y="384.8928" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m440.5057 384.8928 19.7242 0 0 32.1072-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="77.4776" x="309.0115" y="339.5224" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m309.0115 339.5224 19.7241 0 0 77.4776-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="4.9244" x="506.2529" y="412.0756" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m506.2529 412.0756 19.7241 0 0 4.9244-19.7241 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="64.8054" x="374.7586" y="352.1946" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m374.7586 352.1946 19.7242 0 0 64.8054-19.7242 0z" class="element"/>
+            </g>
+            <g>
+              <path width="19.7241" height="2.4294" x="550.0843" y="414.5706" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m550.0843 414.5706 19.7241 0 0 2.4294-19.7241 0z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

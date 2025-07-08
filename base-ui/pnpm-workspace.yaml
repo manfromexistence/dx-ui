@@ -1,0 +1,17 @@
+packages:
+  - packages/*
+  - docs
+  - test
+  - test/*
+  - scripts/*
+  - examples/*
+
+onlyBuiltDependencies:
+  - '@mui/internal-babel-plugin-display-name'
+  - '@mui/monorepo'
+  - '@vvago/vale'
+  - core-js
+  - esbuild
+  - nx
+  - sharp
+  - unrs-resolver

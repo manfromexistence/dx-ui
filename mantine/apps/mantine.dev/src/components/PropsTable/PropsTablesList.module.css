@@ -1,0 +1,22 @@
+.searchIcon {
+  width: 22px;
+  height: 22px;
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-3));
+}
+
+.title {
+  font-family: var(--docs-font-primary);
+  font-weight: 500;
+  margin-bottom: var(--mantine-spacing-lg);
+  color: var(--mantine-color-bright);
+}
+
+.section {
+  & + & {
+    margin-top: 50px;
+  }
+}
+
+.search {
+  margin-bottom: var(--mantine-spacing-xl);
+}

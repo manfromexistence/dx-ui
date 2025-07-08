@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g transform="matrix(1 0 0 1 16 16)">
+          <path width="608" height="448" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 448-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g transform="matrix(1 0 0 .0001 0 447.9552)">
+              <path width="107.2941" height="352" x="11.9216" y="96" fill="rgba(70,130,180,1)" fill-opacity="0" stroke="rgba(70,130,180,1)" stroke-opacity="0" stroke-width="0" d="m11.9216 96 107.294 0 0 352-107.294 0z" class="element" opacity="0"/>
+            </g>
+            <g transform="matrix(1 0 0 .0001 0 447.9552)">
+              <path width="107.2941" height="147.2" x="131.1373" y="300.8" fill="rgba(70,130,180,1)" fill-opacity="0" stroke="rgba(70,130,180,1)" stroke-opacity="0" stroke-width="0" d="m131.1373 300.8 107.294 0 0 147.2-107.294 0z" class="element" opacity="0"/>
+            </g>
+            <g transform="matrix(1 0 0 .0001 0 447.9552)">
+              <path width="107.2941" height="153.6" x="250.3529" y="294.4" fill="rgba(70,130,180,1)" fill-opacity="0" stroke="rgba(70,130,180,1)" stroke-opacity="0" stroke-width="0" d="m250.353 294.4 107.294 0 0 153.6-107.294 0z" class="element" opacity="0"/>
+            </g>
+            <g transform="matrix(1 0 0 .0001 0 447.9552)">
+              <path width="107.2941" height="448" x="369.5686" y="0" fill="rgba(70,130,180,1)" fill-opacity="0" stroke="rgba(70,130,180,1)" stroke-opacity="0" stroke-width="0" d="m369.5686 0 107.2941 0 0 448-107.294 0z" class="element" opacity="0"/>
+            </g>
+            <g transform="matrix(1 0 0 .0001 0 447.9552)">
+              <path width="107.2941" height="192" x="488.7843" y="256" fill="rgba(70,130,180,1)" fill-opacity="0" stroke="rgba(70,130,180,1)" stroke-opacity="0" stroke-width="0" d="m488.7843 256 107.2941 0 0 192-107.294 0z" class="element" opacity="0"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

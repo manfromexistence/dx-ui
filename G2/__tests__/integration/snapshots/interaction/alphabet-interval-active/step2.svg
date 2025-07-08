@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g transform="matrix(1 0 0 1 16 16)">
+          <path width="608" height="448" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 448-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path width="20.9655" height="288.0504" x="48.9195" y="159.9496" fill="rgba(255,0,0,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m48.9195 159.9496 20.9656 0 0 288.0504-20.9656 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="52.6229" x="444.9349" y="395.3771" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m444.9349 395.3771 20.9655 0 0 52.6229-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="98.1212" x="258.5747" y="349.8788" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m258.5747 349.8788 20.9655 0 0 98.1212-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="150.0035" x="211.9847" y="297.9965" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m211.9847 297.9965 20.9655 0 0 150.0035-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="448" x="2.3295" y="0" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m2.3295 0 20.9655 0 0 448-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="80.6978" x="351.7548" y="367.3022" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m351.7548 367.3022 20.9655 0 0 80.6978-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="71.0691" x="375.0498" y="376.9309" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m375.0498 376.9309 20.9655 0 0 71.0691-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="214.9356" x="165.3946" y="233.0644" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m165.3946 233.0644 20.9656 0 0 214.9356-20.9656 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="245.6911" x="95.5096" y="202.3089" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m95.5096 202.309 20.9655 0 0 245.691-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="5.3963" x="514.8199" y="442.6037" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m514.82 442.6037 20.9654 0 0 5.3963-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="27.2285" x="491.5249" y="420.7715" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m491.5249 420.7715 20.9655 0 0 27.2285-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="141.9619" x="235.2797" y="306.0381" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m235.2797 306.0381 20.9655 0 0 141.9619-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="84.8597" x="305.1648" y="363.1403" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m305.1648 363.1403 20.9655 0 0 84.8597-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="238.0375" x="118.8046" y="209.9625" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m118.8046 209.9625 20.9655 0 0 238.0375-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="264.7722" x="72.2146" y="183.2278" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m72.2146 183.2278 20.9655 0 0 264.7722-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="68.0359" x="421.6398" y="379.9641" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m421.6398 379.9641 20.9656 0 0 68.0359-20.9656 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="3.3507" x="561.41" y="444.6493" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m561.41 444.6493 20.9655 0 0 3.3507-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="211.1617" x="188.6897" y="236.8383" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m188.6897 236.8383 20.9655 0 0 211.1617-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="223.1535" x="142.0996" y="224.8465" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m142.0996 224.8465 20.9655 0 0 223.1535-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="319.4054" x="25.6245" y="128.5946" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m25.6245 128.5946 20.9655 0 0 319.4054-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="97.2748" x="281.8697" y="350.7252" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m281.8697 350.7252 20.9655 0 0 97.2748-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="34.4941" x="468.2299" y="413.5059" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m468.2299 413.5059 20.9655 0 0 34.4941-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="83.2373" x="328.4598" y="364.7627" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m328.4598 364.7627 20.9655 0 0 83.2373-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="5.2905" x="538.1149" y="442.7095" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m538.115 442.7095 20.9655 0 0 5.2905-20.9656 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="69.6231" x="398.3448" y="378.3769" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m398.3448 378.377 20.9655 0 0 69.623-20.9655 0z" class="element"/>
+            </g>
+            <g>
+              <path width="20.9655" height="2.61" x="584.705" y="445.39" fill="rgba(70,130,180,1)" fill-opacity=".95" stroke="rgba(70,130,180,1)" stroke-width="0" d="m584.705 445.39 20.9655 0 0 2.61-20.9655 0z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

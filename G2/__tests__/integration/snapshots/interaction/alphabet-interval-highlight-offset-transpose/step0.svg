@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g transform="matrix(1 0 0 1 16 16)">
+          <path width="608" height="448" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 448-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g transform="matrix(1 0 0 1 10 0)">
+              <path width="310.346" height="79.0588" x="0" y="184.4706" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 184.4706 310.346 0 0 79.0588-310.346 0z" class="element"/>
+            </g>
+            <g>
+              <path width="482.676" height="79.0588" x="0" y="8.7843" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 8.7843 482.676 0 0 79.0588-482.676 0z" class="element"/>
+            </g>
+            <g>
+              <path width="264.708" height="79.0588" x="0" y="360.1569" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 360.1569 264.708 0 0 79.0588-264.708 0z" class="element"/>
+            </g>
+            <g>
+              <path width="285.266" height="79.0588" x="0" y="272.3137" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 272.3137 285.266 0 0 79.0588-285.266 0z" class="element"/>
+            </g>
+            <g>
+              <path width="344.128" height="79.0588" x="0" y="96.6275" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 96.6275 344.128 0 0 79.0588-344.128 0z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

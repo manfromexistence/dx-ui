@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="540.72" height="382" x="83.28" y="16" fill="rgba(0,0,0,0)" d="m83.28 16 540.72 0 0 382-540.72 0z" class="area"/>
+        </g>
+        <g>
+          <path width="540.72" height="382" x="83.28" y="16" fill="rgba(0,0,0,0)" d="m83.28 16 540.72 0 0 382-540.72 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m157.7334 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m265.5827 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m373.1374 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m480.692 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m588.2467 398 0-382" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="83.28" x2="624" y1="398" y2="398" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 157.7334 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 265.5827 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 373.1374 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 480.692 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 588.2466 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 157.7334 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2008</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 265.5827 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2009</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 373.1374 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2010</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 480.692 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2011</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 588.2466 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2012</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 353.64 452.5)">
+              <g transform="matrix(1 0 0 1 0 8)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="-11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">date</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 384.5894 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 315.8522 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 247.115 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 178.3778 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 109.6407 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 40.9035 540.72 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="83.28" x2="83.28" y1="398" y2="16" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 384.5894)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 315.8522)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 247.115)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 178.3778)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 109.6407)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 40.9035)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 384.5894)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">100</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 315.8522)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">200</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 247.115)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">300</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 178.3778)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">400</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 109.6407)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">500</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 40.9035)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">600</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 28.5 207)">
+              <g transform="matrix(0 -1 1 0 -7.5 .5)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">close</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 83.28 16)">
+          <path width="540.72" height="382" fill="rgba(0,0,0,0)" d="m0 0 540.72 0 0 382-540.72 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="none" stroke="rgba(23,131,255,1)" stroke-linecap="round" stroke-width="1" d="m0 373.236.295-1.45.294-2.399.295-.743.884.083.589.227.295-.633.295-.007.294-.281.884-2.138.295-.784.295-1.251 0-.316.294-.962.884-.426.295 1.264.295.124.294-1.443.295-.399.884-1.347.295-1.073.294.447.295 1.512.295-2.014 1.178-.501.295-3.039.295-1.663.589 1.918.884-2.014.295-.921.294-.667.295-.296.295-.288.589 2.955.295-.13.295 1.979.294-.859.295-1.203.884-3.155.295.983.294 1.451.295-1.616.295.619.884.453.294 1.85.295-1.54.295.914.294-1.017 1.179.536.295-4.063.589-3.835.295.309.884 1.354 0-1.388.294-.028.295-1.154.295-2.516.884-.254.294-.557.295.543.295-1.292.294-2.578.884.034.295 6.056.295-1.629.294-6.008.295 1.478.884 1.664.295 6.646.589-2.227.295-1.024.294 3.19.884-2.337.295.151.295.701.294 5.238 0 .955.884-1.918.295 2.585.295 2.839.294 1.959.295-3.444.884-.11.295-3.677.294-3.396.295.99.295-2.908.884 2.097.294 3.732.295-4.99.295-1.492.294-1.533 1.474-3.904.294 5.087.295 1.202.295 2.228.589-3.396.295.839.295-.935.294-.241.295-1.107.884.275.295-1.725.294.103.295.316.295-2.639.884-2.839.294-3.368.295.282.295-1.189.294.708 1.179-1.973.295-1.451.294.365.295 1.155.295-3.582.884-4.44.294.034 0 .736.295 3.134.295-3.45.884.185.294-1.787.295-2.179.295-.515.294 2.117.884-2.709.295-8.111.295.159.294 2.165.295-1.32.884-.268.295-1.313.294-2.028.59 1.726.294-.296.884 1.162.295-3.856.295 3.773.294 7.444.295 6.943.589 7.98.295-11.135.295 2.646.294 1.244.295-1.436.884 1.677.295-3.368.294.268.59-2.117.884-.688.294-1.56.295-3.719.295-2.797.294 1.423 1.179 2.309.295-.653.294-3.911.295-3.059.295-2.99.589.062.295 3.897.295-1.594.294-.667.295.99.884 4.117.295.976.294-.096.295-2.811.295-4.606.884-3.361.589-.103.295.261.294-.866.884 1.203m27.405 33.372.294 1.402.295-2.832.295-1.01.884-1.932.294 2.097.295.962 0-2.138.295 5.094.884-.44.294-.413.295-3.656.295-.544.294-4.502.884-4.894.295 5.472.295-1.849.294-4.159.295-.543.884-1.725.295-1.932.294.756.59-4.158.294-.646.884-2.606.295-1.326.295 2.797.294-1.697.295 1.106.589-3.237.295-1.238.295 2.544.294-2.385.295 1.45.884 2.763.295-1.581.294 5.3.295.783.295-2.832 1.178-3.615.295-.399.295.22.294-1.416 1.179 1.822.295.501.294.124.295-2.914.295 2.605.884 2.77 0-2.77.295 3.32.294 5.19.295.611.884-3.072.295-3.155.294 1.842.295-1.478.295 3.87.884 1.45.294-.062.295-2.845.295 6.275.294-1.258.884 1.822.59-4.977.294 4.468.295-1.333 1.179-3.464.294-3.018.295 3.643 0-1.636.295 2.784.884-.894.294 2.915.295-2.179.295.687.294 4.578.884-.783.295 2.935.295-2.915.294 4.97.295-2.124.884 5.306.295-1.842.294-1.924.295.639.589 1.574.884 2.358.295-5.094.295-2.44.294.426.295-4.11.589-2.757.295-2.179.295-1.766.294-.014.295 2.461.884.24.295 1.279.294-1.588.295 1.066.295-1.719.884 2.915.294-.75.295-.708.295.64.294 2.893 1.474 2.296.294-.529.295 3.945.295.715.884 1.554.295 4.289 0 .048.294-.715.295 2.55.884 5.898.295.33.294 8.283.295-4.303.295-4.688.884 6.777.294 2.894.295-1.285.295-2.213.294 2.536.884 15.796.295-5.774.589 3.121.295 6.2.295 2.082.884-.735.294 6.172.295-.433.295.722 0-5.54.884-9.252.294 4.248.295 4.213.295-2.708.294 3.087.884-.715.295 4.777.295-3.698.294-.935.295 1.272.884 2.948.295-5.375.294-3.189.295-4.461.295 2.371 1.178.433.295-2.77.295 5.286.294 2.887.295.591.589 1.622.295.763.295 3.197.294-4.345.295 4.262.884 1.444.295-1.217.294 2.488.295 3.987.295-1.437.884-7.128.294 1.478.295-2.887.295 0 .294 1.602 1.179 2.571.295-2.434.294-2.357.295 3.086.295-1.78.884-3.932.294-.234 0 1.272.295 2.206.295-2.247.884 2.419.295-.467.294 4.309.295-.185.295-.392.884 2.928.294-.44.295.921.295 0 .294-.529.884-.55.295.22.295.646m27.109-16.043.295-2.763.295-2.255.884-1.691.294 2.372.295-.908.295-2.233 0 0 .884-.447.294 1.313.295.46.295-2.619.294-1.354.884 2.007.295-.866.295.172.294-2.674.295 1.031.884-.57.295.57.294-.852.295-.474.589-.97.884-3.32.295-.44.295.145.294 2.364.295-.089.589-.261.295 3.54.295 3.389.294-2.379.295.365.884-2.908.295-.55.294 1.086.295 1.162.295 1.155 1.178-5.692.295-1.56.295-1.389.294-.508 1.179-2.434.295-.096.294-1.003.295-1.918.295-.64.884.564.294.777 0 1.698.295.206.295 2.048.884.605.295-.179.294.53.295-.207.295-2.474.884 1.45.294 2.31.295-1.519.295-2.502.294-1.774.884.323.295-.316.589-.275.295 1.932.295 0 .884.969.294 2.206.295-1.251.295.592 0-1.485.884-2.626.294.048.295-3.169.295-.44.294-2.907.884-.797.295.962.295-3.595.294-.742.295-1.492.884-.076.295.069.294-.021.295-1.897.295-.412 1.178-2.09.295.605.295.303.294.824.295-1.099.589.543.59-.406.294-2.138.295 1.128.884 4.942.295-3.031.294-.413.295-1.189.295-1.986.884.109.294-.233.295 1.368.295-1.403.294-.412.884 1.265.59 2 .294.082.295-.941.295-2.585 1.178-1.801.295 1.231 0-.976.295.275.884-1.073.295-.989.294-4.613.295-1.842.295-.323.884.687.294-.316.295-.701.295 1.155.294.997.884-2.599.295.53.295.02.589 3.086.295-2.776.884-.77.294-2.743.295-.165.295.674.294-.825.59-.234.294.543.295-.873.295.502.294 1.725.884-1.244.295-6.117.295-4.235.294-.192.295.866.884 1.004.295 3.512.294 3.416.295-2.715.295 5.396 1.178-.557.295.385.295-1.416.294-2.213.295-.213.884-4.894 0-1.045.295-.186.294.866.295-1.691.884-1.498.295-.254.294.714.295 3.747.295.405.884-4.097.294.99.295.172.295 0 .294 2.475.884.467.59 2.021.294.509.295-.172.295 2.172.884 3.004.294-.633.295-5.451 0 .942.295 1.21.884-1.588.295 1.932.294-.592.295 2.179.295-2.454.884-1.924.294-1.464.295-1.196.295-4.771.294 0 .884-1.766.295 1.725.295-1.746.294.626m27.11-17.35.295 0 .884-1.732.294-.721.295-.729.295.447.294-1.265.59-.344.294-.096.295-2.241.295-2.22.294 1.045.884.227.295 1.704.295-10.056.294-4.983.295-2.997.884.914.295 5.128.294.302.295-4.839.295 5.19 1.178-3.616.295 5.272.295 1.856.294 6.688.295 7.142.589-12.462.295-1.739.295-3.829.294 2.564.295 3.121.884-.275.295 1.278.294 2.764.295 7.272.295-3.134.884-3.052.294 1.058.295.763.295-6.351.294-2.427.884 0 .59-2.715.294-2.144.295.57.295 4.922.884 3.45.294 1.107.295 4.214 0-5.025.295-2.062.884-.529.295-3.719.294-5.197.295-3.175.295-1.512.884 2.68.294-2.529.295 1.979.295 1.355.294 1.58.884-1.099.295 8.338.295 3.189.589 2.096.295 1.059.884 0 .294-1.162.295-6.894.295.392.294-1.052.59 1.609.294 3.766.295-.639.295.88.294 1.065.884 2.97.295-4.338.295-1.615.294-3.285.295-.633.884.454.295-3.3.294 2.145.295 1.959.295.591 1.178-3.162.295-.055.295-.721.294.879.295 1.107.884-1.141 0 1.608.295 6.338.294-1.1.295 1.849.884 1.004.295-2.977.294-.756.295 2.193.295.165.884 2.64.294 4.034.295-2.034.295 1.794.294-.921.884-.605.295-.413.589-4.969.295-1.265.295-4.537.884 0 .294.66.295-3.512.295-.103 0-.234.884-2.495.295-.701.294-1.485.295-4.365.295.825.884-5.403.294-.371.295-2.736.295-.804.294-2.337.884.797.295 2.956.295-.35.294 2.488.59.845.884 2.667.294-7.08.295-.171.295-.021.294-3.334.59-.887.294-2.185.295-1.1.295-1.492.294-8.544.884-2.241.295 5.85.295-.715.294.694.295 1.409.884-.941.295.543.294.151.295 1.78.295 2.928 1.178-2.199.295-3.561.295-2.364.294-3.76.295.783.884-1.024.295 1.746 0-1.34.294.941.295 5.932.884.681.295 3.746.294.749.295-5.451.295 1.169.884-4.557.294 3.182.295-4.172.589-.138.884-1.285.295 3.932.589-3.609.295-1.203.295.488.884-1.863.294 1.334.295-1.925.295.86 0-.55.884-.763.294.948.295-.048.295-.612.295.44.884-1.1.294-1.367.295-.66.295 1.072 1.178-.742.295-.543.295.123.294 1.121.295.756m27.11-15.122.884 2.316.294 1.581.295.584.295-.027.294 2.076.59 2.928.294-1.1.295-2.564.295 2.55.294 3.41.884-3.018.295-4.131.295-3.127.294-5.699 1.179-1.588.295 1.781.294.185.295 2.337.295-2.323 1.178 2.646.295-1.319.295-.942.294 1.938.295.062.884-.646 0-1.272.295 1.526.294.454.295 4.172.884 4.95.295-1.953.294-2.563.295-.454.295 3.65.884.563.294 1.52.295-3.156.295 1.224.294-1.657 1.179-7.162.589 1.595.295-.406.295 1.829.884 3.711.294 4.125.295-.138.295.516 0 3.842.884-.481.294-4.014.295 3.911.295 1.093.295 3.368.884 3.395.294-6.859.295 1.849.295-5.926.294 3.355.884-3.911.295-2.214.295.839.294-1.121.59-5.217 1.178-4.241.295-1.601.295-3.74.294-1.725.59 3.925.294.172.295-2.935.295.172.294-4.915.884-6.104.295-2.097.295-6.908.294-.268.295-4.131.884-3.574.295-3.375.294 7.437.295.53.295.921 1.178-4.31.295 5.389.295-2.516.294 10.448.295 2.578.884 14.029.295-14.297 0 7.093.294-6.88.295-2.262.884-4.413.295 2.014.294.028.295 9.891.295 6.888.884-.282.294-11.796.295-1.773.295 1.691.294-6.778.884-4.392.295-.014.295 3.547.589 2.612.295 4.798 1.178-3.911.295-2.88.295-.144.294 4.577.59-1.69.294-3.217.295-3.217.295-2.516.295-5.183.884-7.65.294-1.251.295.9.295 7.094.294-1.705.884.777.295 2.687.295 1.547.294 4.427.295 6.358 1.179 4.619.294 1.444.295-3.953.295.605.294 5.203.59-13.066.294-7.891.295-1.307.295-4.289.294-9.327.884 1.381.295-1.546.295 16.235.294 2.276.295 1.677.884-8.867.295 5.499.294-1.946.295-2.811.295-.179.884.117.589 5.685.295-.619.294-3.89.295 1.945.884.35.295-4.467.294 7.526 0 6.915.295.413.884 3.684.295-6.578.294 2.791.295 5.059.295 1.697.884 4.076.294-5.155.295 6.544.589 2.351.884-8.627.295 2.007.295-6.186.589-3.939.295-1.216.884-2.275.294 1.416.295 1.278.295-1.079.294-2.035.59 1.224.294 2.083.295 5.925.295.859.294-1.43.885-.818.294-9.444.295-.337.295-1.45.294-3.355 1.179-2.131.295 2.674.294-1.705.295.083m27.994-146.843.294-7.348.295 3.443.295-6.44 1.178-1.753 0 5.355.295 1.539.295 2.358.294 12.057.884 17.253.295-20.326.295.935.294 14.366.295 9.939.884.88.295 7.85.294-34.176.295 1.581.295 3.23.884 13.074.589 1.272" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,573 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <clipPath id="b" transform="matrix(1 0 0 1 -291.1102 -16)">
+      <use href="#a" transform="matrix(1 0 0 1 291.1102 16)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="800" height="200" x="0" y="0" fill="rgba(78,121,167,1)" d="m0 0 800 0 0 200-800 0z" class="area"/>
+        </g>
+        <g>
+          <path width="768" height="168" x="16" y="16" fill="rgba(242,142,44,1)" d="m16 16 768 0 0 168-768 0z" class="area"/>
+        </g>
+        <g>
+          <path width="192" height="102" x="87.1102" y="16" fill="rgba(225,87,89,1)" d="m87.1102 16 192 0 0 102-192 0z" class="area"/>
+        </g>
+        <g>
+          <path width="192" height="102" x="87.1102" y="16" fill="rgba(118,183,178,1)" d="m87.1102 16 192 0 0 102-192 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 291.1102 16)">
+            <g fill="none" class="legend-category">
+              <g fill="none" class="legend-title-group">
+                <g fill="none" class="legend-title"/>
+              </g>
+              <g fill="none" class="legend-items-group">
+                <g fill="none" class="legend-items">
+                  <g fill="none" class="items-navigator">
+                    <g fill="none" class="navigator-content-group" clip-path="url(#b)">
+                      <g fill="none" class="navigator-play-window">
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(23,131,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Wholesale and Retail Trade</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 0 31)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(0,201,201,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Manufacturing</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 0 62)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(240,136,77,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Leisure and hospitality</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 0 93)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(213,128,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Business services</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 0 124)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(120,99,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Construction</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 191.04 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(96,196,45,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Education and Health</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 191.04 31)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(189,143,36,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Government</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 191.04 62)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(255,128,202,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Finance</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 191.04 93)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(36,145,179,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Self-employed</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 191.04 124)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(23,199,111,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Other</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 382.08 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(170,186,1,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Transportation and Utilities</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 382.08 31)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(188,124,252,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Information</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 382.08 62)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(35,124,188,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Agriculture</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 382.08 93)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="179.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 179.04 0 0 23-179.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(45,227,121,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Mining and Extraction</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="navigator-controller"/>
+                    <g>
+                      <path id="a" width="561.12" height="147" fill="none" d="m0 0 561.12 0 0 147-561.12 0z" class="navigator-clip-path"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m125.1906 118 0-102" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m163.2362 118 0-102" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m201.334 118 0-102" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m239.3795 118 0-102" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m277.4772 118 0-102" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="87.1102" x2="279.1102" y1="118" y2="118" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 125.1906 118)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 163.2362 118)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 201.334 118)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 239.3795 118)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 277.4772 118)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 125.1906 126)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2002</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 163.2362 126)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2004</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 201.334 126)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2006</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 239.3795 126)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2008</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 277.4772 126)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2010</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 189.9337 172.5)">
+              <g transform="matrix(1 0 0 1 0 8)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="-11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">date</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 118 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 104.5124 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 91.0248 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 77.5372 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 64.0496 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 50.562 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 37.0744 192 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m87.1102 23.5868 192 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="87.1102" x2="87.1102" y1="118" y2="16" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 118)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 104.5124)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 91.0248)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 77.5372)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 64.0496)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 50.562)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 37.0744)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 87.1102 23.5868)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 118)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">0</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 104.5124)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="hidden">2000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 91.0248)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">4000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 77.5372)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="hidden">6000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 64.0496)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">8000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 50.562)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="hidden">10000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 37.0744)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">12000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 79.1102 23.5868)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="hidden">14000</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 18.8902 70.7934)">
+              <g transform="matrix(0 -1 1 0 -7.5 .5)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">unemployed</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 87.1102 16)">
+          <path width="192" height="102" fill="rgba(0,0,0,0)" d="m0 0 192 0 0 102-192 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="rgba(23,131,255,1)" fill-opacity=".85" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 95.256 1.616-.155 1.511.27 1.616 1.281 1.563-.189 1.616-.108 1.563.304 1.616-.411 1.616.418 1.563.35 1.616.257 1.563-.095 1.616-1.301 1.616-.553 1.459-.317 1.615 1.463 1.564-.371 1.616-.539 1.563.822 1.616-.64 1.615-.054 1.564-.034 1.616-.708 1.563-.189 1.616-.93 1.615-.351 1.46-.034 1.615.317 1.564.567 1.615-.688 1.564.728 1.616-.256 1.615-.007 1.564-.276 1.615-.203 1.564.621 1.616-1.295 1.615.701 1.459.398 1.616-.148 1.564-.311 1.615-1.261 1.564.317 1.615 1.524 1.616-.458 1.564.27 1.615.222 1.564.506 1.615-2.077 1.616.135 1.511-.115 1.616.931 1.564.438 1.615.007 1.564.128 1.615.566 1.616-.323 1.563-.074 1.616.627 1.564-.088 1.615-1.645 1.616.006 1.459.864 1.616.283 1.563-.095 1.616-.35 1.563.02 1.616.432 1.616.62 1.563-.081 1.616.25 1.563.303 1.616-1.585 1.616.418 1.459.803 1.616.337 1.563-.357 1.616-.405 1.563.013 1.616.715 1.616-.209 1.563.243 1.616-.31 1.563.357 1.616-1.355 1.615.816 1.46 1.005 1.615.161 1.564.52 1.616-1.241 1.563-.742 1.616.411 1.615.007 1.564.809 1.615.095 1.564-.782 1.616-.749 1.615.762 1.512.101 1.615.492 1.564-.876 1.615-.749 1.564-1.14 1.616-.249 1.615.6 1.564-.243 1.615-.566 1.564-.931 1.616-1.746 1.615-.358 1.459-.034 1.616.129 1.564-.014 1.615-.189 1.564.061 1.615.405 1.616-.102 1.564-.741 1.615.269 1.564.189 1.615-2.043 1.616.56 0 13.966-1.616 0-1.615 0-1.564 0-1.615 0-1.564 0-1.616 0-1.615 0-1.564 0-1.615 0-1.564 0-1.616 0-1.459 0-1.615 0-1.616 0-1.564 0-1.615 0-1.564 0-1.615 0-1.616 0-1.564 0-1.615 0-1.564 0-1.615 0-1.512 0-1.615 0-1.616 0-1.564 0-1.615 0-1.564 0-1.615 0-1.616 0-1.563 0-1.616 0-1.564 0-1.615 0-1.46 0-1.615 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.459 0-1.616 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.459 0-1.616 0-1.615 0-1.564 0-1.616 0-1.563 0-1.616 0-1.615 0-1.564 0-1.615 0-1.564 0-1.616 0-1.511 0-1.616 0-1.615 0-1.564 0-1.615 0-1.564 0-1.616 0-1.615 0-1.564 0-1.615 0-1.564 0-1.616 0-1.459 0-1.615 0-1.616 0-1.564 0-1.615 0-1.564 0-1.615 0-1.616 0-1.564 0-1.615 0-1.564 0-1.615 0-1.46 0-1.615 0-1.616 0-1.563 0-1.616 0-1.564 0-1.615 0-1.616 0-1.563 0-1.616 0-1.564 0-1.615 0-1.459 0-1.616 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.616 0-1.563 0-1.616 0-1.563 0-1.616 0-1.511 0-1.616 0Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(0,201,201,1)" fill-opacity=".85" stroke="rgba(0,201,201,1)" stroke-width="0" d="m0 90.306 1.616.115 1.511-.034 1.616 1.302 1.563.155 1.616.324 1.563-.284 1.616-.256 1.616.54 1.563.175 1.616.398 1.563.033 1.616-3.041 1.616-.492 1.459-.668 1.615 2.131 1.564-.694 1.616-.897 1.563.161 1.616-.431 1.615.128 1.564-.499 1.616-.998 1.563-.621 1.616-2.313 1.615.196 1.46-.513 1.615.621 1.564 1.429 1.615-.64 1.564.742 1.616.263 1.615.209 1.564-.075 1.615-.667 1.564.128 1.616-2.064 1.615 1.194 1.459.445 1.616.007 1.564.02 1.615-1.814 1.564.58 1.615 1.571 1.616-.384 1.564 1.173 1.615.27 1.564.567 1.615-2.651 1.616.243 1.511-.04 1.616 1.463 1.564.695 1.615.067 1.564-.29 1.615 1.774 1.616-.405 1.563-.29 1.616.486 1.564.134 1.615-1.76 1.616.007 1.459.931 1.616.863 1.563.243 1.616-.351 1.563-.924 1.616 1.214 1.616.566 1.563-.249 1.616.094 1.563.749 1.616-1.726 1.616.128 1.459 1.611 1.616.041 1.563.081 1.616-.101 1.563-.668 1.616 1.093 1.616.114 1.563.337 1.616-.876 1.563.64 1.616-1.976 1.615.668 1.46 1.221 1.615.114 1.564 1.18 1.616-1.254 1.563-.526 1.616.58 1.615-.512 1.564.431 1.615-.128 1.564-.85 1.616-1.187 1.615.877 1.512.027 1.615.728 1.564-1.436 1.615-.634 1.564-1.45 1.616-.6 1.615.438 1.564-.398 1.615-1.49 1.564-2.084 1.616-4.417 1.615-1.106 1.459-.641 1.616-.249 1.564-.297 1.615-.189 1.564.209 1.615 1.228 1.616-.169 1.564-.796 1.615.284 1.564 1.099 1.615-3.197 1.616 1.261 0 12.234-1.616-.56-1.615 2.043-1.564-.189-1.615-.269-1.564.741-1.616.102-1.615-.405-1.564-.061-1.615.189-1.564.014-1.616-.129-1.459.034-1.615.358-1.616 1.746-1.564.931-1.615.566-1.564.243-1.615-.6-1.616.249-1.564 1.14-1.615.749-1.564.876-1.615-.492-1.512-.101-1.615-.762-1.616.749-1.564.782-1.615-.095-1.564-.809-1.615-.007-1.616-.411-1.563.742-1.616 1.241-1.564-.52-1.615-.161-1.46-1.005-1.615-.816-1.616 1.355-1.563-.357-1.616.31-1.563-.243-1.616.209-1.616-.715-1.563-.013-1.616.405-1.563.357-1.616-.337-1.459-.803-1.616-.418-1.616 1.585-1.563-.303-1.616-.25-1.563.081-1.616-.62-1.616-.432-1.563-.02-1.616.35-1.563.095-1.616-.283-1.459-.864-1.616-.006-1.615 1.645-1.564.088-1.616-.627-1.563.074-1.616.323-1.615-.566-1.564-.128-1.615-.007-1.564-.438-1.616-.931-1.511.115-1.616-.135-1.615 2.077-1.564-.506-1.615-.222-1.564-.27-1.616.458-1.615-1.524-1.564-.317-1.615 1.261-1.564.311-1.616.148-1.459-.398-1.615-.701-1.616 1.295-1.564-.621-1.615.203-1.564.276-1.615.007-1.616.256-1.564-.728-1.615.688-1.564-.567-1.615-.317-1.46.034-1.615.351-1.616.93-1.563.189-1.616.708-1.564.034-1.615.054-1.616.64-1.563-.822-1.616.539-1.564.371-1.615-1.463-1.459.317-1.616.553-1.616 1.301-1.563.095-1.616-.257-1.563-.35-1.616-.418-1.616.411-1.563-.304-1.616.108-1.563.189-1.616-1.281-1.511-.27-1.616.155Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(240,136,77,1)" fill-opacity=".85" stroke="rgba(240,136,77,1)" stroke-width="0" d="m0 85.033 1.616.134 1.511-.101 1.616 2.185 1.563.041 1.616-.742 1.563.034 1.616.492 1.616.802 1.563-.195 1.616.378 1.563.404 1.616-4.167 1.616-.594 1.459-.641 1.615 2.624 1.564-.607 1.616-1.504 1.563.216 1.616-.122 1.615-.768 1.564-.52 1.616-1.214 1.563-.64 1.616-2.374 1.615.02 1.46-.533 1.615.776 1.564.964 1.615-.721 1.564.978 1.616 1.038 1.615.202 1.564-.553 1.615-.816 1.564.506 1.616-2.92 1.615.546 1.459 1.187 1.616.337 1.564.23 1.615-2.441 1.564.768 1.615 1.369 1.616.101 1.564 1.477 1.615-.114 1.564 1.274 1.615-4.08 1.616.985 1.511-.391 1.616 2.232 1.564.344 1.615-1.362 1.564 1.22 1.615 1.47 1.616.648 1.563-.283 1.616.06 1.564.58 1.615-2.724 1.616-.095 1.459 1.207 1.616 1.437 1.563-.175 1.616-.392 1.563-.782 1.616 1.787 1.616.58 1.563.061 1.616-1.052 1.563.991 1.616-1.591 1.616-.749 1.459 2.441 1.616.277 1.563.431 1.616-.856 1.563-.162 1.616 1.174 1.616.418 1.563.438 1.616-1.153 1.563 1.551 1.616-3.392 1.615.883 1.46 1.45 1.615.27 1.564 1.119 1.616-1.834 1.563-.546 1.616.87 1.615-.614 1.564.304 1.615-.634 1.564-.682 1.616-2.636 1.615 1.686 1.512.782 1.615 1.2 1.564-2.785 1.615-1.173 1.564-1.572 1.616-.263 1.615 1.066 1.564-1.052 1.615-2.549 1.564-1.592 1.616-6.285 1.615-1.039 1.459-.687 1.616.843 1.564-2.165 1.615-.789 1.564.802 1.615.985 1.616.957 1.564-1.706 1.615.823 1.564.425 1.615-4.411 1.616 2.657 0 10.77-1.616-1.261-1.615 3.197-1.564-1.099-1.615-.284-1.564.796-1.616.169-1.615-1.228-1.564-.209-1.615.189-1.564.297-1.616.249-1.459.641-1.615 1.106-1.616 4.417-1.564 2.084-1.615 1.49-1.564.398-1.615-.438-1.616.6-1.564 1.45-1.615.634-1.564 1.436-1.615-.728-1.512-.027-1.615-.877-1.616 1.187-1.564.85-1.615.128-1.564-.431-1.615.512-1.616-.58-1.563.526-1.616 1.254-1.564-1.18-1.615-.114-1.46-1.221-1.615-.668-1.616 1.976-1.563-.64-1.616.876-1.563-.337-1.616-.114-1.616-1.093-1.563.668-1.616.101-1.563-.081-1.616-.041-1.459-1.611-1.616-.128-1.616 1.726-1.563-.749-1.616-.094-1.563.249-1.616-.566-1.616-1.214-1.563.924-1.616.351-1.563-.243-1.616-.863-1.459-.931-1.616-.007-1.615 1.76-1.564-.134-1.616-.486-1.563.29-1.616.405-1.615-1.774-1.564.29-1.615-.067-1.564-.695-1.616-1.463-1.511.04-1.616-.243-1.615 2.651-1.564-.567-1.615-.27-1.564-1.173-1.616.384-1.615-1.571-1.564-.58-1.615 1.814-1.564-.02-1.616-.007-1.459-.445-1.615-1.194-1.616 2.064-1.564-.128-1.615.667-1.564.075-1.615-.209-1.616-.263-1.564-.742-1.615.64-1.564-1.429-1.615-.621-1.46.513-1.615-.196-1.616 2.313-1.563.621-1.616.998-1.564.499-1.615-.128-1.616.431-1.563-.161-1.616.897-1.564.694-1.615-2.131-1.459.668-1.616.492-1.616 3.041-1.563-.033-1.616-.398-1.563-.175-1.616-.54-1.616.256-1.563.284-1.616-.324-1.563-.155-1.616-1.302-1.511.034-1.616-.115Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(213,128,255,1)" fill-opacity=".85" stroke="rgba(213,128,255,1)" stroke-width="0" d="m0 80.615 1.616.594 1.511-.344 1.616 2.9 1.563-.257 1.616-.633 1.563-.58 1.616.843 1.616.971 1.563.175 1.616.088 1.563.29 1.616-5.314 1.616-.526 1.459-.156 1.615 2.604 1.564-.587 1.616-1.787 1.563-.034 1.616-.519 1.615-.904 1.564-1.194 1.616-1.456 1.563-.472 1.616-3.716 1.615 1.011 1.46-.472 1.615.864 1.564.748 1.615-1.369 1.564 1.005 1.616 2.043 1.615-.344 1.564-.249 1.615-1.268 1.564.445 1.616-3.419 1.615.357 1.459.85 1.616 1.106 1.564.034 1.615-2.354 1.564 1.248 1.615 2.313 1.616-.533 1.564 1.214 1.615.331 1.564 1.274 1.615-4.903 1.616 1.7 1.511-.627 1.616 3.898 1.564-.108 1.615-1.329 1.564 1.383 1.615 1.099 1.616 1.288 1.563-.492 1.616-.553 1.564.559 1.615-3.284 1.616.189 1.459 1.942 1.616 2.064 1.563-.283 1.616-.479 1.563-1.194 1.616 2.3 1.616-.324 1.563.83 1.616-.803 1.563.472 1.616-1.841 1.616-.856 1.459 2.555 1.616 1.491 1.563.088 1.616-1.248 1.563-.041 1.616 1.538 1.616.047 1.563.223 1.616-.412 1.563.655 1.616-4.026 1.615 1.288 1.46 1.787 1.615.849 1.564.756 1.616-1.693 1.563-.688 1.616 1.275 1.615-.425 1.564.168 1.615-.66 1.564-1.518 1.616-3.244 1.615 1.868 1.512.715 1.615 2.145 1.564-3.413 1.615-1.584 1.564-1.41 1.616-.903 1.615 1.133 1.564-1.734 1.615-2.144 1.564-2.637 1.616-8.295 1.615-1.49 1.459-1.261 1.616 1.847 1.564-2.609 1.615-1.234 1.564 1.132 1.615.789 1.616.715 1.564-.978 1.615.648 1.564.614 1.615-5.274 1.616 1.807 0 11.734-1.616-2.657-1.615 4.411-1.564-.425-1.615-.823-1.564 1.706-1.616-.957-1.615-.985-1.564-.802-1.615.789-1.564 2.165-1.616-.843-1.459.687-1.615 1.039-1.616 6.285-1.564 1.592-1.615 2.549-1.564 1.052-1.615-1.066-1.616.263-1.564 1.572-1.615 1.173-1.564 2.785-1.615-1.2-1.512-.782-1.615-1.686-1.616 2.636-1.564.682-1.615.634-1.564-.304-1.615.614-1.616-.87-1.563.546-1.616 1.834-1.564-1.119-1.615-.27-1.46-1.45-1.615-.883-1.616 3.392-1.563-1.551-1.616 1.153-1.563-.438-1.616-.418-1.616-1.174-1.563.162-1.616.856-1.563-.431-1.616-.277-1.459-2.441-1.616.749-1.616 1.591-1.563-.991-1.616 1.052-1.563-.061-1.616-.58-1.616-1.787-1.563.782-1.616.392-1.563.175-1.616-1.437-1.459-1.207-1.616.095-1.615 2.724-1.564-.58-1.616-.06-1.563.283-1.616-.648-1.615-1.47-1.564-1.22-1.615 1.362-1.564-.344-1.616-2.232-1.511.391-1.616-.985-1.615 4.08-1.564-1.274-1.615.114-1.564-1.477-1.616-.101-1.615-1.369-1.564-.768-1.615 2.441-1.564-.23-1.616-.337-1.459-1.187-1.615-.546-1.616 2.92-1.564-.506-1.615.816-1.564.553-1.615-.202-1.616-1.038-1.564-.978-1.615.721-1.564-.964-1.615-.776-1.46.533-1.615-.02-1.616 2.374-1.563.64-1.616 1.214-1.564.52-1.615.768-1.616.122-1.563-.216-1.616 1.504-1.564.607-1.615-2.624-1.459.641-1.616.594-1.616 4.167-1.563-.404-1.616-.378-1.563.195-1.616-.802-1.616-.492-1.563-.034-1.616.742-1.563-.041-1.616-2.185-1.511.101-1.616-.134Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(120,99,255,1)" fill-opacity=".85" stroke="rgba(120,99,255,1)" stroke-width="0" d="m0 75.591 1.616.142 1.511.62 1.616 4.397 1.563.081 1.616-.58 1.563-.546 1.616.425 1.616 1.376 1.563-.034 1.616-.351 1.563-.371 1.616-7.04 1.616-.459 1.459.809 1.615 3.19 1.564.209 1.616-1.551 1.563-.06 1.616-1.026 1.615-.681 1.564-1.504 1.616-2.367 1.563-1.247 1.616-6.589 1.615 2.03 1.46-.128 1.615 1.902 1.564 2.293 1.615-1.147 1.564.998 1.616 1.639 1.615-.081 1.564-.688 1.615-1.794 1.564-.789 1.616-5.139 1.615.513 1.459 2.104 1.616 2.556 1.564.418 1.615-2.32 1.564 1.47 1.615 2.496 1.616-.742 1.564 1.416 1.615.067 1.564.445 1.615-6.123 1.616 1.396 1.511-.438 1.616 4.99 1.564 1.133 1.615-1.349 1.564 1.774 1.615 1.416 1.616.843 1.563-.533 1.616-.957 1.564-.621 1.615-4.693 1.616-.29 1.459 3.216 1.616 3.871 1.563.567 1.616-.425 1.563-.856 1.616 1.948 1.616-.397 1.563 1.187 1.616-1.106 1.563-1.208 1.616-2.212 1.616-.64 1.459 2.664 1.616 2.475 1.563.269 1.616-.721 1.563-.472 1.616 1.638 1.616.263 1.563 1.1 1.616-1.504 1.563-.068 1.616-5.354 1.615.182 1.46 2.879 1.615 1.329 1.564 1.949 1.616-1.18 1.563-.803 1.616 1.673 1.615-.681 1.564-.135 1.615-.688 1.564-3.696 1.616-4.127 1.615 1.74 1.512.364 1.615 2.907 1.564-1.74 1.615-1.423 1.564-1.396 1.616-1.113 1.615.081 1.564-2.461 1.615-3.217 1.564-3.993 1.616-10.358 1.615-3.385 1.459-.951 1.616 3.479 1.564-2.818 1.615-.108 1.564.553 1.615 1.767 1.616.364 1.564-1.99 1.615.405 1.564-1.167 1.615-6.285 1.616.148 0 16.455-1.616-1.807-1.615 5.274-1.564-.614-1.615-.648-1.564.978-1.616-.715-1.615-.789-1.564-1.132-1.615 1.234-1.564 2.609-1.616-1.847-1.459 1.261-1.615 1.49-1.616 8.295-1.564 2.637-1.615 2.144-1.564 1.734-1.615-1.133-1.616.903-1.564 1.41-1.615 1.584-1.564 3.413-1.615-2.145-1.512-.715-1.615-1.868-1.616 3.244-1.564 1.518-1.615.66-1.564-.168-1.615.425-1.616-1.275-1.563.688-1.616 1.693-1.564-.756-1.615-.849-1.46-1.787-1.615-1.288-1.616 4.026-1.563-.655-1.616.412-1.563-.223-1.616-.047-1.616-1.538-1.563.041-1.616 1.248-1.563-.088-1.616-1.491-1.459-2.555-1.616.856-1.616 1.841-1.563-.472-1.616.803-1.563-.83-1.616.324-1.616-2.3-1.563 1.194-1.616.479-1.563.283-1.616-2.064-1.459-1.942-1.616-.189-1.615 3.284-1.564-.559-1.616.553-1.563.492-1.616-1.288-1.615-1.099-1.564-1.383-1.615 1.329-1.564.108-1.616-3.898-1.511.627-1.616-1.7-1.615 4.903-1.564-1.274-1.615-.331-1.564-1.214-1.616.533-1.615-2.313-1.564-1.248-1.615 2.354-1.564-.034-1.616-1.106-1.459-.85-1.615-.357-1.616 3.419-1.564-.445-1.615 1.268-1.564.249-1.615.344-1.616-2.043-1.564-1.005-1.615 1.369-1.564-.748-1.615-.864-1.46.472-1.615-1.011-1.616 3.716-1.563.472-1.616 1.456-1.564 1.194-1.615.904-1.616.519-1.563.034-1.616 1.787-1.564.587-1.615-2.604-1.459.156-1.616.526-1.616 5.314-1.563-.29-1.616-.088-1.563-.175-1.616-.971-1.616-.843-1.563.58-1.616.633-1.563.257-1.616-2.9-1.511.344-1.616-.594Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(96,196,45,1)" fill-opacity=".85" stroke="rgba(96,196,45,1)" stroke-width="0" d="m0 73.211 1.616.168 1.511.405 1.616 4.748 1.563-.553 1.616-.776 1.563-.722 1.616.614 1.616 1.727 1.563.364 1.616-.432 1.563.02 1.616-7.951 1.616-.424 1.459.586 1.615 3.966 1.564-.122 1.616-2.131 1.563-.31 1.616-1.578 1.615.263 1.564-1.713 1.616-2.569 1.563-1.025 1.616-7.284 1.615 2.003 1.46.209 1.615 2.219 1.564 2.023 1.615-1.854 1.564.775 1.616 1.713 1.615.58 1.564-.384 1.615-1.632 1.564-1.228 1.616-5.145 1.615.398 1.459 2.495 1.616 1.928 1.564.371 1.615-3.338 1.564 1.956 1.615 2.07 1.616.007 1.564 1.484 1.615-.088 1.564.728 1.615-6.406 1.616 1.76 1.511-.277 1.616 4.957 1.564 1.261 1.615-2.691 1.564 2.071 1.615 1.942 1.616 1.207 1.563-.081 1.616-1.254 1.564-.567 1.615-5.037 1.616-.331 1.459 3.251 1.616 4.026 1.563.182 1.616-.553 1.563-.641 1.616 1.888 1.616-.492 1.563 1.389 1.616-1.436 1.563-.209 1.616-2.644 1.616-.202 1.459 2.428 1.616 2.508 1.563.371 1.616-1.22 1.563-.756 1.616 1.963 1.616.499 1.563 1.403 1.616-1.538 1.563.162 1.616-5.766 1.615.681 1.46 2.839 1.615.924 1.564 1.497 1.616-1.389 1.563-.883 1.616 1.787 1.615-.56 1.564.513 1.615-.634 1.564-3.662 1.616-4.498 1.615 1.834 1.512.047 1.615 3.298 1.564-2.199 1.615-1.76 1.564-2.117 1.616-1.572 1.615.142 1.564-2.205 1.615-2.887 1.564-4.282 1.616-10.365 1.615-3.756 1.459-1.518 1.616 3.257 1.564-3.095 1.615-1.875 1.564.54 1.615 1.969 1.616.243 1.564-2.145 1.615 1.16 1.564-1.268 1.615-6.231 1.616-.02 0 8.092-1.616-.148-1.615 6.285-1.564 1.167-1.615-.405-1.564 1.99-1.616-.364-1.615-1.767-1.564-.553-1.615.108-1.564 2.818-1.616-3.479-1.459.951-1.615 3.385-1.616 10.358-1.564 3.993-1.615 3.217-1.564 2.461-1.615-.081-1.616 1.113-1.564 1.396-1.615 1.423-1.564 1.74-1.615-2.907-1.512-.364-1.615-1.74-1.616 4.127-1.564 3.696-1.615.688-1.564.135-1.615.681-1.616-1.673-1.563.803-1.616 1.18-1.564-1.949-1.615-1.329-1.46-2.879-1.615-.182-1.616 5.354-1.563.068-1.616 1.504-1.563-1.1-1.616-.263-1.616-1.638-1.563.472-1.616.721-1.563-.269-1.616-2.475-1.459-2.664-1.616.64-1.616 2.212-1.563 1.208-1.616 1.106-1.563-1.187-1.616.397-1.616-1.948-1.563.856-1.616.425-1.563-.567-1.616-3.871-1.459-3.216-1.616.29-1.615 4.693-1.564.621-1.616.957-1.563.533-1.616-.843-1.615-1.416-1.564-1.774-1.615 1.349-1.564-1.133-1.616-4.99-1.511.438-1.616-1.396-1.615 6.123-1.564-.445-1.615-.067-1.564-1.416-1.616.742-1.615-2.496-1.564-1.47-1.615 2.32-1.564-.418-1.616-2.556-1.459-2.104-1.615-.513-1.616 5.139-1.564.789-1.615 1.794-1.564.688-1.615.081-1.616-1.639-1.564-.998-1.615 1.147-1.564-2.293-1.615-1.902-1.46.128-1.615-2.03-1.616 6.589-1.563 1.247-1.616 2.367-1.564 1.504-1.615.681-1.616 1.026-1.563.06-1.616 1.551-1.564-.209-1.615-3.19-1.459-.809-1.616.459-1.616 7.04-1.563.371-1.616.351-1.563.034-1.616-1.376-1.616-.425-1.563.546-1.616.58-1.563-.081-1.616-4.397-1.511-.62-1.616-.142Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(189,143,36,1)" fill-opacity=".85" stroke="rgba(189,143,36,1)" stroke-width="0" d="m0 70.311 1.616.31 1.511 1.066 1.616 5.03 1.563-1.234 1.616-2.346 1.563-.331 1.616.358 1.616 2.906 1.563.479 1.616-.385 1.563.149 1.616-8.612 1.616.688 1.459.202 1.615 3.871 1.564-.067 1.616-3.237 1.563-.466 1.616-1.524 1.615.951 1.564-1.652 1.616-2.509 1.563-1.018 1.616-7.735 1.615 1.854 1.46.418 1.615 2.421 1.564 1.774 1.615-2.374 1.564.209 1.616 2.044 1.615 1.025 1.564-.176 1.615-1.423 1.564-1.079 1.616-5.988 1.615.991 1.459 2.206 1.616 2.508 1.564.115 1.615-4.862 1.564 1.652 1.615 2.097 1.616 1.281 1.564 1.862 1.615-.371 1.564.903 1.615-6.372 1.616 1.901 1.511-.546 1.616 5.611 1.564 1.025 1.615-3.446 1.564.985 1.615 2.38 1.616 1.936 1.563-.034 1.616-.938 1.564-.465 1.615-5.415 1.616.229 1.459 3.278 1.616 3.958 1.563.351 1.616-2.091 1.563-.654 1.616 2.017 1.616.155 1.563 1.834 1.616-1.382 1.563.472 1.616-3.076 1.616-.303 1.459 2.502 1.616 2.826 1.563.269 1.616-2.225 1.563-1.302 1.616 2.394 1.616 1.841 1.563 1.214 1.616-1.375 1.563.195 1.616-6.312 1.615 1.16 1.46 2.745 1.615.998 1.564 1.362 1.616-2.36 1.563-1.774 1.616 1.848 1.615.586 1.564.736 1.615-.567 1.564-3.453 1.616-4.633 1.615 2.502 1.512-.31 1.615 3.648 1.564-2.792 1.615-3.061 1.564-2.9 1.616-1.241 1.615 1.14 1.564-2.064 1.615-2.718 1.564-4.174 1.616-11.316 1.615-3.156 1.459-1.754 1.616 3.413 1.564-3.952 1.615-3.824 1.564-.391 1.615 2.043 1.616 1.525 1.564-1.181 1.615 1.41 1.564-1.598 1.615-7.25 1.616.438 0 5.935-1.616.02-1.615 6.231-1.564 1.268-1.615-1.16-1.564 2.145-1.616-.243-1.615-1.969-1.564-.54-1.615 1.875-1.564 3.095-1.616-3.257-1.459 1.518-1.615 3.756-1.616 10.365-1.564 4.282-1.615 2.887-1.564 2.205-1.615-.142-1.616 1.572-1.564 2.117-1.615 1.76-1.564 2.199-1.615-3.298-1.512-.047-1.615-1.834-1.616 4.498-1.564 3.662-1.615.634-1.564-.513-1.615.56-1.616-1.787-1.563.883-1.616 1.389-1.564-1.497-1.615-.924-1.46-2.839-1.615-.681-1.616 5.766-1.563-.162-1.616 1.538-1.563-1.403-1.616-.499-1.616-1.963-1.563.756-1.616 1.22-1.563-.371-1.616-2.508-1.459-2.428-1.616.202-1.616 2.644-1.563.209-1.616 1.436-1.563-1.389-1.616.492-1.616-1.888-1.563.641-1.616.553-1.563-.182-1.616-4.026-1.459-3.251-1.616.331-1.615 5.037-1.564.567-1.616 1.254-1.563.081-1.616-1.207-1.615-1.942-1.564-2.071-1.615 2.691-1.564-1.261-1.616-4.957-1.511.277-1.616-1.76-1.615 6.406-1.564-.728-1.615.088-1.564-1.484-1.616-.007-1.615-2.07-1.564-1.956-1.615 3.338-1.564-.371-1.616-1.928-1.459-2.495-1.615-.398-1.616 5.145-1.564 1.228-1.615 1.632-1.564.384-1.615-.58-1.616-1.713-1.564-.775-1.615 1.854-1.564-2.023-1.615-2.219-1.46-.209-1.615-2.003-1.616 7.284-1.563 1.025-1.616 2.569-1.564 1.713-1.615-.263-1.616 1.578-1.563.31-1.616 2.131-1.564.122-1.615-3.966-1.459-.586-1.616.424-1.616 7.951-1.563-.02-1.616.432-1.563-.364-1.616-1.727-1.616-.614-1.563.722-1.616.776-1.563.553-1.616-4.748-1.511-.405-1.616-.168Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(255,128,202,1)" fill-opacity=".85" stroke="rgba(255,128,202,1)" stroke-width="0" d="m0 68.773 1.616.23 1.511 1.16 1.616 5.226 1.563-1.221 1.616-2.488 1.563-.155 1.616.202 1.616 3.082 1.563.229 1.616-.114 1.563.04 1.616-8.828 1.616.668 1.459.364 1.615 3.73 1.564.209 1.616-3.629 1.563-.735 1.616-1.301 1.615.87 1.564-1.74 1.616-2.772 1.563-.6 1.616-7.796 1.615 1.511 1.46.627 1.615 2.387 1.564 1.45 1.615-2.596 1.564.398 1.616 2.057 1.615 1.321 1.564-.263 1.615-1.591 1.564-.978 1.616-6.022 1.615 1.106 1.459 1.888 1.616 2.738 1.564.135 1.615-5.119 1.564 2.152 1.615 1.706 1.616 1.531 1.564 1.874 1.615-.424 1.564 1.092 1.615-7.182 1.616 2.171 1.511-.411 1.616 5.82 1.564 1.092 1.615-3.668 1.564 1.173 1.615 2.347 1.616 1.517 1.563.075 1.616-.479 1.564-.466 1.615-5.159 1.616-.101 1.459 3.547 1.616 4 1.563.128 1.616-2.219 1.563-.668 1.616 2.077 1.616.425 1.563 1.868 1.616-1.47 1.563.904 1.616-3.271 1.616-.539 1.459 2.299 1.616 2.86 1.563.296 1.616-2.293 1.563-1.503 1.616 2.839 1.616 2.03 1.563 1.375 1.616-1.497 1.563.209 1.616-6.352 1.615.741 1.46 3.035 1.615 1.14 1.564 1.025 1.616-2.509 1.563-1.8 1.616 1.416 1.615.957 1.564.796 1.615-.256 1.564-3.817 1.616-4.431 1.615 2.246 1.512-.31 1.615 3.641 1.564-3.041 1.615-2.9 1.564-2.987 1.616-1.639 1.615 1.335 1.564-2.428 1.615-3.122 1.564-4.485 1.616-11.525 1.615-3.601 1.459-1.767 1.616 3.939 1.564-3.784 1.615-3.668 1.564-.776 1.615 2.07 1.616.911 1.564-1.106 1.615 1.591 1.564-1.908 1.615-6.966 1.616-.135 0 4.774-1.616-.438-1.615 7.25-1.564 1.598-1.615-1.41-1.564 1.181-1.616-1.525-1.615-2.043-1.564.391-1.615 3.824-1.564 3.952-1.616-3.413-1.459 1.754-1.615 3.156-1.616 11.316-1.564 4.174-1.615 2.718-1.564 2.064-1.615-1.14-1.616 1.241-1.564 2.9-1.615 3.061-1.564 2.792-1.615-3.648-1.512.31-1.615-2.502-1.616 4.633-1.564 3.453-1.615.567-1.564-.736-1.615-.586-1.616-1.848-1.563 1.774-1.616 2.36-1.564-1.362-1.615-.998-1.46-2.745-1.615-1.16-1.616 6.312-1.563-.195-1.616 1.375-1.563-1.214-1.616-1.841-1.616-2.394-1.563 1.302-1.616 2.225-1.563-.269-1.616-2.826-1.459-2.502-1.616.303-1.616 3.076-1.563-.472-1.616 1.382-1.563-1.834-1.616-.155-1.616-2.017-1.563.654-1.616 2.091-1.563-.351-1.616-3.958-1.459-3.278-1.616-.229-1.615 5.415-1.564.465-1.616.938-1.563.034-1.616-1.936-1.615-2.38-1.564-.985-1.615 3.446-1.564-1.025-1.616-5.611-1.511.546-1.616-1.901-1.615 6.372-1.564-.903-1.615.371-1.564-1.862-1.616-1.281-1.615-2.097-1.564-1.652-1.615 4.862-1.564-.115-1.616-2.508-1.459-2.206-1.615-.991-1.616 5.988-1.564 1.079-1.615 1.423-1.564.176-1.615-1.025-1.616-2.044-1.564-.209-1.615 2.374-1.564-1.774-1.615-2.421-1.46-.418-1.615-1.854-1.616 7.735-1.563 1.018-1.616 2.509-1.564 1.652-1.615-.951-1.616 1.524-1.563.466-1.616 3.237-1.564.067-1.615-3.871-1.459-.202-1.616-.688-1.616 8.612-1.563-.149-1.616.385-1.563-.479-1.616-2.906-1.616-.358-1.563.331-1.616 2.346-1.563 1.234-1.616-5.03-1.511-1.066-1.616-.31Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(36,145,179,1)" fill-opacity=".85" stroke="rgba(36,145,179,1)" stroke-width="0" d="m0 67.162 1.616.074 1.511 1.49 1.616 5.193 1.563-1.14 1.616-2.367 1.563-.384 1.616.445 1.616 2.9 1.563.141 1.616-.431 1.563.681 1.616-8.936 1.616.567 1.459.553 1.615 3.493 1.564.276 1.616-3.5 1.563-.762 1.616-1.652 1.615.782 1.564-1.679 1.616-2.684 1.563-.701 1.616-7.89 1.615 1.598 1.46.85 1.615 2.131 1.564 1.389 1.615-2.475 1.564.377 1.616 1.909 1.615 1.355 1.564-.323 1.615-1.74 1.564-1.18 1.616-6.002 1.615 1.241 1.459 2.056 1.616 2.947 1.564-.02 1.615-5.28 1.564 2.32 1.615 1.49 1.616 1.632 1.564 1.531 1.615-.223 1.564 1.154 1.615-7.203 1.616 2.455 1.511-.411 1.616 5.941 1.564.789 1.615-3.797 1.564 1.275 1.615 2.124 1.616 1.261 1.563.486 1.616-.83 1.564-.384 1.615-5.193 1.616-.216 1.459 3.891 1.616 4.263 1.563-.048 1.616-2.009 1.563-.762 1.616 2.299 1.616.203 1.563 2.05 1.616-1.902 1.563.85 1.616-3.366 1.616-.478 1.459 2.515 1.616 2.63 1.563.857 1.616-2.253 1.563-1.814 1.616 2.738 1.616 2.077 1.563 1.538 1.616-1.376 1.563.007 1.616-6.953 1.615 1.254 1.46 2.961 1.615 1.618 1.564.783 1.616-2.388 1.563-2.245 1.616 1.477 1.615 1.031 1.564.567 1.615-.243 1.564-3.75 1.616-4.511 1.615 2.232 1.512-.351 1.615 3.696 1.564-3.23 1.615-2.887 1.564-2.859 1.616-1.861 1.615 1.092 1.564-2.306 1.615-3.224 1.564-5.482 1.616-12.2 1.615-3.109 1.459-2.03 1.616 4.863 1.564-4.067 1.615-3.277 1.564-1.316 1.615 1.956 1.616.459 1.564-.931 1.615 1.713 1.564-2.023 1.615-7.782 1.616.202 0 4.586-1.616.135-1.615 6.966-1.564 1.908-1.615-1.591-1.564 1.106-1.616-.911-1.615-2.07-1.564.776-1.615 3.668-1.564 3.784-1.616-3.939-1.459 1.767-1.615 3.601-1.616 11.525-1.564 4.485-1.615 3.122-1.564 2.428-1.615-1.335-1.616 1.639-1.564 2.987-1.615 2.9-1.564 3.041-1.615-3.641-1.512.31-1.615-2.246-1.616 4.431-1.564 3.817-1.615.256-1.564-.796-1.615-.957-1.616-1.416-1.563 1.8-1.616 2.509-1.564-1.025-1.615-1.14-1.46-3.035-1.615-.741-1.616 6.352-1.563-.209-1.616 1.497-1.563-1.375-1.616-2.03-1.616-2.839-1.563 1.503-1.616 2.293-1.563-.296-1.616-2.86-1.459-2.299-1.616.539-1.616 3.271-1.563-.904-1.616 1.47-1.563-1.868-1.616-.425-1.616-2.077-1.563.668-1.616 2.219-1.563-.128-1.616-4-1.459-3.547-1.616.101-1.615 5.159-1.564.466-1.616.479-1.563-.075-1.616-1.517-1.615-2.347-1.564-1.173-1.615 3.668-1.564-1.092-1.616-5.82-1.511.411-1.616-2.171-1.615 7.182-1.564-1.092-1.615.424-1.564-1.874-1.616-1.531-1.615-1.706-1.564-2.152-1.615 5.119-1.564-.135-1.616-2.738-1.459-1.888-1.615-1.106-1.616 6.022-1.564.978-1.615 1.591-1.564.263-1.615-1.321-1.616-2.057-1.564-.398-1.615 2.596-1.564-1.45-1.615-2.387-1.46-.627-1.615-1.511-1.616 7.796-1.563.6-1.616 2.772-1.564 1.74-1.615-.87-1.616 1.301-1.563.735-1.616 3.629-1.564-.209-1.615-3.73-1.459-.364-1.616-.668-1.616 8.828-1.563-.04-1.616.114-1.563-.229-1.616-3.082-1.616-.202-1.563.155-1.616 2.488-1.563 1.221-1.616-5.226-1.511-1.16-1.616-.23Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(23,199,111,1)" fill-opacity=".85" stroke="rgba(23,199,111,1)" stroke-width="0" d="m0 65.314 1.616.357 1.511 1.389 1.616 5.24 1.563-1.234 1.616-2.171 1.563-.23 1.616.547 1.616 2.677 1.563.539 1.616-.809 1.563 1.018 1.616-9.137 1.616.256 1.459.843 1.615 3.358 1.564.6 1.616-3.999 1.563-.64 1.616-1.74 1.615.89 1.564-1.774 1.616-2.798 1.563-.843 1.616-8.073 1.615 1.363 1.46 1.018 1.615 2.441 1.564 1.416 1.615-2.953 1.564.236 1.616 1.928 1.615 1.841 1.564-.263 1.615-1.82 1.564-.891 1.616-6.426 1.615 1.058 1.459 1.794 1.616 3.21 1.564-.074 1.615-5.415 1.564 2.009 1.615 1.707 1.616 1.868 1.564 1.261 1.615-.081 1.564 1.686 1.615-7.499 1.616 2.158 1.511-.412 1.616 6.07 1.564 1.038 1.615-3.904 1.564 1.139 1.615 2.158 1.616 1.531 1.563.493 1.616-.789 1.564-.264 1.615-5.287 1.616-.451 1.459 4.005 1.616 4.276 1.563-.101 1.616-1.855 1.563-.647 1.616 2.084 1.616.195 1.563 1.969 1.616-1.773 1.563 1.059 1.616-3.629 1.616-.296 1.459 2.441 1.616 2.805 1.563.864 1.616-2.253 1.563-2.084 1.616 2.495 1.616 2.287 1.563 1.82 1.616-1.632 1.563.007 1.616-6.744 1.615 1.376 1.46 3.197 1.615 1.605 1.564.661 1.616-2.482 1.563-2.158 1.616 1.504 1.615.91 1.564 1.072 1.615-.735 1.564-3.614 1.616-4.707 1.615 1.901 1.512-.148 1.615 3.911 1.564-3.392 1.615-3.203 1.564-3.062 1.616-2.266 1.615 1.349 1.564-2.037 1.615-3.898 1.564-5.03 1.616-12.632 1.615-3.257 1.459-1.517 1.616 4.687 1.564-4.559 1.615-3.824 1.564-.863 1.615 1.699 1.616.904 1.564-1.463 1.615 2.05 1.564-2.172 1.615-8.429 1.616.242 0 4.067-1.616-.202-1.615 7.782-1.564 2.023-1.615-1.713-1.564.931-1.616-.459-1.615-1.956-1.564 1.316-1.615 3.277-1.564 4.067-1.616-4.863-1.459 2.03-1.615 3.109-1.616 12.2-1.564 5.482-1.615 3.224-1.564 2.306-1.615-1.092-1.616 1.861-1.564 2.859-1.615 2.887-1.564 3.23-1.615-3.696-1.512.351-1.615-2.232-1.616 4.511-1.564 3.75-1.615.243-1.564-.567-1.615-1.031-1.616-1.477-1.563 2.245-1.616 2.388-1.564-.783-1.615-1.618-1.46-2.961-1.615-1.254-1.616 6.953-1.563-.007-1.616 1.376-1.563-1.538-1.616-2.077-1.616-2.738-1.563 1.814-1.616 2.253-1.563-.857-1.616-2.63-1.459-2.515-1.616.478-1.616 3.366-1.563-.85-1.616 1.902-1.563-2.05-1.616-.203-1.616-2.299-1.563.762-1.616 2.009-1.563.048-1.616-4.263-1.459-3.891-1.616.216-1.615 5.193-1.564.384-1.616.83-1.563-.486-1.616-1.261-1.615-2.124-1.564-1.275-1.615 3.797-1.564-.789-1.616-5.941-1.511.411-1.616-2.455-1.615 7.203-1.564-1.154-1.615.223-1.564-1.531-1.616-1.632-1.615-1.49-1.564-2.32-1.615 5.28-1.564.02-1.616-2.947-1.459-2.056-1.615-1.241-1.616 6.002-1.564 1.18-1.615 1.74-1.564.323-1.615-1.355-1.616-1.909-1.564-.377-1.615 2.475-1.564-1.389-1.615-2.131-1.46-.85-1.615-1.598-1.616 7.89-1.563.701-1.616 2.684-1.564 1.679-1.615-.782-1.616 1.652-1.563.762-1.616 3.5-1.564-.276-1.615-3.493-1.459-.553-1.616-.567-1.616 8.936-1.563-.681-1.616.431-1.563-.141-1.616-2.9-1.616-.445-1.563.384-1.616 2.367-1.563 1.14-1.616-5.193-1.511-1.49-1.616-.074Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(170,186,1,1)" fill-opacity=".85" stroke="rgba(170,186,1,1)" stroke-width="0" d="m0 63.722 1.616.445 1.511 1.599 1.616 5.246 1.563-1.227 1.616-2.124 1.563-.533 1.616.748 1.616 2.455 1.563 1.066 1.616-.648 1.563.756 1.616-9.314 1.616.29 1.459.816 1.615 3.096 1.564.964 1.616-4.431 1.563-.6 1.616-1.672 1.615.971 1.564-2.495 1.616-2.671 1.563-.897 1.616-8.463 1.615 1.611 1.46 1.14 1.615 2.664 1.564 1.571 1.615-3.068 1.564.263 1.616 2.259 1.615 1.747 1.564-.445 1.615-1.626 1.564-.957 1.616-7.021 1.615 1.16 1.459 1.774 1.616 3.513 1.564.021 1.615-5.685 1.564 2.084 1.615 1.935 1.616 1.868 1.564 1.227 1.615-.182 1.564 1.74 1.615-7.337 1.616 1.834 1.511-.364 1.616 6.373 1.564 1.099 1.615-3.884 1.564 1.113 1.615 2.124 1.616 1.72 1.563.418 1.616-.776 1.564-.175 1.615-5.773 1.616-.243 1.459 3.858 1.616 4.343 1.563.128 1.616-2.017 1.563-.478 1.616 2.32 1.616.033 1.563 1.7 1.616-1.423 1.563 1.038 1.616-4.201 1.616-.115 1.459 2.421 1.616 2.745 1.563 1.173 1.616-2.245 1.563-2.165 1.616 2.63 1.616 2.516 1.563 1.665 1.616-1.477 1.563-.04 1.616-7.135 1.615 1.355 1.46 3.21 1.615 2.017 1.564.472 1.616-2.657 1.563-2.61 1.616 2.205 1.615.783 1.564 1.112 1.615-.897 1.564-3.399 1.616-5.118 1.615 1.78 1.512 0 1.615 4.06 1.564-3.554 1.615-3.608 1.564-3.264 1.616-1.929 1.615 1.16 1.564-1.895 1.615-3.999 1.564-5.638 1.616-13.312 1.615-3.534 1.459-1.483 1.616 4.801 1.564-4.322 1.615-3.777 1.564-.944 1.615 1.457 1.616.964 1.564-1.072 1.615 1.962 1.564-2.482 1.615-9.225 1.616.688 0 3.985-1.616-.242-1.615 8.429-1.564 2.172-1.615-2.05-1.564 1.463-1.616-.904-1.615-1.699-1.564.863-1.615 3.824-1.564 4.559-1.616-4.687-1.459 1.517-1.615 3.257-1.616 12.632-1.564 5.03-1.615 3.898-1.564 2.037-1.615-1.349-1.616 2.266-1.564 3.062-1.615 3.203-1.564 3.392-1.615-3.911-1.512.148-1.615-1.901-1.616 4.707-1.564 3.614-1.615.735-1.564-1.072-1.615-.91-1.616-1.504-1.563 2.158-1.616 2.482-1.564-.661-1.615-1.605-1.46-3.197-1.615-1.376-1.616 6.744-1.563-.007-1.616 1.632-1.563-1.82-1.616-2.287-1.616-2.495-1.563 2.084-1.616 2.253-1.563-.864-1.616-2.805-1.459-2.441-1.616.296-1.616 3.629-1.563-1.059-1.616 1.773-1.563-1.969-1.616-.195-1.616-2.084-1.563.647-1.616 1.855-1.563.101-1.616-4.276-1.459-4.005-1.616.451-1.615 5.287-1.564.264-1.616.789-1.563-.493-1.616-1.531-1.615-2.158-1.564-1.139-1.615 3.904-1.564-1.038-1.616-6.07-1.511.412-1.616-2.158-1.615 7.499-1.564-1.686-1.615.081-1.564-1.261-1.616-1.868-1.615-1.707-1.564-2.009-1.615 5.415-1.564.074-1.616-3.21-1.459-1.794-1.615-1.058-1.616 6.426-1.564.891-1.615 1.82-1.564.263-1.615-1.841-1.616-1.928-1.564-.236-1.615 2.953-1.564-1.416-1.615-2.441-1.46-1.018-1.615-1.363-1.616 8.073-1.563.843-1.616 2.798-1.564 1.774-1.615-.89-1.616 1.74-1.563.64-1.616 3.999-1.564-.6-1.615-3.358-1.459-.843-1.616-.256-1.616 9.137-1.563-1.018-1.616.809-1.563-.539-1.616-2.677-1.616-.547-1.563.23-1.616 2.171-1.563 1.234-1.616-5.24-1.511-1.389-1.616-.357Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(188,124,252,1)" fill-opacity=".85" stroke="rgba(188,124,252,1)" stroke-width="0" d="m0 62.879 1.616.533 1.511 1.409 1.616 5.551 1.563-1.471 1.616-1.928 1.563-.816 1.616.755 1.616 2.542 1.563 1.295 1.616-.789 1.563.526 1.616-9.38 1.616.64 1.459.553 1.615 3.096 1.564.856 1.616-4.424 1.563-.89 1.616-1.699 1.615.91 1.564-2.59 1.616-2.724 1.563-1.126 1.616-8.383 1.615 1.504 1.46 1.227 1.615 2.725 1.564 1.551 1.615-3.035 1.564.203 1.616 2.218 1.615 2.01 1.564-.31 1.615-1.686 1.564-1.194 1.616-6.939 1.615.634 1.459 2.137 1.616 3.507 1.564.135 1.615-5.604 1.564 2.185 1.615 1.935 1.616 1.707 1.564 1.672 1.615-.688 1.564 1.963 1.615-7.419 1.616 2.118 1.511-.513 1.616 6.697 1.564.951 1.615-3.763 1.564 1.099 1.615 2.01 1.616 1.807 1.563.371 1.616-.789 1.564-.081 1.615-5.739 1.616-.485 1.459 4.039 1.616 4.336 1.563.351 1.616-2.118 1.563-.357 1.616 2.226 1.616-.048 1.563 1.74 1.616-1.49 1.563 1.335 1.616-4.046 1.616-.209 1.459 2.441 1.616 2.637 1.563.998 1.616-1.949 1.563-2.091 1.616 2.435 1.616 2.259 1.563 2.03 1.616-1.619 1.563.156 1.616-7.371 1.615 1.382 1.46 3.412 1.615 2.233 1.564.249 1.616-2.684 1.563-2.596 1.616 2.016 1.615.89 1.564 1.14 1.615-.978 1.564-3.351 1.616-5.416 1.615 1.619 1.512.256 1.615 4.141 1.564-3.736 1.615-3.521 1.564-3.156 1.616-1.949 1.615 1.012 1.564-1.909 1.615-4.032 1.564-5.948 1.616-13.4 1.615-3.48 1.459-1.673 1.616 4.343 1.564-4.208 1.615-4.073 1.564-1.119 1.615 1.557 1.616.938 1.564-.391 1.615 2.083 1.564-2.569 1.615-9.61 1.616.776 0 2.023-1.616-.688-1.615 9.225-1.564 2.482-1.615-1.962-1.564 1.072-1.616-.964-1.615-1.457-1.564.944-1.615 3.777-1.564 4.322-1.616-4.801-1.459 1.483-1.615 3.534-1.616 13.312-1.564 5.638-1.615 3.999-1.564 1.895-1.615-1.16-1.616 1.929-1.564 3.264-1.615 3.608-1.564 3.554-1.615-4.06-1.512 0-1.615-1.78-1.616 5.118-1.564 3.399-1.615.897-1.564-1.112-1.615-.783-1.616-2.205-1.563 2.61-1.616 2.657-1.564-.472-1.615-2.017-1.46-3.21-1.615-1.355-1.616 7.135-1.563.04-1.616 1.477-1.563-1.665-1.616-2.516-1.616-2.63-1.563 2.165-1.616 2.245-1.563-1.173-1.616-2.745-1.459-2.421-1.616.115-1.616 4.201-1.563-1.038-1.616 1.423-1.563-1.7-1.616-.033-1.616-2.32-1.563.478-1.616 2.017-1.563-.128-1.616-4.343-1.459-3.858-1.616.243-1.615 5.773-1.564.175-1.616.776-1.563-.418-1.616-1.72-1.615-2.124-1.564-1.113-1.615 3.884-1.564-1.099-1.616-6.373-1.511.364-1.616-1.834-1.615 7.337-1.564-1.74-1.615.182-1.564-1.227-1.616-1.868-1.615-1.935-1.564-2.084-1.615 5.685-1.564-.021-1.616-3.513-1.459-1.774-1.615-1.16-1.616 7.021-1.564.957-1.615 1.626-1.564.445-1.615-1.747-1.616-2.259-1.564-.263-1.615 3.068-1.564-1.571-1.615-2.664-1.46-1.14-1.615-1.611-1.616 8.463-1.563.897-1.616 2.671-1.564 2.495-1.615-.971-1.616 1.672-1.563.6-1.616 4.431-1.564-.964-1.615-3.096-1.459-.816-1.616-.29-1.616 9.314-1.563-.756-1.616.648-1.563-1.066-1.616-2.455-1.616-.748-1.563.533-1.616 2.124-1.563 1.227-1.616-5.246-1.511-1.599-1.616-.445Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(35,124,188,1)" fill-opacity=".85" stroke="rgba(35,124,188,1)" stroke-width="0" d="m0 61.841 1.616.404 1.511 1.551 1.616 5.665 1.563-1.052 1.616-2.171 1.563-.601 1.616.533 1.616 2.448 1.563 1.369 1.616-1.322 1.563.499 1.616-9.326 1.616.607 1.459.054 1.615 3.952 1.564 1.065 1.616-4.566 1.563-.775 1.616-1.888 1.615 1.18 1.564-2.704 1.616-2.907 1.563-1.443 1.616-8.403 1.615 1.558 1.46.674 1.615 3.521 1.564 1.969 1.615-3.035 1.564.034 1.616 2.144 1.615 2.232 1.564-.343 1.615-1.956 1.564-1.079 1.616-7.203 1.615.547 1.459 2.212 1.616 3.554 1.564.276 1.615-5.341 1.564 2.057 1.615 1.531 1.616 2.212 1.564 1.416 1.615-.769 1.564 2.037 1.615-7.735 1.616 2.225 1.511-.411 1.616 7.006 1.564 1.005 1.615-3.81 1.564.87 1.615 2.259 1.616 1.909 1.563.276 1.616-.984 1.564-.311 1.615-5.658 1.616-.175 1.459 3.824 1.616 4.707 1.563.472 1.616-2.185 1.563-.31 1.616 2.016 1.616-.229 1.563 2.023 1.616-1.713 1.563 1.275 1.616-4.134 1.616-.203 1.459 2.59 1.616 2.88 1.563 1.011 1.616-1.652 1.563-2.226 1.616 2.293 1.616 2.246 1.563 2.037 1.616-1.943 1.563.061 1.616-7.297 1.615 1.39 1.46 3.439 1.615 2.61 1.564.27 1.616-2.651 1.563-2.468 1.616 1.922 1.615.897 1.564 1.18 1.615-1.2 1.564-3.46 1.616-5.53 1.615 1.47 1.512-.013 1.615 4.592 1.564-3.641 1.615-3.467 1.564-3.419 1.616-1.854 1.615 1.193 1.564-1.996 1.615-4.181 1.564-6.69 1.616-13.508 1.615-3.52 1.459-1.605 1.616 4.781 1.564-3.938 1.615-4.383 1.564-1.106 1.615 1.456 1.616 1.241 1.564-.499 1.615 1.99 1.564-3.325 1.615-9.785 1.616.998 0 1.922-1.616-.776-1.615 9.61-1.564 2.569-1.615-2.083-1.564.391-1.616-.938-1.615-1.557-1.564 1.119-1.615 4.073-1.564 4.208-1.616-4.343-1.459 1.673-1.615 3.48-1.616 13.4-1.564 5.948-1.615 4.032-1.564 1.909-1.615-1.012-1.616 1.949-1.564 3.156-1.615 3.521-1.564 3.736-1.615-4.141-1.512-.256-1.615-1.619-1.616 5.416-1.564 3.351-1.615.978-1.564-1.14-1.615-.89-1.616-2.016-1.563 2.596-1.616 2.684-1.564-.249-1.615-2.233-1.46-3.412-1.615-1.382-1.616 7.371-1.563-.156-1.616 1.619-1.563-2.03-1.616-2.259-1.616-2.435-1.563 2.091-1.616 1.949-1.563-.998-1.616-2.637-1.459-2.441-1.616.209-1.616 4.046-1.563-1.335-1.616 1.49-1.563-1.74-1.616.048-1.616-2.226-1.563.357-1.616 2.118-1.563-.351-1.616-4.336-1.459-4.039-1.616.485-1.615 5.739-1.564.081-1.616.789-1.563-.371-1.616-1.807-1.615-2.01-1.564-1.099-1.615 3.763-1.564-.951-1.616-6.697-1.511.513-1.616-2.118-1.615 7.419-1.564-1.963-1.615.688-1.564-1.672-1.616-1.707-1.615-1.935-1.564-2.185-1.615 5.604-1.564-.135-1.616-3.507-1.459-2.137-1.615-.634-1.616 6.939-1.564 1.194-1.615 1.686-1.564.31-1.615-2.01-1.616-2.218-1.564-.203-1.615 3.035-1.564-1.551-1.615-2.725-1.46-1.227-1.615-1.504-1.616 8.383-1.563 1.126-1.616 2.724-1.564 2.59-1.615-.91-1.616 1.699-1.563.89-1.616 4.424-1.564-.856-1.615-3.096-1.459-.553-1.616-.64-1.616 9.38-1.563-.526-1.616.789-1.563-1.295-1.616-2.542-1.616-.755-1.563.816-1.616 1.928-1.563 1.471-1.616-5.551-1.511-1.409-1.616-.533Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(45,227,121,1)" fill-opacity=".85" stroke="rgba(45,227,121,1)" stroke-width="0" d="m0 61.713 1.616.364 1.511 1.605 1.616 5.644 1.563-1.099 1.616-2.077 1.563-.62 1.616.485 1.616 2.435 1.563 1.274 1.616-1.133 1.563.439 1.616-9.266 1.616.499 1.459.141 1.615 3.885 1.564.998 1.616-4.512 1.563-.715 1.616-1.895 1.615 1.147 1.564-2.765 1.616-2.826 1.563-1.49 1.616-8.443 1.615 1.544 1.46.721 1.615 3.487 1.564 2.023 1.615-3.102 1.564.142 1.616 2.056 1.615 2.165 1.564-.303 1.615-1.929 1.564-1.167 1.616-7.263 1.615.634 1.459 2.178 1.616 3.588 1.564.283 1.615-5.314 1.564 2.01 1.615 1.686 1.616 2.178 1.564 1.376 1.615-.789 1.564 2.05 1.615-7.728 1.616 2.272 1.511-.398 1.616 6.926 1.564 1.086 1.615-3.844 1.564.863 1.615 2.381 1.616 1.922 1.563.229 1.616-1.018 1.564-.284 1.615-5.745 1.616-.149 1.459 3.777 1.616 4.795 1.563.492 1.616-2.246 1.563-.29 1.616 2.084 1.616-.229 1.563 2.09 1.616-1.82 1.563 1.241 1.616-4.155 1.616-.195 1.459 2.664 1.616 2.859 1.563.991 1.616-1.726 1.563-2.185 1.616 2.246 1.616 2.367 1.563 2.03 1.616-1.99 1.563.041 1.616-7.365 1.615 1.403 1.46 3.5 1.615 2.657 1.564.236 1.616-2.724 1.563-2.469 1.616 1.922 1.615.951 1.564 1.288 1.615-1.247 1.564-3.514 1.616-5.557 1.615 1.551 1.512-.094 1.615 4.593 1.564-3.642 1.615-3.466 1.564-3.318 1.616-1.882 1.615 1.14 1.564-1.929 1.615-4.296 1.564-6.784 1.616-13.595 1.615-3.548 1.459-1.888 1.616 4.646 1.564-3.756 1.615-4.397 1.564-1.072 1.615 1.47 1.616 1.356 1.564-.553 1.615 1.908 1.564-3.277 1.615-9.644 1.616.924 0 .533-1.616-.998-1.615 9.785-1.564 3.325-1.615-1.99-1.564.499-1.616-1.241-1.615-1.456-1.564 1.106-1.615 4.383-1.564 3.938-1.616-4.781-1.459 1.605-1.615 3.52-1.616 13.508-1.564 6.69-1.615 4.181-1.564 1.996-1.615-1.193-1.616 1.854-1.564 3.419-1.615 3.467-1.564 3.641-1.615-4.592-1.512.013-1.615-1.47-1.616 5.53-1.564 3.46-1.615 1.2-1.564-1.18-1.615-.897-1.616-1.922-1.563 2.468-1.616 2.651-1.564-.27-1.615-2.61-1.46-3.439-1.615-1.39-1.616 7.297-1.563-.061-1.616 1.943-1.563-2.037-1.616-2.246-1.616-2.293-1.563 2.226-1.616 1.652-1.563-1.011-1.616-2.88-1.459-2.59-1.616.203-1.616 4.134-1.563-1.275-1.616 1.713-1.563-2.023-1.616.229-1.616-2.016-1.563.31-1.616 2.185-1.563-.472-1.616-4.707-1.459-3.824-1.616.175-1.615 5.658-1.564.311-1.616.984-1.563-.276-1.616-1.909-1.615-2.259-1.564-.87-1.615 3.81-1.564-1.005-1.616-7.006-1.511.411-1.616-2.225-1.615 7.735-1.564-2.037-1.615.769-1.564-1.416-1.616-2.212-1.615-1.531-1.564-2.057-1.615 5.341-1.564-.276-1.616-3.554-1.459-2.212-1.615-.547-1.616 7.203-1.564 1.079-1.615 1.956-1.564.343-1.615-2.232-1.616-2.144-1.564-.034-1.615 3.035-1.564-1.969-1.615-3.521-1.46-.674-1.615-1.558-1.616 8.403-1.563 1.443-1.616 2.907-1.564 2.704-1.615-1.18-1.616 1.888-1.563.775-1.616 4.566-1.564-1.065-1.615-3.952-1.459-.054-1.616-.607-1.616 9.326-1.563-.499-1.616 1.322-1.563-1.369-1.616-2.448-1.616-.533-1.563.601-1.616 2.171-1.563 1.052-1.616-5.665-1.511-1.551-1.616-.404Z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

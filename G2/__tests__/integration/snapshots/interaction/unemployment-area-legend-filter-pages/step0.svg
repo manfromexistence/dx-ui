@@ -1,0 +1,367 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <clipPath id="b" transform="matrix(1 0 0 1 -16 -16)">
+      <use href="#a" transform="matrix(1 0 0 1 16 16)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="800" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 800 0 0 480-800 0z" class="area"/>
+        </g>
+        <g>
+          <path width="768" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 768 0 0 448-768 0z" class="area"/>
+        </g>
+        <g>
+          <path width="768" height="413" x="16" y="51" fill="rgba(0,0,0,0)" d="m16 51 768 0 0 413-768 0z" class="area"/>
+        </g>
+        <g>
+          <path width="768" height="413" x="16" y="51" fill="rgba(0,0,0,0)" d="m16 51 768 0 0 413-768 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 16 16)">
+            <g fill="none" class="legend-category">
+              <g fill="none" class="legend-title-group">
+                <g fill="none" class="legend-title"/>
+              </g>
+              <g fill="none" class="legend-items-group">
+                <g fill="none" class="legend-items">
+                  <g fill="none" class="items-navigator">
+                    <g fill="none" class="navigator-content-group" clip-path="url(#b)">
+                      <g fill="none" class="navigator-play-window">
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="174.68" height="23" fill="rgba(0,0,0,0)" d="m0 0 174.68 0 0 23-174.68 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(23,131,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Wholesale and Retail Trade</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 186.68 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="101" height="23" fill="rgba(0,0,0,0)" d="m0 0 101 0 0 23-101 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(0,201,201,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Manufacturing</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 299.68 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="147.92" height="23" fill="rgba(0,0,0,0)" d="m0 0 147.92 0 0 23-147.92 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(240,136,77,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Leisure and hospitality</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 459.6 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="120.56" height="23" fill="rgba(0,0,0,0)" d="m0 0 120.56 0 0 23-120.56 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(213,128,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Business services</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 592.16 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="92" height="23" fill="rgba(0,0,0,0)" d="m0 0 92 0 0 23-92 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(120,99,255,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">Construction</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="140.72" height="23" fill="rgba(0,0,0,0)" d="m0 0 140.72 0 0 23-140.72 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(170,170,170,1)" stroke="rgba(170,170,170,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(170,170,170,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Education and Health</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 152.72 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="88.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 88.04 0 0 23-88.04 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(189,143,36,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Government</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 252.76 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="62" height="23" fill="rgba(0,0,0,0)" d="m0 0 62 0 0 23-62 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(255,128,202,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Finance</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 326.76 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="101.48" height="23" fill="rgba(0,0,0,0)" d="m0 0 101.48 0 0 23-101.48 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(36,145,179,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Self-employed</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 440.24 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="49.76" height="23" fill="rgba(0,0,0,0)" d="m0 0 49.76 0 0 23-49.76 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(23,199,111,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Other</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 502 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="175.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 175.04 0 0 23-175.04 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(170,186,1,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Transportation and Utilities</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="83.24" height="23" fill="rgba(0,0,0,0)" d="m0 0 83.24 0 0 23-83.24 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(188,124,252,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Information</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 95.24 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="81.08" height="23" fill="rgba(0,0,0,0)" d="m0 0 81.08 0 0 23-81.08 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(35,124,188,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Agriculture</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 188.32 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="142.88" height="23" fill="rgba(0,0,0,0)" d="m0 0 142.88 0 0 23-142.88 0z" class="legend-category-item-background" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.5 0 0 .5 4 11.5)">
+                              <g>
+                                <path fill="rgba(45,227,121,1)" stroke-width="0" d="m-8-8 16 0 0 16-16 0Z" class="legend-category-item-marker" visibility="hidden"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="hidden">Mining and Extraction</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="navigator-controller" transform="matrix(1 0 0 1 689.16 11.5)">
+                      <g fill="none" class="navigator-prev-btn-group" transform="matrix(-1 0 0 -1 0 0)">
+                        <g>
+                          <path fill="rgba(29,33,41,1)" fill-opacity=".65" d="m-6-6 12 6-12 6Z" class="navigator-prev-btn"/>
+                        </g>
+                      </g>
+                      <g fill="none" class="navigator-next-btn-group" transform="matrix(1 0 0 1 40.28 0)">
+                        <g>
+                          <path fill="rgba(29,33,41,1)" fill-opacity=".65" d="m-6-6 12 6-12 6Z" class="navigator-next-btn"/>
+                        </g>
+                      </g>
+                      <g fill="none" class="navigator-page-info-group" transform="matrix(1 0 0 1 11 0)">
+                        <g>
+                          <text fill="rgba(29,33,41,1)" fill-opacity=".45" class="navigator-page-info" dominant-baseline="central" dx=".5" dy="0" font-size="12" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left">1/3</text>
+                        </g>
+                      </g>
+                    </g>
+                    <g>
+                      <path id="a" width="684.16" height="23" fill="none" d="m0 0 684.16 0 0 23-684.16 0z" class="navigator-clip-path"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 16 51)">
+          <path width="768" height="413" fill="rgba(0,0,0,0)" d="m0 0 768 0 0 413-768 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="rgba(23,131,255,1)" fill-opacity=".85" stroke="rgba(23,131,255,1)" stroke-width="0" d="m0 383.394 6.463-.681 6.045 1.185 6.463 5.625 6.254-.829 6.462-.474 6.254 1.332 6.463-1.806 6.462 1.836 6.255 1.539 6.462 1.125 6.254-.414 6.463-5.714 6.462-2.428 5.837-1.391 6.463 6.424 6.254-1.628 6.463-2.368 6.254 3.611 6.462-2.812 6.463-.237 6.254-.148 6.462-3.109 6.254-.829 6.463-4.085 6.462-1.54 5.838-.148 6.462 1.392 6.254 2.487 6.463-3.02 6.254 3.197 6.462-1.125 6.463-.029 6.254-1.214 6.462-.888 6.255 2.723 6.462-5.684 6.463 3.079 5.837 1.747 6.462-.651 6.254-1.362 6.463-5.537 6.254 1.392 6.463 6.691 6.462-2.013 6.254 1.184 6.463.977 6.254 2.22 6.462-9.118 6.463.592 6.045-.504 6.463 4.086 6.254 1.924 6.463.03 6.254.563 6.462 2.486 6.463-1.421 6.254-.325 6.462 2.753 6.254-.385 6.463-7.224 6.463.03 5.837 3.789 6.462 1.244 6.254-.415 6.463-1.539 6.254.089 6.462 1.895 6.463 2.723 6.254-.355 6.463 1.095 6.254 1.333 6.462-6.958 6.463 1.836 5.837 3.523 6.462 1.48 6.254-1.569 6.463-1.776 6.254.059 6.463 3.138 6.462-.918 6.254 1.066 6.463-1.362 6.254 1.569 6.462-5.95 6.463 3.582 5.837 4.411 6.463.711 6.254 2.279 6.462-5.447 6.254-3.257 6.463 1.806 6.462.03 6.254 3.553 6.463.414 6.254-3.434 6.463-3.286 6.462 3.345 6.046.444 6.462 2.161 6.254-3.848 6.463-3.287 6.254-5.003 6.462-1.095 6.463 2.634 6.254-1.065 6.463-2.487 6.254-4.086 6.462-7.668 6.463-1.569 5.837-.148 6.462.563 6.255-.06 6.462-.828 6.254.266 6.463 1.776 6.462-.444 6.254-3.256 6.463 1.184 6.254.829 6.462-8.971 6.463 2.458 0 61.313-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-6.463 0-6.254 0-6.462 0-6.255 0-6.462 0-5.837 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-6.046 0-6.462 0-6.463 0-6.254 0-6.463 0-6.254 0-6.462 0-6.463 0-6.254 0-6.462 0-6.254 0-6.463 0-5.837 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-6.463 0-6.254 0-6.463 0-6.254 0-6.462 0-5.837 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-5.837 0-6.463 0-6.463 0-6.254 0-6.462 0-6.254 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.463 0-6.045 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-6.463 0-6.254 0-6.463 0-6.254 0-6.462 0-5.837 0-6.463 0-6.462 0-6.255 0-6.462 0-6.254 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.462 0-5.838 0-6.462 0-6.463 0-6.254 0-6.462 0-6.254 0-6.463 0-6.462 0-6.254 0-6.463 0-6.254 0-6.463 0-5.837 0-6.462 0-6.463 0-6.254 0-6.462 0-6.255 0-6.462 0-6.463 0-6.254 0-6.462 0-6.254 0-6.463 0-6.045 0-6.463 0Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(0,201,201,1)" fill-opacity=".85" stroke="rgba(0,201,201,1)" stroke-width="0" d="m0 361.664 6.463.503 6.045-.148 6.463 5.714 6.254.681 6.462 1.421 6.254-1.244 6.463-1.125 6.462 2.369 6.255.77 6.462 1.746 6.254.148 6.463-13.352 6.462-2.161 5.837-2.931 6.463 9.355 6.254-3.049 6.463-3.938 6.254.711 6.462-1.895 6.463.563 6.254-2.191 6.462-4.382 6.254-2.723 6.463-10.155 6.462.858 5.838-2.25 6.462 2.724 6.254 6.276 6.463-2.812 6.254 3.257 6.462 1.154 6.463.918 6.254-.326 6.462-2.931 6.255.563 6.462-9.06 6.463 5.241 5.837 1.954 6.462.029 6.254.089 6.463-7.964 6.254 2.546 6.463 6.898 6.462-1.687 6.254 5.151 6.463 1.184 6.254 2.487 6.462-11.635 6.463 1.066 6.045-.178 6.463 6.425 6.254 3.049 6.463.296 6.254-1.273 6.462 7.787 6.463-1.777 6.254-1.273 6.462 2.132 6.254.592 6.463-7.727 6.463.029 5.837 4.086 6.462 3.79 6.254 1.065 6.463-1.539 6.254-4.056 6.462 5.329 6.463 2.487 6.254-1.096 6.463.415 6.254 3.286 6.462-7.579 6.463.563 5.837 7.075 6.462.178 6.254.355 6.463-.444 6.254-2.931 6.463 4.796 6.462.504 6.254 1.48 6.463-3.849 6.254 2.813 6.462-8.675 6.463 2.931 5.837 5.359 6.463.503 6.254 5.181 6.462-5.507 6.254-2.309 6.463 2.546 6.462-2.25 6.254 1.895 6.463-.562 6.254-3.731 6.463-5.21 6.462 3.848 6.046.119 6.462 3.197 6.254-6.306 6.463-2.783 6.254-6.365 6.462-2.635 6.463 1.924 6.254-1.746 6.463-6.543 6.254-9.148 6.462-19.392 6.463-4.855 5.837-2.813 6.462-1.095 6.255-1.303 6.462-.829 6.254.918 6.463 5.388 6.462-.74 6.254-3.494 6.463 1.244 6.254 4.826 6.462-14.034 6.463 5.537 0 53.705-6.463-2.458-6.462 8.971-6.254-.829-6.463-1.184-6.254 3.256-6.462.444-6.463-1.776-6.254-.266-6.462.828-6.255.06-6.462-.563-5.837.148-6.463 1.569-6.462 7.668-6.254 4.086-6.463 2.487-6.254 1.065-6.463-2.634-6.462 1.095-6.254 5.003-6.463 3.287-6.254 3.848-6.462-2.161-6.046-.444-6.462-3.345-6.463 3.286-6.254 3.434-6.463-.414-6.254-3.553-6.462-.03-6.463-1.806-6.254 3.257-6.462 5.447-6.254-2.279-6.463-.711-5.837-4.411-6.463-3.582-6.462 5.95-6.254-1.569-6.463 1.362-6.254-1.066-6.462.918-6.463-3.138-6.254-.059-6.463 1.776-6.254 1.569-6.462-1.48-5.837-3.523-6.463-1.836-6.462 6.958-6.254-1.333-6.463-1.095-6.254.355-6.463-2.723-6.462-1.895-6.254-.089-6.463 1.539-6.254.415-6.462-1.244-5.837-3.789-6.463-.03-6.463 7.224-6.254.385-6.462-2.753-6.254.325-6.463 1.421-6.462-2.486-6.254-.563-6.463-.03-6.254-1.924-6.463-4.086-6.045.504-6.463-.592-6.462 9.118-6.254-2.22-6.463-.977-6.254-1.184-6.462 2.013-6.463-6.691-6.254-1.392-6.463 5.537-6.254 1.362-6.462.651-5.837-1.747-6.463-3.079-6.462 5.684-6.255-2.723-6.462.888-6.254 1.214-6.463.029-6.462 1.125-6.254-3.197-6.463 3.02-6.254-2.487-6.462-1.392-5.838.148-6.462 1.54-6.463 4.085-6.254.829-6.462 3.109-6.254.148-6.463.237-6.462 2.812-6.254-3.611-6.463 2.368-6.254 1.628-6.463-6.424-5.837 1.391-6.462 2.428-6.463 5.714-6.254.414-6.462-1.125-6.255-1.539-6.462-1.836-6.463 1.806-6.254-1.332-6.462.474-6.254.829-6.463-5.625-6.045-1.185-6.463.681Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(240,136,77,1)" fill-opacity=".85" stroke="rgba(240,136,77,1)" stroke-width="0" d="m0 338.512 6.463.592 6.045-.444 6.463 9.592 6.254.178 6.462-3.257 6.254.148 6.463 2.162 6.462 3.523 6.255-.859 6.462 1.658 6.254 1.776 6.463-18.296 6.462-2.605 5.837-2.813 6.463 11.517 6.254-2.665 6.463-6.602 6.254.948 6.462-.533 6.463-3.375 6.254-2.28 6.462-5.329 6.254-2.813 6.463-10.421 6.462.089 5.838-2.339 6.462 3.405 6.254 4.233 6.463-3.167 6.254 4.292 6.462 4.56 6.463.888 6.254-2.428 6.462-3.582 6.255 2.22 6.462-12.819 6.463 2.398 5.837 5.211 6.462 1.48 6.254 1.007 6.463-10.718 6.254 3.375 6.463 6.01 6.462.444 6.254 6.484 6.463-.503 6.254 5.595 6.462-17.911 6.463 4.322 6.045-1.717 6.463 9.8 6.254 1.509 6.463-5.98 6.254 5.359 6.462 6.454 6.463 2.842 6.254-1.243 6.462.266 6.254 2.546 6.463-11.961 6.463-.414 5.837 5.299 6.462 6.306 6.254-.769 6.463-1.718 6.254-3.434 6.462 7.846 6.463 2.546 6.254.266 6.463-4.618 6.254 4.352 6.462-6.987 6.463-3.286 5.837 10.717 6.462 1.214 6.254 1.894 6.463-3.759 6.254-.711 6.463 5.151 6.462 1.836 6.254 1.924 6.463-5.062 6.254 6.809 6.462-14.892 6.463 3.879 5.837 6.365 6.463 1.184 6.254 4.915 6.462-8.053 6.254-2.398 6.463 3.819 6.462-2.694 6.254 1.332 6.463-2.783 6.254-2.99 6.463-11.576 6.462 7.402 6.046 3.434 6.462 5.27 6.254-12.227 6.463-5.152 6.254-6.898 6.462-1.155 6.463 4.678 6.254-4.618 6.463-11.191 6.254-6.987 6.462-27.593 6.463-4.559 5.837-3.02 6.462 3.701 6.255-9.504 6.462-3.463 6.254 3.523 6.463 4.322 6.462 4.204 6.254-7.49 6.463 3.612 6.254 1.865 6.462-19.362 6.463 11.664 0 47.281-6.463-5.537-6.462 14.034-6.254-4.826-6.463-1.244-6.254 3.494-6.462.74-6.463-5.388-6.254-.918-6.462.829-6.255 1.303-6.462 1.095-5.837 2.813-6.463 4.855-6.462 19.392-6.254 9.148-6.463 6.543-6.254 1.746-6.463-1.924-6.462 2.635-6.254 6.365-6.463 2.783-6.254 6.306-6.462-3.197-6.046-.119-6.462-3.848-6.463 5.21-6.254 3.731-6.463.562-6.254-1.895-6.462 2.25-6.463-2.546-6.254 2.309-6.462 5.507-6.254-5.181-6.463-.503-5.837-5.359-6.463-2.931-6.462 8.675-6.254-2.813-6.463 3.849-6.254-1.48-6.462-.504-6.463-4.796-6.254 2.931-6.463.444-6.254-.355-6.462-.178-5.837-7.075-6.463-.563-6.462 7.579-6.254-3.286-6.463-.415-6.254 1.096-6.463-2.487-6.462-5.329-6.254 4.056-6.463 1.539-6.254-1.065-6.462-3.79-5.837-4.086-6.463-.029-6.463 7.727-6.254-.592-6.462-2.132-6.254 1.273-6.463 1.777-6.462-7.787-6.254 1.273-6.463-.296-6.254-3.049-6.463-6.425-6.045.178-6.463-1.066-6.462 11.635-6.254-2.487-6.463-1.184-6.254-5.151-6.462 1.687-6.463-6.898-6.254-2.546-6.463 7.964-6.254-.089-6.462-.029-5.837-1.954-6.463-5.241-6.462 9.06-6.255-.563-6.462 2.931-6.254.326-6.463-.918-6.462-1.154-6.254-3.257-6.463 2.812-6.254-6.276-6.462-2.724-5.838 2.25-6.462-.858-6.463 10.155-6.254 2.723-6.462 4.382-6.254 2.191-6.463-.563-6.462 1.895-6.254-.711-6.463 3.938-6.254 3.049-6.463-9.355-5.837 2.931-6.462 2.161-6.463 13.352-6.254-.148-6.462-1.746-6.255-.77-6.462-2.369-6.463 1.125-6.254 1.244-6.462-1.421-6.254-.681-6.463-5.714-6.045.148-6.463-.503Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(213,128,255,1)" fill-opacity=".85" stroke="rgba(213,128,255,1)" stroke-width="0" d="m0 319.12 6.463 2.606 6.045-1.51 6.463 12.73 6.254-1.125 6.462-2.783 6.254-2.546 6.463 3.701 6.462 4.263 6.255.77 6.462.385 6.254 1.273 6.463-23.33 6.462-2.309 5.837-.681 6.463 11.428 6.254-2.576 6.463-7.845 6.254-.148 6.462-2.28 6.463-3.967 6.254-5.24 6.462-6.395 6.254-2.073 6.463-16.312 6.462 4.441 5.838-2.073 6.462 3.79 6.254 3.286 6.463-6.01 6.254 4.411 6.462 8.971 6.463-1.51 6.254-1.096 6.462-5.565 6.255 1.954 6.462-15.011 6.463 1.57 5.837 3.73 6.462 4.855 6.254.148 6.463-10.332 6.254 5.477 6.463 10.155 6.462-2.339 6.254 5.329 6.463 1.451 6.254 5.595 6.462-21.523 6.463 7.46 6.045-2.753 6.463 17.112 6.254-.474 6.463-5.832 6.254 6.069 6.462 4.826 6.463 5.655 6.254-2.162 6.462-2.427 6.254 2.457 6.463-14.418 6.463.829 5.837 8.526 6.462 9.06 6.254-1.244 6.463-2.102 6.254-5.24 6.462 10.096 6.463-1.421 6.254 3.641 6.463-3.523 6.254 2.072 6.462-8.082 6.463-3.76 5.837 11.221 6.462 6.543 6.254.384 6.463-5.477 6.254-.177 6.463 6.75 6.462.207 6.254.977 6.463-1.806 6.254 2.872 6.462-17.675 6.463 5.655 5.837 7.846 6.463 3.73 6.254 3.316 6.462-7.431 6.254-3.02 6.463 5.595 6.462-1.865 6.254.74 6.463-2.901 6.254-6.661 6.463-14.241 6.462 8.201 6.046 3.138 6.462 9.415 6.254-14.981 6.463-6.957 6.254-6.188 6.462-3.967 6.463 4.974 6.254-7.609 6.463-9.414 6.254-11.576 6.462-36.415 6.463-6.543 5.837-5.536 6.462 8.112 6.255-11.458 6.462-5.418 6.254 4.974 6.463 3.464 6.462 3.138 6.254-4.293 6.463 2.843 6.254 2.694 6.462-23.152 6.463 7.934 0 51.514-6.463-11.664-6.462 19.362-6.254-1.865-6.463-3.612-6.254 7.49-6.462-4.204-6.463-4.322-6.254-3.523-6.462 3.463-6.255 9.504-6.462-3.701-5.837 3.02-6.463 4.559-6.462 27.593-6.254 6.987-6.463 11.191-6.254 4.618-6.463-4.678-6.462 1.155-6.254 6.898-6.463 5.152-6.254 12.227-6.462-5.27-6.046-3.434-6.462-7.402-6.463 11.576-6.254 2.99-6.463 2.783-6.254-1.332-6.462 2.694-6.463-3.819-6.254 2.398-6.462 8.053-6.254-4.915-6.463-1.184-5.837-6.365-6.463-3.879-6.462 14.892-6.254-6.809-6.463 5.062-6.254-1.924-6.462-1.836-6.463-5.151-6.254.711-6.463 3.759-6.254-1.894-6.462-1.214-5.837-10.717-6.463 3.286-6.462 6.987-6.254-4.352-6.463 4.618-6.254-.266-6.463-2.546-6.462-7.846-6.254 3.434-6.463 1.718-6.254.769-6.462-6.306-5.837-5.299-6.463.414-6.463 11.961-6.254-2.546-6.462-.266-6.254 1.243-6.463-2.842-6.462-6.454-6.254-5.359-6.463 5.98-6.254-1.509-6.463-9.8-6.045 1.717-6.463-4.322-6.462 17.911-6.254-5.595-6.463.503-6.254-6.484-6.462-.444-6.463-6.01-6.254-3.375-6.463 10.718-6.254-1.007-6.462-1.48-5.837-5.211-6.463-2.398-6.462 12.819-6.255-2.22-6.462 3.582-6.254 2.428-6.463-.888-6.462-4.56-6.254-4.292-6.463 3.167-6.254-4.233-6.462-3.405-5.838 2.339-6.462-.089-6.463 10.421-6.254 2.813-6.462 5.329-6.254 2.28-6.463 3.375-6.462.533-6.254-.948-6.463 6.602-6.254 2.665-6.463-11.517-5.837 2.813-6.462 2.605-6.463 18.296-6.254-1.776-6.462-1.658-6.255.859-6.462-3.523-6.463-2.162-6.254-.148-6.462 3.257-6.254-.178-6.463-9.592-6.045.444-6.463-.592Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(120,99,255,1)" fill-opacity=".85" stroke="rgba(120,99,255,1)" stroke-width="0" d="m0 297.064 6.463.622 6.045 2.723 6.463 19.303 6.254.356 6.462-2.546 6.254-2.399 6.463 1.866 6.462 6.039 6.255-.148 6.462-1.539 6.254-1.629 6.463-30.908 6.462-2.013 5.837 3.552 6.463 14.004 6.254.918 6.463-6.81 6.254-.266 6.462-4.5 6.463-2.99 6.254-6.602 6.462-10.392 6.254-5.477 6.463-28.925 6.462 8.911 5.838-.562 6.462 8.349 6.254 10.066 6.463-5.033 6.254 4.381 6.462 7.195 6.463-.356 6.254-3.019 6.462-7.876 6.255-3.463 6.462-22.56 6.463 2.25 5.837 9.237 6.462 11.221 6.254 1.835 6.463-10.184 6.254 6.454 6.463 10.954 6.462-3.257 6.254 6.218 6.463.296 6.254 1.954 6.462-26.882 6.463 6.128 6.045-1.924 6.463 21.908 6.254 4.974 6.463-5.922 6.254 7.787 6.462 6.217 6.463 3.701 6.254-2.339 6.462-4.204 6.254-2.724 6.463-20.606 6.463-1.273 5.837 14.122 6.462 16.994 6.254 2.487 6.463-1.865 6.254-3.76 6.462 8.556 6.463-1.747 6.254 5.211 6.463-4.856 6.254-5.299 6.462-9.711 6.463-2.812 5.837 11.694 6.462 10.865 6.254 1.185 6.463-3.168 6.254-2.073 6.463 7.195 6.462 1.154 6.254 4.826 6.463-6.602 6.254-.296 6.462-23.507 6.463.799 5.837 12.642 6.463 5.832 6.254 8.556 6.462-5.181 6.254-3.523 6.463 7.342 6.462-2.99 6.254-.592 6.463-3.02 6.254-16.224 6.463-18.118 6.462 7.638 6.046 1.599 6.462 12.76 6.254-7.639 6.463-6.246 6.254-6.129 6.462-4.885 6.463.356 6.254-10.807 6.463-14.122 6.254-17.526 6.462-45.475 6.463-14.862 5.837-4.174 6.462 15.277 6.255-12.376 6.462-.473 6.254 2.427 6.463 7.757 6.462 1.599 6.254-8.734 6.463 1.776 6.254-5.121 6.462-27.593 6.463.651 0 72.238-6.463-7.934-6.462 23.152-6.254-2.694-6.463-2.843-6.254 4.293-6.462-3.138-6.463-3.464-6.254-4.974-6.462 5.418-6.255 11.458-6.462-8.112-5.837 5.536-6.463 6.543-6.462 36.415-6.254 11.576-6.463 9.414-6.254 7.609-6.463-4.974-6.462 3.967-6.254 6.188-6.463 6.957-6.254 14.981-6.462-9.415-6.046-3.138-6.462-8.201-6.463 14.241-6.254 6.661-6.463 2.901-6.254-.74-6.462 1.865-6.463-5.595-6.254 3.02-6.462 7.431-6.254-3.316-6.463-3.73-5.837-7.846-6.463-5.655-6.462 17.675-6.254-2.872-6.463 1.806-6.254-.977-6.462-.207-6.463-6.75-6.254.177-6.463 5.477-6.254-.384-6.462-6.543-5.837-11.221-6.463 3.76-6.462 8.082-6.254-2.072-6.463 3.523-6.254-3.641-6.463 1.421-6.462-10.096-6.254 5.24-6.463 2.102-6.254 1.244-6.462-9.06-5.837-8.526-6.463-.829-6.463 14.418-6.254-2.457-6.462 2.427-6.254 2.162-6.463-5.655-6.462-4.826-6.254-6.069-6.463 5.832-6.254.474-6.463-17.112-6.045 2.753-6.463-7.46-6.462 21.523-6.254-5.595-6.463-1.451-6.254-5.329-6.462 2.339-6.463-10.155-6.254-5.477-6.463 10.332-6.254-.148-6.462-4.855-5.837-3.73-6.463-1.57-6.462 15.011-6.255-1.954-6.462 5.565-6.254 1.096-6.463 1.51-6.462-8.971-6.254-4.411-6.463 6.01-6.254-3.286-6.462-3.79-5.838 2.073-6.462-4.441-6.463 16.312-6.254 2.073-6.462 6.395-6.254 5.24-6.463 3.967-6.462 2.28-6.254.148-6.463 7.845-6.254 2.576-6.463-11.428-5.837.681-6.462 2.309-6.463 23.33-6.254-1.273-6.462-.385-6.255-.77-6.462-4.263-6.463-3.701-6.254 2.546-6.462 2.783-6.254 1.125-6.463-12.73-6.045 1.51-6.463-2.606Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(189,143,36,1)" fill-opacity=".85" stroke="rgba(189,143,36,1)" stroke-width="0" d="m0 284.333 6.463 1.244 6.045 5.625 6.463 20.546 6.254-2.635 6.462-9.444 6.254-.681 6.463.74 6.462 11.221 6.255.355 6.462-1.332 6.254-1.066 6.463-33.81 6.462 2.872 5.837 1.865 6.463 13.589 6.254 1.155 6.463-11.665 6.254-.947 6.462-4.263 6.463.029 6.254-6.335 6.462-10.125 6.254-5.448 6.463-30.908 6.462 8.26 5.838.355 6.462 9.237 6.254 8.971 6.463-7.313 6.254 1.895 6.462 8.645 6.463 1.598 6.254-2.102 6.462-6.957 6.255-2.813 6.462-26.26 6.463 4.855 5.837 7.964 6.462 13.767 6.254.711 6.463-16.876 6.254 5.122 6.463 11.073 6.462 2.339 6.254 7.875 6.463-.948 6.254 2.724 6.462-26.734 6.463 6.75 6.045-3.108 6.463 24.78 6.254 3.937 6.463-9.237 6.254 3.02 6.462 8.141 6.463 6.899 6.254-2.132 6.462-2.813 6.254-2.279 6.463-22.264 6.463 1.185 5.837 14.24 6.462 16.697 6.254 3.228 6.463-8.616 6.254-3.819 6.462 9.119 6.463 1.095 6.254 7.165 6.463-4.619 6.254-2.309 6.462-11.606 6.463-3.256 5.837 12.02 6.462 12.257 6.254.74 6.463-7.579 6.254-4.471 6.463 9.089 6.462 7.046 6.254 3.997 6.463-5.891 6.254-.148 6.462-25.906 6.463 2.902 5.837 12.227 6.463 6.158 6.254 7.964 6.462-9.444 6.254-7.431 6.463 7.608 6.462 2.043 6.254.385 6.463-2.724 6.254-15.306 6.463-18.711 6.462 10.57 6.046.029 6.462 14.3 6.254-10.244 6.463-11.961 6.254-9.562 6.462-3.434 6.463 4.736 6.254-10.184 6.463-13.382 6.254-17.053 6.462-49.648 6.463-12.228 5.837-5.21 6.462 15.957 6.255-16.135 6.462-9.03 6.254-1.658 6.463 8.083 6.462 7.224 6.254-4.5 6.463 2.871 6.254-6.572 6.462-32.063 6.463 2.664 0 26.053-6.463-.651-6.462 27.593-6.254 5.121-6.463-1.776-6.254 8.734-6.462-1.599-6.463-7.757-6.254-2.427-6.462.473-6.255 12.376-6.462-15.277-5.837 4.174-6.463 14.862-6.462 45.475-6.254 17.526-6.463 14.122-6.254 10.807-6.463-.356-6.462 4.885-6.254 6.129-6.463 6.246-6.254 7.639-6.462-12.76-6.046-1.599-6.462-7.638-6.463 18.118-6.254 16.224-6.463 3.02-6.254.592-6.462 2.99-6.463-7.342-6.254 3.523-6.462 5.181-6.254-8.556-6.463-5.832-5.837-12.642-6.463-.799-6.462 23.507-6.254.296-6.463 6.602-6.254-4.826-6.462-1.154-6.463-7.195-6.254 2.073-6.463 3.168-6.254-1.185-6.462-10.865-5.837-11.694-6.463 2.812-6.462 9.711-6.254 5.299-6.463 4.856-6.254-5.211-6.463 1.747-6.462-8.556-6.254 3.76-6.463 1.865-6.254-2.487-6.462-16.994-5.837-14.122-6.463 1.273-6.463 20.606-6.254 2.724-6.462 4.204-6.254 2.339-6.463-3.701-6.462-6.217-6.254-7.787-6.463 5.922-6.254-4.974-6.463-21.908-6.045 1.924-6.463-6.128-6.462 26.882-6.254-1.954-6.463-.296-6.254-6.218-6.462 3.257-6.463-10.954-6.254-6.454-6.463 10.184-6.254-1.835-6.462-11.221-5.837-9.237-6.463-2.25-6.462 22.56-6.255 3.463-6.462 7.876-6.254 3.019-6.463.356-6.462-7.195-6.254-4.381-6.463 5.033-6.254-10.066-6.462-8.349-5.838.562-6.462-8.911-6.463 28.925-6.254 5.477-6.462 10.392-6.254 6.602-6.463 2.99-6.462 4.5-6.254.266-6.463 6.81-6.254-.918-6.463-14.004-5.837-3.552-6.462 2.013-6.463 30.908-6.254 1.629-6.462 1.539-6.255.148-6.462-6.039-6.463-1.866-6.254 2.399-6.462 2.546-6.254-.356-6.463-19.303-6.045-2.723-6.463-.622Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(255,128,202,1)" fill-opacity=".85" stroke="rgba(255,128,202,1)" stroke-width="0" d="m0 277.583 6.463.889 6.045 6.039 6.463 21.405 6.254-2.576 6.462-10.066 6.254.089 6.463.059 6.462 11.991 6.255-.74 6.462-.148 6.254-1.54 6.463-34.757 6.462 2.783 5.837 2.576 6.463 12.967 6.254 2.368 6.463-13.381 6.254-2.132 6.462-3.286 6.463-.326 6.254-6.72 6.462-11.28 6.254-3.612 6.463-31.175 6.462 6.75 5.838 1.273 6.462 9.089 6.254 7.55 6.463-8.29 6.254 2.724 6.462 8.704 6.463 2.901 6.254-2.487 6.462-7.697 6.255-2.369 6.462-26.408 6.463 5.359 5.837 6.572 6.462 14.773 6.254.8 6.463-18.001 6.254 7.313 6.463 9.356 6.462 3.434 6.254 7.934 6.463-1.184 6.254 3.553 6.462-30.287 6.463 7.934 6.045-2.516 6.463 25.698 6.254 4.233 6.463-10.214 6.254 3.849 6.462 7.993 6.463 5.063 6.254-1.658 6.462-.799 6.254-2.28 6.463-21.138 6.463-.267 5.837 15.425 6.462 16.875 6.254 2.25 6.463-9.178 6.254-3.878 6.462 9.385 6.463 2.28 6.254 7.312 6.463-5.003 6.254-.415 6.462-12.464 6.463-4.292 5.837 11.131 6.462 12.405 6.254.859 6.463-7.875 6.254-5.359 6.463 11.043 6.462 7.875 6.254 4.707 6.463-6.424 6.254-.089 6.462-26.083 6.463 1.066 5.837 13.5 6.463 6.78 6.254 6.484 6.462-10.096 6.254-7.549 6.463 5.714 6.462 3.671 6.254.651 6.463-1.362 6.254-16.905 6.463-17.822 6.462 9.444 6.046.03 6.462 14.269 6.254-11.339 6.463-11.25 6.254-9.947 6.462-5.181 6.463 5.595 6.254-11.783 6.463-15.158 6.254-18.415 6.462-50.566 6.463-14.181 5.837-5.27 6.462 18.266 6.255-15.395 6.462-8.348 6.254-3.346 6.463 8.201 6.462 4.53 6.254-4.175 6.463 3.671 6.254-7.934 6.462-30.82 6.463.148 0 20.961-6.463-2.664-6.462 32.063-6.254 6.572-6.463-2.871-6.254 4.5-6.462-7.224-6.463-8.083-6.254 1.658-6.462 9.03-6.255 16.135-6.462-15.957-5.837 5.21-6.463 12.228-6.462 49.648-6.254 17.053-6.463 13.382-6.254 10.184-6.463-4.736-6.462 3.434-6.254 9.562-6.463 11.961-6.254 10.244-6.462-14.3-6.046-.029-6.462-10.57-6.463 18.711-6.254 15.306-6.463 2.724-6.254-.385-6.462-2.043-6.463-7.608-6.254 7.431-6.462 9.444-6.254-7.964-6.463-6.158-5.837-12.227-6.463-2.902-6.462 25.906-6.254.148-6.463 5.891-6.254-3.997-6.462-7.046-6.463-9.089-6.254 4.471-6.463 7.579-6.254-.74-6.462-12.257-5.837-12.02-6.463 3.256-6.462 11.606-6.254 2.309-6.463 4.619-6.254-7.165-6.463-1.095-6.462-9.119-6.254 3.819-6.463 8.616-6.254-3.228-6.462-16.697-5.837-14.24-6.463-1.185-6.463 22.264-6.254 2.279-6.462 2.813-6.254 2.132-6.463-6.899-6.462-8.141-6.254-3.02-6.463 9.237-6.254-3.937-6.463-24.78-6.045 3.108-6.463-6.75-6.462 26.734-6.254-2.724-6.463.948-6.254-7.875-6.462-2.339-6.463-11.073-6.254-5.122-6.463 16.876-6.254-.711-6.462-13.767-5.837-7.964-6.463-4.855-6.462 26.26-6.255 2.813-6.462 6.957-6.254 2.102-6.463-1.598-6.462-8.645-6.254-1.895-6.463 7.313-6.254-8.971-6.462-9.237-5.838-.355-6.462-8.26-6.463 30.908-6.254 5.448-6.462 10.125-6.254 6.335-6.463-.029-6.462 4.263-6.254.947-6.463 11.665-6.254-1.155-6.463-13.589-5.837-1.865-6.462-2.872-6.463 33.81-6.254 1.066-6.462 1.332-6.255-.355-6.462-11.221-6.463-.74-6.254.681-6.462 9.444-6.254 2.635-6.463-20.546-6.045-5.625-6.463-1.244Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(36,145,179,1)" fill-opacity=".85" stroke="rgba(36,145,179,1)" stroke-width="0" d="m0 270.508 6.463.207 6.045 7.49 6.463 21.257 6.254-2.22 6.462-9.533 6.254-.918 6.463 1.125 6.462 11.191 6.255-1.125 6.462-1.54 6.254 1.273 6.463-35.231 6.462 2.339 5.837 3.405 6.463 11.931 6.254 2.665 6.463-12.82 6.254-2.25 6.462-4.825 6.463-.711 6.254-6.454 6.462-10.895 6.254-4.056 6.463-31.589 6.462 7.135 5.838 2.25 6.462 7.964 6.254 7.283 6.463-7.757 6.254 2.635 6.462 8.053 6.463 3.049 6.254-2.753 6.462-8.349 6.255-3.257 6.462-26.319 6.463 5.951 5.837 7.312 6.462 15.691 6.254.119 6.463-18.711 6.254 8.053 6.463 8.408 6.462 3.878 6.254 6.424 6.463-.296 6.254 3.819 6.462-30.375 6.463 9.178 6.045-2.517 6.463 26.231 6.254 2.901 6.463-10.776 6.254 4.293 6.462 7.016 6.463 3.938 6.254.148 6.462-2.339 6.254-1.924 6.463-21.287 6.463-.77 5.837 16.935 6.462 18.03 6.254 1.48 6.463-8.26 6.254-4.293 6.462 10.362 6.463 1.303 6.254 8.112 6.463-6.898 6.254-.652 6.462-12.878 6.463-4.027 5.837 12.08 6.462 11.398 6.254 3.316 6.463-7.698 6.254-6.72 6.463 10.598 6.462 8.083 6.254 5.418 6.463-5.892 6.254-.977 6.462-28.717 6.463 3.315 5.837 13.175 6.463 8.882 6.254 5.418 6.462-9.563 6.254-9.504 6.463 5.981 6.462 3.997 6.254-.356 6.463-1.302 6.254-16.609 6.463-18.178 6.462 9.385 6.046-.148 6.462 14.507 6.254-12.168 6.463-11.191 6.254-9.385 6.462-6.158 6.463 4.529 6.254-11.25 6.463-15.602 6.254-22.796 6.462-53.528 6.463-12.019 5.837-6.425 6.462 22.323 6.255-16.639 6.462-6.631 6.254-5.714 6.463 7.697 6.462 2.546 6.254-3.404 6.463 4.204 6.254-8.438 6.462-34.402 6.463 1.629 0 20.131-6.463-.148-6.462 30.82-6.254 7.934-6.463-3.671-6.254 4.175-6.462-4.53-6.463-8.201-6.254 3.346-6.462 8.348-6.255 15.395-6.462-18.266-5.837 5.27-6.463 14.181-6.462 50.566-6.254 18.415-6.463 15.158-6.254 11.783-6.463-5.595-6.462 5.181-6.254 9.947-6.463 11.25-6.254 11.339-6.462-14.269-6.046-.03-6.462-9.444-6.463 17.822-6.254 16.905-6.463 1.362-6.254-.651-6.462-3.671-6.463-5.714-6.254 7.549-6.462 10.096-6.254-6.484-6.463-6.78-5.837-13.5-6.463-1.066-6.462 26.083-6.254.089-6.463 6.424-6.254-4.707-6.462-7.875-6.463-11.043-6.254 5.359-6.463 7.875-6.254-.859-6.462-12.405-5.837-11.131-6.463 4.292-6.462 12.464-6.254.415-6.463 5.003-6.254-7.312-6.463-2.28-6.462-9.385-6.254 3.878-6.463 9.178-6.254-2.25-6.462-16.875-5.837-15.425-6.463.267-6.463 21.138-6.254 2.28-6.462.799-6.254 1.658-6.463-5.063-6.462-7.993-6.254-3.849-6.463 10.214-6.254-4.233-6.463-25.698-6.045 2.516-6.463-7.934-6.462 30.287-6.254-3.553-6.463 1.184-6.254-7.934-6.462-3.434-6.463-9.356-6.254-7.313-6.463 18.001-6.254-.8-6.462-14.773-5.837-6.572-6.463-5.359-6.462 26.408-6.255 2.369-6.462 7.697-6.254 2.487-6.463-2.901-6.462-8.704-6.254-2.724-6.463 8.29-6.254-7.55-6.462-9.089-5.838-1.273-6.462-6.75-6.463 31.175-6.254 3.612-6.462 11.28-6.254 6.72-6.463.326-6.462 3.286-6.254 2.132-6.463 13.381-6.254-2.368-6.463-12.967-5.837-2.576-6.462-2.783-6.463 34.757-6.254 1.54-6.462.148-6.255.74-6.462-11.991-6.463-.059-6.254-.089-6.462 10.066-6.254 2.576-6.463-21.405-6.045-6.039-6.463-.889Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(23,199,111,1)" fill-opacity=".85" stroke="rgba(23,199,111,1)" stroke-width="0" d="m0 262.396 6.463 1.45 6.045 7.046 6.463 21.465 6.254-2.635 6.462-8.675 6.254-.237 6.463 1.569 6.462 10.214 6.255.622 6.462-3.197 6.254 2.753 6.463-36.119 6.462.977 5.837 4.678 6.463 11.339 6.254 4.085 6.463-15.01 6.254-1.717 6.462-5.21 6.463-.237 6.254-6.869 6.462-11.398 6.254-4.678 6.463-32.388 6.462 6.098 5.838 2.991 6.462 9.325 6.254 7.402 6.463-9.859 6.254 2.013 6.462 8.142 6.463 5.181 6.254-2.487 6.462-8.704 6.255-1.984 6.462-28.184 6.463 5.151 5.837 6.158 6.462 16.846 6.254-.119 6.463-19.303 6.254 6.691 6.463 9.356 6.462 4.914 6.254 5.24 6.463.326 6.254 6.158 6.462-31.678 6.463 7.875 6.045-2.516 6.463 26.793 6.254 3.997 6.463-11.251 6.254 3.701 6.462 7.165 6.463 5.121 6.254.178 6.462-2.161 6.254-1.392 6.463-21.701 6.463-1.806 5.837 17.438 6.462 18.089 6.254 1.244 6.463-7.579 6.254-3.79 6.462 9.415 6.463 1.273 6.254 7.757 6.463-6.336 6.254.266 6.462-14.033 6.463-3.227 5.837 11.754 6.462 12.168 6.254 3.345 6.463-7.697 6.254-7.905 6.463 9.533 6.462 9 6.254 6.661 6.463-7.016 6.254-.977 6.462-27.8 6.463 3.849 5.837 14.211 6.463 8.822 6.254 4.885 6.462-9.977 6.254-9.119 6.463 6.099 6.462 3.464 6.254 1.865 6.463-3.464 6.254-16.016 6.463-19.037 6.462 7.934 6.046.741 6.462 15.454 6.254-12.879 6.463-12.582 6.254-10.273 6.462-7.935 6.463 5.655 6.254-10.066 6.463-18.563 6.254-20.813 6.462-55.422 6.463-12.671 5.837-4.174 6.462 21.553 6.255-18.8 6.462-9.03 6.254-3.73 6.463 6.572 6.462 4.501 6.254-5.744 6.463 5.684 6.254-9.089 6.462-37.244 6.463 1.806 0 17.853-6.463-1.629-6.462 34.402-6.254 8.438-6.463-4.204-6.254 3.404-6.462-2.546-6.463-7.697-6.254 5.714-6.462 6.631-6.255 16.639-6.462-22.323-5.837 6.425-6.463 12.019-6.462 53.528-6.254 22.796-6.463 15.602-6.254 11.25-6.463-4.529-6.462 6.158-6.254 9.385-6.463 11.191-6.254 12.168-6.462-14.507-6.046.148-6.462-9.385-6.463 18.178-6.254 16.609-6.463 1.302-6.254.356-6.462-3.997-6.463-5.981-6.254 9.504-6.462 9.563-6.254-5.418-6.463-8.882-5.837-13.175-6.463-3.315-6.462 28.717-6.254.977-6.463 5.892-6.254-5.418-6.462-8.083-6.463-10.598-6.254 6.72-6.463 7.698-6.254-3.316-6.462-11.398-5.837-12.08-6.463 4.027-6.462 12.878-6.254.652-6.463 6.898-6.254-8.112-6.463-1.303-6.462-10.362-6.254 4.293-6.463 8.26-6.254-1.48-6.462-18.03-5.837-16.935-6.463.77-6.463 21.287-6.254 1.924-6.462 2.339-6.254-.148-6.463-3.938-6.462-7.016-6.254-4.293-6.463 10.776-6.254-2.901-6.463-26.231-6.045 2.517-6.463-9.178-6.462 30.375-6.254-3.819-6.463.296-6.254-6.424-6.462-3.878-6.463-8.408-6.254-8.053-6.463 18.711-6.254-.119-6.462-15.691-5.837-7.312-6.463-5.951-6.462 26.319-6.255 3.257-6.462 8.349-6.254 2.753-6.463-3.049-6.462-8.053-6.254-2.635-6.463 7.757-6.254-7.283-6.462-7.964-5.838-2.25-6.462-7.135-6.463 31.589-6.254 4.056-6.462 10.895-6.254 6.454-6.463.711-6.462 4.825-6.254 2.25-6.463 12.82-6.254-2.665-6.463-11.931-5.837-3.405-6.462-2.339-6.463 35.231-6.254-1.273-6.462 1.54-6.255 1.125-6.462-11.191-6.463-1.125-6.254.918-6.462 9.533-6.254 2.22-6.463-21.257-6.045-7.49-6.463-.207Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(170,186,1,1)" fill-opacity=".85" stroke="rgba(170,186,1,1)" stroke-width="0" d="m0 255.409 6.463 1.835 6.045 7.964 6.463 21.494 6.254-2.605 6.462-8.468 6.254-1.569 6.463 2.458 6.462 9.237 6.255 2.931 6.462-2.487 6.254 1.598 6.463-36.888 6.462 1.125 5.837 4.559 6.463 10.184 6.254 5.685 6.463-16.905 6.254-1.54 6.462-4.914 6.463.118 6.254-10.036 6.462-10.836 6.254-4.915 6.463-34.105 6.462 7.194 5.838 3.523 6.462 10.303 6.254 8.082 6.463-10.362 6.254 2.132 6.462 9.592 6.463 4.766 6.254-3.286 6.462-7.845 6.255-2.28 6.462-30.79 6.463 5.596 5.837 6.069 6.462 18.178 6.254.296 6.463-20.487 6.254 7.016 6.463 10.362 6.462 4.915 6.254 5.092 6.463-.119 6.254 6.395 6.462-30.967 6.463 6.454 6.045-2.309 6.463 28.125 6.254 4.263 6.463-11.161 6.254 3.582 6.462 7.017 6.463 5.95 6.254-.148 6.462-2.102 6.254-1.006 6.463-23.833 6.463-.888 5.837 16.786 6.462 18.386 6.254 2.25 6.463-8.29 6.254-3.049 6.462 10.451 6.463.562 6.254 6.572 6.463-4.796 6.254.178 6.462-16.55 6.463-2.427 5.837 11.664 6.462 11.902 6.254 4.707 6.463-7.668 6.254-8.26 6.463 10.125 6.462 10.007 6.254 5.981 6.463-6.336 6.254-1.184 6.462-29.517 6.463 3.76 5.837 14.27 6.463 10.628 6.254 4.056 6.462-10.747 6.254-11.102 6.463 9.178 6.462 2.901 6.254 2.043 6.463-4.174 6.254-15.07 6.463-20.842 6.462 7.401 6.046 1.392 6.462 16.105 6.254-13.589 6.463-14.359 6.254-11.161 6.462-6.454 6.463 4.826 6.254-9.444 6.463-19.007 6.254-23.478 6.462-58.412 6.463-13.885 5.837-4.026 6.462 22.056 6.255-17.763 6.462-8.823 6.254-4.086 6.463 5.507 6.462 4.767 6.254-4.027 6.463 5.3 6.254-10.451 6.462-40.738 6.463 3.76 0 17.497-6.463-1.806-6.462 37.244-6.254 9.089-6.463-5.684-6.254 5.744-6.462-4.501-6.463-6.572-6.254 3.73-6.462 9.03-6.255 18.8-6.462-21.553-5.837 4.174-6.463 12.671-6.462 55.422-6.254 20.813-6.463 18.563-6.254 10.066-6.463-5.655-6.462 7.935-6.254 10.273-6.463 12.582-6.254 12.879-6.462-15.454-6.046-.741-6.462-7.934-6.463 19.037-6.254 16.016-6.463 3.464-6.254-1.865-6.462-3.464-6.463-6.099-6.254 9.119-6.462 9.977-6.254-4.885-6.463-8.822-5.837-14.211-6.463-3.849-6.462 27.8-6.254.977-6.463 7.016-6.254-6.661-6.462-9-6.463-9.533-6.254 7.905-6.463 7.697-6.254-3.345-6.462-12.168-5.837-11.754-6.463 3.227-6.462 14.033-6.254-.266-6.463 6.336-6.254-7.757-6.463-1.273-6.462-9.415-6.254 3.79-6.463 7.579-6.254-1.244-6.462-18.089-5.837-17.438-6.463 1.806-6.463 21.701-6.254 1.392-6.462 2.161-6.254-.178-6.463-5.121-6.462-7.165-6.254-3.701-6.463 11.251-6.254-3.997-6.463-26.793-6.045 2.516-6.463-7.875-6.462 31.678-6.254-6.158-6.463-.326-6.254-5.24-6.462-4.914-6.463-9.356-6.254-6.691-6.463 19.303-6.254.119-6.462-16.846-5.837-6.158-6.463-5.151-6.462 28.184-6.255 1.984-6.462 8.704-6.254 2.487-6.463-5.181-6.462-8.142-6.254-2.013-6.463 9.859-6.254-7.402-6.462-9.325-5.838-2.991-6.462-6.098-6.463 32.388-6.254 4.678-6.462 11.398-6.254 6.869-6.463.237-6.462 5.21-6.254 1.717-6.463 15.01-6.254-4.085-6.463-11.339-5.837-4.678-6.462-.977-6.463 36.119-6.254-2.753-6.462 3.197-6.255-.622-6.462-10.214-6.463-1.569-6.254.237-6.462 8.675-6.254 2.635-6.463-21.465-6.045-7.046-6.463-1.45Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(188,124,252,1)" fill-opacity=".85" stroke="rgba(188,124,252,1)" stroke-width="0" d="m0 251.708 6.463 2.22 6.045 7.135 6.463 22.826 6.254-3.671 6.462-7.608 6.254-2.813 6.463 2.487 6.462 9.622 6.255 3.937 6.462-3.108 6.254.592 6.463-37.185 6.462 2.665 5.837 3.404 6.463 10.185 6.254 5.21 6.463-16.875 6.254-2.813 6.462-5.033 6.463-.148 6.254-10.45 6.462-11.073 6.254-5.921 6.463-33.751 6.462 6.721 5.838 3.908 6.462 10.569 6.254 7.994 6.463-10.214 6.254 1.865 6.462 9.414 6.463 5.922 6.254-2.695 6.462-8.112 6.255-3.315 6.462-30.435 6.463 3.286 5.837 7.668 6.462 18.148 6.254.8 6.463-20.132 6.254 7.46 6.463 10.362 6.462 4.205 6.254 7.046 6.463-2.339 6.254 7.372 6.462-31.323 6.463 7.697 6.045-2.96 6.463 29.546 6.254 3.612 6.463-10.628 6.254 3.523 6.462 6.513 6.463 6.336 6.254-.356 6.462-2.161 6.254-.592 6.463-23.685 6.463-1.954 5.837 17.586 6.462 18.356 6.254 3.227 6.463-8.734 6.254-2.516 6.462 10.036 6.463.207 6.254 6.75 6.463-5.092 6.254 1.48 6.462-15.868 6.463-2.842 5.837 11.753 6.462 11.428 6.254 3.937 6.463-6.365 6.254-7.934 6.463 9.267 6.462 8.881 6.254 7.579 6.463-6.957 6.254-.326 6.462-30.553 6.463 3.879 5.837 15.158 6.463 11.576 6.254 3.078 6.462-10.865 6.254-11.043 6.463 8.349 6.462 3.375 6.254 2.161 6.463-4.529 6.254-14.862 6.463-22.146 6.462 6.691 6.046 2.517 6.462 16.461 6.254-14.389 6.463-13.974 6.254-10.687 6.462-6.543 6.463 4.174 6.254-9.503 6.463-19.155 6.254-24.839 6.462-58.797 6.463-13.649 5.837-4.855 6.462 20.043 6.255-17.26 6.462-10.125 6.254-4.855 6.463 5.95 6.462 4.648 6.254-1.036 6.463 5.833 6.254-10.836 6.462-42.425 6.463 4.145 0 8.881-6.463-3.76-6.462 40.738-6.254 10.451-6.463-5.3-6.254 4.027-6.462-4.767-6.463-5.507-6.254 4.086-6.462 8.823-6.255 17.763-6.462-22.056-5.837 4.026-6.463 13.885-6.462 58.412-6.254 23.478-6.463 19.007-6.254 9.444-6.463-4.826-6.462 6.454-6.254 11.161-6.463 14.359-6.254 13.589-6.462-16.105-6.046-1.392-6.462-7.401-6.463 20.842-6.254 15.07-6.463 4.174-6.254-2.043-6.462-2.901-6.463-9.178-6.254 11.102-6.462 10.747-6.254-4.056-6.463-10.628-5.837-14.27-6.463-3.76-6.462 29.517-6.254 1.184-6.463 6.336-6.254-5.981-6.462-10.007-6.463-10.125-6.254 8.26-6.463 7.668-6.254-4.707-6.462-11.902-5.837-11.664-6.463 2.427-6.462 16.55-6.254-.178-6.463 4.796-6.254-6.572-6.463-.562-6.462-10.451-6.254 3.049-6.463 8.29-6.254-2.25-6.462-18.386-5.837-16.786-6.463.888-6.463 23.833-6.254 1.006-6.462 2.102-6.254.148-6.463-5.95-6.462-7.017-6.254-3.582-6.463 11.161-6.254-4.263-6.463-28.125-6.045 2.309-6.463-6.454-6.462 30.967-6.254-6.395-6.463.119-6.254-5.092-6.462-4.915-6.463-10.362-6.254-7.016-6.463 20.487-6.254-.296-6.462-18.178-5.837-6.069-6.463-5.596-6.462 30.79-6.255 2.28-6.462 7.845-6.254 3.286-6.463-4.766-6.462-9.592-6.254-2.132-6.463 10.362-6.254-8.082-6.462-10.303-5.838-3.523-6.462-7.194-6.463 34.105-6.254 4.915-6.462 10.836-6.254 10.036-6.463-.118-6.462 4.914-6.254 1.54-6.463 16.905-6.254-5.685-6.463-10.184-5.837-4.559-6.462-1.125-6.463 36.888-6.254-1.598-6.462 2.487-6.255-2.931-6.462-9.237-6.463-2.458-6.254 1.569-6.462 8.468-6.254 2.605-6.463-21.494-6.045-7.964-6.463-1.835Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(35,124,188,1)" fill-opacity=".85" stroke="rgba(35,124,188,1)" stroke-width="0" d="m0 247.149 6.463 1.658 6.045 7.756 6.463 23.33 6.254-1.836 6.462-8.674 6.254-1.866 6.463 1.51 6.462 9.208 6.255 4.263 6.462-5.448 6.254.474 6.463-36.948 6.462 2.517 5.837 1.214 6.463 13.944 6.254 6.128 6.463-17.497 6.254-2.309 6.462-5.862 6.463 1.036 6.254-10.954 6.462-11.872 6.254-7.312 6.463-33.84 6.462 6.958 5.838 1.48 6.462 14.063 6.254 9.829 6.463-10.214 6.254 1.125 6.462 9.089 6.463 6.898 6.254-2.842 6.462-9.297 6.255-2.812 6.462-31.589 6.463 2.901 5.837 7.994 6.462 18.355 6.254 1.421 6.463-18.977 6.254 6.898 6.463 8.586 6.462 6.424 6.254 5.921 6.463-2.694 6.254 7.698 6.462-32.715 6.463 8.172 6.045-2.517 6.463 30.908 6.254 3.849 6.463-10.836 6.254 2.517 6.462 7.609 6.463 6.779 6.254-.769 6.462-3.02 6.254-1.599 6.463-23.329 6.463-.592 5.837 16.638 6.462 19.984 6.254 3.76 6.463-9.03 6.254-2.309 6.462 9.118 6.463-.592 6.254 7.994 6.463-6.069 6.254 1.214 6.462-16.254 6.463-2.813 5.837 12.405 6.462 12.494 6.254 3.997 6.463-5.063 6.254-8.526 6.463 8.644 6.462 8.823 6.254 7.609 6.463-8.379 6.254-.74 6.462-30.227 6.463 3.908 5.837 15.276 6.463 13.234 6.254 3.168 6.462-10.718 6.254-10.48 6.463 7.934 6.462 3.405 6.254 2.339 6.463-5.507 6.254-15.336 6.463-22.648 6.462 6.04 6.046 1.332 6.462 18.444 6.254-13.974 6.463-13.737 6.254-11.842 6.462-6.128 6.463 4.973 6.254-9.888 6.463-19.806 6.254-28.096 6.462-59.271 6.463-13.826 5.837-4.559 6.462 21.968 6.255-16.076 6.462-11.487 6.254-4.796 6.463 5.506 6.462 5.981 6.254-1.51 6.463 5.417 6.254-14.151 6.462-43.195 6.463 5.122 0 8.438-6.463-4.145-6.462 42.425-6.254 10.836-6.463-5.833-6.254 1.036-6.462-4.648-6.463-5.95-6.254 4.855-6.462 10.125-6.255 17.26-6.462-20.043-5.837 4.855-6.463 13.649-6.462 58.797-6.254 24.839-6.463 19.155-6.254 9.503-6.463-4.174-6.462 6.543-6.254 10.687-6.463 13.974-6.254 14.389-6.462-16.461-6.046-2.517-6.462-6.691-6.463 22.146-6.254 14.862-6.463 4.529-6.254-2.161-6.462-3.375-6.463-8.349-6.254 11.043-6.462 10.865-6.254-3.078-6.463-11.576-5.837-15.158-6.463-3.879-6.462 30.553-6.254.326-6.463 6.957-6.254-7.579-6.462-8.881-6.463-9.267-6.254 7.934-6.463 6.365-6.254-3.937-6.462-11.428-5.837-11.753-6.463 2.842-6.462 15.868-6.254-1.48-6.463 5.092-6.254-6.75-6.463-.207-6.462-10.036-6.254 2.516-6.463 8.734-6.254-3.227-6.462-18.356-5.837-17.586-6.463 1.954-6.463 23.685-6.254.592-6.462 2.161-6.254.356-6.463-6.336-6.462-6.513-6.254-3.523-6.463 10.628-6.254-3.612-6.463-29.546-6.045 2.96-6.463-7.697-6.462 31.323-6.254-7.372-6.463 2.339-6.254-7.046-6.462-4.205-6.463-10.362-6.254-7.46-6.463 20.132-6.254-.8-6.462-18.148-5.837-7.668-6.463-3.286-6.462 30.435-6.255 3.315-6.462 8.112-6.254 2.695-6.463-5.922-6.462-9.414-6.254-1.865-6.463 10.214-6.254-7.994-6.462-10.569-5.838-3.908-6.462-6.721-6.463 33.751-6.254 5.921-6.462 11.073-6.254 10.45-6.463.148-6.462 5.033-6.254 2.813-6.463 16.875-6.254-5.21-6.463-10.185-5.837-3.404-6.462-2.665-6.463 37.185-6.254-.592-6.462 3.108-6.255-3.937-6.462-9.622-6.463-2.487-6.254 2.813-6.462 7.608-6.254 3.671-6.463-22.826-6.045-7.135-6.463-2.22Z" class="element"/>
+            </g>
+            <g>
+              <path fill="rgba(45,227,121,1)" fill-opacity=".85" stroke="rgba(45,227,121,1)" stroke-width="0" d="m0 246.586 6.463 1.48 6.045 7.994 6.463 23.241 6.254-2.043 6.462-8.26 6.254-1.954 6.463 1.302 6.462 9.149 6.255 3.848 6.462-4.618 6.254.207 6.463-36.681 6.462 2.042 5.837 1.599 6.463 13.648 6.254 5.833 6.463-17.261 6.254-2.042 6.462-5.892 6.463.888 6.254-11.22 6.462-11.517 6.254-7.52 6.463-34.017 6.462 6.898 5.838 1.688 6.462 13.915 6.254 10.066 6.463-10.51 6.254 1.598 6.462 8.704 6.463 6.602 6.254-2.664 6.462-9.178 6.255-3.197 6.462-31.856 6.463 3.286 5.837 7.846 6.462 18.503 6.254 1.451 6.463-18.859 6.254 6.691 6.463 9.267 6.462 6.276 6.254 5.744 6.463-2.783 6.254 7.756 6.462-32.684 6.463 8.378 6.045-2.457 6.463 30.553 6.254 4.204 6.463-10.984 6.254 2.487 6.462 8.142 6.463 6.838 6.254-.977 6.462-3.167 6.254-1.481 6.463-23.714 6.463-.473 5.837 16.431 6.462 20.368 6.254 3.849 6.463-9.296 6.254-2.22 6.462 9.414 6.463-.592 6.254 8.29 6.463-6.543 6.254 1.066 6.462-16.343 6.463-2.783 5.837 12.731 6.462 12.405 6.254 3.908 6.463-5.389 6.254-8.349 6.463 8.438 6.462 9.356 6.254 7.579 6.463-8.586 6.254-.829 6.462-30.524 6.463 3.968 5.837 15.543 6.463 13.441 6.254 3.019 6.462-11.043 6.254-10.48 6.463 7.934 6.462 3.642 6.254 2.812 6.463-5.713 6.254-15.573 6.463-22.767 6.462 6.395 6.046.977 6.462 18.444 6.254-13.974 6.463-13.737 6.254-11.398 6.462-6.247 6.463 4.737 6.254-9.592 6.463-20.31 6.254-28.51 6.462-59.655 6.463-13.945 5.837-5.802 6.462 21.375 6.255-15.277 6.462-11.546 6.254-4.648 6.463 5.566 6.462 6.484 6.254-1.747 6.463 5.062 6.254-13.944 6.462-42.573 6.463 4.796 0 2.339-6.463-5.122-6.462 43.195-6.254 14.151-6.463-5.417-6.254 1.51-6.462-5.981-6.463-5.506-6.254 4.796-6.462 11.487-6.255 16.076-6.462-21.968-5.837 4.559-6.463 13.826-6.462 59.271-6.254 28.096-6.463 19.806-6.254 9.888-6.463-4.973-6.462 6.128-6.254 11.842-6.463 13.737-6.254 13.974-6.462-18.444-6.046-1.332-6.462-6.04-6.463 22.648-6.254 15.336-6.463 5.507-6.254-2.339-6.462-3.405-6.463-7.934-6.254 10.48-6.462 10.718-6.254-3.168-6.463-13.234-5.837-15.276-6.463-3.908-6.462 30.227-6.254.74-6.463 8.379-6.254-7.609-6.462-8.823-6.463-8.644-6.254 8.526-6.463 5.063-6.254-3.997-6.462-12.494-5.837-12.405-6.463 2.813-6.462 16.254-6.254-1.214-6.463 6.069-6.254-7.994-6.463.592-6.462-9.118-6.254 2.309-6.463 9.03-6.254-3.76-6.462-19.984-5.837-16.638-6.463.592-6.463 23.329-6.254 1.599-6.462 3.02-6.254.769-6.463-6.779-6.462-7.609-6.254-2.517-6.463 10.836-6.254-3.849-6.463-30.908-6.045 2.517-6.463-8.172-6.462 32.715-6.254-7.698-6.463 2.694-6.254-5.921-6.462-6.424-6.463-8.586-6.254-6.898-6.463 18.977-6.254-1.421-6.462-18.355-5.837-7.994-6.463-2.901-6.462 31.589-6.255 2.812-6.462 9.297-6.254 2.842-6.463-6.898-6.462-9.089-6.254-1.125-6.463 10.214-6.254-9.829-6.462-14.063-5.838-1.48-6.462-6.958-6.463 33.84-6.254 7.312-6.462 11.872-6.254 10.954-6.463-1.036-6.462 5.862-6.254 2.309-6.463 17.497-6.254-6.128-6.463-13.944-5.837-1.214-6.462-2.517-6.463 36.948-6.254-.474-6.462 5.448-6.255-4.263-6.462-9.208-6.463-1.51-6.254 1.866-6.462 8.674-6.254 1.836-6.463-23.33-6.045-7.756-6.463-1.658Z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

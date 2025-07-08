@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "pretty": true,
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}

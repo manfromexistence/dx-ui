@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <clipPath id="b" transform="matrix(1 0 0 1 -16 -16)">
+      <use href="#a" transform="matrix(1 0 0 1 16 16)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="300" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 300-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="268" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 268-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="542.88" height="202" x="81.12" y="51" fill="rgba(0,0,0,0)" d="m81.12 51 542.88 0 0 202-542.88 0z" class="area"/>
+        </g>
+        <g>
+          <path width="542.88" height="202" x="81.12" y="51" fill="rgba(0,0,0,0)" d="m81.12 51 542.88 0 0 202-542.88 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 16 16)">
+            <g fill="none" class="legend-category">
+              <g fill="none" class="legend-title-group">
+                <g fill="none" class="legend-title"/>
+              </g>
+              <g fill="none" class="legend-items-group">
+                <g fill="none" class="legend-items">
+                  <g fill="none" class="items-navigator">
+                    <g fill="none" class="navigator-content-group" clip-path="url(#b)">
+                      <g fill="none" class="navigator-play-window">
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="79.4" height="23" fill="rgba(0,0,0,0)" d="m0 0 79.4 0 0 23-79.4 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.30477 0 0 .30477 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(23,131,255,1)" stroke-width="4" d="m-9 2.5 9 0 0-5 9 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">blockchain</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 91.4 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="34.76" height="23" fill="rgba(0,0,0,0)" d="m0 0 34.76 0 0 23-34.76 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.30477 0 0 .30477 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(0,201,201,1)" stroke-width="4" d="m-9 2.5 9 0 0-5 9 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">nlp</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="navigator-controller"/>
+                    <g>
+                      <path id="a" width="126.16" height="23" fill="none" d="m0 0 126.16 0 0 23-126.16 0z" class="navigator-clip-path"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m229.5263 253 0-202" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m379.7108 253 0-202" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m529.485 253 0-202" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="81.12" x2="624" y1="253" y2="253" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 229.5264 253)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 379.7108 253)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 529.485 253)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 229.5264 261)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2016</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 379.7108 261)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2017</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 529.485 261)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2018</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group"/>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m81.12 215.898 542.88 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m81.12 174.6735 542.88 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m81.12 133.449 542.88 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m81.12 92.2245 542.88 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m81.12 51 542.88 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="81.12" x2="81.12" y1="253" y2="51" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 81.12 215.898)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 81.12 174.6735)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 81.12 133.449)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 81.12 92.2245)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 81.12 51)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 73.12 215.898)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">20</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 73.12 174.6735)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">40</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 73.12 133.449)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">60</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 73.12 92.2245)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">80</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 73.12 51)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">100</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 28.5 146.25)">
+              <g transform="matrix(0 -1 1 0 -7.5 .5)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">value</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 81.12 51)">
+          <path width="542.88" height="202" fill="rgba(0,0,0,0)" d="m0 0 542.88 0 0 202-542.88 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="none" stroke="rgba(23,131,255,1)" stroke-linecap="round" stroke-width="1" d="m0 202 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0-2.061 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0-2.061 2.873 0 0 2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0-2.061 2.872 0 0 2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0-2.062 2.873 0 0-4.122 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0 2.061 2.872 0 0 0 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0-2.061 2.873 0 0 2.061 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.061 2.872 0 0 2.061 2.872 0 0-4.123 2.873 0 0 2.062 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0-2.062 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.062 2.873 0 0-2.062 2.872 0 0-2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0 0 2.873 0 0-6.184 2.872 0 0 4.123 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.873 0 0-4.123 2.872 0 0 2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.062 2.872 0 0 0 2.873 0 0 6.183 2.872 0 0-8.245 2.873 0 0-2.061 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0 2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0-4.122 2.872 0 0-2.062 2.873 0 0 0 2.872 0 0 2.062 2.872 0 0-4.123 2.873 0 0 4.123 2.872 0 0 0 2.873 0 0 2.061 2.872 0 0-2.061 2.872 0 0-2.062 2.873 0 0-4.122 2.872 0 0-6.184 2.872 0 0-2.061 2.873 0 0-12.367 2.872 0 0 8.245 2.873 0 0-6.184 2.872 0 0-2.061 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0 10.306 2.873 0 0-4.122 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.062 2.872 0 0-2.061 2.872 0 0-8.245 2.873 0 0-2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0-4.123 2.872 0 0 4.123 2.873 0 0 0 2.872 0 0-2.061 2.872 0 0-10.307 2.873 0 0-10.306 2.872 0 0-2.061 2.873 0 0-6.184 2.872 0 0-6.183 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0-43.286 2.873 0 0-26.796 2.872 0 0-10.306 2.872 0 0-18.551 2.873 0 0 59.776 2.872 0 0-12.368 2.872 0 0-22.673 2.873 0 0 20.612 2.872 0 0 16.49 2.873 0 0 16.49 2.872 0 0 10.306 2.872 0 0 6.183 2.873 0 0-4.122 2.872 0 0 8.245 2.872 0 0 4.122 2.873 0 0-2.061 2.872 0 0 2.061 2.873 0 0 14.429 2.872 0 0 2.061 2.872 0 0-4.122 2.873 0 0-4.123 2.872 0 0 0 2.873 0 0 2.061 2.872 0 0 0 2.872 0 0-10.306 2.873 0 0 14.429 2.872 0 0 0 2.872 0 0 0 2.873 0 0 6.183 2.872 0 0-2.061 2.873 0 0 8.245 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0-4.122 2.872 0 0 0 2.872 0 0 4.122 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0" class="element"/>
+            </g>
+            <g>
+              <path fill="none" stroke="rgba(0,201,201,1)" stroke-linecap="round" stroke-width="1" d="m0 189.633 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.062 2.872 0 0 2.062 2.873 0 0 2.061 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.061 2.872 0 0 0 2.873 0 0 2.061 2.872 0 0-2.061 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 2.061 2.872 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 2.061 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 2.061 2.872 0 0-2.061 2.873 0 0-4.123 2.872 0 0 4.123 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.873 0 0 2.061 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 2.061 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0 2.061 2.872 0 0-2.061 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0-2.062 2.872 0 0 2.062 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0-2.061 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 2.061 2.873 0 0 0 2.872 0 0-2.061 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0-2.062 2.873 0 0 2.062 2.872 0 0-2.062 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 2.062 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 2.061 2.873 0 0 2.061 2.872 0 0-2.061 2.872 0 0-2.061 2.873 0 0 0 2.872 0 0 0 2.873 0 0-6.184 2.872 0 0 4.122 2.872 0 0 2.062 2.873 0 0 0 2.872 0 0 0 2.872 0 0-2.062 2.873 0 0 0 2.872 0 0 0 2.873 0 0 2.062 2.872 0 0 0 2.872 0 0-2.062 2.873 0 0 0 2.872 0 0 0 2.873 0 0 2.062 2.872 0 0 0 2.872 0 0-2.062 2.873 0 0 0 2.872 0 0 2.062 2.872 0 0-2.062 2.873 0 0 2.062 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0 0 0 2.873 0 0 0 2.872 0" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="main-layer">
+            <g fill="none" class="element" transform="matrix(1 0 0 1 442.3467 0)">
+              <g>
+                <path width="170.5" height="40" x="-178" y="10" fill="rgba(65,97,128,1)" fill-opacity=".15" d="m-176 10 166.5 0a2 2 0 0 1 2 2l0 36a2 2 0 0 1-2 2l-166.5 0a2 2 0 0 1-2-2l0-36a2 2 0 0 1 2-2z"/>
+              </g>
+              <g>
+                <text fill="rgba(44,53,66,1)" fill-opacity=".65" stroke-width="0" dominant-baseline="central" font-size="10" paint-order="stroke" style="transform:translate(-174px, 30px);"><tspan x="0" dx="0" dy="-9">2017-12-17, 受比特币影响，</tspan><tspan x="0" dx="0" dy="18">blockchain 搜索热度达到峰值：100</tspan></text>
+              </g>
+              <g>
+                <path fill="none" stroke="rgba(65,97,128,1)" stroke-opacity=".45" stroke-width="1" d="m-7.5 10 7.5-10"/>
+                <g fill="none" transform="matrix(.6 -.8 .8 .6 -7.5 10)">
+                  <g>
+                    <path fill="rgba(44,53,66,1)" fill-opacity=".65" d="M-2 0a2 2 0 1 0 4 0 2 2 0 1 0-4 0Z" class="marker path-marker"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

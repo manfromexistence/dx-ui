@@ -1,0 +1,916 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <clipPath id="b" transform="matrix(1 0 0 1 -16 -16)">
+      <use href="#a" transform="matrix(1 0 0 1 16 16)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="540.72" height="382" x="83.28" y="51" fill="rgba(0,0,0,0)" d="m83.28 51 540.72 0 0 382-540.72 0z" class="area"/>
+        </g>
+        <g>
+          <path width="540.72" height="382" x="83.28" y="51" fill="rgba(0,0,0,0)" d="m83.28 51 540.72 0 0 382-540.72 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 16 16)">
+            <g fill="none" class="legend-category">
+              <g fill="none" class="legend-title-group">
+                <g fill="none" class="legend-title"/>
+              </g>
+              <g fill="none" class="legend-items-group">
+                <g fill="none" class="legend-items">
+                  <g fill="none" class="items-navigator">
+                    <g fill="none" class="navigator-content-group" clip-path="url(#b)">
+                      <g fill="none" class="navigator-play-window">
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="50.24" height="23" fill="rgba(0,0,0,0)" d="m0 0 50.24 0 0 23-50.24 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.32322 0 0 .32322 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(23,131,255,1)" stroke-width="4" d="m-8 0 16 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">MSFT</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 62.24 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="53" height="23" fill="rgba(0,0,0,0)" d="m0 0 53 0 0 23-53 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.32322 0 0 .32322 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(0,201,201,1)" stroke-width="4" d="m-8 0 16 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">AMZN</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 127.24 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="39.08" height="23" fill="rgba(0,0,0,0)" d="m0 0 39.08 0 0 23-39.08 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.32322 0 0 .32322 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(240,136,77,1)" stroke-width="4" d="m-8 0 16 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">IBM</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 178.32 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="53.96" height="23" fill="rgba(0,0,0,0)" d="m0 0 53.96 0 0 23-53.96 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.32322 0 0 .32322 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(213,128,255,1)" stroke-width="4" d="m-8 0 16 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">GOOG</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 244.28 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="48.32" height="23" fill="rgba(0,0,0,0)" d="m0 0 48.32 0 0 23-48.32 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.32322 0 0 .32322 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(120,99,255,1)" stroke-width="4" d="m-8 0 16 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">AAPL</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="navigator-controller"/>
+                    <g>
+                      <path id="a" width="292.6" height="23" fill="none" d="m0 0 292.6 0 0 23-292.6 0z" class="navigator-clip-path"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 433 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m191.424 433 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m299.568 433 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m407.712 433 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m515.856 433 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m624 433 0-382" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="83.28" x2="624" y1="433" y2="433" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 191.424 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 299.568 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 407.712 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 515.856 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 624 433)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 83.28 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2000</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 191.424 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2002</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 299.568 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2004</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 407.712 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2006</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 515.856 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2008</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 624 441)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2010</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group"/>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 368.8017 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 297.9837 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 227.1657 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 156.3477 540.72 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m83.28 85.5297 540.72 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="83.28" x2="83.28" y1="433" y2="51" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 368.8017)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 297.9837)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 227.1657)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 156.3477)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 83.28 85.5297)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 368.8017)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">100</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 297.9837)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">200</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 227.1657)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">300</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 156.3477)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">400</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.28 85.5297)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">500</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 28.5 242)">
+              <g transform="matrix(0 -1 1 0 -7.5 .5)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">mean of price</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 83.28 51)">
+          <path width="540.72" height="382" fill="rgba(0,0,0,0)" d="m0 0 540.72 0 0 382-540.72 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="none" stroke="rgba(23,131,255,1)" stroke-linecap="round" stroke-width="1" d="m0 367.606 54.072 3.063 54.072 2.494 54.072.632 54.072-1.233 54.072-.829 54.072-.647 54.072-3.205 54.072 2.887 54.072 1.654 54.072-3.99" class="element"/>
+            </g>
+            <g>
+              <path fill="none" stroke="rgba(0,201,201,1)" stroke-linecap="round" stroke-width="1" d="m0 357.509 54.072 22.797 54.072-3.529 54.072-15.788 54.072-3.01 54.072 2.181 54.072 2.787 54.072-23.866 54.072.664 54.072-15.379 54.072-23.709" class="element"/>
+            </g>
+            <g>
+              <path fill="none" stroke="rgba(240,136,77,1)" stroke-linecap="round" stroke-width="1" d="m0 319.987 54.072-.038 54.072 15.469 54.072-1.546 54.072-4.659 54.072 4.525 54.072-.864 54.072-15.976 54.072-4.213 54.072-1.467 54.072-11.017" class="element"/>
+            </g>
+            <g>
+              <path fill="none" stroke="rgba(213,128,255,1)" stroke-linecap="round" stroke-width="1" d="m216.288 275.682 54.072-89.936 54.072-91.203 54.072-94.543 54.072 66.398 54.072 3.597 54.072-63.068" class="element"/>
+            </g>
+            <g>
+              <path fill="none" stroke="rgba(120,99,255,1)" stroke-linecap="round" stroke-width="1" d="m0 373.218 54.072 8.195 54.072.544 54.072.043 54.072-6.64 54.072-20.855 54.072-16.905 54.072-43.418 54.072-3.632 54.072-8.436 54.072-39.781" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer">
+            <g fill="none" class="label" transform="matrix(1 0 0 1 0 367.6057)">
+              <g>
+                <path width="28.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.3 0 0 19-28.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">39.81</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 54.072 370.6691)">
+              <g>
+                <path width="30" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 30 0 0 19-30 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">24.84</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 108.144 373.1625)">
+              <g>
+                <path width="29.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.3 0 0 19-29.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">25.92</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 162.216 373.7946)">
+              <g>
+                <path width="26.6" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.6 0 0 19-26.6 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">19.31</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 216.288 372.5623)">
+              <g>
+                <path width="29.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.5 0 0 19-29.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">22.69</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 270.36 371.7326)">
+              <g>
+                <path width="26.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.5 0 0 19-26.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">24.11</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 324.432 371.0864)">
+              <g>
+                <path width="28.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.2 0 0 19-28.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">26.14</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 378.504 367.8813)">
+              <g>
+                <path width="29" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29 0 0 19-29 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">29.07</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 432.576 370.7677)">
+              <g>
+                <path width="26.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.5 0 0 19-26.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">31.13</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 486.648 372.4219)">
+              <g>
+                <path width="28.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.3 0 0 19-28.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">16.63</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 527.22 368.4319)">
+              <g>
+                <path width="29.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.5 0 0 19-29.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">28.05</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 0 357.5088)">
+              <g>
+                <path width="30" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 30 0 0 19-30 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">64.56</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 54.072 380.3063)">
+              <g>
+                <path width="25.9" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 25.9 0 0 19-25.9 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">17.31</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 108.144 376.7766)">
+              <g>
+                <path width="26.8" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.8 0 0 19-26.8 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">14.19</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 162.216 360.9889)">
+              <g>
+                <path width="27.9" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 27.9 0 0 19-27.9 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">21.85</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 216.288 357.9785)">
+              <g>
+                <path width="23.4" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 23.4 0 0 19-23.4 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">50.4</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 270.36 360.1597)">
+              <g>
+                <path width="29.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.5 0 0 19-29.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">43.22</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 324.432 362.947)">
+              <g>
+                <path width="30" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 30 0 0 19-30 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">44.82</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 378.504 339.0808)">
+              <g>
+                <path width="28.6" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.6 0 0 19-28.6 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">37.67</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 432.576 339.7447)">
+              <g>
+                <path width="21.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 21.5 0 0 19-21.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">77.7</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 486.648 324.366)">
+              <g>
+                <path width="29.6" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.6 0 0 19-29.6 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">58.82</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 523.92 300.6567)">
+              <g>
+                <path width="32.8" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 32.8 0 0 19-32.8 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">125.41</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 0 319.987)">
+              <g>
+                <path width="34.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 34.2 0 0 19-34.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">100.52</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 54.072 319.9487)">
+              <g>
+                <path width="34" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 34 0 0 19-34 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">100.76</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 108.144 335.4177)">
+              <g>
+                <path width="29.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.3 0 0 19-29.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">97.54</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 162.216 333.872)">
+              <g>
+                <path width="27.1" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 27.1 0 0 19-27.1 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">71.22</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 216.288 329.2134)">
+              <g>
+                <path width="28.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.3 0 0 19-28.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">91.06</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 270.36 333.7375)">
+              <g>
+                <path width="30" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 30 0 0 19-30 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">86.39</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 324.432 332.8735)">
+              <g>
+                <path width="29.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.2 0 0 19-29.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">75.89</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 378.504 316.8976)">
+              <g>
+                <path width="29.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.3 0 0 19-29.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">93.79</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 432.576 312.6851)">
+              <g>
+                <path width="33.6" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 33.6 0 0 19-33.6 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">102.75</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 486.648 311.218)">
+              <g>
+                <path width="30.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 30.2 0 0 19-30.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">89.46</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 524.02 300.201)">
+              <g>
+                <path width="32.7" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 32.7 0 0 19-32.7 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">121.85</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 216.288 275.682)">
+              <g>
+                <path width="33.7" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 33.7 0 0 19-33.7 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">102.37</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 270.36 185.7456)">
+              <g>
+                <path width="34.4" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 34.4 0 0 19-34.4 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">195.62</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 324.432 94.5432)">
+              <g>
+                <path width="36.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 36.3 0 0 19-36.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">432.66</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 378.504 0)">
+              <g>
+                <path width="27.9" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 27.9 0 0 19-27.9 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">501.5</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 432.576 66.3984)">
+              <g>
+                <path width="29.9" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.9 0 0 19-29.9 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">564.3</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 486.648 69.9953)">
+              <g>
+                <path width="36.1" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 36.1 0 0 19-36.1 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">338.53</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 520.52 6.9272)">
+              <g>
+                <path width="36.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 36.2 0 0 19-36.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">529.94</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 0 373.218)">
+              <g>
+                <path width="29.7" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.7 0 0 19-29.7 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">25.94</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 54.072 381.4134)">
+              <g>
+                <path width="26.6" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.6 0 0 19-26.6 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">10.81</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 108.144 381.957)">
+              <g>
+                <path width="28" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28 0 0 19-28 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">12.36</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 162.216 382)">
+              <g>
+                <path width="21.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 21.2 0 0 19-21.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">7.18</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 216.288 375.3602)">
+              <g>
+                <path width="26.4" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 26.4 0 0 19-26.4 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">11.28</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 270.36 354.5055)">
+              <g>
+                <path width="29.9" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.9 0 0 19-29.9 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">38.45</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 324.432 337.6)">
+              <g>
+                <path width="27.3" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 27.3 0 0 19-27.3 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">75.51</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 378.504 294.1815)">
+              <g>
+                <path width="29.1" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 29.1 0 0 19-29.1 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">85.73</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 432.576 290.5504)">
+              <g>
+                <path width="34.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 34.5 0 0 19-34.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">135.36</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 486.648 282.1142)">
+              <g>
+                <path width="28.2" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 28.2 0 0 19-28.2 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">90.13</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 522.22 242.3333)">
+              <g>
+                <path width="34.5" height="19" x="0" y="-9.5" fill="none" d="m0-9.5 34.5 0 0 19-34.5 0z" visibility="visible"/>
+              </g>
+              <g>
+                <text fill="rgba(29,33,41,1)" fill-opacity=".65" dominant-baseline="central" dx=".5" dy="0" font-size="10" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" visibility="visible">192.06</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0" visibility="visible"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

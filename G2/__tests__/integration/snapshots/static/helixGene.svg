@@ -1,0 +1,810 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="600" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <linearGradient id="c" x1="0" x2="180.04" y1="6" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgba(255,255,255,1)"/>
+      <stop offset=".005" stop-color="rgba(255,254,254,1)"/>
+      <stop offset=".0101" stop-color="rgba(255,253,253,1)"/>
+      <stop offset=".0151" stop-color="rgba(255,252,252,1)"/>
+      <stop offset=".0201" stop-color="rgba(255,251,251,1)"/>
+      <stop offset=".0251" stop-color="rgba(255,250,250,1)"/>
+      <stop offset=".0302" stop-color="rgba(254,249,249,1)"/>
+      <stop offset=".0352" stop-color="rgba(254,249,248,1)"/>
+      <stop offset=".0402" stop-color="rgba(254,248,247,1)"/>
+      <stop offset=".0452" stop-color="rgba(254,247,246,1)"/>
+      <stop offset=".0503" stop-color="rgba(254,246,245,1)"/>
+      <stop offset=".0553" stop-color="rgba(254,245,244,1)"/>
+      <stop offset=".0603" stop-color="rgba(254,244,243,1)"/>
+      <stop offset=".0653" stop-color="rgba(254,243,242,1)"/>
+      <stop offset=".0704" stop-color="rgba(254,242,241,1)"/>
+      <stop offset=".0754" stop-color="rgba(254,241,240,1)"/>
+      <stop offset=".0804" stop-color="rgba(253,240,239,1)"/>
+      <stop offset=".0854" stop-color="rgba(253,239,238,1)"/>
+      <stop offset=".0905" stop-color="rgba(253,238,237,1)"/>
+      <stop offset=".0955" stop-color="rgba(253,238,236,1)"/>
+      <stop offset=".1005" stop-color="rgba(253,237,235,1)"/>
+      <stop offset=".1055" stop-color="rgba(253,236,234,1)"/>
+      <stop offset=".1106" stop-color="rgba(253,235,233,1)"/>
+      <stop offset=".1156" stop-color="rgba(253,234,232,1)"/>
+      <stop offset=".1206" stop-color="rgba(253,233,231,1)"/>
+      <stop offset=".1256" stop-color="rgba(253,232,230,1)"/>
+      <stop offset=".1307" stop-color="rgba(253,231,229,1)"/>
+      <stop offset=".1357" stop-color="rgba(252,230,228,1)"/>
+      <stop offset=".1407" stop-color="rgba(252,229,227,1)"/>
+      <stop offset=".1457" stop-color="rgba(252,228,226,1)"/>
+      <stop offset=".1508" stop-color="rgba(252,227,225,1)"/>
+      <stop offset=".1558" stop-color="rgba(252,226,224,1)"/>
+      <stop offset=".1608" stop-color="rgba(252,226,223,1)"/>
+      <stop offset=".1658" stop-color="rgba(252,225,222,1)"/>
+      <stop offset=".1709" stop-color="rgba(252,224,221,1)"/>
+      <stop offset=".1759" stop-color="rgba(252,223,220,1)"/>
+      <stop offset=".1809" stop-color="rgba(252,222,219,1)"/>
+      <stop offset=".1859" stop-color="rgba(251,221,218,1)"/>
+      <stop offset=".191" stop-color="rgba(251,220,217,1)"/>
+      <stop offset=".196" stop-color="rgba(251,219,216,1)"/>
+      <stop offset=".201" stop-color="rgba(251,218,215,1)"/>
+      <stop offset=".206" stop-color="rgba(251,217,214,1)"/>
+      <stop offset=".2111" stop-color="rgba(251,216,213,1)"/>
+      <stop offset=".2161" stop-color="rgba(251,215,212,1)"/>
+      <stop offset=".2211" stop-color="rgba(251,215,211,1)"/>
+      <stop offset=".2261" stop-color="rgba(251,214,210,1)"/>
+      <stop offset=".2312" stop-color="rgba(251,213,209,1)"/>
+      <stop offset=".2362" stop-color="rgba(251,212,208,1)"/>
+      <stop offset=".2412" stop-color="rgba(250,211,207,1)"/>
+      <stop offset=".2462" stop-color="rgba(250,210,206,1)"/>
+      <stop offset=".2513" stop-color="rgba(250,209,205,1)"/>
+      <stop offset=".2563" stop-color="rgba(250,208,204,1)"/>
+      <stop offset=".2613" stop-color="rgba(250,207,203,1)"/>
+      <stop offset=".2663" stop-color="rgba(250,206,202,1)"/>
+      <stop offset=".2714" stop-color="rgba(250,205,201,1)"/>
+      <stop offset=".2764" stop-color="rgba(250,204,200,1)"/>
+      <stop offset=".2814" stop-color="rgba(250,204,199,1)"/>
+      <stop offset=".2864" stop-color="rgba(250,203,198,1)"/>
+      <stop offset=".2915" stop-color="rgba(249,202,197,1)"/>
+      <stop offset=".2965" stop-color="rgba(249,201,196,1)"/>
+      <stop offset=".3015" stop-color="rgba(249,200,195,1)"/>
+      <stop offset=".3065" stop-color="rgba(249,199,194,1)"/>
+      <stop offset=".3116" stop-color="rgba(249,198,193,1)"/>
+      <stop offset=".3166" stop-color="rgba(249,197,192,1)"/>
+      <stop offset=".3216" stop-color="rgba(249,196,191,1)"/>
+      <stop offset=".3266" stop-color="rgba(249,195,190,1)"/>
+      <stop offset=".3317" stop-color="rgba(249,194,189,1)"/>
+      <stop offset=".3367" stop-color="rgba(249,193,188,1)"/>
+      <stop offset=".3417" stop-color="rgba(249,192,187,1)"/>
+      <stop offset=".3467" stop-color="rgba(248,192,186,1)"/>
+      <stop offset=".3518" stop-color="rgba(248,191,185,1)"/>
+      <stop offset=".3568" stop-color="rgba(248,190,184,1)"/>
+      <stop offset=".3618" stop-color="rgba(248,189,183,1)"/>
+      <stop offset=".3668" stop-color="rgba(248,188,182,1)"/>
+      <stop offset=".3719" stop-color="rgba(248,187,181,1)"/>
+      <stop offset=".3769" stop-color="rgba(248,186,180,1)"/>
+      <stop offset=".3819" stop-color="rgba(248,185,179,1)"/>
+      <stop offset=".3869" stop-color="rgba(248,184,178,1)"/>
+      <stop offset=".392" stop-color="rgba(248,183,177,1)"/>
+      <stop offset=".397" stop-color="rgba(247,182,176,1)"/>
+      <stop offset=".402" stop-color="rgba(247,181,175,1)"/>
+      <stop offset=".407" stop-color="rgba(247,181,174,1)"/>
+      <stop offset=".4121" stop-color="rgba(247,180,173,1)"/>
+      <stop offset=".4171" stop-color="rgba(247,179,172,1)"/>
+      <stop offset=".4221" stop-color="rgba(247,178,171,1)"/>
+      <stop offset=".4271" stop-color="rgba(247,177,170,1)"/>
+      <stop offset=".4322" stop-color="rgba(247,176,169,1)"/>
+      <stop offset=".4372" stop-color="rgba(247,175,168,1)"/>
+      <stop offset=".4422" stop-color="rgba(247,174,167,1)"/>
+      <stop offset=".4472" stop-color="rgba(247,173,166,1)"/>
+      <stop offset=".4523" stop-color="rgba(246,172,165,1)"/>
+      <stop offset=".4573" stop-color="rgba(246,171,164,1)"/>
+      <stop offset=".4623" stop-color="rgba(246,170,163,1)"/>
+      <stop offset=".4673" stop-color="rgba(246,169,162,1)"/>
+      <stop offset=".4724" stop-color="rgba(246,169,161,1)"/>
+      <stop offset=".4774" stop-color="rgba(246,168,160,1)"/>
+      <stop offset=".4824" stop-color="rgba(246,167,159,1)"/>
+      <stop offset=".4874" stop-color="rgba(246,166,158,1)"/>
+      <stop offset=".4925" stop-color="rgba(246,165,157,1)"/>
+      <stop offset=".4975" stop-color="rgba(246,164,156,1)"/>
+      <stop offset=".5025" stop-color="rgba(245,163,156,1)"/>
+      <stop offset=".5075" stop-color="rgba(245,162,155,1)"/>
+      <stop offset=".5126" stop-color="rgba(245,161,154,1)"/>
+      <stop offset=".5176" stop-color="rgba(245,160,153,1)"/>
+      <stop offset=".5226" stop-color="rgba(245,159,152,1)"/>
+      <stop offset=".5276" stop-color="rgba(245,158,151,1)"/>
+      <stop offset=".5327" stop-color="rgba(245,158,150,1)"/>
+      <stop offset=".5377" stop-color="rgba(245,157,149,1)"/>
+      <stop offset=".5427" stop-color="rgba(245,156,148,1)"/>
+      <stop offset=".5477" stop-color="rgba(245,155,147,1)"/>
+      <stop offset=".5528" stop-color="rgba(244,154,146,1)"/>
+      <stop offset=".5578" stop-color="rgba(244,153,145,1)"/>
+      <stop offset=".5628" stop-color="rgba(244,152,144,1)"/>
+      <stop offset=".5678" stop-color="rgba(244,151,143,1)"/>
+      <stop offset=".5729" stop-color="rgba(244,150,142,1)"/>
+      <stop offset=".5779" stop-color="rgba(244,149,141,1)"/>
+      <stop offset=".5829" stop-color="rgba(244,148,140,1)"/>
+      <stop offset=".5879" stop-color="rgba(244,147,139,1)"/>
+      <stop offset=".593" stop-color="rgba(244,146,138,1)"/>
+      <stop offset=".598" stop-color="rgba(244,146,137,1)"/>
+      <stop offset=".603" stop-color="rgba(244,145,136,1)"/>
+      <stop offset=".608" stop-color="rgba(243,144,135,1)"/>
+      <stop offset=".6131" stop-color="rgba(243,143,134,1)"/>
+      <stop offset=".6181" stop-color="rgba(243,142,133,1)"/>
+      <stop offset=".6231" stop-color="rgba(243,141,132,1)"/>
+      <stop offset=".6281" stop-color="rgba(243,140,131,1)"/>
+      <stop offset=".6332" stop-color="rgba(243,139,130,1)"/>
+      <stop offset=".6382" stop-color="rgba(243,138,129,1)"/>
+      <stop offset=".6432" stop-color="rgba(243,137,128,1)"/>
+      <stop offset=".6482" stop-color="rgba(243,136,127,1)"/>
+      <stop offset=".6533" stop-color="rgba(243,135,126,1)"/>
+      <stop offset=".6583" stop-color="rgba(242,135,125,1)"/>
+      <stop offset=".6633" stop-color="rgba(242,134,124,1)"/>
+      <stop offset=".6683" stop-color="rgba(242,133,123,1)"/>
+      <stop offset=".6734" stop-color="rgba(242,132,122,1)"/>
+      <stop offset=".6784" stop-color="rgba(242,131,121,1)"/>
+      <stop offset=".6834" stop-color="rgba(242,130,120,1)"/>
+      <stop offset=".6884" stop-color="rgba(242,129,119,1)"/>
+      <stop offset=".6935" stop-color="rgba(242,128,118,1)"/>
+      <stop offset=".6985" stop-color="rgba(242,127,117,1)"/>
+      <stop offset=".7035" stop-color="rgba(242,126,116,1)"/>
+      <stop offset=".7085" stop-color="rgba(242,125,115,1)"/>
+      <stop offset=".7136" stop-color="rgba(241,124,114,1)"/>
+      <stop offset=".7186" stop-color="rgba(241,123,113,1)"/>
+      <stop offset=".7236" stop-color="rgba(241,123,112,1)"/>
+      <stop offset=".7286" stop-color="rgba(241,122,111,1)"/>
+      <stop offset=".7337" stop-color="rgba(241,121,110,1)"/>
+      <stop offset=".7387" stop-color="rgba(241,120,109,1)"/>
+      <stop offset=".7437" stop-color="rgba(241,119,108,1)"/>
+      <stop offset=".7487" stop-color="rgba(241,118,107,1)"/>
+      <stop offset=".7538" stop-color="rgba(241,117,106,1)"/>
+      <stop offset=".7588" stop-color="rgba(241,116,105,1)"/>
+      <stop offset=".7638" stop-color="rgba(240,115,104,1)"/>
+      <stop offset=".7688" stop-color="rgba(240,114,103,1)"/>
+      <stop offset=".7739" stop-color="rgba(240,113,102,1)"/>
+      <stop offset=".7789" stop-color="rgba(240,112,101,1)"/>
+      <stop offset=".7839" stop-color="rgba(240,112,100,1)"/>
+      <stop offset=".7889" stop-color="rgba(240,111,99,1)"/>
+      <stop offset=".794" stop-color="rgba(240,110,98,1)"/>
+      <stop offset=".799" stop-color="rgba(240,109,97,1)"/>
+      <stop offset=".804" stop-color="rgba(240,108,96,1)"/>
+      <stop offset=".809" stop-color="rgba(240,107,95,1)"/>
+      <stop offset=".8141" stop-color="rgba(240,106,94,1)"/>
+      <stop offset=".8191" stop-color="rgba(239,105,93,1)"/>
+      <stop offset=".8241" stop-color="rgba(239,104,92,1)"/>
+      <stop offset=".8291" stop-color="rgba(239,103,91,1)"/>
+      <stop offset=".8342" stop-color="rgba(239,102,90,1)"/>
+      <stop offset=".8392" stop-color="rgba(239,101,89,1)"/>
+      <stop offset=".8442" stop-color="rgba(239,101,88,1)"/>
+      <stop offset=".8492" stop-color="rgba(239,100,87,1)"/>
+      <stop offset=".8543" stop-color="rgba(239,99,86,1)"/>
+      <stop offset=".8593" stop-color="rgba(239,98,85,1)"/>
+      <stop offset=".8643" stop-color="rgba(239,97,84,1)"/>
+      <stop offset=".8693" stop-color="rgba(238,96,83,1)"/>
+      <stop offset=".8744" stop-color="rgba(238,95,82,1)"/>
+      <stop offset=".8794" stop-color="rgba(238,94,81,1)"/>
+      <stop offset=".8844" stop-color="rgba(238,93,80,1)"/>
+      <stop offset=".8894" stop-color="rgba(238,92,79,1)"/>
+      <stop offset=".8945" stop-color="rgba(238,91,78,1)"/>
+      <stop offset=".8995" stop-color="rgba(238,90,77,1)"/>
+      <stop offset=".9045" stop-color="rgba(238,89,76,1)"/>
+      <stop offset=".9095" stop-color="rgba(238,89,75,1)"/>
+      <stop offset=".9146" stop-color="rgba(238,88,74,1)"/>
+      <stop offset=".9196" stop-color="rgba(238,87,73,1)"/>
+      <stop offset=".9246" stop-color="rgba(237,86,72,1)"/>
+      <stop offset=".9296" stop-color="rgba(237,85,71,1)"/>
+      <stop offset=".9347" stop-color="rgba(237,84,70,1)"/>
+      <stop offset=".9397" stop-color="rgba(237,83,69,1)"/>
+      <stop offset=".9447" stop-color="rgba(237,82,68,1)"/>
+      <stop offset=".9497" stop-color="rgba(237,81,67,1)"/>
+      <stop offset=".9548" stop-color="rgba(237,80,66,1)"/>
+      <stop offset=".9598" stop-color="rgba(237,79,65,1)"/>
+      <stop offset=".9648" stop-color="rgba(237,78,64,1)"/>
+      <stop offset=".9698" stop-color="rgba(237,78,63,1)"/>
+      <stop offset=".9749" stop-color="rgba(236,77,62,1)"/>
+      <stop offset=".9799" stop-color="rgba(236,76,61,1)"/>
+      <stop offset=".9849" stop-color="rgba(236,75,60,1)"/>
+      <stop offset=".9899" stop-color="rgba(236,74,59,1)"/>
+      <stop offset=".995" stop-color="rgba(236,73,58,1)"/>
+      <stop offset="1" stop-color="rgba(236,72,57,1)"/>
+    </linearGradient>
+    <clipPath id="b" transform="matrix(1 0 0 1 -25.98 -43)">
+      <use href="#a" transform="matrix(1 0 0 1 25.98 43)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="600" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 600-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="568" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 568-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="496" x="16" y="88" fill="rgba(0,0,0,0)" d="m16 88 608 0 0 496-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="496" x="16" y="88" fill="rgba(0,0,0,0)" d="m16 88 608 0 0 496-608 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 16 16)">
+            <g fill="none" class="legend-continuous">
+              <g fill="none" class="legend-title">
+                <g>
+                  <text x="0" y="0" fill="rgba(44,53,66,1)" fill-opacity=".9" class="title-text" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left">logFPKM</text>
+                </g>
+              </g>
+              <g fill="none" class="legend-content-group" transform="matrix(1 0 0 1 0 27)">
+                <g fill="none" class="legend-ribbon-group">
+                  <g fill="none" class="legend-ribbon" transform="matrix(1 0 0 1 9.98 0)">
+                    <g fill="none" class="ribbon-background-group">
+                      <g>
+                        <path fill="rgba(229,229,229,1)" d="m0 12 0-12 180.04 0 0 12Z" class="ribbon-background"/>
+                      </g>
+                    </g>
+                    <g fill="none" class="ribbon-ribbon-group">
+                      <g clip-path="url(#b)">
+                        <path fill="url(#c)" d="m0 12 0-12 180.04 0 0 12Z" class="ribbon-ribbon"/>
+                        <g>
+                          <path id="a" fill="none" d="m0 0 0 12 180.04 0 0-12Z" class="ribbon-clip-path"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g fill="none" class="legend-label-group">
+                  <g fill="none" class="legend-label">
+                    <g fill="none" class="axis-grid-group"/>
+                    <g fill="none" class="axis-main-group">
+                      <g fill="none" class="axis-line-group"/>
+                      <g fill="none" class="axis-tick-group">
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 18.3722 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 47.9015 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 77.4307 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 106.96 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 136.4893 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 166.0185 12)">
+                          <g>
+                            <line x1="0" x2="0" y1="0" y2="-12" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width="1" class="axis-tick-item"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g fill="none" class="axis-label-group">
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 18.3722 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">1.6</text>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 47.9015 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">1.8</text>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 77.4307 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2</text>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 106.96 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2.2</text>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 136.4893 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2.4</text>
+                          </g>
+                        </g>
+                        <g fill="none" class="axis-label" transform="matrix(1 0 0 1 166.0185 17)">
+                          <g>
+                            <text fill="rgba(29,33,41,1)" fill-opacity=".45" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2.6</text>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="axis-title-group"/>
+                  </g>
+                </g>
+                <g fill="none" class="legend-handles-group">
+                  <g fill="none" class="legend-handle legend-start-handle" transform="matrix(1 0 0 1 9.98 6)">
+                    <g fill="none" class="handle-icon-group">
+                      <g fill="none" class="handle-icon">
+                        <g>
+                          <path width="6.6667" height="16" x="-3.3333" y="-8" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" d="m-1.3333-8 2.6666 0a2 2 0 0 1 2 2l0 12a2 2 0 0 1-2 2l-2.6666 0a2 2 0 0 1-2-2l0-12a2 2 0 0 1 2-2z" class="handle-icon-rect"/>
+                          <g>
+                            <line x1="-1.1111" x2="-1.1111" y1="-4" y2="4" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" class="handle-icon-line-1"/>
+                          </g>
+                          <g>
+                            <line x1="1.1111" x2="1.1111" y1="-4" y2="4" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" class="handle-icon-line-2"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="handle-label-group"/>
+                  </g>
+                  <g fill="none" class="legend-handle legend-end-handle" transform="matrix(1 0 0 1 190.02 6)">
+                    <g fill="none" class="handle-icon-group">
+                      <g fill="none" class="handle-icon">
+                        <g>
+                          <path width="6.6667" height="16" x="-3.3333" y="-8" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" d="m-1.3333-8 2.6666 0a2 2 0 0 1 2 2l0 12a2 2 0 0 1-2 2l-2.6666 0a2 2 0 0 1-2-2l0-12a2 2 0 0 1 2-2z" class="handle-icon-rect"/>
+                          <g>
+                            <line x1="-1.1111" x2="-1.1111" y1="-4" y2="4" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" class="handle-icon-line-1"/>
+                          </g>
+                          <g>
+                            <line x1="1.1111" x2="1.1111" y1="-4" y2="4" fill="rgba(255,255,255,1)" stroke="rgba(191,191,191,1)" stroke-width="1" class="handle-icon-line-2"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="handle-label-group"/>
+                  </g>
+                </g>
+                <g fill="none" class="legend-indicator">
+                  <g fill="none">
+                    <g>
+                      <path fill="rgba(38,38,38,1)" stroke="rgba(51,51,51,1)" stroke-linecap="round" stroke-width="1" d="m-4-2 8 0a0 0 0 0 1 0 0l0 4a0 0 0 0 1 0 0l-8 0a0 0 0 0 1 0 0l0 0 0 3-6.9282-5 6.9282-5 0 3a0 0 0 0 1 0 0Z" class="indicator-background" visibility="hidden"/>
+                    </g>
+                    <g fill="none" class="indicator-label-group"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 16 88)">
+          <path width="608" height="496" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 496-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,207,203,1)" fill-opacity=".95" stroke="rgba(250,207,203,1)" stroke-width="0" d="M58.34 44.884a73.608 73.608 0 0 1-12.748 12.904l-21.469-27.212a38.947 38.947 0 0 0 6.745-6.828Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,161,153,1)" fill-opacity=".95" stroke="rgba(245,161,153,1)" stroke-width="0" d="M44.604 34.316a56.277 56.277 0 0 1-9.746 9.866l-10.735-13.606a38.947 38.947 0 0 0 6.745-6.828Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,164,157,1)" fill-opacity=".95" stroke="rgba(246,164,157,1)" stroke-width="0" d="M45.36 60.858a75.903 75.903 0 0 1-16.26 9.245l-13.289-32.013a41.241 41.241 0 0 0 8.835-5.023Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,145,136,1)" fill-opacity=".95" stroke="rgba(244,145,136,1)" stroke-width="0" d="M35.003 46.962a58.572 58.572 0 0 1-12.547 7.134l-6.645-16.006a41.241 41.241 0 0 0 8.835-5.023Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,198,194,1)" fill-opacity=".95" stroke="rgba(249,198,194,1)" stroke-width="0" d="M27.986 73.018a78.197 78.197 0 0 1-18.706 4.627l-4.113-34.417a43.536 43.536 0 0 0 10.414-2.576Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,112,100,1)" fill-opacity=".95" stroke="rgba(240,112,100,1)" stroke-width="0" d="M21.784 56.835a60.866 60.866 0 0 1-14.561 3.601l-2.056-17.208a43.536 43.536 0 0 0 10.414-2.576Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,179,173,1)" fill-opacity=".95" stroke="rgba(247,179,173,1)" stroke-width="0" d="M7.355 80.155a80.492 80.492 0 0 1-19.825-.635l5.37-34.243a45.83 45.83 0 0 0 11.288.361Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,144,135,1)" fill-opacity=".95" stroke="rgba(243,144,135,1)" stroke-width="0" d="M5.771 62.897a63.161 63.161 0 0 1-15.556-.499l2.685-17.121a45.83 45.83 0 0 0 11.288.361Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,162,154,1)" fill-opacity=".95" stroke="rgba(245,162,154,1)" stroke-width="0" d="M-15.066 81.404a82.786 82.786 0 0 1-19.45-6.156l14.452-31.506a48.124 48.124 0 0 0 11.306 3.579Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,110,98,1)" fill-opacity=".95" stroke="rgba(240,110,98,1)" stroke-width="0" d="M-11.912 64.362a65.455 65.455 0 0 1-15.378-4.867l7.226-15.753a48.124 48.124 0 0 0 11.306 3.579Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,182,176,1)" fill-opacity=".95" stroke="rgba(247,182,176,1)" stroke-width="0" d="M-37.582 76.33a85.081 85.081 0 0 1-17.525-11.508l22.45-26.408a50.419 50.419 0 0 0 10.386 6.82Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,120,109,1)" fill-opacity=".95" stroke="rgba(241,120,109,1)" stroke-width="0" d="M-29.926 60.782a67.75 67.75 0 0 1-13.956-9.164l11.225-13.204a50.419 50.419 0 0 0 10.386 6.82Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,179,172,1)" fill-opacity=".95" stroke="rgba(247,179,172,1)" stroke-width="0" d="M-58.399 64.992a87.375 87.375 0 0 1-14.121-16.255l28.769-19.334a52.713 52.713 0 0 0 8.519 9.807Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,126,115,1)" fill-opacity=".95" stroke="rgba(242,126,115,1)" stroke-width="0" d="M-46.816 52.101a70.044 70.044 0 0 1-11.32-13.031l14.385-9.667a52.713 52.713 0 0 0 8.519 9.807Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,164,156,1)" fill-opacity=".95" stroke="rgba(246,164,156,1)" stroke-width="0" d="M-75.769 47.955a89.669 89.669 0 0 1-9.427-19.986l32.933-10.811a55.008 55.008 0 0 0 5.782 12.26Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,122,112,1)" fill-opacity=".95" stroke="rgba(241,122,112,1)" stroke-width="0" d="M-61.125 38.686a72.339 72.339 0 0 1-7.605-16.122l16.467-5.406a55.008 55.008 0 0 0 5.782 12.26Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,169,162,1)" fill-opacity=".95" stroke="rgba(246,169,162,1)" stroke-width="0" d="M-88.13 26.276a91.964 91.964 0 0 1-3.75-22.35l34.63-1.48a57.302 57.302 0 0 0 2.336 13.926Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(239,100,87,1)" fill-opacity=".95" stroke="rgba(239,100,87,1)" stroke-width="0" d="M-71.522 21.324a74.633 74.633 0 0 1-3.043-18.138l17.315-.74a57.302 57.302 0 0 0 2.336 13.926Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,147,138,1)" fill-opacity=".95" stroke="rgba(244,147,138,1)" stroke-width="0" d="M-94.247 1.437a94.258 94.258 0 0 1 2.51-23.092l33.734 7.963a59.597 59.597 0 0 0-1.587 14.601Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,111,99,1)" fill-opacity=".95" stroke="rgba(240,111,99,1)" stroke-width="0" d="M-76.919 1.173a76.928 76.928 0 0 1 2.049-18.846l16.867 3.981a59.597 59.597 0 0 0-1.587 14.601Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,170,163,1)" fill-opacity=".95" stroke="rgba(246,170,163,1)" stroke-width="0" d="M-93.326-24.753a96.553 96.553 0 0 1 8.887-22.071l30.313 16.809a61.891 61.891 0 0 0-5.697 14.148Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(238,88,74,1)" fill-opacity=".95" stroke="rgba(238,88,74,1)" stroke-width="0" d="M-76.574-20.31a79.222 79.222 0 0 1 7.291-18.109l15.157 8.404a61.891 61.891 0 0 0-5.697 14.148Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,142,133,1)" fill-opacity=".95" stroke="rgba(243,142,133,1)" stroke-width="0" d="M-85.097-50.291a98.847 98.847 0 0 1 14.882-19.284l24.622 24.397a64.186 64.186 0 0 0-9.664 12.522Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,117,105,1)" fill-opacity=".95" stroke="rgba(241,117,105,1)" stroke-width="0" d="M-70.177-41.474a81.517 81.517 0 0 1 12.273-15.903l12.311 12.199a64.186 64.186 0 0 0-9.664 12.522Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,157,149,1)" fill-opacity=".95" stroke="rgba(245,157,149,1)" stroke-width="0" d="M-69.863-73.135a101.142 101.142 0 0 1 20.006-14.865l17.086 30.158a66.48 66.48 0 0 0-13.15 9.77Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(237,77,63,1)" fill-opacity=".95" stroke="rgba(237,77,63,1)" stroke-width="0" d="M-57.892-60.603a83.811 83.811 0 0 1 16.578-12.318l8.543 15.079a66.48 66.48 0 0 0-13.15 9.77Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,115,104,1)" fill-opacity=".95" stroke="rgba(240,115,104,1)" stroke-width="0" d="M-48.498-91.362a103.436 103.436 0 0 1 23.815-9.086l8.271 33.66a68.775 68.775 0 0 0-15.835 6.042Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,107,95,1)" fill-opacity=".95" stroke="rgba(240,107,95,1)" stroke-width="0" d="M-40.373-76.054a86.105 86.105 0 0 1 19.825-7.564l4.136 16.83a68.775 68.775 0 0 0-15.835 6.042Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,142,132,1)" fill-opacity=".95" stroke="rgba(243,142,132,1)" stroke-width="0" d="M-22.403-103.33a105.731 105.731 0 0 1 25.95-2.341l-1.163 34.642a71.069 71.069 0 0 0-17.443 1.574Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(238,95,82,1)" fill-opacity=".95" stroke="rgba(238,95,82,1)" stroke-width="0" d="M-18.731-86.393a88.4 88.4 0 0 1 21.696-1.957l-.581 17.321a71.069 71.069 0 0 0-17.443 1.574Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,158,150,1)" fill-opacity=".95" stroke="rgba(245,158,150,1)" stroke-width="0" d="M6.586-107.824a108.025 108.025 0 0 1 26.168 4.884l-10.509 33.03a73.364 73.364 0 0 0-17.772-3.317Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(238,94,81,1)" fill-opacity=".95" stroke="rgba(238,94,81,1)" stroke-width="0" d="M5.529-90.526a90.694 90.694 0 0 1 21.97 4.101l-5.254 16.515a73.364 73.364 0 0 0-17.772-3.317Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,165,158,1)" fill-opacity=".95" stroke="rgba(246,165,158,1)" stroke-width="0" d="M36.323-104.168a110.32 110.32 0 0 1 24.371 12.045l-19.069 28.945a75.658 75.658 0 0 0-16.715-8.261Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,116,104,1)" fill-opacity=".95" stroke="rgba(241,116,104,1)" stroke-width="0" d="M30.617-87.804a92.989 92.989 0 0 1 20.543 10.153l-9.535 14.473a75.658 75.658 0 0 0-16.715-8.261Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,131,121,1)" fill-opacity=".95" stroke="rgba(242,131,121,1)" stroke-width="0" d="M64.515-92.303a112.614 112.614 0 0 1 20.613 18.58l-26.201 22.691a77.952 77.952 0 0 0-14.269-12.861Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(239,99,87,1)" fill-opacity=".95" stroke="rgba(239,99,87,1)" stroke-width="0" d="M54.586-78.098a95.283 95.283 0 0 1 17.442 15.721l-13.101 11.345a77.952 77.952 0 0 0-14.269-12.861Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,163,156,1)" fill-opacity=".95" stroke="rgba(245,163,156,1)" stroke-width="0" d="M88.895-72.813a114.909 114.909 0 0 1 15.107 23.951l-31.372 14.739a80.247 80.247 0 0 0-10.55-16.726Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(236,76,61,1)" fill-opacity=".95" stroke="rgba(236,76,61,1)" stroke-width="0" d="M75.488-61.831a97.578 97.578 0 0 1 12.828 20.338l-15.686 7.37a80.247 80.247 0 0 0-10.55-16.726Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,129,119,1)" fill-opacity=".95" stroke="rgba(242,129,119,1)" stroke-width="0" d="M107.407-46.908a117.203 117.203 0 0 1 8.21 27.691l-34.193 5.683a82.541 82.541 0 0 0-5.782-19.501Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(236,72,57,1)" fill-opacity=".95" stroke="rgba(236,72,57,1)" stroke-width="0" d="M91.525-39.971a99.872 99.872 0 0 1 6.996 23.596l-17.097 2.841a82.541 82.541 0 0 0-5.782-19.501Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,153,145,1)" fill-opacity=".95" stroke="rgba(244,153,145,1)" stroke-width="0" d="M118.374-16.35a119.497 119.497 0 0 1 .404 29.445l-34.453-3.798a84.836 84.836 0 0 0-.287-20.905Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(237,81,67,1)" fill-opacity=".95" stroke="rgba(237,81,67,1)" stroke-width="0" d="M101.206-13.979a102.167 102.167 0 0 1 .345 25.175l-17.226-1.899a84.836 84.836 0 0 0-.287-20.905Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,170,163,1)" fill-opacity=".95" stroke="rgba(246,170,163,1)" stroke-width="0" d="M120.647 16.664a121.792 121.792 0 0 1-7.739 28.998l-32.133-12.995a87.13 87.13 0 0 0 5.536-20.746Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,109,97,1)" fill-opacity=".95" stroke="rgba(240,109,97,1)" stroke-width="0" d="M103.479 14.293a104.461 104.461 0 0 1-6.638 24.872l-16.066-6.498a87.13 87.13 0 0 0 5.536-20.746Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,157,149,1)" fill-opacity=".95" stroke="rgba(245,157,149,1)" stroke-width="0" d="M113.715 49.662a124.086 124.086 0 0 1-15.598 26.302l-27.407-21.22a89.425 89.425 0 0 0 11.24-18.954Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,116,104,1)" fill-opacity=".95" stroke="rgba(241,116,104,1)" stroke-width="0" d="M97.833 42.726a106.756 106.756 0 0 1-13.42 22.628l-13.703-10.61a89.425 89.425 0 0 0 11.24-18.954Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,179,173,1)" fill-opacity=".95" stroke="rgba(247,179,173,1)" stroke-width="0" d="M97.77 80.082a126.381 126.381 0 0 1-22.553 21.478l-20.629-27.854a91.719 91.719 0 0 0 16.367-15.588Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,130,120,1)" fill-opacity=".95" stroke="rgba(242,130,120,1)" stroke-width="0" d="M84.363 69.1a109.05 109.05 0 0 1-19.46 18.533l-10.315-13.927a91.719 91.719 0 0 0 16.367-15.588Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,152,144,1)" fill-opacity=".95" stroke="rgba(244,152,144,1)" stroke-width="0" d="M73.716 105.467a128.675 128.675 0 0 1-28.031 14.825l-12.306-32.403a94.014 94.014 0 0 0 20.48-10.832Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,113,101,1)" fill-opacity=".95" stroke="rgba(240,113,101,1)" stroke-width="0" d="M63.787 91.262a111.344 111.344 0 0 1-24.255 12.828l-6.153-16.201a94.014 94.014 0 0 0 20.48-10.832Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,186,180,1)" fill-opacity=".95" stroke="rgba(248,186,180,1)" stroke-width="0" d="M43.122 123.667a130.97 130.97 0 0 1-31.552 6.791l-3.062-34.526a96.308 96.308 0 0 0 23.202-4.994Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,120,109,1)" fill-opacity=".95" stroke="rgba(241,120,109,1)" stroke-width="0" d="M37.416 107.303a113.639 113.639 0 0 1-27.377 5.892l-1.531-17.263a96.308 96.308 0 0 0 23.202-4.994Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,150,141,1)" fill-opacity=".95" stroke="rgba(244,150,141,1)" stroke-width="0" d="M8.124 133.016a133.264 133.264 0 0 1-32.776-2.052l6.412-34.063a98.603 98.603 0 0 0 24.251 1.518Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(239,104,92,1)" fill-opacity=".95" stroke="rgba(239,104,92,1)" stroke-width="0" d="M7.068 115.718a115.933 115.933 0 0 1-28.514-1.785l3.206-17.032a98.603 98.603 0 0 0 24.251 1.518Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,181,175,1)" fill-opacity=".95" stroke="rgba(247,181,175,1)" stroke-width="0" d="M-28.723 132.481a135.559 135.559 0 0 1-31.526-11.047l15.405-31.05a100.897 100.897 0 0 0 23.465 8.222Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,126,116,1)" fill-opacity=".95" stroke="rgba(242,126,116,1)" stroke-width="0" d="M-25.051 115.543a118.228 118.228 0 0 1-27.496-9.634l7.703-15.525a100.897 100.897 0 0 0 23.465 8.222Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,201,196,1)" fill-opacity=".95" stroke="rgba(249,201,196,1)" stroke-width="0" d="M-64.636 121.761a137.853 137.853 0 0 1-27.814-19.504l23.246-25.711a103.192 103.192 0 0 0 20.82 14.6Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,129,119,1)" fill-opacity=".95" stroke="rgba(242,129,119,1)" stroke-width="0" d="M-56.51 106.453a120.522 120.522 0 0 1-24.317-17.052l11.623-12.855a103.192 103.192 0 0 0 20.82 14.6Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,195,190,1)" fill-opacity=".95" stroke="rgba(249,195,190,1)" stroke-width="0" d="M-96.807 101.34a140.148 140.148 0 0 1-21.843-26.751l29.345-18.448a105.486 105.486 0 0 0 16.441 20.135Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,136,127,1)" fill-opacity=".95" stroke="rgba(243,136,127,1)" stroke-width="0" d="M-84.835 88.808a122.817 122.817 0 0 1-19.143-23.443l14.673-9.224a105.486 105.486 0 0 0 16.441 20.135Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,202,198,1)" fill-opacity=".95" stroke="rgba(250,202,198,1)" stroke-width="0" d="M-122.628 72.472a142.442 142.442 0 0 1-14-32.19l33.247-9.802a107.78 107.78 0 0 0 10.593 24.356Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,121,110,1)" fill-opacity=".95" stroke="rgba(241,121,110,1)" stroke-width="0" d="M-107.708 63.654a125.111 125.111 0 0 1-12.296-28.273l16.623-4.901a107.78 107.78 0 0 0 10.593 24.356Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,173,167,1)" fill-opacity=".95" stroke="rgba(247,173,167,1)" stroke-width="0" d="M-139.9 37.105a144.737 144.737 0 0 1-4.826-35.339l34.659-.423a110.075 110.075 0 0 0 3.671 26.876Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,142,133,1)" fill-opacity=".95" stroke="rgba(243,142,133,1)" stroke-width="0" d="M-123.148 32.662a127.406 127.406 0 0 1-4.248-31.108l17.329-.211a110.075 110.075 0 0 0 3.671 26.876Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,175,168,1)" fill-opacity=".95" stroke="rgba(247,175,168,1)" stroke-width="0" d="M-147.014-2.242a147.031 147.031 0 0 1 5.012-35.885l33.476 8.988a112.369 112.369 0 0 0-3.83 27.425Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,158,150,1)" fill-opacity=".95" stroke="rgba(245,158,150,1)" stroke-width="0" d="M-129.685-1.978a129.7 129.7 0 0 1 4.421-31.655l16.738 4.494a112.369 112.369 0 0 0-3.83 27.425Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,204,200,1)" fill-opacity=".95" stroke="rgba(250,204,200,1)" stroke-width="0" d="M-143.101-42.665a149.325 149.325 0 0 1 14.779-33.7l29.787 17.726a114.664 114.664 0 0 0-11.349 25.877Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,168,161,1)" fill-opacity=".95" stroke="rgba(246,168,161,1)" stroke-width="0" d="M-126.492-37.714a131.995 131.995 0 0 1 13.064-29.788l14.893 8.863a114.664 114.664 0 0 0-11.349 25.877Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,181,175,1)" fill-opacity=".95" stroke="rgba(247,181,175,1)" stroke-width="0" d="M-128.116-81.086a151.62 151.62 0 0 1 23.72-28.869l23.866 25.137a116.958 116.958 0 0 0-18.298 22.269Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,135,125,1)" fill-opacity=".95" stroke="rgba(243,135,125,1)" stroke-width="0" d="M-113.472-71.817a134.289 134.289 0 0 1 21.009-25.569l11.933 12.568a116.958 116.958 0 0 0-18.298 22.269Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(253,231,229,1)" fill-opacity=".95" stroke="rgba(253,231,229,1)" stroke-width="0" d="M-102.872-114.485a153.914 153.914 0 0 1 31.121-21.682l16.158 30.665a119.253 119.253 0 0 0-24.113 16.799Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,180,174,1)" fill-opacity=".95" stroke="rgba(247,180,174,1)" stroke-width="0" d="M-91.289-101.594a136.584 136.584 0 0 1 27.617-19.24l8.079 15.332a119.253 119.253 0 0 0-24.113 16.799Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(252,223,220,1)" fill-opacity=".95" stroke="rgba(252,223,220,1)" stroke-width="0" d="M-69-140.143a156.209 156.209 0 0 1 36.367-12.619l7.241 33.897a121.547 121.547 0 0 0-28.298 9.818Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,166,159,1)" fill-opacity=".95" stroke="rgba(246,166,159,1)" stroke-width="0" d="M-61.345-124.595a138.878 138.878 0 0 1 32.333-11.219l3.62 16.949a121.547 121.547 0 0 0-28.298 9.818Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,186,180,1)" fill-opacity=".95" stroke="rgba(248,186,180,1)" stroke-width="0" d="M-28.845-155.856a158.503 158.503 0 0 1 38.99-2.322l-2.218 34.59a123.842 123.842 0 0 0-30.464 1.814Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,191,186,1)" fill-opacity=".95" stroke="rgba(248,191,186,1)" stroke-width="0" d="M-25.691-138.815a141.172 141.172 0 0 1 34.727-2.068l-1.109 17.295a123.842 123.842 0 0 0-30.464 1.814Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,201,197,1)" fill-opacity=".95" stroke="rgba(249,201,197,1)" stroke-width="0" d="M14.693-160.125a160.798 160.798 0 0 1 38.713 8.455l-11.513 32.694a126.136 126.136 0 0 0-30.367-6.632Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,152,144,1)" fill-opacity=".95" stroke="rgba(244,152,144,1)" stroke-width="0" d="M13.109-142.867a143.467 143.467 0 0 1 34.541 7.544l-5.757 16.347a126.136 126.136 0 0 0-30.367-6.632Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(253,234,232,1)" fill-opacity=".95" stroke="rgba(253,234,232,1)" stroke-width="0" d="M58.37-152.289a163.092 163.092 0 0 1 35.47 18.898l-19.944 28.349a128.431 128.431 0 0 0-27.932-14.882Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,179,172,1)" fill-opacity=".95" stroke="rgba(247,179,172,1)" stroke-width="0" d="M52.167-136.107a145.761 145.761 0 0 1 31.701 16.891l-9.972 14.174a128.431 128.431 0 0 0-27.932-14.882Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,198,193,1)" fill-opacity=".95" stroke="rgba(249,198,193,1)" stroke-width="0" d="M98.837-132.605a165.387 165.387 0 0 1 29.428 28.197l-26.882 21.882a130.725 130.725 0 0 0-23.26-22.287Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,148,140,1)" fill-opacity=".95" stroke="rgba(244,148,140,1)" stroke-width="0" d="M88.48-118.709a148.056 148.056 0 0 1 26.344 25.242l-13.441 10.941a130.725 130.725 0 0 0-23.26-22.287Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(252,222,219,1)" fill-opacity=".95" stroke="rgba(252,222,219,1)" stroke-width="0" d="M132.901-102.247a167.681 167.681 0 0 1 20.969 35.606l-31.807 13.775a133.019 133.019 0 0 0-16.635-28.245Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,167,160,1)" fill-opacity=".95" stroke="rgba(246,167,160,1)" stroke-width="0" d="M119.165-91.679a150.35 150.35 0 0 1 18.801 31.926l-15.903 6.887a133.019 133.019 0 0 0-16.635-28.245Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,202,197,1)" fill-opacity=".95" stroke="rgba(249,202,197,1)" stroke-width="0" d="M157.771-63.246a169.976 169.976 0 0 1 10.676 40.503l-34.35 4.638a135.314 135.314 0 0 0-8.499-32.244Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,201,197,1)" fill-opacity=".95" stroke="rgba(249,201,197,1)" stroke-width="0" d="M141.684-56.798a152.645 152.645 0 0 1 9.588 36.374l-17.175 2.319a135.314 135.314 0 0 0-8.499-32.244Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,216,213,1)" fill-opacity=".95" stroke="rgba(251,216,213,1)" stroke-width="0" d="M171.289-18.355a172.27 172.27 0 0 1-.712 42.446l-34.321-4.847a137.608 137.608 0 0 0 .569-33.906Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,204,200,1)" fill-opacity=".95" stroke="rgba(250,204,200,1)" stroke-width="0" d="M154.057-16.509a154.939 154.939 0 0 1-.64 38.176l-17.161-2.423a137.608 137.608 0 0 0 .569-33.906Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(254,250,249,1)" fill-opacity=".95" stroke="rgba(254,250,249,1)" stroke-width="0" d="M172.114 29.147a174.565 174.565 0 0 1-12.354 41.206l-31.722-13.97a139.903 139.903 0 0 0 9.901-33.024Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,185,180,1)" fill-opacity=".95" stroke="rgba(248,185,180,1)" stroke-width="0" d="M155.026 26.253a157.234 157.234 0 0 1-11.127 37.115l-15.861-6.985a139.903 139.903 0 0 0 9.901-33.024Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(253,236,234,1)" fill-opacity=".95" stroke="rgba(253,236,234,1)" stroke-width="0" d="M159.843 75.693a176.859 176.859 0 0 1-23.365 36.792l-26.747-22.046a142.197 142.197 0 0 0 18.785-29.581Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,214,211,1)" fill-opacity=".95" stroke="rgba(251,214,211,1)" stroke-width="0" d="M144.179 68.276a159.528 159.528 0 0 1-21.075 33.186l-13.373-11.023a142.197 142.197 0 0 0 18.785-29.581Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,203,198,1)" fill-opacity=".95" stroke="rgba(250,203,198,1)" stroke-width="0" d="M135.069 117.696a179.153 179.153 0 0 1-32.884 29.457l-19.77-28.47a144.492 144.492 0 0 0 26.522-23.759Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,211,207,1)" fill-opacity=".95" stroke="rgba(250,211,207,1)" stroke-width="0" d="M122.003 106.31a161.823 161.823 0 0 1-29.703 26.608l-9.885-14.235a144.492 144.492 0 0 0 26.522-23.759Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,203,199,1)" fill-opacity=".95" stroke="rgba(250,203,199,1)" stroke-width="0" d="M99.364 151.822a181.448 181.448 0 0 1-40.145 19.69l-11.312-32.763a146.786 146.786 0 0 0 32.476-15.929Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,181,175,1)" fill-opacity=".95" stroke="rgba(247,181,175,1)" stroke-width="0" d="M89.874 137.321a164.117 164.117 0 0 1-36.311 17.809l-5.656-16.381a146.786 146.786 0 0 0 32.476-15.929Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(253,240,239,1)" fill-opacity=".95" stroke="rgba(253,240,239,1)" stroke-width="0" d="M55.178 175.262a183.742 183.742 0 0 1-44.536 8.172l-2.007-34.604a149.081 149.081 0 0 0 36.134-6.63Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,172,165,1)" fill-opacity=".95" stroke="rgba(246,172,165,1)" stroke-width="0" d="M49.974 158.731a166.412 166.412 0 0 1-40.336 7.401l-1.003-17.302a149.081 149.081 0 0 0 36.134-6.63Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(252,222,219,1)" fill-opacity=".95" stroke="rgba(252,222,219,1)" stroke-width="0" d="M5.673 185.95a186.037 186.037 0 0 1-45.646-4.258l7.447-33.852a151.375 151.375 0 0 0 37.142 3.465Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,203,199,1)" fill-opacity=".95" stroke="rgba(250,203,199,1)" stroke-width="0" d="M5.145 168.628a168.706 168.706 0 0 1-41.394-3.862l3.723-16.926a151.375 151.375 0 0 0 37.142 3.465Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(255,255,255,1)" fill-opacity=".95" stroke="rgba(255,255,255,1)" stroke-width="0" d="M-45.5 182.752a188.331 188.331 0 0 1-43.31-16.676l16.345-30.565a153.67 153.67 0 0 0 35.339 13.607Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,203,199,1)" fill-opacity=".95" stroke="rgba(250,203,199,1)" stroke-width="0" d="M-41.313 165.935a171 171 0 0 1-39.325-15.141l8.173-15.283a153.67 153.67 0 0 0 35.339 13.607Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,201,197,1)" fill-opacity=".95" stroke="rgba(249,201,197,1)" stroke-width="0" d="M-94.472 165.569a190.626 190.626 0 0 1-37.622-28.131l24.019-24.99a155.964 155.964 0 0 0 30.781 23.016Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,198,194,1)" fill-opacity=".95" stroke="rgba(249,198,194,1)" stroke-width="0" d="M-85.883 150.516a173.295 173.295 0 0 1-34.202-25.573l12.01-12.495a155.964 155.964 0 0 0 30.781 23.016Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,219,216,1)" fill-opacity=".95" stroke="rgba(251,219,216,1)" stroke-width="0" d="M-137.451 135.371a192.92 192.92 0 0 1-28.932-37.724l29.894-17.544a158.259 158.259 0 0 0 23.733 30.946Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,151,143,1)" fill-opacity=".95" stroke="rgba(244,151,143,1)" stroke-width="0" d="M-125.104 123.21a175.589 175.589 0 0 1-26.332-34.335l14.947-8.772a158.259 158.259 0 0 0 23.733 30.946Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,211,208,1)" fill-opacity=".95" stroke="rgba(250,211,208,1)" stroke-width="0" d="M-171.011 94.15a195.215 195.215 0 0 1-17.831-44.68l33.53-8.784a160.553 160.553 0 0 0 14.666 36.747Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,192,187,1)" fill-opacity=".95" stroke="rgba(248,192,187,1)" stroke-width="0" d="M-155.828 85.791a177.884 177.884 0 0 1-16.249-40.713l16.765-4.392a160.553 160.553 0 0 0 14.666 36.747Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,221,218,1)" fill-opacity=".95" stroke="rgba(251,221,218,1)" stroke-width="0" d="M-192.364 44.789a197.509 197.509 0 0 1-5.112-48.403l34.656.634a162.847 162.847 0 0 0 4.215 39.908Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(250,206,202,1)" fill-opacity=".95" stroke="rgba(250,206,202,1)" stroke-width="0" d="M-175.484 40.858a180.178 180.178 0 0 1-4.664-44.155l17.328.317a162.847 162.847 0 0 0 4.215 39.908Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,218,215,1)" fill-opacity=".95" stroke="rgba(251,218,215,1)" stroke-width="0" d="M-199.595-9.138a199.804 199.804 0 0 1 8.296-48.534l33.186 10.005a165.142 165.142 0 0 0-6.856 40.114Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,184,178,1)" fill-opacity=".95" stroke="rgba(248,184,178,1)" stroke-width="0" d="M-182.282-8.345a182.473 182.473 0 0 1 7.576-44.324l16.593 5.002a165.142 165.142 0 0 0-6.856 40.114Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(252,229,227,1)" fill-opacity=".95" stroke="rgba(252,229,227,1)" stroke-width="0" d="M-191.822-63.623a202.098 202.098 0 0 1 21.383-44.979l29.232 18.627a167.436 167.436 0 0 0-17.716 37.264Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,176,169,1)" fill-opacity=".95" stroke="rgba(247,176,169,1)" stroke-width="0" d="M-175.373-58.167a184.767 184.767 0 0 1 19.55-41.122l14.616 9.314a167.436 167.436 0 0 0-17.716 37.264Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,189,183,1)" fill-opacity=".95" stroke="rgba(248,189,183,1)" stroke-width="0" d="M-169.294-114.524a204.393 204.393 0 0 1 33.148-37.924l23.088 25.853a169.731 169.731 0 0 0-27.526 31.492Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,159,151,1)" fill-opacity=".95" stroke="rgba(245,159,151,1)" stroke-width="0" d="M-154.939-104.814a187.062 187.062 0 0 1 30.337-34.708l11.544 12.927a169.731 169.731 0 0 0-27.526 31.492Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(252,227,224,1)" fill-opacity=".95" stroke="rgba(252,227,224,1)" stroke-width="0" d="M-133.392-157.88a206.687 206.687 0 0 1 42.661-27.828l15.215 31.144a172.025 172.025 0 0 0-35.506 23.16Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(248,188,183,1)" fill-opacity=".95" stroke="rgba(248,188,183,1)" stroke-width="0" d="M-122.207-144.642a189.356 189.356 0 0 1 39.083-25.494l7.608 15.572a172.025 172.025 0 0 0-35.506 23.16Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(251,216,213,1)" fill-opacity=".95" stroke="rgba(251,216,213,1)" stroke-width="0" d="M-86.55-190.216a208.981 208.981 0 0 1 49.145-15.391l6.204 34.102a174.32 174.32 0 0 0-40.994 12.838Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,175,169,1)" fill-opacity=".95" stroke="rgba(247,175,169,1)" stroke-width="0" d="M-79.373-174.442a191.651 191.651 0 0 1 45.07-14.114l3.102 17.051a174.32 174.32 0 0 0-40.994 12.838Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,200,196,1)" fill-opacity=".95" stroke="rgba(249,200,196,1)" stroke-width="0" d="M-32.096-208.824a211.276 211.276 0 0 1 52.043-1.508l-3.273 34.507a176.614 176.614 0 0 0-43.504 1.261Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,135,125,1)" fill-opacity=".95" stroke="rgba(243,135,125,1)" stroke-width="0" d="M-29.463-191.694a193.945 193.945 0 0 1 47.774-1.385l-1.637 17.254a176.614 176.614 0 0 0-43.504 1.261Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,194,189,1)" fill-opacity=".95" stroke="rgba(249,194,189,1)" stroke-width="0" d="M25.992-211.983a213.57 213.57 0 0 1 51.051 12.793l-12.504 32.328a178.909 178.909 0 0 0-42.766-10.717Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,154,145,1)" fill-opacity=".95" stroke="rgba(244,154,145,1)" stroke-width="0" d="M23.883-194.781a196.24 196.24 0 0 1 46.908 11.755l-6.252 16.164a178.909 178.909 0 0 0-42.766-10.717Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(247,175,168,1)" fill-opacity=".95" stroke="rgba(247,175,168,1)" stroke-width="0" d="M83.368-199.117a215.865 215.865 0 0 1 46.163 26.434l-20.799 27.728a181.203 181.203 0 0 0-38.751-22.189Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,121,110,1)" fill-opacity=".95" stroke="rgba(241,121,110,1)" stroke-width="0" d="M76.674-183.13a198.534 198.534 0 0 1 42.457 24.311l-10.399 13.864a181.203 181.203 0 0 0-38.751-22.189Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(246,172,165,1)" fill-opacity=".95" stroke="rgba(246,172,165,1)" stroke-width="0" d="M135.648-170.86a218.159 218.159 0 0 1 37.665 38.361l-27.536 21.052a183.498 183.498 0 0 0-31.681-32.266Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(240,111,99,1)" fill-opacity=".95" stroke="rgba(240,111,99,1)" stroke-width="0" d="M124.872-157.286a200.828 200.828 0 0 1 34.673 35.313l-13.768 10.526a183.498 183.498 0 0 0-31.681-32.266Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,201,196,1)" fill-opacity=".95" stroke="rgba(249,201,196,1)" stroke-width="0" d="M178.745-129.035a220.454 220.454 0 0 1 26.129 47.631l-32.212 12.799a185.792 185.792 0 0 0-22.021-40.142Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,162,155,1)" fill-opacity=".95" stroke="rgba(245,162,155,1)" stroke-width="0" d="M164.693-118.891a203.123 203.123 0 0 1 24.075 43.886l-16.106 6.4a185.792 185.792 0 0 0-22.021-40.142Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,153,145,1)" fill-opacity=".95" stroke="rgba(244,153,145,1)" stroke-width="0" d="M209.185-76.539a222.748 222.748 0 0 1 12.367 53.481l-34.476 3.588a188.087 188.087 0 0 0-10.442-45.159Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,153,145,1)" fill-opacity=".95" stroke="rgba(244,153,145,1)" stroke-width="0" d="M192.91-70.584a205.417 205.417 0 0 1 11.404 49.32l-17.238 1.794a188.087 188.087 0 0 0-10.442-45.159Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,199,194,1)" fill-opacity=".95" stroke="rgba(249,199,194,1)" stroke-width="0" d="M224.389-17.143a225.043 225.043 0 0 1-2.621 55.395l-34.157-5.892a190.381 190.381 0 0 0 2.217-46.863Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(243,139,129,1)" fill-opacity=".95" stroke="rgba(243,139,129,1)" stroke-width="0" d="M207.108-15.823a207.712 207.712 0 0 1-2.419 51.129l-17.078-2.946a190.381 190.381 0 0 0 2.217-46.863Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(249,193,188,1)" fill-opacity=".95" stroke="rgba(249,193,188,1)" stroke-width="0" d="M222.884 44.776a227.337 227.337 0 0 1-17.718 53.147l-31.281-14.93a192.675 192.675 0 0 0 15.016-45.044Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,153,145,1)" fill-opacity=".95" stroke="rgba(244,153,145,1)" stroke-width="0" d="M205.893 41.363a210.006 210.006 0 0 1-16.367 49.095l-15.641-7.465a192.675 192.675 0 0 0 15.016-45.044Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,145,136,1)" fill-opacity=".95" stroke="rgba(244,145,136,1)" stroke-width="0" d="M204.444 104.562a229.632 229.632 0 0 1-31.779 46.823l-26.063-22.851a194.97 194.97 0 0 0 26.982-39.755Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(239,103,90,1)" fill-opacity=".95" stroke="rgba(239,103,90,1)" stroke-width="0" d="M189.014 96.671a212.301 212.301 0 0 1-29.38 43.288l-13.032-11.425a194.97 194.97 0 0 0 26.982-39.755Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(245,158,150,1)" fill-opacity=".95" stroke="rgba(245,158,150,1)" stroke-width="0" d="M170.128 157.626a231.926 231.926 0 0 1-43.713 36.819l-18.893-29.06a197.264 197.264 0 0 0 37.18-31.316Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(241,120,109,1)" fill-opacity=".95" stroke="rgba(241,120,109,1)" stroke-width="0" d="M157.415 145.848a214.595 214.595 0 0 1-40.447 34.067l-9.446-14.53a197.264 197.264 0 0 0 37.18-31.316Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(242,134,125,1)" fill-opacity=".95" stroke="rgba(242,134,125,1)" stroke-width="0" d="M122.228 199.799a234.22 234.22 0 0 1-52.573 23.824l-10.308-33.093a199.559 199.559 0 0 0 44.792-20.299Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(238,94,80,1)" fill-opacity=".95" stroke="rgba(238,94,80,1)" stroke-width="0" d="M113.183 185.015a216.89 216.89 0 0 1-48.682 22.062l-5.154-16.547a199.559 199.559 0 0 0 44.792-20.299Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(244,144,135,1)" fill-opacity=".95" stroke="rgba(244,144,135,1)" stroke-width="0" d="M64.113 227.66a236.515 236.515 0 0 1-57.621 8.766l-.952-34.649a201.853 201.853 0 0 0 49.177-7.481Z" class="element"/>
+            </g>
+            <g transform="matrix(1 0 0 1 304 248)">
+              <path fill="rgba(237,82,68,1)" fill-opacity=".95" stroke="rgba(237,82,68,1)" stroke-width="0" d="M59.415 210.978a219.184 219.184 0 0 1-53.399 8.124l-.476-17.325a201.853 201.853 0 0 0 49.177-7.481Z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

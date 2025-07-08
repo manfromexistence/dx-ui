@@ -1,0 +1,596 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <linearGradient id="a" x1="454.2" x2="454.2" y1="36.927" y2="336.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".0851" stop-color="red"/>
+      <stop offset=".1064" stop-color="red"/>
+      <stop offset=".1064" stop-color="red"/>
+      <stop offset=".1191" stop-color="red"/>
+      <stop offset=".1872" stop-color="red"/>
+      <stop offset=".2085" stop-color="red"/>
+      <stop offset=".234" stop-color="red"/>
+      <stop offset=".2383" stop-color="red"/>
+      <stop offset=".2553" stop-color="red"/>
+      <stop offset=".2553" stop-color="red"/>
+      <stop offset=".2638" stop-color="red"/>
+      <stop offset=".2723" stop-color="red"/>
+      <stop offset=".2851" stop-color="red"/>
+      <stop offset=".2979" stop-color="red"/>
+      <stop offset=".3021" stop-color="red"/>
+      <stop offset=".3064" stop-color="red"/>
+      <stop offset=".3362" stop-color="red"/>
+      <stop offset=".3404" stop-color="red"/>
+      <stop offset=".3489" stop-color="red"/>
+      <stop offset=".3532" stop-color="red"/>
+      <stop offset=".3532" stop-color="red"/>
+      <stop offset=".3574" stop-color="red"/>
+      <stop offset=".3574" stop-color="red"/>
+      <stop offset=".3702" stop-color="red"/>
+      <stop offset=".3745" stop-color="red"/>
+      <stop offset=".3745" stop-color="red"/>
+      <stop offset=".3787" stop-color="red"/>
+      <stop offset=".383" stop-color="red"/>
+      <stop offset=".383" stop-color="red"/>
+      <stop offset=".3872" stop-color="red"/>
+      <stop offset=".3872" stop-color="red"/>
+      <stop offset=".3915" stop-color="red"/>
+      <stop offset=".3915" stop-color="red"/>
+      <stop offset=".3957" stop-color="red"/>
+      <stop offset=".3957" stop-color="red"/>
+      <stop offset=".4" stop-color="red"/>
+      <stop offset=".4" stop-color="red"/>
+      <stop offset=".4043" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4085" stop-color="red"/>
+      <stop offset=".4213" stop-color="red"/>
+      <stop offset=".4213" stop-color="red"/>
+      <stop offset=".4255" stop-color="red"/>
+      <stop offset=".4255" stop-color="red"/>
+      <stop offset=".4298" stop-color="red"/>
+      <stop offset=".4298" stop-color="red"/>
+      <stop offset=".4298" stop-color="red"/>
+      <stop offset=".4383" stop-color="red"/>
+      <stop offset=".4383" stop-color="red"/>
+      <stop offset=".4383" stop-color="red"/>
+      <stop offset=".4383" stop-color="red"/>
+      <stop offset=".4426" stop-color="red"/>
+      <stop offset=".4426" stop-color="red"/>
+      <stop offset=".4426" stop-color="red"/>
+      <stop offset=".4468" stop-color="red"/>
+      <stop offset=".4468" stop-color="red"/>
+      <stop offset=".4511" stop-color="red"/>
+      <stop offset=".4511" stop-color="red"/>
+      <stop offset=".4511" stop-color="red"/>
+      <stop offset=".4511" stop-color="red"/>
+      <stop offset=".4511" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4553" stop-color="red"/>
+      <stop offset=".4596" stop-color="red"/>
+      <stop offset=".4638" stop-color="red"/>
+      <stop offset=".4638" stop-color="red"/>
+      <stop offset=".4638" stop-color="red"/>
+      <stop offset=".4638" stop-color="red"/>
+      <stop offset=".4638" stop-color="red"/>
+      <stop offset=".4681" stop-color="red"/>
+      <stop offset=".4681" stop-color="red"/>
+      <stop offset=".4723" stop-color="red"/>
+      <stop offset=".4723" stop-color="red"/>
+      <stop offset=".4766" stop-color="red"/>
+      <stop offset=".4766" stop-color="red"/>
+      <stop offset=".4766" stop-color="red"/>
+      <stop offset=".4766" stop-color="red"/>
+      <stop offset=".4766" stop-color="red"/>
+      <stop offset=".4809" stop-color="red"/>
+      <stop offset=".4809" stop-color="red"/>
+      <stop offset=".4809" stop-color="red"/>
+      <stop offset=".4809" stop-color="red"/>
+      <stop offset=".4851" stop-color="red"/>
+      <stop offset=".4851" stop-color="red"/>
+      <stop offset=".4851" stop-color="red"/>
+      <stop offset=".4894" stop-color="red"/>
+      <stop offset=".4894" stop-color="red"/>
+      <stop offset=".4894" stop-color="red"/>
+      <stop offset=".4894" stop-color="red"/>
+      <stop offset=".4979" stop-color="red"/>
+      <stop offset=".4979" stop-color="red"/>
+      <stop offset=".4979" stop-color="red"/>
+      <stop offset=".4979" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5021" stop-color="red"/>
+      <stop offset=".5064" stop-color="red"/>
+      <stop offset=".5064" stop-color="red"/>
+      <stop offset=".5064" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5106" stop-color="red"/>
+      <stop offset=".5149" stop-color="red"/>
+      <stop offset=".5149" stop-color="red"/>
+      <stop offset=".5149" stop-color="red"/>
+      <stop offset=".5149" stop-color="red"/>
+      <stop offset=".5191" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5234" stop-color="red"/>
+      <stop offset=".5277" stop-color="red"/>
+      <stop offset=".5277" stop-color="red"/>
+      <stop offset=".5277" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5319" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5362" stop-color="red"/>
+      <stop offset=".5404" stop-color="red"/>
+      <stop offset=".5404" stop-color="red"/>
+      <stop offset=".5447" stop-color="red"/>
+      <stop offset=".5447" stop-color="red"/>
+      <stop offset=".5447" stop-color="red"/>
+      <stop offset=".5447" stop-color="red"/>
+      <stop offset=".5532" stop-color="red"/>
+      <stop offset=".5532" stop-color="red"/>
+      <stop offset=".5532" stop-color="red"/>
+      <stop offset=".5532" stop-color="red"/>
+      <stop offset=".5532" stop-color="red"/>
+      <stop offset=".5574" stop-color="red"/>
+      <stop offset=".5574" stop-color="red"/>
+      <stop offset=".5574" stop-color="red"/>
+      <stop offset=".5574" stop-color="red"/>
+      <stop offset=".5574" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".5617" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".566" stop-color="red"/>
+      <stop offset=".5702" stop-color="red"/>
+      <stop offset=".5702" stop-color="red"/>
+      <stop offset=".5702" stop-color="red"/>
+      <stop offset=".5702" stop-color="red"/>
+      <stop offset=".5745" stop-color="red"/>
+      <stop offset=".5745" stop-color="red"/>
+      <stop offset=".5745" stop-color="red"/>
+      <stop offset=".5787" stop-color="black"/>
+      <stop offset=".5787" stop-color="black"/>
+      <stop offset=".5787" stop-color="black"/>
+      <stop offset=".5787" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".583" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5872" stop-color="black"/>
+      <stop offset=".5915" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".5957" stop-color="black"/>
+      <stop offset=".6" stop-color="black"/>
+      <stop offset=".6" stop-color="black"/>
+      <stop offset=".6" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6043" stop-color="black"/>
+      <stop offset=".6085" stop-color="black"/>
+      <stop offset=".6085" stop-color="black"/>
+      <stop offset=".6085" stop-color="black"/>
+      <stop offset=".6085" stop-color="black"/>
+      <stop offset=".6128" stop-color="black"/>
+      <stop offset=".6128" stop-color="black"/>
+      <stop offset=".6128" stop-color="black"/>
+      <stop offset=".6128" stop-color="black"/>
+      <stop offset=".6128" stop-color="black"/>
+      <stop offset=".617" stop-color="black"/>
+      <stop offset=".617" stop-color="black"/>
+      <stop offset=".617" stop-color="black"/>
+      <stop offset=".617" stop-color="black"/>
+      <stop offset=".6213" stop-color="black"/>
+      <stop offset=".6213" stop-color="black"/>
+      <stop offset=".6213" stop-color="black"/>
+      <stop offset=".6213" stop-color="black"/>
+      <stop offset=".6255" stop-color="black"/>
+      <stop offset=".6255" stop-color="black"/>
+      <stop offset=".6255" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".6298" stop-color="black"/>
+      <stop offset=".634" stop-color="black"/>
+      <stop offset=".634" stop-color="black"/>
+      <stop offset=".634" stop-color="black"/>
+      <stop offset=".634" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6383" stop-color="black"/>
+      <stop offset=".6426" stop-color="black"/>
+      <stop offset=".6426" stop-color="black"/>
+      <stop offset=".6426" stop-color="black"/>
+      <stop offset=".6426" stop-color="black"/>
+      <stop offset=".6468" stop-color="black"/>
+      <stop offset=".6468" stop-color="black"/>
+      <stop offset=".6468" stop-color="black"/>
+      <stop offset=".6468" stop-color="black"/>
+      <stop offset=".6553" stop-color="black"/>
+      <stop offset=".6553" stop-color="black"/>
+      <stop offset=".6596" stop-color="black"/>
+      <stop offset=".6596" stop-color="black"/>
+      <stop offset=".6638" stop-color="black"/>
+      <stop offset=".6638" stop-color="black"/>
+      <stop offset=".6638" stop-color="black"/>
+      <stop offset=".6638" stop-color="black"/>
+      <stop offset=".6681" stop-color="black"/>
+      <stop offset=".6681" stop-color="black"/>
+      <stop offset=".6681" stop-color="black"/>
+      <stop offset=".6681" stop-color="black"/>
+      <stop offset=".6681" stop-color="black"/>
+      <stop offset=".6723" stop-color="black"/>
+      <stop offset=".6723" stop-color="black"/>
+      <stop offset=".6723" stop-color="black"/>
+      <stop offset=".6809" stop-color="black"/>
+      <stop offset=".6809" stop-color="black"/>
+      <stop offset=".6851" stop-color="black"/>
+      <stop offset=".6851" stop-color="black"/>
+      <stop offset=".6851" stop-color="black"/>
+      <stop offset=".6894" stop-color="black"/>
+      <stop offset=".6894" stop-color="black"/>
+      <stop offset=".6979" stop-color="black"/>
+      <stop offset=".6979" stop-color="black"/>
+      <stop offset=".7021" stop-color="black"/>
+      <stop offset=".7021" stop-color="black"/>
+      <stop offset=".7064" stop-color="black"/>
+      <stop offset=".7064" stop-color="black"/>
+      <stop offset=".7106" stop-color="black"/>
+      <stop offset=".7106" stop-color="black"/>
+      <stop offset=".7149" stop-color="black"/>
+      <stop offset=".7191" stop-color="black"/>
+      <stop offset=".7234" stop-color="black"/>
+      <stop offset=".7234" stop-color="black"/>
+      <stop offset=".7277" stop-color="black"/>
+      <stop offset=".7277" stop-color="black"/>
+      <stop offset=".7277" stop-color="black"/>
+      <stop offset=".7277" stop-color="black"/>
+      <stop offset=".7319" stop-color="black"/>
+      <stop offset=".7319" stop-color="black"/>
+      <stop offset=".7319" stop-color="black"/>
+      <stop offset=".7319" stop-color="black"/>
+      <stop offset=".7319" stop-color="black"/>
+      <stop offset=".7362" stop-color="black"/>
+      <stop offset=".7362" stop-color="black"/>
+      <stop offset=".7362" stop-color="black"/>
+      <stop offset=".7362" stop-color="black"/>
+      <stop offset=".7362" stop-color="black"/>
+      <stop offset=".7404" stop-color="black"/>
+      <stop offset=".7404" stop-color="black"/>
+      <stop offset=".7404" stop-color="black"/>
+      <stop offset=".7404" stop-color="black"/>
+      <stop offset=".7404" stop-color="black"/>
+      <stop offset=".7489" stop-color="black"/>
+      <stop offset=".7489" stop-color="black"/>
+      <stop offset=".7532" stop-color="black"/>
+      <stop offset=".7574" stop-color="black"/>
+      <stop offset=".7574" stop-color="black"/>
+      <stop offset=".7617" stop-color="black"/>
+      <stop offset=".766" stop-color="black"/>
+      <stop offset=".766" stop-color="black"/>
+      <stop offset=".7702" stop-color="black"/>
+      <stop offset=".7702" stop-color="black"/>
+      <stop offset=".7702" stop-color="black"/>
+      <stop offset=".7745" stop-color="black"/>
+      <stop offset=".7745" stop-color="black"/>
+      <stop offset=".7745" stop-color="black"/>
+      <stop offset=".7787" stop-color="black"/>
+      <stop offset=".7787" stop-color="black"/>
+      <stop offset=".7787" stop-color="black"/>
+      <stop offset=".783" stop-color="black"/>
+      <stop offset=".7872" stop-color="black"/>
+      <stop offset=".7872" stop-color="black"/>
+      <stop offset=".7872" stop-color="black"/>
+      <stop offset=".7957" stop-color="black"/>
+      <stop offset=".7957" stop-color="black"/>
+      <stop offset=".7957" stop-color="black"/>
+      <stop offset=".8" stop-color="black"/>
+      <stop offset=".8" stop-color="black"/>
+      <stop offset=".8043" stop-color="black"/>
+      <stop offset=".8085" stop-color="black"/>
+      <stop offset=".817" stop-color="black"/>
+      <stop offset=".817" stop-color="black"/>
+      <stop offset=".817" stop-color="black"/>
+      <stop offset=".8213" stop-color="black"/>
+      <stop offset=".8255" stop-color="black"/>
+      <stop offset=".834" stop-color="black"/>
+      <stop offset=".8383" stop-color="black"/>
+      <stop offset=".8383" stop-color="black"/>
+      <stop offset=".8426" stop-color="black"/>
+      <stop offset=".8468" stop-color="black"/>
+      <stop offset=".8468" stop-color="black"/>
+      <stop offset=".8511" stop-color="black"/>
+      <stop offset=".8553" stop-color="black"/>
+      <stop offset=".8809" stop-color="black"/>
+      <stop offset=".8809" stop-color="black"/>
+      <stop offset=".8936" stop-color="black"/>
+      <stop offset=".9021" stop-color="black"/>
+      <stop offset=".9064" stop-color="black"/>
+      <stop offset=".9234" stop-color="black"/>
+      <stop offset=".9277" stop-color="black"/>
+      <stop offset=".9404" stop-color="black"/>
+      <stop offset="1" stop-color="black"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="1000" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 1000 0 0 480-1000 0z" class="area"/>
+        </g>
+        <g>
+          <path width="968" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 968 0 0 448-968 0z" class="area"/>
+        </g>
+        <g>
+          <path width="908.4" height="382" x="75.6" y="16" fill="rgba(0,0,0,0)" d="m75.6 16 908.4 0 0 382-908.4 0z" class="area"/>
+        </g>
+        <g>
+          <path width="908.4" height="382" x="75.6" y="16" fill="rgba(0,0,0,0)" d="m75.6 16 908.4 0 0 382-908.4 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m304.5666 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m531.0444 398 0-382" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m757.5222 398 0-382" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="75.6" x2="984" y1="398" y2="398" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 304.5666 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 531.0444 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 757.5222 398)">
+                  <g>
+                    <line x1="0" x2="0" y1="0" y2="4" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 75.6 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">October</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 304.5666 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">2012</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 531.0444 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">April</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 757.5222 406)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle" visibility="visible">July</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 518.01 452.5)">
+              <g transform="matrix(1 0 0 1 0 8)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="-11.5" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">date</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" class="axis">
+            <g fill="none" class="axis-grid-group">
+              <g fill="none" class="axis-grid">
+                <g fill="none" class="grid-line-group">
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 398 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 334.3333 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 270.6667 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 207 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 143.3333 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 79.6667 908.4 0" class="grid-line"/>
+                  </g>
+                  <g>
+                    <path fill="none" stroke="rgba(29,33,41,1)" stroke-dasharray="3,4" stroke-opacity=".1" stroke-width=".5" d="m75.6 16 908.4 0" class="grid-line"/>
+                  </g>
+                </g>
+                <g fill="none" class="grid-region-group"/>
+              </g>
+            </g>
+            <g fill="none" class="axis-main-group">
+              <g fill="none" class="axis-line-group">
+                <g>
+                  <line x1="75.6" x2="75.6" y1="398" y2="16" fill="none" stroke="rgba(29,33,41,1)" stroke-opacity=".45" stroke-width=".5" class="axis-line axis-line" opacity="0"/>
+                </g>
+              </g>
+              <g fill="none" class="axis-tick-group">
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 398)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 334.3333)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 270.6667)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 207)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 143.3333)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 79.6667)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+                <g fill="none" class="axis-tick" transform="matrix(1 0 0 1 75.6 16)">
+                  <g>
+                    <line x1="0" x2="-4" y1="0" y2="0" fill="none" stroke="rgba(29,33,41,1)" stroke-width="1" class="axis-tick-item" opacity=".45"/>
+                  </g>
+                </g>
+              </g>
+              <g fill="none" class="axis-label-group">
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 398)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">40</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 334.3333)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">45</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 270.6667)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">50</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 207)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">55</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 143.3333)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">60</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 79.6667)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">65</text>
+                  </g>
+                </g>
+                <g fill="none" class="axis-label" transform="matrix(1 0 0 1 67.6 16)">
+                  <g>
+                    <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-label-item" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".45" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="end" visibility="visible">70</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g fill="none" class="axis-title-group" transform="matrix(1 0 0 1 28.5 207)">
+              <g transform="matrix(0 -1 1 0 -7.5 .5)">
+                <text fill="rgba(29,33,41,1)" stroke-width="1" class="axis-title" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" opacity=".9" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">value</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 75.6 16)">
+          <path width="908.4" height="382" fill="rgba(0,0,0,0)" d="m0 0 908.4 0 0 382-908.4 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="none" stroke="url(#a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m0 92.953 1.244 0 0 35.654 2.489 0 0 10.186 2.489 0 0 3.82 2.489 0 0 1.274 2.488 0 0 21.646 2.489 0 0 3.82 2.489 0 0-1.273 2.489 0 0 1.273 2.489 0 0-43.293 2.488 0 0-12.733 2.489 0 0-5.094 2.489 0 0-35.653 2.489 0 0-35.653 2.488 0 0 31.833 2.489 0 0 38.2 2.489 0 0 6.367 2.489 0 0 24.193 2.488 0 0 3.82 2.489 0 0 21.647 2.489 0 0 10.186 2.489 0 0-54.753 2.488 0 0-56.027 2.489 0 0 53.48 2.489 0 0 61.12 2.489 0 0 19.1 2.489 0 0-19.1 2.488 0 0-25.466 2.489 0 0 7.64 2.489 0 0-2.547 2.489 0 0 33.107 2.488 0 0-35.654 2.489 0 0-85.313 2.489 0 0 106.96 2.489 0 0 72.58 2.488 0 0-10.187 2.489 0 0-16.553 2.489 0 0 15.28 2.489 0 0 10.187 2.489 0 0-50.934 2.488 0 0-12.733 2.489 0 0 21.647 2.489 0 0-1.274 2.489 0 0 2.547 2.488 0 0 3.82 2.489 0 0 1.273 2.489 0 0 15.28 2.489 0 0-6.366 2.488 0 0-5.094 2.489 0 0 52.207 2.489 0 0-17.827 2.489 0 0-8.913 2.489 0 0-15.28 2.488 0 0-29.287 2.489 0 0-6.366 2.489 0 0 45.84 2.489 0 0-26.74 2.488 0 0 16.553 2.489 0 0 16.553 2.489 0 0 19.1 2.489 0 0-3.82 2.488 0 0-134.973 2.489 0 0-22.92 2.489 0 0 49.66 2.489 0 0 71.307 2.488 0 0 15.28 2.489 0 0 20.373 2.489 0 0 16.553 2.489 0 0 28.014 2.489 0 0-43.294 2.488 0 0-29.286 2.489 0 0 42.02 2.489 0 0 17.826 2.489 0 0 2.547 2.488 0 0 14.007 2.489 0 0-34.38 2.489 0 0 11.46 2.489 0 0-24.194 2.488 0 0 8.914 2.489 0 0 10.186 2.489 0 0-12.733 2.489 0 0 11.46 2.489 0 0-62.393 2.488 0 0 73.853 2.489 0 0-5.093 2.489 0 0-12.734 2.489 0 0 38.2 2.488 0 0-16.553 2.489 0 0-21.647 2.489 0 0-25.466 2.489 0 0-25.467 2.488 0 0 35.653 2.489 0 0-48.386 2.489 0 0 10.186 2.489 0 0 43.294 2.488 0 0-38.2 2.489 0 0 1.273 2.489 0 0 45.84 2.489 0 0-25.467 2.489 0 0-73.853 2.488 0 0 57.3 2.489 0 0 8.913 2.489 0 0 22.92 2.489 0 0-26.74 2.488 0 0-22.92 2.489 0 0 10.187 2.489 0 0 40.747 2.489 0 0 56.026 2.488 0 0 21.647 2.489 0 0-17.827 2.489 0 0-29.286 2.489 0 0-52.207 2.489 0 0-29.287 2.488 0 0 68.76 2.489 0 0-58.573 2.489 0 0 48.387 2.489 0 0-38.2 2.488 0 0-19.1 2.489 0 0 40.746 2.489 0 0 1.274 2.489 0 0-44.567 2.488 0 0 24.193 2.489 0 0 24.194 2.489 0 0 0 2.489 0 0-16.554 2.489 0 0-2.546 2.488 0 0-6.367 2.489 0 0-22.92 2.489 0 0-10.187 2.489 0 0 3.82 2.488 0 0 30.56 2.489 0 0-24.193 2.489 0 0-1.273 2.489 0 0 20.373 2.488 0 0 28.013 2.489 0 0 7.64 2.489 0 0 11.46 2.489 0 0-16.553 2.488 0 0-31.833 2.489 0 0 31.833 2.489 0 0-21.647 2.489 0 0 48.387 2.489 0 0-11.46 2.488 0 0-12.733 2.489 0 0-47.114 2.489 0 0-8.913 2.489 0 0-22.92 2.488 0 0 53.48 2.489 0 0 50.933 2.489 0 0 29.287 2.489 0 0-20.373 2.488 0 0-35.654 2.489 0 0 11.46 2.489 0 0 10.187 2.489 0 0-33.107 2.489 0 0-54.753 2.488 0 0 78.947 2.489 0 0 5.093 2.489 0 0-19.1 2.489 0 0 8.913 2.488 0 0-31.833 2.489 0 0 30.56 2.489 0 0-8.913 2.489 0 0 17.826 2.488 0 0-67.486 2.489 0 0-16.554 2.489 0 0-8.913 2.489 0 0 16.553 2.488 0 0 81.494 2.489 0 0 14.006 2.489 0 0 16.554 2.489 0 0-49.66 2.489 0 0-21.647 2.488 0 0 0 2.489 0 0 38.2 2.489 0 0-7.64 2.489 0 0 33.107 2.488 0 0-42.02 2.489 0 0-56.027 2.489 0 0-6.367 2.489 0 0 29.287 2.488 0 0-28.013 2.489 0 0-21.647 2.489 0 0 64.94 2.489 0 0 7.64 2.489 0 0-21.647 2.488 0 0 20.374 2.489 0 0 34.38 2.489 0 0 6.366 2.489 0 0-25.466 2.488 0 0-7.64 2.489 0 0-16.554 2.489 0 0-31.833 2.489 0 0 11.46 2.488 0 0-12.733 2.489 0 0 47.113 2.489 0 0-8.913 2.489 0 0-7.64 2.489 0 0-5.094 2.488 0 0-16.553 2.489 0 0 2.547 2.489 0 0-26.74 2.489 0 0-8.914 2.488 0 0-28.013 2.489 0 0 66.213 2.489 0 0-29.286 2.489 0 0-35.654 2.488 0 0 5.094 2.489 0 0 28.013 2.489 0 0 22.92 2.489 0 0-15.28 2.488 0 0 8.913 2.489 0 0 7.64 2.489 0 0 8.914 2.489 0 0 25.466 2.489 0 0-24.193 2.488 0 0-10.187 2.489 0 0 3.82 2.489 0 0-43.293 2.489 0 0 15.28 2.488 0 0 42.02 2.489 0 0-5.093 2.489 0 0-12.734 2.489 0 0 3.82 2.488 0 0 40.747 2.489 0 0-26.74 2.489 0 0-50.933 2.489 0 0 38.2 2.489 0 0 25.466 2.488 0 0-5.093 2.489 0 0-10.187 2.489 0 0-2.546 2.489 0 0-26.74 2.488 0 0 21.646 2.489 0 0-14.006 2.489 0 0-33.107 2.489 0 0 22.92 2.488 0 0 28.013 2.489 0 0 5.094 2.489 0 0-1.274 2.489 0 0-8.913 2.488 0 0 10.187 2.489 0 0 0 2.489 0 0-15.28 2.489 0 0-19.1 2.489 0 0 10.186 2.488 0 0 21.647 2.489 0 0-38.2 2.489 0 0 22.92 2.489 0 0-7.64 2.488 0 0 2.547 2.489 0 0-6.367 2.489 0 0-7.64 2.489 0 0-63.667 2.488 0 0 35.654 2.489 0 0 26.74 2.489 0 0 22.92 2.489 0 0-1.274 2.489 0 0-15.28 2.488 0 0-30.56 2.489 0 0 17.827 2.489 0 0 39.473 2.489 0 0-17.826 2.488 0 0-17.827 2.489 0 0 25.467 2.489 0 0-10.187 2.489 0 0-14.007 2.488 0 0-7.64 2.489 0 0-12.733 2.489 0 0-8.913 2.489 0 0-2.547 2.489 0 0 14.007 2.488 0 0 2.546 2.489 0 0-25.466 2.489 0 0-5.094 2.489 0 0 30.56 2.488 0 0-1.273 2.489 0 0 8.913 2.489 0 0 12.734 2.489 0 0-1.274 2.488 0 0 2.547 2.489 0 0 24.193 2.489 0 0-11.46 2.489 0 0 7.64 2.488 0 0 5.094 2.489 0 0 8.913 2.489 0 0-17.827 2.489 0 0-7.64 2.489 0 0 0 2.488 0 0-6.366 2.489 0 0-28.014 2.489 0 0-10.186 2.489 0 0 5.093 2.488 0 0-12.733 2.489 0 0 6.366 2.489 0 0 20.374 2.489 0 0-7.64 2.488 0 0-15.28 2.489 0 0 3.82 2.489 0 0 14.006 2.489 0 0 14.007 2.489 0 0 3.82 2.488 0 0-7.64 2.489 0 0 0 2.489 0 0-3.82 2.489 0 0 6.367 2.488 0 0 12.733 2.489 0 0 8.913 2.489 0 0-5.093 2.489 0 0-47.113 2.488 0 0-5.094 2.489 0 0 2.547 2.489 0 0 12.733 2.489 0 0 25.467 2.488 0 0 2.547 2.489 0 0 22.92 2.489 0 0 6.366 2.489 0 0-10.186 2.489 0 0-7.64 2.488 0 0-29.287 2.489 0 0-11.46 2.489 0 0 22.92 2.489 0 0-11.46 2.488 0 0 24.193 2.489 0 0 15.28 2.489 0 0-3.82 2.489 0 0-14.006 2.488 0 0-15.28 2.489 0 0 11.46 2.489 0 0 12.733 2.489 0 0-34.38 2.489 0 0-22.92 2.488 0 0-5.093 2.489 0 0 15.28 2.489 0 0 20.373 2.489 0 0 6.367 2.488 0 0-3.82 2.489 0 0 33.106 2.489 0 0-5.093 2.489 0 0 12.733 2.488 0 0-25.466 2.489 0 0-22.92 2.489 0 0-1.274 2.489 0 0-1.273 2.489 0 0 1.273 2.488 0 0 12.734 2.489 0 0-10.187 2.489 0 0 6.367 2.489 0 0 17.826 2.488 0 0-11.46 2.489 0 0 11.46 2.489 0 0 17.827 2.489 0 0-24.193 2.488 0 0 0 2.489 0 0-25.467 2.489 0 0 17.827 2.489 0 0-5.094 2.488 0 0-1.273 2.489 0 0 39.473 2.489 0 0-21.646 2.489 0 0 15.28 2.489 0 0-3.82 2.488 0 0 19.1 2.489 0 0-6.367 2.489 0 0-16.553 2.489 0 0-15.28 1.244 0" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

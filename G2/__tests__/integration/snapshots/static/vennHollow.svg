@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <defs>
+    <clipPath id="b" transform="matrix(1 0 0 1 -16 -16)">
+      <use href="#a" transform="matrix(1 0 0 1 16 16)"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="413" x="16" y="51" fill="rgba(0,0,0,0)" d="m16 51 608 0 0 413-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="413" x="16" y="51" fill="rgba(0,0,0,0)" d="m16 51 608 0 0 413-608 0z" class="area"/>
+        </g>
+        <g fill="none" class="component">
+          <g fill="none" transform="matrix(1 0 0 1 16 16)">
+            <g fill="none" class="legend-category">
+              <g fill="none" class="legend-title-group">
+                <g fill="none" class="legend-title"/>
+              </g>
+              <g fill="none" class="legend-items-group">
+                <g fill="none" class="legend-items">
+                  <g fill="none" class="items-navigator">
+                    <g fill="none" class="navigator-content-group" clip-path="url(#b)">
+                      <g fill="none" class="navigator-play-window">
+                        <g fill="none" class="items-item-page">
+                          <g fill="none" class="items-item">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="25.28" height="23" fill="rgba(0,0,0,0)" d="m0 0 25.28 0 0 23-25.28 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(23,131,255,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">A</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 37.28 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="25.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 25.04 0 0 23-25.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(0,201,201,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">B</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 74.32 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="25.76" height="23" fill="rgba(0,0,0,0)" d="m0 0 25.76 0 0 23-25.76 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(240,136,77,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">C</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 112.08 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="45.32" height="23" fill="rgba(0,0,0,0)" d="m0 0 45.32 0 0 23-45.32 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(213,128,255,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">A&amp;B</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 169.4 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="46.04" height="23" fill="rgba(0,0,0,0)" d="m0 0 46.04 0 0 23-46.04 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(120,99,255,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">A&amp;C</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 227.44 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="45.8" height="23" fill="rgba(0,0,0,0)" d="m0 0 45.8 0 0 23-45.8 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(96,196,45,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">B&amp;C</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                          <g fill="none" class="items-item" transform="matrix(1 0 0 1 285.24 0)">
+                            <g fill="none" class="legend-category-item-background-group">
+                              <g>
+                                <path width="66.08" height="23" fill="rgba(0,0,0,0)" d="m0 0 66.08 0 0 23-66.08 0z" class="legend-category-item-background" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-marker-group" transform="matrix(.3746 0 0 .3746 4 11.5)">
+                              <g>
+                                <path fill="none" stroke="rgba(189,143,36,1)" stroke-width="2" d="m-9 2.5 5 0 0-5 8 0 0 5 5 0" class="legend-category-item-marker" visibility="visible"/>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-label-group" transform="matrix(1 0 0 1 16 11.5)">
+                              <g>
+                                <text fill="rgba(29,33,41,1)" fill-opacity=".9" stroke-width="1" class="legend-category-item-label" dominant-baseline="central" dx=".5" dy="0" font-family="sans-serif" font-size="12" font-style="normal" font-variant="normal" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="left" visibility="visible">A&amp;B&amp;C</text>
+                              </g>
+                            </g>
+                            <g fill="none" class="legend-category-item-value-group"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g fill="none" class="navigator-controller"/>
+                    <g>
+                      <path id="a" width="351.32" height="23" fill="none" d="m0 0 351.32 0 0 23-351.32 0z" class="navigator-clip-path"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1 0 0 1 16 51)">
+          <path width="608" height="413" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 413-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(23,131,255,1)" stroke-width="6" d="M95.8774 131.369a121.3644 121.3644 0 1 0 242.7288 0 121.3644 121.3644 0 1 0-242.7288 0Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(0,201,201,1)" stroke-width="6" d="M269.3938 131.3644a121.3644 121.3644 0 1 0 242.7288 0 121.3644 121.3644 0 1 0-242.7288 0Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(240,136,77,1)" stroke-width="6" d="M182.6397 281.6356a121.3644 121.3644 0 1 0 242.7287 0 121.3644 121.3644 0 1 0-242.7287 0Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(213,128,255,1)" stroke-width="6" d="M303.9977 46.5002a121.3644 121.3644 0 0 1 .0046 169.733 121.3644 121.3644 0 0 1-.0046-169.733Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(120,99,255,1)" stroke-width="6" d="M187.1273 248.9379a121.3644 121.3644 0 0 1 146.9912-84.8711 121.3644 121.3644 0 0 1-146.9912 84.871Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(96,196,45,1)" stroke-width="6" d="M273.8832 164.0684a121.3644 121.3644 0 0 1 146.9958 84.8632 121.3644 121.3644 0 0 1-146.9958-84.8632Z" class="element"/>
+            </g>
+            <g>
+              <path fill="none" fill-opacity=".8" stroke="rgba(189,143,36,1)" stroke-width="6" d="M273.8832 164.0684a121.3644 121.3644 0 0 1 60.2353-.0016 121.3644 121.3644 0 0 1-30.1162 52.1664 121.3644 121.3644 0 0 1-30.119-52.1648Z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer">
+            <g fill="none" class="label" transform="matrix(1 0 0 1 217.2418 131.369)">
+              <g>
+                <path width="29.68" height="23" x="-14.34" y="-11.5" fill="none" d="m-14.34-11.5 29.68 0 0 23-29.68 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">A: 12</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 390.7582 131.3644)">
+              <g>
+                <path width="29.44" height="23" x="-14.22" y="-11.5" fill="none" d="m-14.22-11.5 29.44 0 0 23-29.44 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">B: 12</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 304.004 281.6356)">
+              <g>
+                <path width="30.16" height="23" x="-14.58" y="-11.5" fill="none" d="m-14.58-11.5 30.16 0 0 23-30.16 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">C: 12</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 304 131.3667)">
+              <g>
+                <path width="43.96" height="23" x="-21.48" y="-11.5" fill="none" d="m-21.48-11.5 43.96 0 0 23-43.96 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">A&amp;B: 2</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 260.623 206.5023)">
+              <g>
+                <path width="44.68" height="23" x="-21.84" y="-11.5" fill="none" d="m-21.84-11.5 44.68 0 0 23-44.68 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">A&amp;C: 2</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 347.3811 206.5)">
+              <g>
+                <path width="44.44" height="23" x="-21.72" y="-11.5" fill="none" d="m-21.72-11.5 44.44 0 0 23-44.44 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">B&amp;C: 2</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+            <g fill="none" class="label" transform="matrix(1 0 0 1 304.0009 188.2522)">
+              <g>
+                <path width="63.04" height="23" x="-31.02" y="-11.5" fill="none" d="m-31.02-11.5 63.04 0 0 23-63.04 0z"/>
+              </g>
+              <g>
+                <text fill="rgba(0,0,0,1)" fill-opacity=".85" dominant-baseline="central" dx=".5" dy="0" font-size="12" font-weight="normal" paint-order="stroke" style="transform:translate(0px, 0px);" text-anchor="middle">A&amp;B&amp;C: 1</text>
+              </g>
+              <g>
+                <path fill="none" d="m0 0 0 0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

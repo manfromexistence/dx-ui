@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" color-interpolation-filters="sRGB" style="background: transparent;">
+  <g>
+    <g fill="none">
+      <g fill="none" class="view">
+        <g>
+          <path width="640" height="480" x="0" y="0" fill="rgba(0,0,0,0)" d="m0 0 640 0 0 480-640 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g>
+          <path width="608" height="448" x="16" y="16" fill="rgba(0,0,0,0)" d="m16 16 608 0 0 448-608 0z" class="area"/>
+        </g>
+        <g transform="matrix(1 0 0 1 16 16)">
+          <path width="608" height="448" fill="rgba(0,0,0,0)" d="m0 0 608 0 0 448-608 0z" class="plot"/>
+          <g fill="none" class="main-layer">
+            <g>
+              <path width="111.6735" height="294" x="41.3605" y="154" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(0,0,0,1)" stroke-width="1" d="m41.3605 154 111.6735 0 0 294-111.6735 0z" class="element"/>
+            </g>
+            <g>
+              <path width="111.6735" height="448" x="330.8844" y="0" fill="rgba(255,0,0,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m330.8844 0 111.6734 0 0 448-111.6734 0z" class="element"/>
+            </g>
+            <g>
+              <path width="111.6735" height="192.8889" x="165.4422" y="255.1111" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m165.4422 255.1111 111.6734 0 0 192.8889-111.6734 0z" class="element"/>
+            </g>
+            <g>
+              <path width="111.6735" height="360.8889" x="454.966" y="87.1111" fill="rgba(23,131,255,1)" fill-opacity=".95" stroke="rgba(23,131,255,1)" stroke-width="0" d="m454.966 87.1111 111.6735 0 0 360.8889-111.6735 0z" class="element"/>
+            </g>
+          </g>
+          <g fill="none" class="label-layer"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
