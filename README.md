@@ -2,8 +2,56 @@
 Ui
 
 # Components
+```
+accordion
+alert-dialog
+alert
+aspect-ratio
+avatar
+badge
+breadcrumb
+button
+calendar
+card
+carousel
+chart
+checkbox
+collapsible
+command
+context-menu
+dialog
+drawer
+dropdown-menu
+form
+hover-card
+input-otp
+input
+label
+menubar
+navigation-menu
+pagination
+popover
+progress
+radio-group
+resizable
+scroll-area
+select
+separator
+sheet
+sidebar
+skeleton
+slider
+sonner
+switch
+table
+tabs
+textarea
+toggle-group
+toggle
+tooltip
+```
 
-
+# Inspirations
 ```
 rm -rf ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
 
