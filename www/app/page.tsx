@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { create } from '@/lib/ux/store';
+import { create } from "@/lib/ux/store";
 
 interface CounterStore {
   count: number;

@@ -1,8 +1,8 @@
 import {
   useSyncExternalStoreWithSelector,
-} from 'use-sync-external-store/shim/with-selector';
-import { produce } from 'immer';
-import type { Draft } from 'immer';
+} from "use-sync-external-store/shim/with-selector";
+import { produce } from "immer";
+import type { Draft } from "immer";
 
 type SetStoreInternal<T> = (
   partial: T | Partial<T> | ((store: T) => T | Partial<T>),
@@ -99,10 +99,10 @@ type StateSubscribeWithSelector<T> = {
 };
 
 export interface StoreMutators<S, A> {
-  ['store/immer']?: WithImmer<S>;
-  ['store/persist']?: WithPersist<S, A>;
-  ['store/reducer']?: WithReducer<S, A>;
-  ['store/subscribeWithSelector']?: WithSelectorSubscribe<S>;
+  ["store/immer"]?: WithImmer<S>;
+  ["store/persist"]?: WithPersist<S, A>;
+  ["store/reducer"]?: WithReducer<S, A>;
+  ["store/subscribeWithSelector"]?: WithSelectorSubscribe<S>;
 }
 
 export interface StoreApi<T> {
@@ -114,14 +114,14 @@ export interface StoreApi<T> {
 
 type ReadonlyStoreApi<T> = Pick<
   StoreApi<T>,
-  'getStore' | 'getInitialStore' | 'subscribe'
+  "getStore" | "getInitialStore" | "subscribe"
 >;
 
 export type ExtractStore<S> = S extends { getStore: () => infer T } ? T : never;
 
 export type StoreMutatorIdentifier = keyof StoreMutators<unknown, unknown>;
 
-export type Mutate<S, Ms> = number extends Ms['length' & keyof Ms]
+export type Mutate<S, Ms> = number extends Ms["length" & keyof Ms]
   ? S
   : Ms extends []
   ? S
@@ -135,8 +135,8 @@ export type StoreInitializer<
   Mos extends [StoreMutatorIdentifier, unknown][] = [],
   U = T
 > = ((
-  setStore: Get<Mutate<StoreApi<T>, Mis>, 'setStore', never>,
-  getStore: Get<Mutate<StoreApi<T>, Mis>, 'getStore', never>,
+  setStore: Get<Mutate<StoreApi<T>, Mis>, "setStore", never>,
+  getStore: Get<Mutate<StoreApi<T>, Mis>, "getStore", never>,
   store: Mutate<StoreApi<T>, Mis>
 ) => U) & { $$storeMutators?: Mos };
 
@@ -177,31 +177,31 @@ const createStoreImpl: CreateStoreImpl = (createStoreFn) => {
   let store: TStore;
   const listeners: Set<Listener> = new Set();
 
-  const setStore: StoreApi<TStore>['setStore'] = (partial, replace) => {
+  const setStore: StoreApi<TStore>["setStore"] = (partial, replace) => {
     const nextStore =
-      typeof partial === 'function'
+      typeof partial === "function"
         ? (partial as (store: TStore) => TStore)(store)
         : partial;
 
     if (!Object.is(nextStore, store)) {
       const previousStore = store;
       store =
-        replace ?? (typeof nextStore !== 'object' || nextStore === null)
+        replace ?? (typeof nextStore !== "object" || nextStore === null)
           ? (nextStore as TStore)
           : Object.assign({}, store, nextStore);
       listeners.forEach((listener) => listener(store, previousStore));
     }
   };
 
-  const getStore: StoreApi<TStore>['getStore'] = () => {
+  const getStore: StoreApi<TStore>["getStore"] = () => {
     return store;
   };
 
-  const getInitialStore: StoreApi<TStore>['getInitialStore'] = () => {
+  const getInitialStore: StoreApi<TStore>["getInitialStore"] = () => {
     return initialStore;
   };
 
-  const subscribe: StoreApi<TStore>['subscribe'] = (listener) => {
+  const subscribe: StoreApi<TStore>["subscribe"] = (listener) => {
     listeners.add(listener);
     return () => listeners.delete(listener);
   };
@@ -261,7 +261,7 @@ const isIterable = (obj: object): obj is Iterable<unknown> =>
 const hasIterableEntries = (
   value: Iterable<unknown>
 ): value is Iterable<unknown> & { entries(): Iterable<[unknown, unknown]> } =>
-  'entries' in value;
+  "entries" in value;
 
 const compareEntries = (
   valueA: { entries(): Iterable<[unknown, unknown]> },
@@ -304,9 +304,9 @@ export function shallow<T>(valueA: T, valueB: T): boolean {
   }
 
   if (
-    typeof valueA !== 'object' ||
+    typeof valueA !== "object" ||
     valueA === null ||
-    typeof valueB !== 'object' ||
+    typeof valueB !== "object" ||
     valueB === null
   ) {
     return false;
@@ -348,7 +348,7 @@ const immerImpl: ImmerImpl = (initializer) => (setStore, getStore, store) => {
   type T = ReturnType<typeof initializer>;
   store.setStore = (updater, replace, ...args) => {
     const nextStore = (
-      typeof updater === 'function' ? produce(updater as any) : updater
+      typeof updater === "function" ? produce(updater as any) : updater
     ) as ((s: T) => T) | T | Partial<T>;
     return setStore(nextStore, replace as any, ...args);
   };
@@ -359,8 +359,8 @@ export type Immer = <
   Mps extends [StoreMutatorIdentifier, unknown][] = [],
   Mcs extends [StoreMutatorIdentifier, unknown][] = []
 >(
-  initializer: StoreInitializer<T, [...Mps, ['store/immer', never]], Mcs>
-) => StoreInitializer<T, Mps, [['store/immer', never], ...Mcs]>;
+  initializer: StoreInitializer<T, [...Mps, ["store/immer", never]], Mcs>
+) => StoreInitializer<T, Mps, [["store/immer", never], ...Mcs]>;
 export const immer = immerImpl as unknown as Immer;
 
 export interface StorageEngine {
@@ -482,7 +482,7 @@ const persistImpl: PersistImpl = (config, baseOptions) => (
     return config(
       (...args) => {
         console.warn(
-          `[store/persist] Unable to update item '${options.name}', the given storage is currently unavailable.`
+          `[store/persist] Unable to update item "${options.name}", the given storage is currently unavailable.`
         );
         setStore(...(args as Parameters<typeof setStore>));
       },
@@ -522,7 +522,7 @@ const persistImpl: PersistImpl = (config, baseOptions) => (
       .then((deserializedStorageValue) => {
         if (deserializedStorageValue) {
           if (
-            typeof deserializedStorageValue.version === 'number' &&
+            typeof deserializedStorageValue.version === "number" &&
             deserializedStorageValue.version !== options.version
           ) {
             if (options.migrate) {
@@ -535,7 +535,7 @@ const persistImpl: PersistImpl = (config, baseOptions) => (
               return [true, migration] as const;
             }
             console.error(
-              `Store loaded from storage couldn't be migrated since no migrate function was provided`
+              `Store loaded from storage couldn"t be migrated since no migrate function was provided`
             );
           } else {
             return [false, deserializedStorageValue.store] as const;
@@ -589,9 +589,9 @@ export type Persist = <
   Mcs extends [StoreMutatorIdentifier, unknown][] = [],
   U = T
 >(
-  initializer: StoreInitializer<T, [...Mps, ['store/persist', unknown]], Mcs>,
+  initializer: StoreInitializer<T, [...Mps, ["store/persist", unknown]], Mcs>,
   options: PersistOptions<T, U>
-) => StoreInitializer<T, Mps, [['store/persist', U], ...Mcs]>;
+) => StoreInitializer<T, Mps, [["store/persist", U], ...Mcs]>;
 export const persist = persistImpl as unknown as Persist;
 
 type ReducerImpl = <T extends object, A extends ReducerAction>(
@@ -618,7 +618,7 @@ export type ReducerMiddleware = <
 >(
   reducerFn: (store: T, action: A) => T,
   initialStore: T
-) => StoreInitializer<Write<T, StoreWithReducer<A>>, Cms, [['store/reducer', A]]>;
+) => StoreInitializer<Write<T, StoreWithReducer<A>>, Cms, [["store/reducer", A]]>;
 export const reducer = reducerImpl as unknown as ReducerMiddleware;
 
 type SubscribeWithSelectorImpl = <T extends object>(
@@ -660,13 +660,13 @@ export type SubscribeWithSelector = <
 >(
   initializer: StoreInitializer<
     T,
-    [...Mps, ['store/subscribeWithSelector', never]],
+    [...Mps, ["store/subscribeWithSelector", never]],
     Mcs
   >
 ) => StoreInitializer<
   T,
   Mps,
-  [['store/subscribeWithSelector', never], ...Mcs]
+  [["store/subscribeWithSelector", never], ...Mcs]
 >;
 export const subscribeWithSelector =
   subscribeWithSelectorImpl as unknown as SubscribeWithSelector;
