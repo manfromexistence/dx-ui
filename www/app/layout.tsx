@@ -47,14 +47,16 @@ export default function RootLayout({
         />
 
         <Script
-          src="//pl27138998.profitableratecpm.com/9a/e7/22/9ae722a01b8721b1c353ee84e001e9d6.js"
-          strategy="lazyOnload"
-        />
-
-        {/* <Script
           src="//www.highperformanceformat.com/54fc0baad0c1d63cb1b7262fcd99297a/invoke.js"
           strategy="lazyOnload"
         />
+
+        {/*
+         <Script
+          src="//pl27138998.profitableratecpm.com/9a/e7/22/9ae722a01b8721b1c353ee84e001e9d6.js"
+          strategy="lazyOnload"
+        />
+        
         <Script
           src="https://js.onclckmn.com/static/onclicka.js"
           strategy="lazyOnload"
