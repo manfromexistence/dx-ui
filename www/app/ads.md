@@ -1,3 +1,30 @@
+        <div id="adsterra-banner"></div>
+        <Script
+          id="adsterra-script"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              atOptions = {
+                'key': '54fc0baad0c1d63cb1b7262fcd99297a',
+                'format': 'iframe',
+                'height': 90,
+                'width': 728,
+                'params': {}
+              };
+            `,
+          }}
+        />
+
+        <Script
+          src="//www.highperformanceformat.com/54fc0baad0c1d63cb1b7262fcd99297a/invoke.js"
+          strategy="lazyOnload"
+        />
+
+        <Script
+          src="//pl27138998.profitableratecpm.com/9a/e7/22/9ae722a01b8721b1c353ee84e001e9d6.js"
+          strategy="lazyOnload"
+        />
+
 import "@/styles/globals.css"
 import { SiteHeader } from "@/components/site-header"
 import Script from "next/script"
