@@ -33,27 +33,27 @@ type WithImmer<S> = Write<S, StoreImmer<S>>;
 
 type StoreImmer<S> = S extends { setStore: infer SetStore }
   ? SetStore extends {
-      (...args: infer A1): infer Sr1;
-      (...args: infer A2): infer Sr2;
-    }
-    ? {
-        setStore(
-          nextStoreOrUpdater:
-            | SetStoreType<A2>
-            | Partial<SetStoreType<A2>>
-            | ((store: Draft<SetStoreType<A2>>) => void),
-          shouldReplace?: false,
-          ...args: SkipTwo<A1>
-        ): Sr1;
-        setStore(
-          nextStoreOrUpdater:
-            | SetStoreType<A2>
-            | ((store: Draft<SetStoreType<A2>>) => void),
-          shouldReplace: true,
-          ...args: SkipTwo<A2>
-        ): Sr2;
-      }
-    : never
+    (...args: infer A1): infer Sr1;
+    (...args: infer A2): infer Sr2;
+  }
+  ? {
+    setStore(
+      nextStoreOrUpdater:
+        | SetStoreType<A2>
+        | Partial<SetStoreType<A2>>
+        | ((store: Draft<SetStoreType<A2>>) => void),
+      shouldReplace?: false,
+      ...args: SkipTwo<A1>
+    ): Sr1;
+    setStore(
+      nextStoreOrUpdater:
+        | SetStoreType<A2>
+        | ((store: Draft<SetStoreType<A2>>) => void),
+      shouldReplace: true,
+      ...args: SkipTwo<A2>
+    ): Sr2;
+  }
+  : never
   : never;
 
 type WithPersist<S, A> = S extends { getStore: () => infer T }
