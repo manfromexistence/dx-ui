@@ -29,7 +29,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <div id="adsterra-banner"></div>
+
+        {/*
+
+                <div id="adsterra-banner"></div>
         <Script
           id="adsterra-script"
           strategy="lazyOnload"
@@ -51,7 +54,17 @@ export default function RootLayout({
           strategy="lazyOnload"
         />
 
-        {/*
+
+
+
+
+
+
+
+
+
+
+        
          <Script
           src="//pl27138998.profitableratecpm.com/9a/e7/22/9ae722a01b8721b1c353ee84e001e9d6.js"
           strategy="lazyOnload"
