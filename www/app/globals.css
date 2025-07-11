@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#adsterra-banner {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
