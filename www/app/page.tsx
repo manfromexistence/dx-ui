@@ -1,6 +1,7 @@
 "use client";
 
 import { create } from "@/lib/store";
+import { useTheme } from "@/lib/theme";
 
 interface CounterStore {
   count: number;
@@ -14,22 +15,36 @@ export const useCounterStore = create<CounterStore>((setStore) => ({
   decrement: () => setStore((store) => ({ count: store.count - 1 })),
 }));
 
+function ThemeToggle() {
+  const { setTheme, resolvedTheme } = useTheme();
+
+  return (
+    <button
+      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      className="absolute top-4 right-4 px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+    >
+      Switch to {resolvedTheme === "dark" ? "Light" : "Dark"} Mode
+    </button>
+  );
+}
+
 export default function Counter() {
   const { count, increment, decrement } = useCounterStore();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors">
+      <ThemeToggle />
       <h1 className="text-6xl font-bold mb-8">{count}</h1>
       <div className="flex space-x-4">
         <button
           onClick={increment}
-          className="px-6 py-3 bg-indigo-600 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors"
+          className="px-6 py-3 bg-indigo-600 rounded-lg text-lg font-semibold text-white hover:bg-indigo-700 transition-colors"
         >
           Increment
         </button>
         <button
           onClick={decrement}
-          className="px-6 py-3 bg-red-600 rounded-lg text-lg font-semibold hover:bg-red-700 transition-colors"
+          className="px-6 py-3 bg-red-600 rounded-lg text-lg font-semibold text-white hover:bg-red-700 transition-colors"
         >
           Decrement
         </button>

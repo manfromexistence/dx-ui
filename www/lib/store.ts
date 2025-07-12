@@ -126,7 +126,7 @@ export type Mutate<S, Ms> = number extends Ms["length" & keyof Ms]
   : Ms extends []
   ? S
   : Ms extends [[infer Mi, infer Ma], ...infer Mrs]
-  ? Mutate<StoreMutators<S, Ma>[Mi & StoreMutatorIdentifier], Mrs>
+  ? Mutate<NonNullable<StoreMutators<S, Ma>[Mi & StoreMutatorIdentifier]>, Mrs>
   : never;
 
 export type StoreInitializer<
@@ -239,8 +239,11 @@ export function useStore<TStore, StoreSlice>(
   );
 }
 
-const createImplReact = <T extends object>(
-  createStoreFn: StoreInitializer<T, [], []>
+const createImplReact = <
+  T extends object,
+  Mos extends [StoreMutatorIdentifier, unknown][]
+>(
+  createStoreFn: StoreInitializer<T, [], Mos>
 ) => {
   const api = createStore(createStoreFn);
   const useBoundStore: any = (selector?: any) => useStore(api, selector);
@@ -248,8 +251,8 @@ const createImplReact = <T extends object>(
   return useBoundStore;
 };
 
-export const create = (<T extends object>(
-  createStoreFn: StoreInitializer<T, [], []> | undefined
+export const create = (<T extends object, Mos extends [StoreMutatorIdentifier, unknown][]>(
+  createStoreFn: StoreInitializer<T, [], Mos> | undefined
 ) =>
   createStoreFn
     ? createImplReact(createStoreFn)
