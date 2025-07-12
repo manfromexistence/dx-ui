@@ -54,8 +54,15 @@ tooltip
 # Inspirations
 
 ```
-rm -rf next-themes material-color-utilities GSAP
+rm -rf next-themes material-color-utilities GSAP react-bits mvpblocks magicui originui kibo indie-ui kokonutui
 
+git clone https://github.com/Ali-Hussein-dev/indie-ui && cd indie-ui && rm -rf .git && cd ..
+git clone https://github.com/kokonut-labs/kokonutui && cd kokonutui && rm -rf .git && cd ..
+git clone https://github.com/haydenbleasel/kibo && cd kibo && rm -rf .git && cd ..
+git clone https://github.com/magicuidesign/magicui && cd magicui && rm -rf .git && cd ..
+git clone https://github.com/origin-space/originui && cd originui && rm -rf .git && cd ..
+git clone https://github.com/subhadeeproy3902/mvpblocks && cd mvpblocks && rm -rf .git && cd ..
+git clone https://github.com/DavidHDev/react-bits && cd react-bits && rm -rf .git && cd ..
 git clone https://github.com/greensock/GSAP && cd GSAP && rm -rf .git && cd ..
 git clone https://github.com/pacocoursey/next-themes && cd next-themes && rm -rf .git && cd ..
 git clone https://github.com/material-foundation/material-color-utilities && cd material-color-utilities && rm -rf .git && cd ..
