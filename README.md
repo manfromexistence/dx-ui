@@ -56,7 +56,6 @@ tooltip
 ```
 rm -rf redux material-ui G2 G6 F2 S2 X6 L7
 
-
 rm -rf luxe tailwindcss motion ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
 
 git clone https://github.com/guhrodrrigues/luxe && cd luxe && rm -rf .git && cd ..
