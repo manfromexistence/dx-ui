@@ -54,10 +54,11 @@ tooltip
 # Inspirations
 
 ```
-rm -rf redux material-ui G2 G6 F2 S2 X6 L7
+rm -rf next-themes material-color-utilities GSAP
 
-rm -rf luxe tailwindcss motion ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
-
+git clone https://github.com/greensock/GSAP && cd GSAP && rm -rf .git && cd ..
+git clone https://github.com/pacocoursey/next-themes && cd next-themes && rm -rf .git && cd ..
+git clone https://github.com/material-foundation/material-color-utilities && cd material-color-utilities && rm -rf .git && cd ..
 git clone https://github.com/guhrodrrigues/luxe && cd luxe && rm -rf .git && cd ..
 git clone https://github.com/tailwindlabs/tailwindcss && cd tailwindcss && rm -rf .git && cd ..
 git clone https://github.com/motiondivision/motion && cd motion && rm -rf .git && cd ..
@@ -77,4 +78,8 @@ git clone https://github.com/antvis/F2 && cd F2 && rm -rf .git && cd ..
 git clone https://github.com/antvis/S2 && cd S2 && rm -rf .git && cd ..
 git clone https://github.com/antvis/X6 && cd X6 && rm -rf .git && cd ..
 git clone https://github.com/antvis/L7 && cd L7 && rm -rf .git && cd ..
+
+rm -rf redux material-ui G2 G6 F2 S2 X6 L7 chakra-ui heroui mantine
+
+rm -rf luxe tailwindcss motion ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
 ```

@@ -1,8 +1,0 @@
-.root {
-  padding-block: var(--hp-block-spacing);
-}
-
-.description {
-  max-width: 1000px;
-  margin-bottom: var(--mantine-spacing-xl);
-}

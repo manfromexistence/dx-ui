@@ -1,5 +1,0 @@
-.inputField {
-  &:not(:only-child)::placeholder {
-    color: transparent;
-  }
-}
