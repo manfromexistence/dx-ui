@@ -32,7 +32,7 @@ export default function Counter() {
   const { count, increment, decrement } = useCounterStore();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white transition-colors">
       <ThemeToggle />
       <h1 className="text-6xl font-bold mb-8">{count}</h1>
       <div className="flex space-x-4">
