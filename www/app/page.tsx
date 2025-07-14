@@ -32,7 +32,7 @@ export default function Counter() {
   const { count, increment, decrement } = useCounterStore();
 
   return (
-    <div className={`counter-container [date-theme="dark"]:bg-red-500`}>
+    <div className={`counter-container`}>
       <ThemeToggle />
       <h1 className="counter-title">{count}</h1>
       <div className="button-group">
