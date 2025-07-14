@@ -1,0 +1,40 @@
+---
+title: Buttons
+description: Creative Buttons with built-in styling, offering flexibility for custom designs and responsive layouts
+full: true
+---
+
+import { DrawerCodePreview } from "@/components/preview/drawer-preview";
+import { extractSourceCode } from "@/lib/code";
+
+<div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+  <DrawerCodePreview
+    name="star-on-github"
+    responsive
+    code={(await extractSourceCode("star-on-github")).code}
+    lang="tsx"
+    classNameComponentContainer="p-16 pt-24"
+  />
+  <DrawerCodePreview
+    name="btn-gradient1"
+    responsive
+    code={(await extractSourceCode("btn-gradient1")).code}
+    lang="tsx"
+    classNameComponentContainer="p-16 pt-24"
+  />
+  <DrawerCodePreview
+    name="animated-btn1"
+    responsive
+    code={(await extractSourceCode("animated-btn1")).code}
+    lang="tsx"
+    classNameComponentContainer="p-16 pt-24"
+  />
+
+  <DrawerCodePreview
+    name="download-animated-btn"
+    responsive
+    code={(await extractSourceCode("download-animated-btn")).code}
+    lang="tsx"
+    classNameComponentContainer="p-16 pt-24"
+  />
+</div>

@@ -1,0 +1,274 @@
+---
+title: Hero
+description: Hero sections are the first thing users see when they visit your site. They are a great way to showcase your product and its features.
+root: mainsections
+---
+
+import { ComponentPreview } from "@/components/preview/component-preview";
+import { extractSourceCode } from "@/lib/code";
+
+## App Hero
+
+<ComponentPreview
+  name="app-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("app-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Spline Hero
+
+<ComponentPreview
+  name="3dglobe"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("3dglobe")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+> Apply the below CSS for the above hero:
+
+```css
+.neumorphic-button::after {
+  content: '';
+  @apply absolute inset-0 opacity-0 transition-opacity duration-300 bg-gradient-to-br from-[#9b87f5]/20 to-transparent rounded-full;
+}
+  
+.neumorphic-button:hover::after {
+  @apply opacity-100;
+}
+``` 
+
+## Notebook Hero
+
+<ComponentPreview
+  name="notebook"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("notebook")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Minimal Hero
+<ComponentPreview
+  name="minimal-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("minimal-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+> Apply the below CSS for the above hero:
+```css
+@keyframes word-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.8);
+    filter: blur(10px);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: translateY(10px) scale(0.95);
+    filter: blur(2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes grid-draw {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.15;
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.3;
+    transform: scale(1.1);
+  }
+}
+
+.word {
+  display: inline-block;
+  opacity: 0;
+  margin: 0 0.1em;
+  transition: all 0.3s ease;
+}
+
+.word:hover {
+  color: #c8b4a0;
+  transform: translateY(-2px);
+}
+
+.grid-line {
+  stroke: #c8b4a0;
+  stroke-width: 0.5;
+  opacity: 0;
+  stroke-dasharray: 5 5;
+  stroke-dashoffset: 1000;
+  animation: grid-draw 2s ease-out forwards;
+}
+
+.detail-dot {
+  fill: #c8b4a0;
+  opacity: 0;
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.corner-element {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(200, 180, 160, 0.2);
+  opacity: 0;
+  animation: word-appear 1s ease-out forwards;
+}
+
+.corner-element::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: rgba(200, 180, 160, 0.3);
+  border-radius: 50%;
+}
+
+.text-decoration {
+  position: relative;
+}
+
+.text-decoration::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #c8b4a0, transparent);
+  animation: underline-grow 2s ease-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes underline-grow {
+  to {
+    width: 100%;
+  }
+}
+
+.floating-element {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #c8b4a0;
+  border-radius: 50%;
+  opacity: 0;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.2;
+  }
+
+  25% {
+    transform: translateY(-10px) translateX(5px);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: translateY(-5px) translateX(-3px);
+    opacity: 0.4;
+  }
+
+  75% {
+    transform: translateY(-15px) translateX(7px);
+    opacity: 0.8;
+  }
+}
+```
+
+## Geometric Hero
+
+<ComponentPreview
+  name="geometric-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("geometric-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Lucy Hero
+
+<ComponentPreview
+  name="mockup-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("mockup-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Trading Hero
+
+<ComponentPreview
+  name="trading"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("trading")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Dark modern hero
+
+<ComponentPreview
+  name="hero-1"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("hero-1")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Fitness Hero
+
+<ComponentPreview
+  name="fitness-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("fitness-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Gradient Hero
+
+<ComponentPreview
+  name="gradient-hero"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode("gradient-hero")).code}
+  lang="tsx"
+  fromDocs={true}
+/>

@@ -1,0 +1,106 @@
+---
+title: Buttons
+description: Collection of Tailwindcss buttons with different styles and effects.
+---
+
+import { Button_v1 } from '@/components/buttons/button-v1';
+import { Button_v2 } from '@/components/buttons/button-v2';
+import { Button_v3 } from '@/components/buttons/button-v3';
+import { Button_v4 } from '@/components/buttons/button-v4';
+import { Button_v5 } from '@/components/buttons/button-v5';
+import { Button_v6 } from '@/components/buttons/button-v6';
+import { Button_v7 } from '@/components/buttons/button-v7';
+import { Button_v8 } from '@/components/buttons/button-v8';
+import { ComponentPreview } from '@/components/component-preview'
+import { FaCode } from 'react-icons/fa';
+
+
+
+## Variant 1 neubrutalism
+
+<ComponentPreview filePathsKey="button_v1">
+  <div className="flex-row-center gap-4">
+      <Button_v1>
+        Click me
+      </Button_v1>
+      <Button_v1 size="icon">
+        <FaCode />
+      </Button_v1>
+  </div>
+</ComponentPreview>
+
+## Variant 2 shine
+
+<ComponentPreview filePathsKey="button_v2">
+  <div className="flex-row-center gap-4">
+      <Button_v2>
+        Hover me
+      </Button_v2>
+      <Button_v2 size="icon">
+        <FaCode />
+      </Button_v2>
+  </div>
+</ComponentPreview>
+
+## Variant 3
+
+<ComponentPreview filePathsKey="button_v3">
+  <div className="flex-row-center gap-4">
+        <Button_v3>Hover me </Button_v3>
+      <Button_v3 size="icon">
+        <FaCode />
+      </Button_v3>
+  </div>
+</ComponentPreview>
+
+
+## Variant 4
+
+<ComponentPreview filePathsKey="button_v4">
+  <div className="flex-row-center gap-4">
+        <Button_v4>Hover me </Button_v4>
+      <Button_v4 size="icon">
+        <FaCode />
+      </Button_v4>
+  </div>
+</ComponentPreview>
+
+## Variant 5
+
+<ComponentPreview filePathsKey="button_v5">
+  <div className="flex-row-center gap-4">
+        <Button_v5>Hover me </Button_v5>
+      <Button_v5 size="icon">
+        <FaCode />
+      </Button_v5>
+  </div>
+</ComponentPreview>
+
+## Variant 6
+
+<ComponentPreview filePathsKey="button_v6">
+  <div className="flex-row-center gap-4">
+      <Button_v6>Hover me </Button_v6>
+  </div>
+</ComponentPreview>
+
+## Variant 7 Link
+
+<ComponentPreview filePathsKey="button_v7">
+  <div className="flex-row-center gap-4">
+      <Button_v7>Hover me </Button_v7>
+  </div>
+</ComponentPreview>
+
+## Variant 8 Embossed
+
+Make sure the background color in dark mode is set to `#121212` to see the effect`.
+
+<ComponentPreview filePathsKey="button_v8">
+  <div className="flex-row-center flex-wrap gap-4 py-4 dark:bg-[#121212] bg-zinc-50 rounded-sm w-full">
+    <Button_v8>Hover me </Button_v8>
+    <Button_v8 size="icon" className=""><FaCode /> </Button_v8>
+    <Button_v8 className="shadow-dembossed">Hover me </Button_v8>
+    <Button_v8 size="icon" className="shadow-dembossed rounded-lg"><FaCode /> </Button_v8>
+  </div>
+</ComponentPreview>

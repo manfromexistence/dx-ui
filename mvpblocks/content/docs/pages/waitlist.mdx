@@ -1,0 +1,17 @@
+---
+title: Waitlist
+description: These pages are used to collect user emails for a waitlist.
+root: pages
+new: true
+---
+
+import {ComponentPreview} from "@/components/preview/component-preview";
+import {extractSourceCode} from "@/lib/code";
+
+<ComponentPreview
+  name="waitlist"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode('waitlist')).code}
+  lang="tsx"
+  fromDocs={true}
+/>

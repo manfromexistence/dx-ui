@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "pages": [
+    "---Guide---",
+    "introduction",
+    "get-started",
+    "add-a-block",
+    "categories",
+    "---Components---",
+    "basic",
+    "required",
+    "mainsections",
+    "pages",
+    "forms",
+    "cards",
+    "chatbot",
+    "dashboards",
+    "creative",
+    "grids",
+    "text-animations",
+    "skeletons"
+  ]
+}

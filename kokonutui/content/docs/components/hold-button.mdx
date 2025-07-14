@@ -1,0 +1,18 @@
+---
+title: Hold Button
+description: Hold Button with different hold duration and colors.
+icon: Fingerprint
+full: true
+---
+
+import HoldButton from "@/components/kokonutui/hold-button";
+
+<Preview link="hold-button">
+    <div className="flex flex-col gap-2">
+        <HoldButton />
+        <HoldButton variant="green" holdDuration="1000" />
+        <HoldButton variant="blue" holdDuration="2000" />
+        <HoldButton variant="orange" />
+        <HoldButton variant="grey" />
+    </div>
+</Preview>

@@ -1,0 +1,22 @@
+---
+title: Pagination
+description: Pagination is a navigation technique that divides content into separate pages, allowing users to browse through large sets of data without overwhelming them. It helps improve performance and user experience by loading only a portion of the content at a time.
+---
+
+import { Tab, Tabs } from "fumadocs-ui/components/tabs";
+import { Step, Steps } from "fumadocs-ui/components/steps";
+import { TypeTable } from "fumadocs-ui/components/type-table";
+import {ComponentPreview} from "@/components/preview/component-preview";
+import {extractSourceCode} from "@/lib/code";
+
+## Pagination Component
+
+<ComponentPreview
+  name="basic-pagination"
+  props={{ showDemo: true }}
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode('basic-pagination')).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+

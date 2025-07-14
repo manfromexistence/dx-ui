@@ -1,0 +1,22 @@
+---
+title: Admin Dashboard
+description: A comprehensive admin dashboard with real-time analytics, user management, and system monitoring. Features custom components with minimal shadcn usage.
+root: dashboards
+full: true
+new: true
+---
+
+import { Tab, Tabs } from "fumadocs-ui/components/tabs";
+import { Step, Steps } from "fumadocs-ui/components/steps";
+import { TypeTable } from "fumadocs-ui/components/type-table";
+import {ComponentPreview} from "@/components/preview/component-preview";
+import {extractSourceCode} from "@/lib/code";
+
+## Admin Home
+
+<ComponentPreview name="admin-dashboard-1"
+  classNameComponentContainer="h-[600px]"
+  code={(await extractSourceCode('admin-dashboard')).code}
+  lang="tsx"
+  fromDocs={true}
+/>

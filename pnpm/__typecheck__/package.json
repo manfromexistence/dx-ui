@@ -1,9 +1,0 @@
-{
-  "name": "@pnpm-private/typecheck",
-  "version": "0.0.0",
-  "private": true,
-  "devDependencies": {
-    "@pnpm-private/typecheck": "workspace:*",
-    "@pnpm/tsconfig": "workspace:*"
-  }
-}

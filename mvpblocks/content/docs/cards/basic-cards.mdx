@@ -1,0 +1,36 @@
+---
+title: Basic Cards
+description: A collection of basic card designs, featuring various layouts for showcasing content
+---
+
+import RetroCard from "@/components/mvpblocks/cards/basic/retro-card";
+import {ComponentPreview} from "@/components/preview/component-preview";
+import {extractSourceCode} from "@/lib/code";
+
+## Dot Card
+
+<ComponentPreview
+  name="dot-card"     
+  classNameComponentContainer='min-h-[600px]'
+  code={(await extractSourceCode('dot-card')).code}
+  lang="tsx"
+/>
+
+## Meshy Cards
+
+<ComponentPreview
+  name="meshy-cards"     
+  classNameComponentContainer='min-h-[600px]'
+  code={(await extractSourceCode('meshy-cards')).code}
+  lang="tsx"
+  fromDocs={true}
+/>
+
+## Retro Card
+
+<ComponentPreview
+  name="retro-card"     
+  classNameComponentContainer='min-h-[600px]'
+  code={(await extractSourceCode('retro-card')).code}
+  lang="tsx"
+/>
