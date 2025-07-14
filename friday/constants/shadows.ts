@@ -13,11 +13,17 @@ export function getShadowProperty(
   property: ThemeProperty,
   mode: ThemeMode,
 ) {
+  // Safely access themeObject[mode] and fallback to an empty object if it's undefined
+  const modeObject = themeObject[mode] || {};
+  const lightObject = themeObject.light || {};
+  const initialModeObject = initialThemeConfig.themeObject[mode] || {};
+  const initialLightObject = initialThemeConfig.themeObject.light || {};
+
   return (
-    themeObject[mode][property] ||
-    themeObject.light[property] ||
-    initialThemeConfig.themeObject[mode][property] ||
-    initialThemeConfig.themeObject.light[property]
+    modeObject[property] ||
+    lightObject[property] ||
+    initialModeObject[property] ||
+    initialLightObject[property]
   );
 }
 

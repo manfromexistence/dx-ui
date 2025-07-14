@@ -181,3 +181,4 @@ export type SurfaceShades = {
 
   "sidebar-border": OklchValue | string;
 };
+
