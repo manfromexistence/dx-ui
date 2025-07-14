@@ -54,8 +54,13 @@ tooltip
 # Inspirations
 
 ```
-rm -rf next-themes material-color-utilities GSAP react-bits mvpblocks magicui originui kibo indie-ui kokonutui
+rm -rf libgit2 turborepo uv pnpm bun next-themes material-color-utilities GSAP react-bits mvpblocks magicui originui kibo indie-ui kokonutui
 
+git clone https://github.com/oven-sh/bun && cd bun && rm -rf .git && cd ..
+git clone https://github.com/astral-sh/uv && cd uv && rm -rf .git && cd ..
+git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && cd ..
+git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
+git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 git clone https://github.com/Ali-Hussein-dev/indie-ui && cd indie-ui && rm -rf .git && cd ..
 git clone https://github.com/kokonut-labs/kokonutui && cd kokonutui && rm -rf .git && cd ..
 git clone https://github.com/haydenbleasel/kibo && cd kibo && rm -rf .git && cd ..
