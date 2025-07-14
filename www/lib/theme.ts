@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useState, useCallback } from "react"
-import { create, persist, createJSONStorage } from "@/lib/store"
+import { create } from "@/lib/store"
+import { persist, createJSONStorage } from "@/lib/store"
 
 type Theme = "light" | "dark" | "system"
 type ResolvedTheme = "light" | "dark"
@@ -59,7 +60,9 @@ export const useTheme = (): UseThemeProps => {
 
   useEffect(() => {
     applyTheme(theme)
+  }, [theme, applyTheme])
 
+  useEffect(() => {
     const handleMediaQuery = () => {
       if (useThemeStore.getStore().theme === "system") {
         applyTheme("system")
@@ -68,7 +71,12 @@ export const useTheme = (): UseThemeProps => {
 
     const handleStorage = (e: StorageEvent) => {
       if (e.key === "theme" && e.newValue) {
-        setTheme(e.newValue as Theme)
+        try {
+          const newTheme = JSON.parse(e.newValue).store.theme as Theme
+          setTheme(newTheme)
+        } catch (error) {
+          console.error("Failed to parse theme from storage", error)
+        }
       }
     }
 
@@ -81,7 +89,7 @@ export const useTheme = (): UseThemeProps => {
       mediaQueryList.removeEventListener("change", handleMediaQuery)
       window.removeEventListener("storage", handleStorage)
     }
-  }, [theme, applyTheme, setTheme])
+  }, [applyTheme, setTheme])
 
   return {
     theme,
