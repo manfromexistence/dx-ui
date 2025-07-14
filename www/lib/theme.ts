@@ -3,8 +3,15 @@
 import { useEffect, useState, useCallback } from "react"
 import { create, persist, createJSONStorage } from "@/lib/store"
 
-type Theme = string
-type ResolvedTheme = string
+type Theme = "light" | "dark" | "system"
+type ResolvedTheme = "light" | "dark"
+
+export interface UseThemeProps {
+  themes: Theme[]
+  setTheme: (theme: Theme) => void
+  theme: Theme
+  resolvedTheme: ResolvedTheme
+}
 
 interface ThemeStore {
   theme: Theme
@@ -24,54 +31,62 @@ const useThemeStore = create<ThemeStore>()(
   )
 )
 
-export const useTheme = () => {
-  const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>("light")
-  const [mounted, setMounted] = useState(false)
+const defaultThemes: Theme[] = ["light", "dark"]
+
+export const useTheme = (): UseThemeProps => {
   const { theme, setTheme } = useThemeStore()
+  const [mounted, setMounted] = useState(false)
+  const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>("light")
 
-  const applyTheme = useCallback((themeToApply: Theme) => {
-    let newResolvedTheme: ResolvedTheme
+  const applyTheme = useCallback((newTheme: Theme) => {
     const d = document.documentElement
+    let resolved: ResolvedTheme
 
-    if (themeToApply === "system") {
-      newResolvedTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if (newTheme === "system") {
+      resolved = window.matchMedia("(prefers-color-scheme: dark)").matches
         ? "dark"
         : "light"
     } else {
-      newResolvedTheme = themeToApply
+      resolved = newTheme
     }
 
-    d.dataset.theme = newResolvedTheme
-
-    if (newResolvedTheme === "light" || newResolvedTheme === "dark") {
-      d.style.colorScheme = newResolvedTheme
-    } else {
-      d.style.colorScheme = ""
-    }
-
-    setResolvedTheme(newResolvedTheme)
+    d.classList.remove("light", "dark")
+    d.classList.add(resolved)
+    d.setAttribute("data-theme", resolved)
+    d.style.colorScheme = resolved
+    setResolvedTheme(resolved)
   }, [])
 
   useEffect(() => {
     applyTheme(theme)
 
-    const mediaListener = () => {
+    const handleMediaQuery = () => {
       if (useThemeStore.getStore().theme === "system") {
         applyTheme("system")
       }
     }
-    const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)")
-    mediaQueryList.addEventListener("change", mediaListener)
 
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === "theme" && e.newValue) {
+        setTheme(e.newValue as Theme)
+      }
+    }
+
+    const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)")
+    mediaQueryList.addEventListener("change", handleMediaQuery)
+    window.addEventListener("storage", handleStorage)
     setMounted(true)
 
-    return () => mediaQueryList.removeEventListener("change", mediaListener)
-  }, [theme, applyTheme])
+    return () => {
+      mediaQueryList.removeEventListener("change", handleMediaQuery)
+      window.removeEventListener("storage", handleStorage)
+    }
+  }, [theme, applyTheme, setTheme])
 
   return {
     theme,
     setTheme,
-    resolvedTheme: mounted ? resolvedTheme : undefined,
-    mounted,
+    themes: [...defaultThemes, "system"],
+    resolvedTheme: mounted ? resolvedTheme : "light",
   }
 }
