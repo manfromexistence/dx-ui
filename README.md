@@ -6,6 +6,12 @@ Enhance your development experience!
 ```
 rm -rf libgit2 turborepo uv pnpm bun next-themes material-color-utilities GSAP react-bits mvpblocks magicui originui kibo indie-ui kokonutui redux material-ui G2 G6 F2 S2 X6 L7 chakra-ui heroui mantine luxe tailwindcss motion ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
 
+git clone --branch main https://gitlab.com/manfmexistence/friday.git main && cd main && rm -rf .git && cd ..
+git clone --branch image-preview https://gitlab.com/manfmexistence/friday.git image-preview && cd image-preview && rm -rf .git && cd ..
+git clone --branch friday https://gitlab.com/manfmexistence/friday.git friday && cd friday && rm -rf .git && cd ..
+git clone https://gitlab.com/manfmexistence/friday && cd friday && rm -rf .git && cd friday && rm -rf .git && cd ..
+git clone https://gitlab.com/manfmexistence/friday master && cd master && rm -rf .git && cd master && rm -rf .git && cd ..
+
 git clone https://github.com/oven-sh/bun && cd bun && rm -rf .git && cd ..
 git clone https://github.com/astral-sh/uv && cd uv && rm -rf .git && cd ..
 git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && cd ..
