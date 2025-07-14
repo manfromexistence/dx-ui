@@ -21,7 +21,7 @@ function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-      className="theme-toggle"
+      className="absolute top-4 right-4 px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
     >
       Switch to {resolvedTheme === "dark" ? "Light" : "Dark"} Mode
     </button>
@@ -32,19 +32,19 @@ export default function Counter() {
   const { count, increment, decrement } = useCounterStore();
 
   return (
-    <div className="counter-container">
+    <div className="flex flex-col items-center justify-center min-h-screen transition-colors bg-yellow-500 dark:bg-red-500">
       <ThemeToggle />
-      <h1 className="counter-title">{count}</h1>
-      <div className="button-group">
+      <h1 className="text-6xl font-bold mb-8">{count}</h1>
+      <div className="flex space-x-4">
         <button
           onClick={increment}
-          className="button button-increment"
+          className="px-6 py-3 bg-indigo-600 rounded-lg text-lg font-semibold text-white hover:bg-indigo-700 transition-colors"
         >
           Increment
         </button>
         <button
           onClick={decrement}
-          className="button button-decrement"
+          className="px-6 py-3 bg-red-600 rounded-lg text-lg font-semibold text-white hover:bg-red-700 transition-colors"
         >
           Decrement
         </button>
