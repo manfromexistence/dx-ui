@@ -1,18 +1,20 @@
+"use client";
+
 import {
   useSyncExternalStoreWithSelector,
 } from "use-sync-external-store/shim/with-selector";
 import { produce } from "immer";
 import type { Draft } from "immer";
 
+// Type definition for the internal setState function
 type SetStoreInternal<T> = (
   partial: T | Partial<T> | ((store: T) => T | Partial<T>),
   replace?: boolean
 ) => void;
 
+// Utility types
 type Get<T, K, F> = K extends keyof T ? T[K] : F;
-
 type Write<T, U> = Omit<T, keyof U> & U;
-
 type SkipTwo<T> = T extends { length: 0 }
   ? []
   : T extends { length: 1 }
@@ -26,42 +28,39 @@ type SkipTwo<T> = T extends { length: 0 }
   : T extends [unknown?, unknown?, ...infer A]
   ? A
   : never;
-
 type SetStoreType<T extends unknown[]> = Exclude<T[0], (...args: any[]) => any>;
 
+// Middleware-specific types
 type WithImmer<S> = Write<S, StoreImmer<S>>;
-
 type StoreImmer<S> = S extends { setStore: infer SetStore }
   ? SetStore extends {
-    (...args: infer A1): infer Sr1;
-    (...args: infer A2): infer Sr2;
-  }
-  ? {
-    setStore(
-      nextStoreOrUpdater:
-        | SetStoreType<A2>
-        | Partial<SetStoreType<A2>>
-        | ((store: Draft<SetStoreType<A2>>) => void),
-      shouldReplace?: false,
-      ...args: SkipTwo<A1>
-    ): Sr1;
-    setStore(
-      nextStoreOrUpdater:
-        | SetStoreType<A2>
-        | ((store: Draft<SetStoreType<A2>>) => void),
-      shouldReplace: true,
-      ...args: SkipTwo<A2>
-    ): Sr2;
-  }
-  : never
+      (...args: infer A1): infer Sr1;
+      (...args: infer A2): infer Sr2;
+    }
+    ? {
+        setStore(
+          nextStoreOrUpdater:
+            | SetStoreType<A2>
+            | Partial<SetStoreType<A2>>
+            | ((store: Draft<SetStoreType<A2>>) => void),
+          shouldReplace?: false,
+          ...args: SkipTwo<A1>
+        ): Sr1;
+        setStore(
+          nextStoreOrUpdater:
+            | SetStoreType<A2>
+            | ((store: Draft<SetStoreType<A2>>) => void),
+          shouldReplace: true,
+          ...args: SkipTwo<A2>
+        ): Sr2;
+      }
+    : never
   : never;
 
 type WithPersist<S, A> = S extends { getStore: () => infer T }
   ? Write<S, StorePersist<T, A>>
   : never;
-
 type PersistListener<S> = (store: S) => void;
-
 type StorePersist<S, Ps> = {
   persist: {
     setOptions: (options: Partial<PersistOptions<S, Ps>>) => void;
@@ -75,15 +74,12 @@ type StorePersist<S, Ps> = {
 };
 
 type ReducerAction = { type: string };
-
 type StoreWithReducer<A> = { dispatch: (a: A) => A };
-
 type WithReducer<S, A> = Write<S, StoreWithReducer<A>>;
 
 type WithSelectorSubscribe<S> = S extends { getStore: () => infer T }
   ? Write<S, StateSubscribeWithSelector<T>>
   : never;
-
 type StateSubscribeWithSelector<T> = {
   subscribe: {
     (listener: (selectedStore: T, previousSelectedStore: T) => void): () => void;
@@ -98,6 +94,7 @@ type StateSubscribeWithSelector<T> = {
   };
 };
 
+// Main store types
 export interface StoreMutators<S, A> {
   ["store/immer"]?: WithImmer<S>;
   ["store/persist"]?: WithPersist<S, A>;
@@ -118,7 +115,6 @@ type ReadonlyStoreApi<T> = Pick<
 >;
 
 export type ExtractStore<S> = S extends { getStore: () => infer T } ? T : never;
-
 export type StoreMutatorIdentifier = keyof StoreMutators<unknown, unknown>;
 
 export type Mutate<S, Ms> = number extends Ms["length" & keyof Ms]
@@ -140,6 +136,7 @@ export type StoreInitializer<
   store: Mutate<StoreApi<T>, Mis>
 ) => U) & { $$storeMutators?: Mos };
 
+// Vanilla store creator
 type CreateStoreFn = {
   <T extends object, Mos extends [StoreMutatorIdentifier, unknown][] = []>(
     initializer: StoreInitializer<T, [], Mos>
@@ -155,20 +152,6 @@ type CreateStoreImpl = <
 >(
   initializer: StoreInitializer<T, [], Mos>
 ) => Mutate<StoreApi<T>, Mos>;
-
-export type UseBoundStore<S extends ReadonlyStoreApi<unknown>> = {
-  (): ExtractStore<S>;
-  <U>(selector: (store: ExtractStore<S>) => U): U;
-} & S;
-
-type Create = {
-  <T extends object, Mos extends [StoreMutatorIdentifier, unknown][] = []>(
-    initializer: StoreInitializer<T, [], Mos>
-  ): UseBoundStore<NonNullable<Mutate<StoreApi<T>, Mos>>>;
-  <T extends object>(): <Mos extends [StoreMutatorIdentifier, unknown][] = []>(
-    initializer: StoreInitializer<T, [], Mos>
-  ) => UseBoundStore<NonNullable<Mutate<StoreApi<T>, Mos>>>;
-};
 
 const createStoreImpl: CreateStoreImpl = (createStoreFn) => {
   type TStore = ReturnType<typeof createStoreFn>;
@@ -193,14 +176,8 @@ const createStoreImpl: CreateStoreImpl = (createStoreFn) => {
     }
   };
 
-  const getStore: StoreApi<TStore>["getStore"] = () => {
-    return store;
-  };
-
-  const getInitialStore: StoreApi<TStore>["getInitialStore"] = () => {
-    return initialStore;
-  };
-
+  const getStore: StoreApi<TStore>["getStore"] = () => store;
+  const getInitialStore: StoreApi<TStore>["getInitialStore"] = () => initialStore;
   const subscribe: StoreApi<TStore>["subscribe"] = (listener) => {
     listeners.add(listener);
     return () => listeners.delete(listener);
@@ -217,6 +194,7 @@ export const createStore = ((createStoreFn) =>
     ? createStoreImpl(createStoreFn)
     : createStoreImpl) as CreateStoreFn;
 
+// React hook for using the store
 const identity = <T>(arg: T): T => arg;
 
 export function useStore<S extends ReadonlyStoreApi<unknown>>(
@@ -224,20 +202,37 @@ export function useStore<S extends ReadonlyStoreApi<unknown>>(
 ): ExtractStore<S>;
 export function useStore<S extends ReadonlyStoreApi<unknown>, U>(
   api: S,
-  selector: (store: ExtractStore<S>) => U
+  selector: (store: ExtractStore<S>) => U,
+  equalityFn?: (a: U, b: U) => boolean
 ): U;
 export function useStore<TStore, StoreSlice>(
   api: ReadonlyStoreApi<TStore>,
-  selector: (store: TStore) => StoreSlice = identity as any
+  selector: (store: TStore) => StoreSlice = identity as any,
+  equalityFn?: (a: StoreSlice, b: StoreSlice) => boolean
 ) {
   return useSyncExternalStoreWithSelector(
     api.subscribe,
     api.getStore,
     api.getInitialStore,
     selector,
-    Object.is
+    equalityFn || Object.is
   );
 }
+
+// React-specific store creator
+export type UseBoundStore<S extends ReadonlyStoreApi<unknown>> = {
+  (): ExtractStore<S>;
+  <U>(selector: (store: ExtractStore<S>) => U, equalityFn?: (a: U, b: U) => boolean): U;
+} & S;
+
+type Create = {
+  <T extends object, Mos extends [StoreMutatorIdentifier, unknown][] = []>(
+    initializer: StoreInitializer<T, [], Mos>
+  ): UseBoundStore<Mutate<StoreApi<T>, Mos>>;
+  <T extends object>(): <Mos extends [StoreMutatorIdentifier, unknown][] = []>(
+    initializer: StoreInitializer<T, [], Mos>
+  ) => UseBoundStore<Mutate<StoreApi<T>, Mos>>;
+};
 
 const createImplReact = <
   T extends object,
@@ -246,43 +241,41 @@ const createImplReact = <
   createStoreFn: StoreInitializer<T, [], Mos>
 ) => {
   const api = createStore(createStoreFn);
-  const useBoundStore: any = (selector?: any) => useStore(api, selector);
+  const useBoundStore: any = (selector?: any, equalityFn?: any) => useStore(api, selector, equalityFn);
   Object.assign(useBoundStore, api);
   return useBoundStore;
 };
 
-export const create = (<T extends object, Mos extends [StoreMutatorIdentifier, unknown][]>(
-  createStoreFn: StoreInitializer<T, [], Mos> | undefined
+export const create = (<T extends object>(
+  createStoreFn: StoreInitializer<T, [], any> | undefined
 ) =>
   createStoreFn
     ? createImplReact(createStoreFn)
-    : createImplReact) as Create;
+    : <Mos extends [StoreMutatorIdentifier, unknown][]>(
+        initializer: StoreInitializer<T, [], Mos>
+      ) => createImplReact(initializer)) as Create;
 
+// --- Middleware Implementations ---
+
+// shallow
 const isIterable = (obj: object): obj is Iterable<unknown> =>
   Symbol.iterator in obj;
-
 const hasIterableEntries = (
   value: Iterable<unknown>
 ): value is Iterable<unknown> & { entries(): Iterable<[unknown, unknown]> } =>
   "entries" in value;
-
 const compareEntries = (
   valueA: { entries(): Iterable<[unknown, unknown]> },
   valueB: { entries(): Iterable<[unknown, unknown]> }
 ) => {
   const mapA = valueA instanceof Map ? valueA : new Map(valueA.entries());
   const mapB = valueB instanceof Map ? valueB : new Map(valueB.entries());
-  if (mapA.size !== mapB.size) {
-    return false;
-  }
+  if (mapA.size !== mapB.size) return false;
   for (const [key, value] of mapA) {
-    if (!Object.is(value, mapB.get(key))) {
-      return false;
-    }
+    if (!Object.is(value, mapB.get(key))) return false;
   }
   return true;
 };
-
 const compareIterables = (
   valueA: Iterable<unknown>,
   valueB: Iterable<unknown>
@@ -292,46 +285,34 @@ const compareIterables = (
   let nextA = iteratorA.next();
   let nextB = iteratorB.next();
   while (!nextA.done && !nextB.done) {
-    if (!Object.is(nextA.value, nextB.value)) {
-      return false;
-    }
+    if (!Object.is(nextA.value, nextB.value)) return false;
     nextA = iteratorA.next();
     nextB = iteratorB.next();
   }
   return !!nextA.done && !!nextB.done;
 };
-
 export function shallow<T>(valueA: T, valueB: T): boolean {
-  if (Object.is(valueA, valueB)) {
-    return true;
-  }
-
+  if (Object.is(valueA, valueB)) return true;
   if (
     typeof valueA !== "object" ||
     valueA === null ||
     typeof valueB !== "object" ||
     valueB === null
-  ) {
-    return false;
-  }
-
-  if (Object.getPrototypeOf(valueA) !== Object.getPrototypeOf(valueB)) {
-    return false;
-  }
-
+  ) return false;
+  if (Object.getPrototypeOf(valueA) !== Object.getPrototypeOf(valueB)) return false;
   if (isIterable(valueA) && isIterable(valueB)) {
     if (hasIterableEntries(valueA) && hasIterableEntries(valueB)) {
       return compareEntries(valueA, valueB);
     }
     return compareIterables(valueA, valueB);
   }
-
   return compareEntries(
     { entries: () => Object.entries(valueA) },
     { entries: () => Object.entries(valueB) }
   );
 }
 
+// combine
 export function combine<
   T extends object,
   U extends object,
@@ -344,6 +325,7 @@ export function combine<
   return (...args) => Object.assign({}, initialStore, (create as any)(...args));
 }
 
+// immer
 type ImmerImpl = <T extends object>(
   storeInitializer: StoreInitializer<T, [], []>
 ) => StoreInitializer<T, [], []>;
@@ -366,6 +348,7 @@ export type Immer = <
 ) => StoreInitializer<T, Mps, [["store/immer", never], ...Mcs]>;
 export const immer = immerImpl as unknown as Immer;
 
+// persist
 export interface StorageEngine {
   getItem: (name: string) => string | null | Promise<string | null>;
   setItem: (name: string, value: string) => unknown | Promise<unknown>;
@@ -597,6 +580,7 @@ export type Persist = <
 ) => StoreInitializer<T, Mps, [["store/persist", U], ...Mcs]>;
 export const persist = persistImpl as unknown as Persist;
 
+// reducer
 type ReducerImpl = <T extends object, A extends ReducerAction>(
   reducerFn: (store: T, action: A) => T,
   initialStore: T
@@ -624,6 +608,7 @@ export type ReducerMiddleware = <
 ) => StoreInitializer<Write<T, StoreWithReducer<A>>, Cms, [["store/reducer", A]]>;
 export const reducer = reducerImpl as unknown as ReducerMiddleware;
 
+// subscribeWithSelector
 type SubscribeWithSelectorImpl = <T extends object>(
   storeInitializer: StoreInitializer<T, [], []>
 ) => StoreInitializer<T, [], []>;

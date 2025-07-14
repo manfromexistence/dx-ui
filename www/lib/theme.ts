@@ -11,17 +11,17 @@ interface ThemeStore {
   setTheme: (theme: Theme) => void
 }
 
-const useThemeStore = create<ThemeStore>(
+const useThemeStore = create<ThemeStore>()(
   persist(
-    (setStore) => ({
+    (set) => ({
       theme: "system",
-      setTheme: (theme: any) => setStore({ theme }),
+      setTheme: (theme) => set({ theme }),
     }),
     {
       name: "theme",
       storage: createJSONStorage(() => localStorage),
     }
-  ) as any
+  )
 )
 
 export const useTheme = () => {
