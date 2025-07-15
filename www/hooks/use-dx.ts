@@ -7,7 +7,6 @@ import {
     useMemo,
     Dispatch,
     SetStateAction,
-    MutableRefObject,
     RefObject,
   } from "react";
   
@@ -333,7 +332,7 @@ import {
   }
   
   export function useHover<T extends HTMLElement>(): [
-    MutableRefObject<T | null>,
+    RefObject<T | null>,
     boolean,
   ] {
     const [value, setValue] = useState<boolean>(false);
