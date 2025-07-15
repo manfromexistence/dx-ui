@@ -147,6 +147,9 @@ interface ThemeStore extends UseThemeProps {
 
 export const useTheme = create<ThemeStore>((set) => ({
     themes: [],
+    theme: "",
+    resolvedTheme: "",
+    systemTheme: undefined,
     setTheme: (theme) => set({ theme }),
     setResolvedTheme: (resolvedTheme) => set({ resolvedTheme }),
     setSystemTheme: (systemTheme) => set({ systemTheme }),
