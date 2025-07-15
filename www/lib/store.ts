@@ -1,6 +1,6 @@
 "use client";
 
-import { useSyncExternalStoreWithSelector } from "use-sync-external-store/shim/with-selector";
+import { useSyncExternalStore } from "react";
 import { produce } from "immer";
 import type { Draft } from "immer";
 
@@ -200,15 +200,22 @@ export function useStore<S extends ReadonlyStoreApi<unknown>, U>(
 export function useStore<TStore, StoreSlice>(
   api: ReadonlyStoreApi<TStore>,
   selector: (store: TStore) => StoreSlice = identity as any,
-  equalityFn?: (a: StoreSlice, b: StoreSlice) => boolean,
+  equalityFn: (a: StoreSlice, b: StoreSlice) => boolean = Object.is,
 ) {
-  return useSyncExternalStoreWithSelector(
-    api.subscribe,
-    api.getStore,
-    api.getInitialStore,
-    selector,
-    equalityFn || Object.is,
-  );
+  const getSnapshot = () => selector(api.getStore());
+
+  const subscribe = (onStoreChange: () => void) => {
+    const unsubscribe = api.subscribe((store, prevStore) => {
+      if (!equalityFn(selector(store), selector(prevStore))) {
+        onStoreChange();
+      }
+    });
+    return unsubscribe;
+  };
+
+  const getServerSnapshot = () => selector(api.getInitialStore());
+
+  return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 }
 
 export type UseBoundStore<S extends ReadonlyStoreApi<unknown>> = {
