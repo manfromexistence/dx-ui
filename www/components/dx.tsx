@@ -6,7 +6,6 @@ import {
     getTheme,
     disableAnimation,
     getSystemTheme,
-    saveToLS,
     DXProps,
     Attribute,
 } from "@/lib/theme";
