@@ -2,7 +2,7 @@
 
 import { META_THEME_COLORS, useMetaColor } from "@/hooks/use-meta-colors";
 import { Check, Monitor, Moon, MoonIcon, Sun, SunIcon } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import * as React from "react";
 import { Button } from "@/components/ui/button";
 import {

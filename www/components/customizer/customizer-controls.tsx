@@ -23,7 +23,7 @@ import {
 import { getOptimalForegroundColor, isValidColor } from "@/lib/theme/color-utils";
 import { RADIUS_VALUES } from "@/lib/theme/theme-constants";
 import { Check, ChevronDown, ChevronDownIcon, ChevronUp, SendHorizontal } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import {
   ChangeEvent,
   ComponentProps,

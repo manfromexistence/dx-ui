@@ -29,7 +29,7 @@ import {
   MoonIcon,
   SunIcon,
 } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import router from "next/router";
 import Link from "next/link";
 import { lt } from "@/lib/utils";

@@ -10,7 +10,7 @@ import {
 } from "@/lib/theme/color-converter";
 import { getOptimalForegroundColor } from "@/lib/theme/color-utils";
 import { CircleAlert, Pipette } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import { useCallback, useEffect, useState } from "react";
 import { HexColorPicker } from "react-colorful";
 import { useDebouncedCallback } from "@/hooks/use-debounced-callback";

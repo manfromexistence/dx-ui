@@ -1,6 +1,6 @@
 // pulled from https://github.com/shadcn-ui/ui/blob/main/apps/v4/hooks/use-meta-color.ts
 import * as React from "react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 
 export const META_THEME_COLORS = {
   light: "#ffffff",

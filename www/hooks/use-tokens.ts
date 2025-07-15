@@ -9,7 +9,7 @@ import {
   ThemeProperty,
 } from "@/types/theme";
 import { getOptimalForegroundColor, isValidColor } from "@/lib/theme/color-utils";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import { useCallback } from "react";
 import { useThemeConfig } from "@/hooks/use-theme-config";
 

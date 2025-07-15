@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { ThemeMode, ThemeProperties } from "@/types/theme";
 import { getOptimalForegroundColor } from "@/lib/theme/color-utils";
 import { AlertTriangle, Check, Contrast } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 import React, { useState } from "react";
 import { ModeSwitcher } from "@/components/customizer/mode-switcher";
 import { Badge } from "@/components/ui/badge";

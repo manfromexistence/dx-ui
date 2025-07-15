@@ -8,7 +8,7 @@ import { getCssVarsFromThemeObject } from "@/constants/themes";
 import { ThemeMode, ThemeProperties } from "@/types/theme";
 import { setStyleProperty } from "@/lib/utils";
 import { setShadowVariables } from "@/constants/shadows";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/theme";
 
 export function ThemeSync() {
   const {
