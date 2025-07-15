@@ -27,8 +27,8 @@ git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
 git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 
 git clone https://github.com/romboHQ/tailwindcss-motion && cd tailwindcss-motion && rm -rf .git && cd ..
-git clone https://github.com/mrdoob/three.js && cd three.js && rm -rf .git && cd ..
 git clone https://github.com/juliencrn/usehooks-ts && cd usehooks-ts && rm -rf .git && cd ..
+git clone https://github.com/mrdoob/three.js && cd three.js && rm -rf .git && cd ..
 git clone https://github.com/juliangarnier/anime && cd anime && rm -rf .git && cd ..
 git clone https://github.com/pmndrs/react-spring && cd react-spring && rm -rf .git && cd ..
 git clone https://github.com/goldfire/howler.js && cd howler.js && rm -rf .git && cd ..
