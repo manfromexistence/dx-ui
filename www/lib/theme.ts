@@ -1,100 +1,153 @@
-"use client"
+import { create } from "@/lib/store";
+import * as React from "react";
 
-import { useEffect, useState, useCallback } from "react"
-import { create } from "@/lib/store"
-import { persist, createJSONStorage } from "@/lib/store"
+export interface ValueObject {
+    [themeName: string]: string;
+}
 
-type Theme = "light" | "dark" | "system"
-type ResolvedTheme = "light" | "dark"
+export type DataAttribute = `data-${string}`;
+
+export interface ScriptProps
+    extends React.DetailedHTMLProps<
+        React.ScriptHTMLAttributes<HTMLScriptElement>,
+        HTMLScriptElement
+    > {
+    [dataAttribute: DataAttribute]: any;
+}
 
 export interface UseThemeProps {
-  themes: Theme[]
-  setTheme: (theme: Theme) => void
-  theme: Theme
-  resolvedTheme: ResolvedTheme
+    themes: string[];
+    forcedTheme?: string | undefined;
+    setTheme: (theme: string) => void;
+    theme?: string | undefined;
+    resolvedTheme?: string | undefined;
+    systemTheme?: "dark" | "light" | undefined;
 }
 
-interface ThemeStore {
-  theme: Theme
-  setTheme: (theme: Theme) => void
+export type Attribute = DataAttribute | "class";
+
+export interface DXProps extends React.PropsWithChildren<unknown> {
+    themes?: string[] | undefined;
+    forcedTheme?: string | undefined;
+    enableSystem?: boolean | undefined;
+    disableTransitionOnChange?: boolean | undefined;
+    enableColorScheme?: boolean | undefined;
+    storageKey?: string | undefined;
+    defaultTheme?: string | undefined;
+    attribute?: Attribute | Attribute[] | undefined;
+    value?: ValueObject | undefined;
+    nonce?: string;
+    scriptProps?: ScriptProps;
 }
 
-const useThemeStore = create<ThemeStore>()(
-  persist(
-    (set) => ({
-      theme: "system",
-      setTheme: (theme) => set({ theme }),
-    }),
-    {
-      name: "theme",
-      storage: createJSONStorage(() => localStorage),
-    }
-  )
-)
+export const script = (
+    attribute: Attribute | Attribute[],
+    storageKey: string,
+    defaultTheme: string,
+    forcedTheme: string | undefined,
+    themes: string[],
+    value: ValueObject | undefined,
+    enableSystem: boolean,
+    enableColorScheme: boolean
+) => {
+    const el = document.documentElement;
+    const systemThemes = ["light", "dark"];
 
-const defaultThemes: Theme[] = ["light", "dark"]
+    function updateDOM(theme: string) {
+        const attributes = Array.isArray(attribute) ? attribute : [attribute];
 
-export const useTheme = (): UseThemeProps => {
-  const { theme, setTheme } = useThemeStore()
-  const [mounted, setMounted] = useState(false)
-  const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>("light")
+        attributes.forEach((attr) => {
+            const isClass = attr === "class";
+            const classes =
+                isClass && value ? themes.map((t) => value[t] || t) : themes;
+            if (isClass) {
+                el.classList.remove(...classes);
+                el.classList.add(value && value[theme] ? value[theme] : theme);
+            } else {
+                el.setAttribute(attr, theme);
+            }
+        });
 
-  const applyTheme = useCallback((newTheme: Theme) => {
-    const d = document.documentElement
-    let resolved: ResolvedTheme
-
-    if (newTheme === "system") {
-      resolved = window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light"
-    } else {
-      resolved = newTheme
-    }
-
-    d.classList.remove("light", "dark")
-    d.classList.add(resolved)
-    d.setAttribute("data-theme", resolved)
-    d.style.colorScheme = resolved
-    setResolvedTheme(resolved)
-  }, [])
-
-  useEffect(() => {
-    applyTheme(theme)
-  }, [theme, applyTheme])
-
-  useEffect(() => {
-    const handleMediaQuery = () => {
-      if (useThemeStore.getStore().theme === "system") {
-        applyTheme("system")
-      }
+        setColorScheme(theme);
     }
 
-    const handleStorage = (e: StorageEvent) => {
-      if (e.key === "theme" && e.newValue) {
-        try {
-          const newTheme = JSON.parse(e.newValue).store.theme as Theme
-          setTheme(newTheme)
-        } catch (error) {
-          console.error("Failed to parse theme from storage", error)
+    function setColorScheme(theme: string) {
+        if (enableColorScheme && systemThemes.includes(theme)) {
+            el.style.colorScheme = theme;
         }
-      }
     }
 
-    const mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)")
-    mediaQueryList.addEventListener("change", handleMediaQuery)
-    window.addEventListener("storage", handleStorage)
-    setMounted(true)
+    function getSystemTheme() {
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+    }
+
+    if (forcedTheme) {
+        updateDOM(forcedTheme);
+    } else {
+        try {
+            const themeName = localStorage.getItem(storageKey) || defaultTheme;
+            const isSystem = enableSystem && themeName === "system";
+            const theme = isSystem ? getSystemTheme() : themeName;
+            updateDOM(theme);
+        } catch (e) { }
+    }
+};
+
+export const MEDIA = "(prefers-color-scheme: dark)";
+export const isServer = typeof window === "undefined";
+
+export const saveToLS = (storageKey: string, value: string) => {
+    try {
+        localStorage.setItem(storageKey, value);
+    } catch (e) { }
+};
+
+export const getTheme = (key: string, fallback?: string) => {
+    if (isServer) return undefined;
+    let theme;
+    try {
+        theme = localStorage.getItem(key) || undefined;
+    } catch (e) { }
+    return theme || fallback;
+};
+
+export const disableAnimation = (nonce?: string) => {
+    const css = document.createElement("style");
+    if (nonce) css.setAttribute("nonce", nonce);
+    css.appendChild(
+        document.createTextNode(
+            `*,*::before,*::after{-webkit-transition:none!important;-moz-transition:none!important;-o-transition:none!important;-ms-transition:none!important;transition:none!important}`
+        )
+    );
+    document.head.appendChild(css);
 
     return () => {
-      mediaQueryList.removeEventListener("change", handleMediaQuery)
-      window.removeEventListener("storage", handleStorage)
-    }
-  }, [applyTheme, setTheme])
+        (() => window.getComputedStyle(document.body))();
 
-  return {
-    theme,
-    setTheme,
-    themes: [...defaultThemes, "system"],
-    resolvedTheme: mounted ? resolvedTheme : "light",
-  }
+        setTimeout(() => {
+            document.head.removeChild(css);
+        }, 1);
+    };
+};
+
+export const getSystemTheme = (e?: MediaQueryList | MediaQueryListEvent) => {
+    if (!e) e = window.matchMedia(MEDIA);
+    const isDark = e.matches;
+    const systemTheme = isDark ? "dark" : "light";
+    return systemTheme;
+};
+
+interface ThemeStore extends UseThemeProps {
+    setTheme: (theme: string) => void;
+    setResolvedTheme: (theme: string) => void;
+    setSystemTheme: (theme: "light" | "dark") => void;
 }
+
+export const useTheme = create<ThemeStore>((set) => ({
+    themes: [],
+    setTheme: (theme) => set({ theme }),
+    setResolvedTheme: (resolvedTheme) => set({ resolvedTheme }),
+    setSystemTheme: (systemTheme) => set({ systemTheme }),
+}));
