@@ -20,8 +20,8 @@ const countryToLanguageMap: Record<string, Locale> = {
   'CU': 'es', 'GT': 'es', 'HN': 'es', 'SV': 'es', 'NI': 'es', 'GQ': 'es',
   
   // Portuguese speaking countries
-  'BR': 'pt', 'PT': 'pt', 'AO': 'pt', 'MZ': 'pt', 'GW': 'pt', 'ST': 'pt', 'CV': 'pt',
-  'TL': 'pt', 'MO': 'pt',
+  // 'BR': 'pt', 'PT': 'pt', 'AO': 'pt', 'MZ': 'pt', 'GW': 'pt', 'ST': 'pt', 'CV': 'pt',
+  // 'TL': 'pt', 'MO': 'pt',
   
   // French speaking countries
   'FR': 'fr', 'MC': 'fr', 'SN': 'fr', 'CI': 'fr',
@@ -34,11 +34,11 @@ const countryToLanguageMap: Record<string, Locale> = {
   'DE': 'de', 'AT': 'de', 'LI': 'de',
   
   // Asian languages
-  'CN': 'zh-CN', 'TW': 'zh-TW', 'HK': 'zh-CN', 'SG': 'zh-CN',
+  // 'CN': 'zh-CN', 'TW': 'zh-TW', 'HK': 'zh-CN', 'SG': 'zh-CN',
   'JP': 'ja',
   'KR': 'ko',
   'IN': 'hi', 'BD': 'bn', 'PK': 'ur',
-  'TH': 'th', 'VN': 'vi', 'ID': 'id', 'MY': 'ms', 'PH': 'tl',
+  // 'TH': 'th', 'VN': 'vi', 'ID': 'id', 'MY': 'ms', 'PH': 'tl',
   'MM': 'my', 'KH': 'km', 'LA': 'lo', 'MN': 'mn', 'KZ': 'kk',
   'KG': 'ky', 'TJ': 'tg', 'TM': 'tk', 'UZ': 'uz',
   'AF': 'fa', 'IR': 'fa',
@@ -73,7 +73,7 @@ const countryToLanguageMap: Record<string, Locale> = {
   'MG': 'fr', // Madagascar - French is more widely known internationally
   
   // Other regions
-  'IL': 'iw',
+  // 'IL': 'iw',
   'MV': 'dv', 'LK': 'si',
   'NP': 'ne', 'BT': 'en', // Bhutan - using English as fallback
   'FJ': 'en', 'TO': 'en', 'WS': 'sm', // Using English as fallback for most Pacific islands
@@ -85,14 +85,14 @@ const browserLanguageToLocaleMap: Record<string, Locale> = {
   'es': 'es', 'es-ES': 'es', 'es-MX': 'es', 'es-AR': 'es',
   'fr': 'fr', 'fr-FR': 'fr', 'fr-CA': 'fr',
   'de': 'de', 'de-DE': 'de', 'de-AT': 'de',
-  'pt': 'pt', 'pt-BR': 'pt', 'pt-PT': 'pt',
-  'zh': 'zh-CN', 'zh-CN': 'zh-CN', 'zh-TW': 'zh-TW', 'zh-HK': 'zh-CN',
+  // 'pt': 'pt', 'pt-BR': 'pt', 'pt-PT': 'pt',
+  // 'zh': 'zh-CN', 'zh-CN': 'zh-CN', 'zh-TW': 'zh-TW', 'zh-HK': 'zh-CN',
   'ja': 'ja', 'ko': 'ko',
   'ar': 'ar', 'hi': 'hi', 'bn': 'bn', 'ur': 'ur',
   'ru': 'ru', 'it': 'it', 'nl': 'nl', 'sv': 'sv', 'da': 'da', 'no': 'no',
   'fi': 'fi', 'pl': 'pl', 'tr': 'tr', 'el': 'el',
   'th': 'th', 'vi': 'vi', 'id': 'id', 'ms': 'ms',
-  'he': 'iw', 'fa': 'fa', 'uk': 'uk', 'cs': 'cs', 'sk': 'sk',
+  // 'he': 'iw', 'fa': 'fa', 'uk': 'uk', 'cs': 'cs', 'sk': 'sk',
   'hu': 'hu', 'ro': 'ro', 'bg': 'bg', 'hr': 'hr', 'sr': 'sr',
   'sl': 'sl', 'et': 'et', 'lv': 'lv', 'lt': 'lt', 'mt': 'mt',
   'is': 'is', 'ga': 'ga', 'cy': 'cy', 'eu': 'eu', 'ca': 'ca',
