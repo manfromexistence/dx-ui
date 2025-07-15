@@ -18,6 +18,8 @@ git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && 
 git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
 git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 
+git clone https://github.com/rdev/liquid-glass-react && cd liquid-glass-react && rm -rf .git && cd ..
+git clone https://github.com/luukdv/gooey-react && cd gooey-react && rm -rf .git && cd ..
 git clone https://github.com/ant-design/ant-design && cd ant-design && rm -rf .git && cd ..
 git clone https://github.com/mui/base-ui && cd base-ui && rm -rf .git && cd ..
 git clone https://github.com/radix-ui/primitives && cd primitives && rm -rf .git && cd ..
