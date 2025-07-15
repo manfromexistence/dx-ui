@@ -93,7 +93,7 @@ export function NavDesktopActions({ items = mainNav }: NavDesktopActionsProps) {
     const pathname = usePathname();
 
     return (
-        <>
+        <div className="hidden md:flex">
             <SidebarMenu>
                 {items.map((item) => {
                     const isActive = pathname === item.href;
@@ -127,7 +127,7 @@ export function NavDesktopActions({ items = mainNav }: NavDesktopActionsProps) {
                 <div className="mx-auto h-auto w-[99%] border-t border-dashed" />
                 <History />
             </>)}
-        </>
+        </div>
     );
 }
 
