@@ -18,6 +18,7 @@ git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && 
 git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
 git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 
+git clone https://github.com/pmndrs/react-spring && cd react-spring && rm -rf .git && cd ..
 git clone https://github.com/goldfire/howler.js && cd howler.js && rm -rf .git && cd ..
 git clone https://github.com/joshwcomeau/use-sound && cd use-sound && rm -rf .git && cd ..
 git clone https://github.com/rdev/liquid-glass-react && cd liquid-glass-react && rm -rf .git && cd ..
