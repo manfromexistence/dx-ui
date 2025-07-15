@@ -39,12 +39,7 @@ export function Providers({
   ...props
 }: React.ComponentProps<typeof NextThemesProvider>) {
   return (
-    <DX
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
-    >
+    <DX>
       <LocaleProvider>
         <QueryClientProvider client={queryClient}>
           <NuqsAdapter>
