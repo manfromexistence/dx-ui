@@ -5,7 +5,6 @@ import { Toaster as DefaultToaster, Toaster as NewYorkToaster } from "@/componen
 import { SubCategorySidebarProvider } from "@/components/layout/sidebar/subcategory-sidebar"
 import { CategorySidebarProvider } from "@/components/layout/sidebar/category-sidebar"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { ThemeProvider } from "@/providers/theme-provider";
 import { Toaster as NewYorkSonner } from "@/components/ui/sonner"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 import { ThemeSync } from "@/providers/theme-sync";
@@ -43,13 +42,6 @@ export function Providers({
       <LocaleProvider>
         <QueryClientProvider client={queryClient}>
           <NuqsAdapter>
-            {/* <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
-            </ThemeProvider> */}
             <JotaiProvider>
               <TooltipProvider>
                 <SidebarProvider
