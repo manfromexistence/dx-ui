@@ -151,12 +151,12 @@ export function ChatComposerActions() {
       </TooltipContent>
     </Tooltip>
   );
+  // <ChatTools />
 
   return (
     <div className="relative flex h-12 flex-row justify-between rounded-b-xl border-t px-2.5">
       <div className="flex h-full flex-row items-center gap-1.5">
         <ChatOptions />
-        <ChatTools />
       </div>
 
       <div className="absolute bottom-1 left-1/2 flex h-10 -translate-x-1/2 flex-row items-center justify-center gap-1 rounded-full border p-1.5">
