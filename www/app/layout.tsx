@@ -1,37 +1,56 @@
+import { LoadTheme } from "@/providers/load-theme";
+import { Providers } from "@/providers";
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { Dx } from "@/components/dx";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Dx Ui",
-  description: "Make your component library!",
+  title: {
+    default: "Friday",
+    template: "%s | Friday",
+  },
+  description: "Your AI Friend.",
+  keywords: [
+    "friday",
+    "manfromexistence",
+    "multiverse",
+    "aladdin",
+    "better",
+    "dx",
+    "manfromexistence-auth",
+    "manfromexistence-ui",
+    "manfromexistence-ux",
+  ],
+  authors: [
+    {
+      name: "manfromexistence",
+      url: "https://manfromexistence.vercel.app",
+    },
+  ],
+  creator: "manfromexistence",
+  metadataBase: new URL("https://themux.vercel.app"),
+  openGraph: {
+    title: "Friday | More than just your AI assistant",
+    description: "Your AI Friend.",
+  },
+  generator: "Next.js",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function Root(props: {
   children: React.ReactNode;
-}>) {
+}) {
+
+  const { children } = props;
+
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Dx>
-          {children}
-        </Dx>
+      <head>
+        <LoadTheme />
+      </head>
+      <body className={cn(`antialiased w-full min-h-screen relative`)}>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
 }
+
