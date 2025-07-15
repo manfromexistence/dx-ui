@@ -116,7 +116,7 @@ export const ChatOptions: FC = () => {
 
       return (
         <div className="flex items-center justify-center w-full">
-          {showIcon ? <Icon className="size-3.5 text-muted-foreground group-hover:text-primary" />
+          {showIcon ? <Icon className="size-3.5 text-muted-foreground group-hover:text-foreground" />
             : <span className="truncate w-min md:w-auto">{label}</span>}
         </div>
       );
@@ -129,7 +129,7 @@ export const ChatOptions: FC = () => {
 
     return (
       <div className="flex items-center">
-        {Icon ? <Icon className="size-3.5 text-muted-foreground group-hover:text-primary" /> : "Select"}
+        {Icon ? <Icon className="size-3.5 text-muted-foreground group-hover:text-foreground" /> : "Select"}
       </div>
     );
   };
@@ -138,7 +138,7 @@ export const ChatOptions: FC = () => {
     <div className="flex items-center h-9 rounded-md border bg-card text-card-foreground p-1">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <div className="group flex bg-primary-foreground rounded-md border justify-center text-muted hover:text-primary size-6.5 hover:bg-secondary">
+          <div className="group flex bg-card rounded-md border justify-center text-muted hover:text-foreground size-6.5 hover:bg-secondary">
             {getTriggerDisplay('media', selectedMedia)}
           </div>
         </DropdownMenuTrigger>
@@ -156,7 +156,7 @@ export const ChatOptions: FC = () => {
 
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button className="group flex bg-primary-foreground rounded-md border justify-center text-muted hover:text-primary size-6.5 hover:bg-secondary px-1.5" disabled={parentOptions.length === 0}>
+          <Button className="group flex bg-card rounded-md border justify-center text-muted hover:text-foreground size-6.5 hover:bg-secondary px-1.5" disabled={parentOptions.length === 0}>
             {getTriggerDisplay('parent', selectedParent)}
           </Button>
         </DropdownMenuTrigger>
@@ -178,7 +178,7 @@ export const ChatOptions: FC = () => {
           <VerticalSeparator />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button className="group flex bg-primary-foreground rounded-md border justify-center text-primary h-6.5 min-w-6.5 hover:bg-secondary text-xs px-1.5" disabled={childOptions.length === 0}>
+              <Button className="group flex bg-card rounded-md border justify-center text-foreground h-6.5 min-w-6.5 hover:bg-secondary text-xs px-1.5" disabled={childOptions.length === 0}>
                 {getTriggerDisplay('child', selectedChild)}
               </Button>
             </DropdownMenuTrigger>

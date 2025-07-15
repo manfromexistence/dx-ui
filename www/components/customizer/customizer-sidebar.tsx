@@ -75,28 +75,6 @@ import { useState } from "react";
 import { NavDesktopActions, NavMobileActions } from "../layout/header/nav-actions";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "../ui/command";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const languageNames: Record<string, string> = {
   ab: "abkhaz",
   ace: "acehnese",
@@ -400,7 +378,7 @@ export function CustomizerSidebar({
                           )}
                         />
                         <div className="flex flex-1 items-center justify-between">
-                          <span>{languageNames[lang] || lang}</span>
+                          <span>{languageNames[lang].charAt(0).toUpperCase() + languageNames[lang].slice(1) || ""}</span>
                           <span className="text-xs text-muted-foreground">
                             {lang.toUpperCase()}
                           </span>

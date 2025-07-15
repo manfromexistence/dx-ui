@@ -218,9 +218,9 @@ export function ChatComposerActions() {
             <motion.div
               className={cn(
                 "flex cursor-pointer items-center justify-center rounded-full p-0",
-                chatState.currentMediaType === "image" &&
-                  "border bg-background text-primary",
-                isLoading && "cursor-not-allowed opacity-50"
+                // chatState.currentMediaType === "image" &&
+                //   "border bg-background text-primary",
+                // isLoading && "cursor-not-allowed opacity-50"
               )}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -228,7 +228,7 @@ export function ChatComposerActions() {
               <Paperclip
                 className={cn(
                   "size-4 text-muted-foreground transition-colors hover:text-primary",
-                  chatState.currentMediaType === "image" && "text-primary"
+                  // chatState.currentMediaType === "image" && "text-primary"
                 )}
               />
             </motion.div>
