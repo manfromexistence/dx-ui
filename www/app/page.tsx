@@ -1,16 +1,54 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { MessageList } from "@/components/chat/messages/message-list"
-import { ChatComposer } from "@/components/chat/composer/chat-composer"
-import { HelloGlow } from "@/components/common/hello-glow";
+import { create } from "@/lib/store";
+import { useTheme } from "@/lib/theme";
 
-export default function ChatPage() {
+interface CounterStore {
+  count: number;
+  increment: () => void;
+  decrement: () => void;
+}
+
+export const useCounterStore = create<CounterStore>((setStore) => ({
+  count: 0,
+  increment: () => setStore((store) => ({ count: store.count + 1 })),
+  decrement: () => setStore((store) => ({ count: store.count - 1 })),
+}));
+
+function ThemeToggle() {
+  const { setTheme, resolvedTheme } = useTheme();
+
   return (
-    <div className="relative flex min-h-full w-full flex-col transition-all duration-200 ease-linear">
-      <MessageList />
-      <ChatComposer />
-      {/* <HelloGlow /> */}
+    <button
+      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      className="theme-toggle"
+    >
+      Switch to {resolvedTheme === "dark" ? "Light" : "Dark"} Mode
+    </button>
+  );
+}
+
+export default function Counter() {
+  const { count, increment, decrement } = useCounterStore();
+
+  return (
+    <div className={`counter-container`}>
+      <ThemeToggle />
+      <h1 className="counter-title">{count}</h1>
+      <div className="button-group">
+        <button
+          onClick={increment}
+          className="button button-increment"
+        >
+          Increment
+        </button>
+        <button
+          onClick={decrement}
+          className="button button-decrement"
+        >
+          Decrement
+        </button>
+      </div>
     </div>
   );
 }

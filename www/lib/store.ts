@@ -1,8 +1,6 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { produce } from "immer";
-import type { Draft } from "immer";
 
 type SetStoreInternal<T> = (
   partial: T | Partial<T> | ((store: T) => T | Partial<T>),
@@ -29,27 +27,27 @@ type SetStoreType<T extends unknown[]> = Exclude<T[0], (...args: any[]) => any>;
 type WithImmer<S> = Write<S, StoreImmer<S>>;
 type StoreImmer<S> = S extends { setStore: infer SetStore }
   ? SetStore extends {
-      (...args: infer A1): infer Sr1;
-      (...args: infer A2): infer Sr2;
-    }
-    ? {
-        setStore(
-          nextStoreOrUpdater:
-            | SetStoreType<A2>
-            | Partial<SetStoreType<A2>>
-            | ((store: Draft<SetStoreType<A2>>) => void),
-          shouldReplace?: false,
-          ...args: SkipTwo<A1>
-        ): Sr1;
-        setStore(
-          nextStoreOrUpdater:
-            | SetStoreType<A2>
-            | ((store: Draft<SetStoreType<A2>>) => void),
-          shouldReplace: true,
-          ...args: SkipTwo<A2>
-        ): Sr2;
-      }
-    : never
+    (...args: infer A1): infer Sr1;
+    (...args: infer A2): infer Sr2;
+  }
+  ? {
+    setStore(
+      nextStoreOrUpdater:
+        | SetStoreType<A2>
+        | Partial<SetStoreType<A2>>
+        | ((store: SetStoreType<A2>) => void),
+      shouldReplace?: false,
+      ...args: SkipTwo<A1>
+    ): Sr1;
+    setStore(
+      nextStoreOrUpdater:
+        | SetStoreType<A2>
+        | ((store: SetStoreType<A2>) => void),
+      shouldReplace: true,
+      ...args: SkipTwo<A2>
+    ): Sr2;
+  }
+  : never
   : never;
 
 type WithPersist<S, A> = S extends { getStore: () => infer T }
@@ -254,8 +252,8 @@ export const create = (<T extends object>(
   createStoreFn
     ? createImplReact(createStoreFn)
     : <Mos extends [StoreMutatorIdentifier, unknown][]>(
-        initializer: StoreInitializer<T, [], Mos>,
-      ) => createImplReact(initializer)) as Create;
+      initializer: StoreInitializer<T, [], Mos>,
+    ) => createImplReact(initializer)) as Create;
 
 const isIterable = (obj: object): obj is Iterable<unknown> =>
   Symbol.iterator in obj;
@@ -350,13 +348,26 @@ type ImmerImpl = <T extends object>(
 
 const immerImpl: ImmerImpl = (initializer) => (setStore, getStore, store) => {
   type T = ReturnType<typeof initializer>;
-  store.setStore = (updater, replace, ...args) => {
-    const nextStore = (
-      typeof updater === "function" ? produce(updater as any) : updater
-    ) as ((s: T) => T) | T | Partial<T>;
 
-    return setStore(nextStore, replace as any, ...args);
+  store.setStore = (updater, replace, ...args) => {
+    const updatedStore = (
+      currentStore: T,
+    ): T | Partial<T> => {
+      if (typeof updater === "function") {
+        const draft = { ...currentStore };
+        const result = (updater as (store: T) => void | T)(draft);
+
+        if (result !== undefined) {
+          return result;
+        }
+        return draft;
+      }
+      return updater;
+    };
+
+    return setStore(updatedStore, replace as any, ...args);
   };
+
   return initializer(store.setStore, getStore, store);
 };
 
@@ -408,13 +419,13 @@ export function createJSONStorage<S>(
         str === null
           ? null
           : (JSON.parse(str, options?.reviver) as StorageValue<S>);
-      const str = storage.getItem(name) ?? null;
+      const str = storage!.getItem(name) ?? null;
       if (str instanceof Promise) return str.then(parse);
       return parse(str);
     },
     setItem: (name, newValue) =>
-      storage.setItem(name, JSON.stringify(newValue, options?.replacer)),
-    removeItem: (name) => storage.removeItem(name),
+      storage!.setItem(name, JSON.stringify(newValue, options?.replacer)),
+    removeItem: (name) => storage!.removeItem(name),
   };
   return persistStorage;
 }
