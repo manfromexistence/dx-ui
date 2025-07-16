@@ -1,0 +1,9 @@
+node_modules
+dist
+notes.txt
+/src/test
+CLAUDE.md
+.claude
+PositionObserver
+pop.md
+popd.md

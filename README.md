@@ -26,6 +26,8 @@ git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && 
 git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
 git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 
+git clone https://github.com/spaansba/ForesightJS && cd ForesightJS && rm -rf .git && cd ..
+git clone https://github.com/aidenybai/react-scan && cd react-scan && rm -rf .git && cd ..
 git clone https://github.com/better-auth/better-auth && cd better-auth && rm -rf .git && cd ..
 git clone https://github.com/romboHQ/tailwindcss-motion && cd tailwindcss-motion && rm -rf .git && cd ..
 git clone https://github.com/juliencrn/usehooks-ts && cd usehooks-ts && rm -rf .git && cd ..
