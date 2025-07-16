@@ -23,7 +23,7 @@ function SoundPlayer({ title, soundUrl }: { title: string; soundUrl: string }) {
   };
 
   return (
-      <div className="w-full max-w-sm p-6 bg-gray-100 dark:bg-gray-800 rounded-2xl shadow-lg space-y-4 transform hover:scale-105 transition-transform duration-300">
+      <div className="w-full max-w-sm p-6 bg-white dark:black rounded-2xl shadow-lg space-y-4 transform hover:scale-105 transition-transform duration-300">
           <h3 className="text-xl font-bold text-center text-gray-800 dark:text-white">{title}</h3>
           <div className="flex items-center justify-center space-x-4">
               <button
