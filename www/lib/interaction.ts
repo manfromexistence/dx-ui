@@ -53,6 +53,13 @@ export const onMouseUp = createHtmlElementInteraction("mouseup");
 export const onMouseMove = createHtmlElementInteraction("mousemove");
 export const onMouseEnter = createHtmlElementInteraction("mouseenter");
 export const onMouseLeave = createHtmlElementInteraction("mouseleave");
+
+// Added Pointer Events
+export const onPointerDown = createHtmlElementInteraction("pointerdown");
+export const onPointerUp = createHtmlElementInteraction("pointerup");
+export const onPointerMove = createHtmlElementInteraction("pointermove");
+
+
 export const onDragStart = createHtmlElementInteraction("dragstart");
 export const onDrag = createHtmlElementInteraction("drag");
 export const onDragEnd = createHtmlElementInteraction("dragend");

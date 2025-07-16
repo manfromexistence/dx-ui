@@ -1,37 +1,74 @@
-import React, { createContext, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState, useCallback } from "react";
-import { create } from "zustand";
-import { onPointerDown, onPointerUp, onPointerMove, onMouseEnter, onMouseLeave } from "@/lib/interaction";
+"use client";
 
-type MotionValue<T = any> = {
+import { useMemo, useEffect, useCallback, useRef, useState, useLayoutEffect, createContext, useContext } from "react";
+import { create } from "zustand";
+
+// --- dx-motion Core ---
+
+export type MotionValue<T = any> = {
     id: string;
     get: () => T;
     set: (value: T) => void;
     onChange: (callback: (value: T) => void) => () => void;
     getVelocity: () => number;
 };
-type EasingFunction = (v: number) => number;
-type AnimationValues = { [key: string]: any };
-type Point = { x: number; y: number };
-type Transition = { type?: "spring" | "tween"; duration?: number; ease?: EasingFunction | EasingFunction[]; stiffness?: number; damping?: number; mass?: number; delay?: number; onComplete?: () => void; };
-type AnimationOptions = { from: number; to: number; onUpdate?: (latest: number) => void; } & Transition;
-type AnimationControls = { stop: () => void; isPlaying: () => boolean };
-type PanInfo = { point: Point; delta: Point; offset: Point; velocity: Point };
-type DraggableProps = { drag?: boolean | "x" | "y"; dragConstraints?: React.RefObject<Element> | { top?: number; left?: number; right?: number; bottom?: number }; onDragStart?: (event: PointerEvent, info: PanInfo) => void; onDrag?: (event: PointerEvent, info: PanInfo) => void; onDragEnd?: (event: PointerEvent, info: PanInfo) => void; dragControls?: ReturnType<typeof useDragControls>; };
-type MotionComponentProps = Omit<React.HTMLAttributes<HTMLDivElement>, "onDrag" | "onDragStart" | "onDragEnd"> & DraggableProps & { animate?: AnimationValues; initial?: AnimationValues; exit?: AnimationValues; transition?: Transition; whileHover?: AnimationValues; whileTap?: AnimationValues; whileInView?: AnimationValues; viewport?: IntersectionObserverInit & { once?: boolean }; layout?: boolean | "position" | "size"; };
+export type EasingFunction = (v: number) => number;
+export type AnimationValues = { [key: string]: any | any[] };
+export type Point = { x: number; y: number };
+export type Transition = { type?: "spring" | "tween" | "inertia" | "physics"; duration?: number; ease?: EasingFunction | [number, number, number, number] | "bounce" | "bounceIn" | "bounceOut" | "bounceInOut" | "wiggle"; stiffness?: number; damping?: number; mass?: number; delay?: number | ((i: number) => number); onComplete?: () => void; power?: number; timeConstant?: number; modifyTarget?: (v: number) => number; acceleration?: number; friction?: number; };
+export type AnimationOptions = { from: any; to: any; onUpdate?: (latest: any) => void; velocity?: number } & Transition;
+export type AnimationControls = { stop: () => void; isPlaying: () => boolean; play: () => void; pause: () => void; reverse: () => void; seek: (time: number) => void; timeScale: (scale: number) => void;};
+export type PanInfo = { point: Point; delta: Point; offset: Point; velocity: Point };
+export type DraggableProps = { drag?: boolean | "x" | "y"; dragConstraints?: React.RefObject<Element> | { top?: number; left?: number; right?: number; bottom?: number }; onDragStart?: (event: PointerEvent, info: PanInfo) => void; onDrag?: (event: PointerEvent, info: PanInfo) => void; onDragEnd?: (event: PointerEvent, info: PanInfo) => void; dragControls?: ReturnType<typeof useDragControls>; dragMomentum?: boolean; dragTransition?: Transition; };
+export type MotionComponentProps = Omit<React.HTMLAttributes<HTMLDivElement>, "onDrag" | "onDragStart" | "onDragEnd"> & DraggableProps & { animate?: AnimationValues; initial?: AnimationValues; exit?: AnimationValues; transition?: Transition; whileHover?: AnimationValues; whileTap?: AnimationValues; whileFocus?: AnimationValues; whileInView?: AnimationValues; viewport?: IntersectionObserverInit & { once?: boolean }; layout?: boolean | "position" | "size"; layoutId?: string; };
 interface MotionStore { values: Map<string, { value: any; velocity: number; lastUpdate: number }>; setValue: (key: string, value: any) => void; subscribe: (key: string, callback: (value: any) => void) => () => void; }
 
 const clamp = (min: number, max: number, v: number) => Math.min(Math.max(v, min), max);
 const progress = (from: number, to: number, value: number) => (to - from === 0 ? 1 : (value - from) / (to - from));
 const mix = (from: number, to: number, p: number) => -p * from + p * to + from;
 
-const useMotionStore = create<MotionStore>((set, get) => ({
+const colorRegex = /#(?:[0-9a-f]{3}){1,2}|rgb\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)|hsl\(\s*\d+\s*,\s*\d+%?\s*,\s*\d+%?\s*\)/gi;
+const numberRegex = /-?\d*\.?\d+/g;
+
+const toRGBA = (color: string): [number, number, number, number] => {
+    if (color.startsWith("#")) {
+        const hex = color.slice(1);
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
+        return [r, g, b, 1];
+    }
+    const [r, g, b, a = 1] = color.match(/\d+/g)!.map(Number);
+    return [r, g, b, a];
+};
+
+const mixColor = (from: string, to: string, p: number) => {
+    const fromRGBA = toRGBA(from);
+    const toRGBA = toRGBA(to);
+    const result = fromRGBA.map((v, i) => Math.round(mix(v, toRGBA[i], p)));
+    return `rgba(${result[0]}, ${result[1]}, ${result[2]}, ${result[3]})`;
+};
+
+const mixComplex = (from: string, to: string, p: number) => {
+    const fromNumbers = from.match(numberRegex)?.map(Number) || [];
+    const toNumbers = to.match(numberRegex)?.map(Number) || [];
+    const fromColors = from.match(colorRegex) || [];
+    const toColors = to.match(colorRegex) || [];
+
+    let i = 0;
+    let j = 0;
+    return to.replace(colorRegex, () => mixColor(fromColors[j], toColors[j++], p))
+             .replace(numberRegex, () => mix(fromNumbers[i], toNumbers[i++], p).toString());
+}
+
+export const useMotionStore = create<MotionStore>((set, get) => ({
     values: new Map(),
     setValue: (key, value) => {
         const now = performance.now();
         const state = get();
         const prev = state.values.get(key) || { value: 0, velocity: 0, lastUpdate: now };
         const timeDelta = Math.max(1, now - prev.lastUpdate);
-        const newVelocity = (value - prev.value) / timeDelta * 1000;
+        const newVelocity = typeof value === 'number' && typeof prev.value === 'number' ? (value - prev.value) / timeDelta * 1000 : 0;
         set({ values: new Map(state.values).set(key, { value, velocity: newVelocity, lastUpdate: now }) });
     },
     subscribe: (key, callback) => {
@@ -43,62 +80,197 @@ const useMotionStore = create<MotionStore>((set, get) => ({
     },
 }));
 
-const easings = {
-    linear: (v: number) => v,
-    easeIn: (p: number) => p * p,
-    easeOut: (p: number) => 1 - (1 - p) * (1 - p),
-    easeInOut: (p: number) => p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2,
+const cubicBezier = (x1: number, y1: number, x2: number, y2: number) => {
+    const ax = 3 * x1 - 3 * x2 + 1;
+    const bx = 3 * x2 - 6 * x1;
+    const cx = 3 * x1;
+    const ay = 3 * y1 - 3 * y2 + 1;
+    const by = 3 * y2 - 6 * y1;
+    const cy = 3 * y1;
+    const sampleCurveY = (t: number) => ((ay * t + by) * t + cy) * t;
+    const sampleCurveX = (t: number) => ((ax * t + bx) * t + cx) * t;
+    const solveCurveX = (x: number) => {
+        let t2 = x;
+        for (let i = 0; i < 8; i++) {
+            const x2 = sampleCurveX(t2) - x;
+            if (Math.abs(x2) < 1e-6) return t2;
+            const d2 = (3 * ax * t2 + 2 * bx) * t2 + cx;
+            if (Math.abs(d2) < 1e-6) break;
+            t2 = t2 - x2 / d2;
+        }
+        return t2;
+    };
+    return (x: number) => sampleCurveY(solveCurveX(x));
 };
 
-function animate({ from, to, onUpdate, onComplete, ...options }: AnimationOptions): AnimationControls {
+const bounceOut = (p: number) => {
+    const n1 = 7.5625;
+    const d1 = 2.75;
+    if (p < 1 / d1) {
+        return n1 * p * p;
+    } else if (p < 2 / d1) {
+        return n1 * (p -= 1.5 / d1) * p + 0.75;
+    } else if (p < 2.5 / d1) {
+        return n1 * (p -= 2.25 / d1) * p + 0.9375;
+    } else {
+        return n1 * (p -= 2.625 / d1) * p + 0.984375;
+    }
+};
+
+export const easings = {
+    linear: (v: number) => v,
+    easeIn: cubicBezier(0.42, 0, 1, 1),
+    easeOut: cubicBezier(0, 0, 0.58, 1),
+    easeInOut: cubicBezier(0.42, 0, 0.58, 1),
+    circIn: (p: number) => 1 - Math.sqrt(1 - p * p),
+    circOut: (p: number) => Math.sqrt(1 - Math.pow(p - 1, 2)),
+    circInOut: (p: number) => p < 0.5 ? (1 - Math.sqrt(1 - Math.pow(2 * p, 2))) / 2 : (Math.sqrt(1 - Math.pow(-2 * p + 2, 2)) + 1) / 2,
+    backIn: (p: number) => 2.70158 * p * p * p - 1.70158 * p * p,
+    backOut: (p: number) => 1 + 2.70158 * Math.pow(p - 1, 3) + 1.70158 * Math.pow(p - 1, 2),
+    backInOut: (p: number) => p < 0.5 ? (Math.pow(2 * p, 2) * ((2.59491) * 2 * p - 1.59491)) / 2 : (Math.pow(2 * p - 2, 2) * ((2.59491) * (p * 2 - 2) + 1.59491) + 2) / 2,
+    anticipate: (p: number) => (p *= 2) < 1 ? 0.5 * (p * p * p - p * p) : 0.5 * ((p -= 2) * p * p + 2),
+    bounceIn: (p: number) => 1 - bounceOut(1 - p),
+    bounceOut,
+    bounceInOut: (p: number) => p < 0.5 ? (1 - bounceOut(1 - 2 * p)) / 2 : (1 + bounceOut(2 * p - 1)) / 2,
+    steps: (n: number, direction: "start" | "end" = "end") => (p: number) => {
+        const step = Math.floor(p * n);
+        return direction === "end" ? step / (n - 1) : step / n;
+    },
+    wiggle: (p: number, wiggles = 10) => -Math.cos(p * Math.PI * (wiggles - 0.5)) * Math.exp(-p * p * 5) + 1,
+};
+
+export function animate({ from, to, onUpdate, onComplete, velocity = 0, ...options }: AnimationOptions): AnimationControls {
     let isActive = true;
-    const { duration = 0.3, ease = easings.easeInOut, type = "tween", stiffness = 100, damping = 10, mass = 1 } = options;
+    let isReversed = false;
+    let currentTime = 0;
+    let scale = 1;
+    const { duration = 0.3, ease: easeOption = easings.easeInOut, type = "tween", stiffness = 100, damping = 10, mass = 1, delay = 0, power = 0.8, timeConstant = 325, modifyTarget, acceleration = 0, friction = 0.1 } = options;
     let animationFrame: number;
+    const ease = typeof easeOption === 'string' ? (easings as any)[easeOption] : Array.isArray(easeOption) ? cubicBezier(...easeOption) : easeOption;
 
     const stop = () => {
         isActive = false;
         cancelAnimationFrame(animationFrame);
     };
-
-    if (type === "spring") {
+    
+    let tick: (timestamp: number) => void;
+    
+    if (type === 'inertia') {
+        tick = (timestamp: number) => {
+            if (!isActive) return;
+            const elapsed = timestamp - lastTime;
+            const delta = -velocity * Math.exp(-elapsed / timeConstant);
+            from += delta;
+            onUpdate?.(from);
+            if (Math.abs(velocity) < 1) {
+                onComplete?.();
+                stop();
+            } else {
+                velocity *= Math.exp(-elapsed / timeConstant);
+                animationFrame = requestAnimationFrame(tick);
+            }
+            lastTime = timestamp;
+        };
+    } else if (type === 'physics') {
         let position = from;
-        let velocity = 0;
-        const tick = () => {
+        let v = velocity;
+        tick = (timestamp: number) => {
             if (!isActive) return;
-            const springForce = -stiffness * (position - to);
-            const dampingForce = -damping * velocity;
-            const acceleration = (springForce + dampingForce) / mass;
-            velocity += acceleration * (1 / 60);
-            position += velocity * (1 / 60);
+            const elapsed = (timestamp - lastTime) / 1000;
+            v += acceleration * elapsed;
+            v *= (1 - friction);
+            position += v * elapsed;
             onUpdate?.(position);
-            if (Math.abs(position - to) < 0.01 && Math.abs(velocity) < 0.01) {
-                onUpdate?.(to);
-                onComplete?.();
+            if (Math.abs(v) < 0.1) {
                 stop();
+                onComplete?.();
             } else {
                 animationFrame = requestAnimationFrame(tick);
             }
+            lastTime = timestamp;
         };
-        animationFrame = requestAnimationFrame(tick);
     } else {
-        const startTime = performance.now();
-        const tick = (timestamp: number) => {
+        tick = (timestamp: number) => {
             if (!isActive) return;
-            const elapsed = timestamp - startTime;
-            const p = clamp(0, 1, elapsed / (duration * 1000));
-            const easedProgress = Array.isArray(ease) ? ease[0](p) : ease(p);
-            onUpdate?.(mix(from, to, easedProgress));
-            if (p < 1) {
-                animationFrame = requestAnimationFrame(tick);
-            } else {
+            
+            currentTime += (timestamp - (lastTime || timestamp)) * scale;
+            lastTime = timestamp;
+
+            const p = clamp(0, 1, currentTime / (duration * 1000));
+            const easedProgress = ease(p);
+            
+            let latest;
+            if (typeof from === 'number' && typeof to === 'number') {
+                latest = mix(from, to, easedProgress);
+            } else if (typeof from === 'string' && typeof to === 'string') {
+                if (from.match(colorRegex) && to.match(colorRegex)) {
+                    latest = mixColor(from, to, easedProgress);
+                } else {
+                    latest = mixComplex(from, to, easedProgress);
+                }
+            }
+            
+            onUpdate?.(latest);
+
+            if ((!isReversed && p >= 1) || (isReversed && p <= 0)) {
                 onComplete?.();
                 stop();
+            } else {
+                animationFrame = requestAnimationFrame(tick);
             }
         };
-        animationFrame = requestAnimationFrame(tick);
     }
 
-    return { stop, isPlaying: () => isActive };
+
+    let lastTime: number;
+    const play = () => {
+        isActive = true;
+        lastTime = performance.now();
+        animationFrame = requestAnimationFrame(tick);
+    };
+
+    const pause = () => { isActive = false; };
+    const reverse = () => { isReversed = !isReversed; };
+    const seek = (time: number) => { currentTime = time * 1000; };
+    const timeScale = (newScale: number) => { scale = newScale; };
+    
+    setTimeout(play, typeof delay === 'number' ? delay * 1000 : 0);
+
+    return { stop, isPlaying: () => isActive, play, pause, reverse, seek, timeScale };
+}
+
+export function useTimeline(sequence: [string | MotionValue, AnimationValues, Transition?][]) {
+    const controls = useMemo(() => {
+        const timelineControls: AnimationControls[] = [];
+        let totalDuration = 0;
+        
+        sequence.forEach(([target, values, options]) => {
+            const duration = options?.duration || 0.3;
+            Object.keys(values).forEach(key => {
+                const mv = typeof target === 'string' ? useMotionStore.getState().values.get(`${target}-${key}`) : target;
+                if(mv) {
+                    const from = mv.get();
+                    const to = values[key];
+                    const control = animate({
+                        from, to, ...options,
+                        delay: totalDuration,
+                        onUpdate: (latest) => mv.set(latest),
+                    });
+                    timelineControls.push(control);
+                }
+            });
+            totalDuration += duration;
+        });
+
+        return {
+            play: () => timelineControls.forEach(c => c.play()),
+            pause: () => timelineControls.forEach(c => c.pause()),
+            reverse: () => timelineControls.forEach(c => c.reverse()),
+            seek: (time: number) => timelineControls.forEach(c => c.seek(time)),
+            timeScale: (scale: number) => timelineControls.forEach(c => c.timeScale(scale)),
+        };
+    }, [sequence]);
+    return controls;
 }
 
 export function useMotionValue<T>(initialValue: T): MotionValue<T> {
@@ -118,246 +290,291 @@ export function useMotionValue<T>(initialValue: T): MotionValue<T> {
     }), [id, initialValue, store]);
 }
 
-function usePanGesture(
-    ref: React.RefObject<HTMLElement>,
-    { drag, dragConstraints, onDragStart, onDrag, onDragEnd }: DraggableProps,
-    motionValues: { x?: MotionValue<number>; y?: MotionValue<number> }
-) {
-    const isDragging = useRef(false);
-    const startPoint = useRef({ x: 0, y: 0 });
+export function useTransform<T, U>(
+    value: MotionValue<T>,
+    transformer: ((v: T) => U) | number[],
+    outputRange?: U[]
+): MotionValue<U> {
+    const initialTransformedValue = () => {
+        const latest = value.get();
+        if (typeof transformer === 'function') {
+            return transformer(latest);
+        }
+        if (Array.isArray(transformer) && outputRange) {
+            const p = progress(transformer[0], transformer[1], latest as any);
+            return mix(outputRange[0] as any, outputRange[1] as any, p);
+        }
+        return latest as any;
+    };
+    
+    const transformedValue = useMotionValue(initialTransformedValue());
 
-    const handlePointerDown = useCallback((event: PointerEvent) => {
-        if (!drag || !ref.current) return;
-        isDragging.current = true;
-        ref.current.style.cursor = "grabbing";
-        ref.current.setPointerCapture(event.pointerId);
+    useEffect(() => {
+        const unsubscribe = value.onChange(latest => {
+            let newValue;
+            if (typeof transformer === "function") {
+                newValue = transformer(latest);
+            } else if (Array.isArray(transformer) && outputRange) {
+                const p = progress(transformer[0] as number, transformer[1] as number, latest as any);
+                newValue = mix(outputRange[0] as any, outputRange[1] as any, p);
+            }
+            if (newValue !== undefined) {
+                transformedValue.set(newValue);
+            }
+        });
+        return () => unsubscribe();
+    }, [value, transformer, outputRange, transformedValue]);
 
-        const info = {
-            point: { x: event.clientX, y: event.clientY },
-            delta: { x: 0, y: 0 },
-            offset: { x: motionValues.x?.get() || 0, y: motionValues.y?.get() || 0 },
-            velocity: { x: 0, y: 0 },
-        };
-        startPoint.current = info.point;
-        onDragStart?.(event, info);
-
-        const handlePointerMove = (moveEvent: PointerEvent) => {
-            if (!isDragging.current) return;
-            const delta = { x: moveEvent.clientX - startPoint.current.x, y: moveEvent.clientY - startPoint.current.y };
-            const newX = info.offset.x + delta.x;
-            const newY = info.offset.y + delta.y;
-            
-            if (drag === true || drag === "x") motionValues.x?.set(newX);
-            if (drag === true || drag === "y") motionValues.y?.set(newY);
-
-            const moveInfo = {
-                ...info,
-                point: { x: moveEvent.clientX, y: moveEvent.clientY },
-                delta,
-                velocity: { x: motionValues.x?.getVelocity() || 0, y: motionValues.y?.getVelocity() || 0 },
-            };
-            onDrag?.(moveEvent, moveInfo);
-        };
-
-        const handlePointerUp = (upEvent: PointerEvent) => {
-            if (!isDragging.current || !ref.current) return;
-            isDragging.current = false;
-            ref.current.style.cursor = drag ? "grab" : "auto";
-            ref.current.releasePointerCapture(upEvent.pointerId);
-
-            const endInfo = {
-                ...info,
-                point: { x: upEvent.clientX, y: upEvent.clientY },
-                velocity: { x: motionValues.x?.getVelocity() || 0, y: motionValues.y?.getVelocity() || 0 },
-            };
-            onDragEnd?.(upEvent, endInfo);
-            
-            window.removeEventListener("pointermove", handlePointerMove);
-            window.removeEventListener("pointerup", handlePointerUp);
-        };
-
-        window.addEventListener("pointermove", handlePointerMove);
-        window.addEventListener("pointerup", handlePointerUp);
-
-    }, [drag, ref, motionValues.x, motionValues.y, onDragStart, onDrag, onDragEnd]);
-
-    onPointerDown(ref, handlePointerDown);
+    return transformedValue;
 }
 
-const MotionContext = createContext<Partial<MotionComponentProps>>({});
-export const MotionConfig = ({ children, ...props }: React.PropsWithChildren<Partial<MotionComponentProps>>) => (
-    <MotionContext.Provider value={props}>{children}</MotionContext.Provider>
-);
+export function useScroll(options?: { container?: React.RefObject<HTMLElement> }) {
+    const scrollX = useMotionValue(0);
+    const scrollY = useMotionValue(0);
+    const scrollXProgress = useMotionValue(0);
+    const scrollYProgress = useMotionValue(0);
+    const scrollXVelocity = useMotionValue(0);
+    const scrollYVelocity = useMotionValue(0);
 
-const PresenceContext = createContext<{ isPresent: boolean; onExitComplete?: (id: string | number) => void; } | null>(null);
+    useEffect(() => {
+        const element = options?.container?.current || window;
+        const handleScroll = () => {
+            const x = 'scrollX' in element ? element.scrollX : element.scrollLeft;
+            const y = 'scrollY' in element ? element.scrollY : element.scrollTop;
+            scrollX.set(x);
+            scrollY.set(y);
+            scrollXVelocity.set(scrollX.getVelocity());
+            scrollYVelocity.set(scrollY.getVelocity());
+            const scrollWidth = 'scrollWidth' in element ? (element as HTMLElement).scrollWidth : document.documentElement.scrollWidth;
+            const clientWidth = 'clientWidth' in element ? (element as HTMLElement).clientWidth : document.documentElement.clientWidth;
+            const scrollHeight = 'scrollHeight' in element ? (element as HTMLElement).scrollHeight : document.documentElement.scrollHeight;
+            const clientHeight = 'clientHeight' in element ? (element as HTMLElement).clientHeight : document.documentElement.clientHeight;
+            scrollXProgress.set(x / (scrollWidth - clientWidth));
+            scrollYProgress.set(y / (scrollHeight - clientHeight));
+        };
+        
+        element.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll(); // Set initial values
+        return () => element.removeEventListener('scroll', handleScroll);
+    }, [options?.container, scrollX, scrollY, scrollXProgress, scrollYProgress, scrollXVelocity, scrollYVelocity]);
 
-export function AnimatePresence({ children }: { children: React.ReactNode }) {
-    const [presentChildren, setPresentChildren] = useState<React.ReactElement[]>([]);
-    const exiting = useRef(new Set<string | number>()).current;
+    return { scrollX, scrollY, scrollXProgress, scrollYProgress, scrollXVelocity, scrollYVelocity };
+}
+
+export function useScrollTo(options?: Transition) {
+    return useCallback((target: number | string | HTMLElement) => {
+        let targetY: number;
+        if (typeof target === 'number') {
+            targetY = target;
+        } else if (typeof target === 'string') {
+            const el = document.querySelector(target);
+            if (!el) return;
+            targetY = window.scrollY + el.getBoundingClientRect().top;
+        } else {
+            targetY = window.scrollY + target.getBoundingClientRect().top;
+        }
+
+        animate({
+            from: window.scrollY,
+            to: targetY,
+            onUpdate: (v) => window.scrollTo(0, v),
+            ...options,
+        });
+    }, [options]);
+}
+
+export function useSmoothScroll(options?: { stiffness?: number, damping?: number, mass?: number }) {
+    const { stiffness = 100, damping = 10, mass = 1 } = options || {};
+    const smoothedScrollY = useMotionValue(window.scrollY);
+
+    useEffect(() => {
+        let animationFrame: number;
+        const tick = () => {
+            const current = smoothedScrollY.get();
+            const target = window.scrollY;
+            const newPosition = mix(current, target, 1 / (stiffness / 10)); // Simplified spring
+            smoothedScrollY.set(newPosition);
+            animationFrame = requestAnimationFrame(tick);
+        };
+        animationFrame = requestAnimationFrame(tick);
+        return () => cancelAnimationFrame(animationFrame);
+    }, [smoothedScrollY, stiffness, damping, mass]);
+    
+    return smoothedScrollY;
+}
+
+
+export function stagger(duration: number, options: { start?: number, from?: "first" | "last" | "center", ease?: EasingFunction } = {}) {
+    const { start = 0, from = "first", ease } = options;
+    return (i: number, total: number) => {
+        const fromIndex = from === "first" ? 0 : from === "last" ? total - 1 : Math.floor(total / 2);
+        const distance = Math.abs(i - fromIndex);
+        let p = progress(0, total - 1, distance);
+        if (ease) p = ease(p);
+        return start + p * duration;
+    };
+}
+
+export function useMotionPath(pathRef: React.RefObject<SVGPathElement>, progress: MotionValue<number>) {
+    const x = useMotionValue(0);
+    const y = useMotionValue(0);
 
     useLayoutEffect(() => {
-        const newChildren = React.Children.toArray(children).filter(React.isValidElement) as React.ReactElement[];
-        const newKeys = new Set(newChildren.map(c => c.key!));
-        const prevKeys = new Set(presentChildren.map(c => c.key!));
-
-        const entering = newChildren.filter(c => !prevKeys.has(c.key!));
-        const exitingChildren = presentChildren.filter(c => !newKeys.has(c.key!));
-
-        exitingChildren.forEach(child => exiting.add(child.key!));
+        if (!pathRef.current) return;
+        const path = pathRef.current;
+        const pathLength = path.getTotalLength();
         
-        const onExitComplete = (key: string | number) => {
-            exiting.delete(key);
-            setPresentChildren(prev => prev.filter(c => c.key !== key));
-        };
-
-        setPresentChildren(prev => {
-            const current = prev.filter(c => !exiting.has(c.key!));
-            return [...current, ...entering];
+        const unsubscribe = progress.onChange(p => {
+            const point = path.getPointAtLength(p * pathLength);
+            x.set(point.x);
+            y.set(point.y);
         });
 
-    }, [children]);
-    
-    return (
-        <PresenceContext.Provider value={{ isPresent: true }}>
-            {presentChildren.map(child => {
-                const isExiting = exiting.has(child.key!);
-                return (
-                    <PresenceContext.Provider key={child.key} value={{ isPresent: !isExiting, onExitComplete: () => {} }}>
-                        {React.cloneElement(child, { _isExiting: isExiting })}
-                    </PresenceContext.Provider>
-                );
-            })}
-        </PresenceContext.Provider>
-    );
+        return () => unsubscribe();
+    }, [pathRef, progress, x, y]);
+
+    return { x, y };
 }
 
-const motionComponent = <P extends object, R>(Component: React.ForwardRefExoticComponent<P & React.RefAttributes<R>>) => {
-    return React.forwardRef<R, P & MotionComponentProps & { _isExiting?: boolean }>((props, externalRef) => {
-        const config = useContext(MotionContext);
-        const presence = useContext(PresenceContext);
-        const { animate: animateProps, initial, exit, transition, whileHover, whileTap, drag, dragConstraints, onDragStart, onDrag, onDragEnd, layout, style, _isExiting, ...rest } = { ...config, ...props };
+export function useInView(ref: React.RefObject<Element>, options: IntersectionObserverInit & { once?: boolean } = {}) {
+    const [isInView, setIsInView] = useState(false);
+
+    useEffect(() => {
+        if (!ref.current) return;
+        const observer = new IntersectionObserver(([entry]) => {
+            setIsInView(entry.isIntersecting);
+            if (entry.isIntersecting && options.once) {
+                observer.disconnect();
+            }
+        }, options);
+
+        observer.observe(ref.current);
+
+        return () => observer.disconnect();
+    }, [ref, options]);
+
+    return isInView;
+}
+
+export function useObserver(
+    ref: React.RefObject<Element>, 
+    options: { onEnter?: () => void; onLeave?: () => void; onResize?: (entry: ResizeObserverEntry) => void; } & IntersectionObserverInit
+) {
+    const { onEnter, onLeave, onResize, ...intersectionOptions } = options;
+
+    useEffect(() => {
+        if (!ref.current) return;
+        const intersectionObserver = new IntersectionObserver(([entry]) => {
+            if (entry.isIntersecting) {
+                onEnter?.();
+            } else {
+                onLeave?.();
+            }
+        }, intersectionOptions);
         
-        const internalRef = useRef<HTMLElement>(null);
-        const ref = (externalRef || internalRef) as React.RefObject<HTMLElement>;
-        
-        const reducedMotion = useReducedMotion();
-        const isMounted = useRef(false);
+        intersectionObserver.observe(ref.current);
 
-        const motionValues = useMemo(() => {
-            const values: { [key: string]: MotionValue<any> } = {};
-            const allKeys = { ...style, ...initial, ...animateProps, ...whileHover, ...whileTap, ...exit };
-            for (const key in allKeys) {
-                if (key === "x" || key === "y" || key === "scale" || key === "rotate" || key === "opacity") {
-                    const initialValue = (style as any)?.[key] ?? initial?.[key] ?? 0;
-                    values[key] = useMotionValue(initialValue);
+        let resizeObserver: ResizeObserver;
+        if (onResize) {
+            resizeObserver = new ResizeObserver(([entry]) => {
+                onResize(entry);
+            });
+            resizeObserver.observe(ref.current);
+        }
+
+        return () => {
+            intersectionObserver.disconnect();
+            resizeObserver?.disconnect();
+        };
+    }, [ref, onEnter, onLeave, onResize, intersectionOptions]);
+}
+
+export function useChain(refs: React.MutableRefObject<AnimationControls[]>[], timeStep: number = 0.1) {
+    useEffect(() => {
+        refs.forEach((ref, i) => {
+            setTimeout(() => {
+                ref.current.forEach(control => control.play());
+            }, i * timeStep * 1000);
+        });
+    }, [refs, timeStep]);
+};
+
+export function useTrail<T extends any[]>(items: T, options: Transition & { from: AnimationValues, to: AnimationValues }) {
+    const { from, to, ...transitionOptions } = options;
+    return items.map((_, i) => {
+        const style = useMotionValue(from);
+        useMemo(() => animate({
+            from: 0,
+            to: 1,
+            ...transitionOptions,
+            delay: i * (typeof options.delay === 'number' ? options.delay : 0.1),
+            onUpdate: (p) => {
+                const newStyle: any = {};
+                for (const key in to) {
+                    const fromVal = from?.[key] ?? 0;
+                    const toVal = to?.[key] ?? 1;
+                    newStyle[key] = mix(fromVal, toVal, p);
                 }
+                style.set(newStyle);
             }
-            return values;
-        }, []);
-
-        const runAnimation = useCallback((values: AnimationValues | undefined, onComplete?: () => void) => {
-            if (!values || reducedMotion) {
-                onComplete?.();
-                return;
-            }
-            const animations = Object.keys(values).map(key => new Promise(resolve => {
-                const mv = motionValues[key];
-                if (mv) {
-                    animate({
-                        from: mv.get(),
-                        to: values[key],
-                        ...transition,
-                        onUpdate: latest => mv.set(latest),
-                        onComplete: resolve
-                    });
-                } else {
-                    resolve(null);
-                }
-            }));
-            Promise.all(animations).then(() => onComplete?.());
-        }, [motionValues, transition, reducedMotion]);
-
-        useLayoutEffect(() => {
-            const element = ref.current;
-            if (!element) return;
-            
-            const unsubscribes = Object.entries(motionValues).map(([key, mv]) => mv.onChange(latest => {
-                if (key === "x" || key === "y" || key === "scale" || key === "rotate") {
-                    const x = motionValues.x?.get() || 0;
-                    const y = motionValues.y?.get() || 0;
-                    const scale = motionValues.scale?.get() ?? 1;
-                    const rotate = motionValues.rotate?.get() || 0;
-                    element.style.transform = `translate(${x}px, ${y}px) scale(${scale}) rotate(${rotate}deg)`;
-                } else {
-                    (element.style as any)[key] = latest;
-                }
-            }));
-            return () => unsubscribes.forEach(unsub => unsub());
-        }, [motionValues]);
-
-        useEffect(() => {
-            if (!presence && !isMounted.current) {
-                runAnimation(initial);
-            } else if (presence?.isPresent && isMounted.current) {
-                runAnimation(animateProps);
-            } else if (_isExiting) {
-                runAnimation(exit, presence?.onExitComplete?.(props.key!));
-            }
-            if (!isMounted.current) isMounted.current = true;
-        }, [presence?.isPresent, _isExiting, animateProps]);
-
-        const [isHovering, setIsHovering] = useState(false);
-        const [isTapping, setIsTapping] = useState(false);
-
-        onMouseEnter(ref, () => {
-            setIsHovering(true);
-            if (whileHover) runAnimation(whileHover);
-        });
-        onMouseLeave(ref, () => {
-            setIsHovering(false);
-            if (!isTapping) runAnimation(animateProps);
-        });
-        onPointerDown(ref, () => {
-            setIsTapping(true);
-            if (whileTap) runAnimation(whileTap);
-        });
-        onPointerUp(ref, () => {
-            setIsTapping(false);
-            if (!isHovering) runAnimation(animateProps);
-            else if (whileHover) runAnimation(whileHover);
-        });
-
-        usePanGesture(ref, { drag, dragConstraints, onDragStart, onDrag, onDragEnd }, motionValues);
-
-        return (
-            <Component
-                ref={ref as any}
-                style={{ ...style, cursor: drag ? "grab" : "auto" }}
-                {...(rest as P)}
-            />
-        );
+        }), [i, options, style]);
+        return style;
     });
 };
 
-type MotionFactory = {
-    [Tag in keyof JSX.IntrinsicElements]: React.ForwardRefExoticComponent<
-        MotionComponentProps & React.RefAttributes<JSX.IntrinsicElements[Tag]>
-    >;
+export function useTransition<T extends any>(items: T[], keyAccessor: (item: T) => string, options: { from: AnimationValues; enter: AnimationValues; leave: AnimationValues; trail?: number; } & Transition) {
+    const [transitions, setTransitions] = useState<{ key: string; item: T; style: any; }[]>([]);
+    const { from, enter, leave, trail, ...restOptions } = options;
+
+    useLayoutEffect(() => {
+        const newKeys = new Set(items.map(keyAccessor));
+        const oldTransitions = new Map(transitions.map(t => [t.key, t]));
+        
+        const newTransitionsWithItems = items.map(item => {
+            const key = keyAccessor(item);
+            const old = oldTransitions.get(key);
+            if (old) {
+                oldTransitions.delete(key);
+                return old;
+            }
+            const style = useMotionValue(from);
+            animate({from: 0, to: 1, ...restOptions, onUpdate: p => {
+                const newStyle: any = {};
+                for (const k in enter) {
+                    newStyle[k] = mix(from[k], enter[k], p);
+                }
+                style.set(newStyle);
+            }});
+            return { key, item, style };
+        });
+
+        oldTransitions.forEach(t => {
+            animate({from: 1, to: 0, ...restOptions, onUpdate: p => {
+                const newStyle: any = {};
+                for (const k in leave) {
+                    newStyle[k] = mix(enter[k], leave[k], p);
+                }
+                t.style.set(newStyle);
+            }, onComplete: () => {
+                setTransitions(current => current.filter(ct => ct.key !== t.key));
+            }});
+        });
+
+        setTransitions(newTransitionsWithItems);
+
+    }, [items, keyAccessor, from, enter, leave, restOptions]);
+
+    return transitions;
 };
 
-const factory = new Proxy(
-    {},
-    {
-        get: (target, prop: string) => {
-            return motionComponent(React.forwardRef((props, ref) => React.createElement(prop, { ...props, ref })));
-        },
-    }
-);
+export const useDragControls = () => {
+    return useMemo(() => ({ start: (e: React.PointerEvent) => {} }), []);
+}
 
-export const motion = factory as MotionFactory;
 export const useReducedMotion = () => {
     const [reducedMotion, setReducedMotion] = useState(false);
     useEffect(() => {
+        if (typeof window === "undefined") return;
         const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
         setReducedMotion(mediaQuery.matches);
         const listener = () => setReducedMotion(mediaQuery.matches);
@@ -365,7 +582,4 @@ export const useReducedMotion = () => {
         return () => mediaQuery.removeEventListener("change", listener);
     }, []);
     return reducedMotion;
-}
-export const useDragControls = () => {
-    return useMemo(() => ({ start: (e: React.PointerEvent) => {} }), []);
 }
