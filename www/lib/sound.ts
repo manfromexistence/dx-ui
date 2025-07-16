@@ -114,8 +114,8 @@ const createDxSoundGlobal = () => {
             if (vol !== undefined && vol >= 0 && vol <= 1) {
                 state._volume = vol;
                 if (state._muted) return self;
-                if (state.usingWebAudio) {
-                    state.masterGain!.gain.setValueAtTime(vol, state.ctx!.currentTime);
+                if (state.usingWebAudio && state.masterGain && state.ctx) {
+                    state.masterGain.gain.setValueAtTime(vol, state.ctx.currentTime);
                 }
                 for (const sound of state._sounds) {
                     if (!sound._webAudio) {
@@ -131,8 +131,8 @@ const createDxSoundGlobal = () => {
 
         mute: (muted: boolean): any => {
             state._muted = muted;
-            if (state.usingWebAudio) {
-                state.masterGain!.gain.setValueAtTime(muted ? 0 : state._volume, state.ctx!.currentTime);
+            if (state.usingWebAudio && state.masterGain && state.ctx) {
+                state.masterGain.gain.setValueAtTime(muted ? 0 : state._volume, state.ctx.currentTime);
             }
             for (const sound of state._sounds) {
                 if (!sound._webAudio) {
@@ -153,7 +153,7 @@ const createDxSoundGlobal = () => {
             for (let i = state._sounds.length - 1; i >= 0; i--) {
                 state._sounds[i].unload();
             }
-            if (state.usingWebAudio && state.ctx && state.ctx.close) {
+            if (state.usingWebAudio && state.ctx && typeof state.ctx.close !== "undefined") {
                 state.ctx.close();
                 state.ctx = null;
                 self._setupAudioContext();
@@ -199,12 +199,13 @@ const createDxSoundGlobal = () => {
             state.autoUnlock = false;
 
             const unlock = () => {
+                if(!state.ctx) return;
                 self._autoResume();
-                const source = state.ctx!.createBufferSource();
+                const source = state.ctx.createBufferSource();
                 source.buffer = state._scratchBuffer!;
-                source.connect(state.ctx!.destination);
+                source.connect(state.ctx.destination);
                 source.start(0);
-                if (state.ctx!.resume) state.ctx!.resume();
+                if (state.ctx.resume) state.ctx.resume();
                 source.onended = () => {
                     source.disconnect(0);
                     state._audioUnlocked = true;
@@ -237,9 +238,9 @@ const createDxSoundGlobal = () => {
             if (!state.autoSuspend || !state.ctx || !state.ctx.suspend || !state.usingWebAudio) return;
             if (state._suspendTimer) clearTimeout(state._suspendTimer);
             state._suspendTimer = setTimeout(() => {
-                if (!state.autoSuspend) return;
+                if (!state.autoSuspend || !state.ctx) return;
                 state.state = "suspending";
-                state.ctx!.suspend().then(() => { state.state = "suspended"; });
+                state.ctx.suspend().then(() => { state.state = "suspended"; });
             }, 30000);
         },
 
@@ -265,10 +266,10 @@ const createDxSoundGlobal = () => {
 
             if (!state.ctx) state.usingWebAudio = false;
 
-            if (state.usingWebAudio) {
-                state.masterGain = state.ctx!.createGain();
-                state.masterGain.gain.setValueAtTime(state._muted ? 0 : state._volume, state.ctx!.currentTime);
-                state.masterGain.connect(state.ctx!.destination);
+            if (state.usingWebAudio && state.ctx) {
+                state.masterGain = state.ctx.createGain();
+                state.masterGain.gain.setValueAtTime(state._muted ? 0 : state._volume, state.ctx.currentTime);
+                state.masterGain.connect(state.ctx.destination);
                 state._scratchBuffer = state.ctx.createBuffer(1, 1, 22050);
             }
         },
@@ -303,7 +304,7 @@ const createSound = (o: SoundOptions) => {
         _preload: typeof o.preload === "boolean" || o.preload === "metadata" ? o.preload : true,
         _rate: o.rate || 1,
         _sprite: o.sprite || {} as SpriteMap,
-        _src: typeof o.src === "string" ? [o.src] : o.src,
+        _src: typeof o.src === "string" ? [o.src] : o.src as string | string[],
         _volume: o.volume !== undefined ? o.volume : 1,
         _xhr: {
             method: o.xhr?.method || "GET",
@@ -341,10 +342,10 @@ const createSound = (o: SoundOptions) => {
                 soundInstance._emit("loaderror", null, "No audio support.");
                 return soundInstance;
             }
-            if (typeof soundState._src === "string") soundState._src = [soundState._src];
-            for (let i = 0; i < soundState._src.length; i++) {
+            const srcAsArray = Array.isArray(soundState._src) ? soundState._src : [soundState._src];
+            for (let i = 0; i < srcAsArray.length; i++) {
                 let ext: string | undefined;
-                const srcStr = soundState._src[i];
+                const srcStr = srcAsArray[i];
                 if (soundState._format[i]) {
                     ext = soundState._format[i];
                 } else {
@@ -364,7 +365,7 @@ const createSound = (o: SoundOptions) => {
                 soundInstance._emit("loaderror", null, "No codec support for selected audio sources.");
                 return soundInstance;
             }
-            soundState._src = url;
+            soundState._src = url; // Now it's a single string
             soundState._state = "loading";
             if (typeof window !== "undefined" && window.location.protocol === "https:" && url.slice(0, 5) === "http:") {
                 soundState._html5 = true;
@@ -429,7 +430,7 @@ const createSound = (o: SoundOptions) => {
             }
     
             const node = playback._node;
-            if (soundState._webAudio && node) {
+            if (soundState._webAudio && node && DxSound._state.ctx) {
                 const playWebAudio = () => {
                     soundState._playLock = false;
                     setParams();
@@ -585,8 +586,8 @@ const createSound = (o: SoundOptions) => {
                 if (playback) {
                     playback._muted = muted;
                     soundInstance._stopFade(playbackId);
-                    if (soundState._webAudio && playback._node) {
-                        (playback._node as GainNode).gain.setValueAtTime(muted ? 0 : playback._volume, DxSound._state.ctx!.currentTime);
+                    if (soundState._webAudio && playback._node && DxSound._state.ctx) {
+                        (playback._node as GainNode).gain.setValueAtTime(muted ? 0 : playback._volume, DxSound._state.ctx.currentTime);
                     } else if (playback._node) {
                         (playback._node as HTMLAudioElement).muted = DxSound._state._muted ? true : muted;
                     }
@@ -619,8 +620,8 @@ const createSound = (o: SoundOptions) => {
                     if (playback) {
                         playback._volume = vol;
                         soundInstance._stopFade(playbackId);
-                        if (soundState._webAudio && playback._node && !playback._muted) {
-                            (playback._node as GainNode).gain.setValueAtTime(vol, DxSound._state.ctx!.currentTime);
+                        if (soundState._webAudio && playback._node && !playback._muted && DxSound._state.ctx) {
+                            (playback._node as GainNode).gain.setValueAtTime(vol, DxSound._state.ctx.currentTime);
                         } else if (playback._node && !playback._muted) {
                             (playback._node as HTMLAudioElement).volume = vol * (DxSound.volume() as number);
                         }
@@ -640,10 +641,10 @@ const createSound = (o: SoundOptions) => {
             const ids = soundInstance._getPlaybackIds(id);
             for (const playbackId of ids) {
                 const playback = soundInstance._playbackById(playbackId);
-                if (playback) {
+                if (playback && DxSound._state.ctx) {
                     soundInstance._stopFade(playbackId);
                     if (soundState._webAudio && !playback._muted) {
-                        const currentTime = DxSound._state.ctx!.currentTime;
+                        const currentTime = DxSound._state.ctx.currentTime;
                         const end = currentTime + len / 1000;
                         playback._volume = from;
                         (playback._node as GainNode).gain.setValueAtTime(from, currentTime);
@@ -683,7 +684,7 @@ const createSound = (o: SoundOptions) => {
 
         rate: (rate?: number, id?: PlaybackId): any => {
             if (rate === undefined) {
-                const playback = soundInstance._playbackById(id ?? soundState._playbacks[0]._id);
+                const playback = soundInstance._playbackById(id ?? soundState._playbacks[0]?._id);
                 return playback ? playback._rate : soundState._rate;
             }
     
@@ -697,10 +698,10 @@ const createSound = (o: SoundOptions) => {
             const ids = soundInstance._getPlaybackIds(id);
             for (const playbackId of ids) {
                 const playback = soundInstance._playbackById(playbackId);
-                if (playback) {
+                if (playback && DxSound._state.ctx) {
                     playback._rate = rate;
                     if (soundState._webAudio && playback._node && (playback._node as any).bufferSource) {
-                        (playback._node as any).bufferSource.playbackRate.setValueAtTime(rate, DxSound._state.ctx!.currentTime);
+                        (playback._node as any).bufferSource.playbackRate.setValueAtTime(rate, DxSound._state.ctx.currentTime);
                     } else if (playback._node) {
                         (playback._node as HTMLAudioElement).playbackRate = rate;
                     }
@@ -723,9 +724,9 @@ const createSound = (o: SoundOptions) => {
                 if(!playbackId) return 0;
     
                 const playback = soundInstance._playbackById(playbackId);
-                if (playback) {
+                if (playback && DxSound._state.ctx) {
                     if (soundState._webAudio) {
-                        const realTime = !playback._paused ? DxSound._state.ctx!.currentTime - playback._playStart : 0;
+                        const realTime = !playback._paused ? DxSound._state.ctx.currentTime - playback._playStart : 0;
                         return playback._seek + (playback._rateSeek + realTime * Math.abs(playback._rate));
                     }
                     return (playback._node as HTMLAudioElement).currentTime;
@@ -789,7 +790,7 @@ const createSound = (o: SoundOptions) => {
             const index = DxSound._state._sounds.indexOf(soundInstance);
             if (index >= 0) DxSound._state._sounds.splice(index, 1);
     
-            const remCache = !DxSound._state._sounds.some(sound => sound._src === soundState._src);
+            const remCache = !DxSound._state._sounds.some(sound => (sound._src as string) === (soundState._src as string));
             if (cache[soundState._src as string] && remCache) {
                 delete cache[soundState._src as string];
             }
@@ -909,8 +910,9 @@ const createSound = (o: SoundOptions) => {
         },
         
         _refreshBuffer: (playback: any) => {
+            if (!DxSound._state.ctx) return;
             const node = playback._node as any;
-            node.bufferSource = DxSound._state.ctx!.createBufferSource();
+            node.bufferSource = DxSound._state.ctx.createBufferSource();
             node.bufferSource.buffer = cache[soundState._src as string];
             node.bufferSource.connect(playback._panner ? playback._panner : node);
             node.bufferSource.loop = playback._loop;
@@ -918,7 +920,7 @@ const createSound = (o: SoundOptions) => {
                 node.bufferSource.loopStart = playback._start || 0;
                 node.bufferSource.loopEnd = playback._stop || 0;
             }
-            node.bufferSource.playbackRate.setValueAtTime(playback._rate, DxSound._state.ctx!.currentTime);
+            node.bufferSource.playbackRate.setValueAtTime(playback._rate, DxSound._state.ctx.currentTime);
         },
     
         _cleanBuffer: (node: any) => {
@@ -950,9 +952,9 @@ const createSound = (o: SoundOptions) => {
         
         _stopFade: (id: PlaybackId) => {
             const playback = soundInstance._playbackById(id);
-            if(playback && playback._interval) {
+            if(playback && playback._interval && DxSound._state.ctx) {
                 if (soundState._webAudio) {
-                    (playback._node as GainNode).gain.cancelScheduledValues(DxSound._state.ctx!.currentTime);
+                    (playback._node as GainNode).gain.cancelScheduledValues(DxSound._state.ctx.currentTime);
                 }
                 clearInterval(playback._interval);
                 playback._interval = null;
@@ -987,10 +989,8 @@ const createSound = (o: SoundOptions) => {
                         xhr.setRequestHeader(key, soundState._xhr!.headers![key]);
                     });
                 }
-                xhr.onload = () => {
-                    soundInstance._decodeAudioData(xhr.response);
-                };
-                xhr.onerror = () => {
+                
+                const handleError = (_e?: any) => {
                     if (soundState._webAudio) {
                         soundState._html5 = true;
                         soundState._webAudio = false;
@@ -999,12 +999,22 @@ const createSound = (o: SoundOptions) => {
                         soundInstance.load();
                     }
                 };
-                try { xhr.send(); } catch (e) { xhr.onerror(); }
+
+                xhr.onload = () => {
+                    soundInstance._decodeAudioData(xhr.response);
+                };
+                xhr.onerror = handleError;
+                try {
+                    xhr.send();
+                } catch (e) {
+                    handleError(e);
+                }
             }
         },
     
         _decodeAudioData: (arraybuffer: ArrayBuffer) => {
-            DxSound._state.ctx!.decodeAudioData(arraybuffer,
+            if (!DxSound._state.ctx) return;
+            DxSound._state.ctx.decodeAudioData(arraybuffer,
                 (buffer) => {
                     if (buffer && soundState._playbacks.length > 0) {
                         cache[soundState._src as string] = buffer;
@@ -1043,7 +1053,7 @@ const createSound = (o: SoundOptions) => {
         soundState._queue.push({ event: "play", action: () => soundInstance.play() });
     }
 
-    if (soundState._preload && soundState._preload !== "none") {
+    if (soundState._preload) {
         soundInstance.load();
     }
 
@@ -1080,9 +1090,9 @@ const createPlayback = (sound: Sound) => {
         const parent = playback._parent;
         const volume = DxSound._state._muted || playback._muted || parent._muted ? 0 : playback._volume * (DxSound.volume() as number);
 
-        if (parent._webAudio) {
-            playback._node = DxSound._state.ctx!.createGain();
-            (playback._node as GainNode).gain.setValueAtTime(volume, DxSound._state.ctx!.currentTime);
+        if (parent._webAudio && DxSound._state.ctx) {
+            playback._node = DxSound._state.ctx.createGain();
+            (playback._node as GainNode).gain.setValueAtTime(volume, DxSound._state.ctx.currentTime);
             (playback._node as any).paused = true;
             playback._node.connect(DxSound._state.masterGain!);
         } else if (!DxSound._state.noAudio) {
@@ -1095,7 +1105,13 @@ const createPlayback = (sound: Sound) => {
             playback._node.addEventListener("ended", playback._endFn, false);
 
             (playback._node as HTMLAudioElement).src = parent._src as string;
-            (playback._node as HTMLAudioElement).preload = parent._preload === true ? "auto" : (parent._preload as string);
+            
+            const preloadValue = parent._preload;
+            (playback._node as HTMLAudioElement).preload = 
+                preloadValue === true ? "auto" :
+                preloadValue === false ? "none" :
+                preloadValue;
+
             (playback._node as HTMLAudioElement).volume = volume;
             (playback._node as HTMLAudioElement).load();
         }
