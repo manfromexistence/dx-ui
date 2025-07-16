@@ -1,3 +1,5 @@
+"use client"
+
 import { useSound } from "@/lib/sound";
 
 const PlayIcon = (props: React.SVGProps<SVGSVGElement>) => (
