@@ -13,7 +13,21 @@ export type MotionValue<T = any> = {
 export type EasingFunction = (v: number) => number;
 export type AnimationValues = { [key: string]: any | any[] };
 export type Point = { x: number; y: number };
-export type Transition = { type?: "spring" | "tween" | "inertia" | "physics"; duration?: number; ease?: EasingFunction | [number, number, number, number] | "bounce" | "bounceIn" | "bounceOut" | "bounceInOut" | "wiggle"; stiffness?: number; damping?: number; mass?: number; delay?: number | ((i: number) => number); onComplete?: () => void; power?: number; timeConstant?: number; modifyTarget?: (v: number) => number; acceleration?: number; friction?: number; };
+export type Transition = {
+    type?: "spring" | "tween" | "inertia" | "physics";
+    duration?: number;
+    ease?: EasingFunction | [number, number, number, number] | "linear" | "easeIn" | "easeOut" | "easeInOut" | "circIn" | "circOut" | "circInOut" | "backIn" | "backOut" | "backInOut" | "anticipate" | "bounce" | "bounceIn" | "bounceOut" | "bounceInOut" | "wiggle";
+    stiffness?: number;
+    damping?: number;
+    mass?: number;
+    delay?: number | ((i: number) => number);
+    onComplete?: () => void;
+    power?: number;
+    timeConstant?: number;
+    modifyTarget?: (v: number) => number;
+    acceleration?: number;
+    friction?: number;
+};
 export type AnimationOptions = { from: any; to: any; onUpdate?: (latest: any) => void; velocity?: number } & Transition;
 export type AnimationControls = { stop: () => void; isPlaying: () => boolean; play: () => void; pause: () => void; reverse: () => void; seek: (time: number) => void; timeScale: (scale: number) => void;};
 export type PanInfo = { point: Point; delta: Point; offset: Point; velocity: Point };

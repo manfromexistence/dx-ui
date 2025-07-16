@@ -109,7 +109,7 @@ export const MotionConfig = ({ children, ...props }: React.PropsWithChildren<Par
     <MotionContext.Provider value={props}>{children}</MotionContext.Provider>
 );
 
-export function AnimatePresence({ children }: { children: React.ReactNode }) {
+export function AnimatePresence({ children, mode }: { children: React.ReactNode; mode?: "wait" | "popLayout" | "sync" }) {
     const [presentChildren, setPresentChildren] = useState<React.ReactElement[]>([]);
     const exiting = useRef(new Set<string | number>()).current;
 
