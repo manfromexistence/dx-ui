@@ -21,7 +21,7 @@ export default function Counter() {
 
   return (
     <div className="min-h-screen bg-background text-gray-900 dark:text-white flex flex-col items-center justify-center transition-colors duration-500 relative overflow-hidden">
-      <AnimatePresence mode="wait">
+      {/* <AnimatePresence mode="wait">
         <motion.h1
           key={count}
           initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -52,7 +52,8 @@ export default function Counter() {
         >
           Decrement
         </motion.button>
-      </div>
+      </div> */}
+      Motion
     </div>
   );
 }
