@@ -183,7 +183,7 @@ const createDxSoundGlobal = () => {
                     weba: !!(!isOldSafari && audioTest.canPlayType('audio/webm; codecs="vorbis"').replace(/^no$/, "")),
                     flac: !!(audioTest.canPlayType("audio/x-flac;") || audioTest.canPlayType("audio/flac;")).replace(/^no$/, ""),
                 };
-            } catch (e) { }
+            } catch (e) {}
         },
         _unlockAudio: () => {
             if (state._audioUnlocked || !state.ctx) return;
@@ -776,10 +776,12 @@ const createSound = (o: SoundOptions) => {
             }
         },
         _loadQueue: () => {
-            if (soundState._queue.length > 0) {
-                const task = soundState._queue[0];
-                if (soundState._state === 'loaded' && task.event === 'play') {
-                    soundState._queue.shift();
+             if (soundState._state !== 'loaded' || soundState._queue.length === 0) {
+                return;
+            }
+            while (soundState._queue.length > 0) {
+                const task = soundState._queue.shift();
+                if (task) {
                     task.action();
                 }
             }
