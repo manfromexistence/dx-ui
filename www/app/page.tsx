@@ -23,7 +23,7 @@ function SoundPlayer({ title, soundUrl }: { title: string; soundUrl: string }) {
   };
 
   return (
-      <div className="w-full max-w-sm p-6 bg-white dark:black rounded-2xl shadow-lg space-y-4 transform hover:scale-105 transition-transform duration-300">
+      <div className="w-full max-w-sm p-6 bg-gray-100 dark:black rounded-2xl shadow-lg space-y-4 transform hover:scale-105 transition-transform duration-300">
           <h3 className="text-xl font-bold text-center text-gray-800 dark:text-white">{title}</h3>
           <div className="flex items-center justify-center space-x-4">
               <button
@@ -51,7 +51,7 @@ function SoundPlayer({ title, soundUrl }: { title: string; soundUrl: string }) {
 
 export default function HomePage() {
   return (
-      <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white flex flex-col items-center justify-center transition-colors duration-500 p-4">
+      <div className="min-h-screen bg-black text-gray-900 dark:text-white flex flex-col items-center justify-center transition-colors duration-500 p-4">
           <div className="text-center mb-12">
               <h1 className="text-5xl font-extrabold mb-2">dx-sound Demo</h1>
               <p className="text-lg text-gray-600 dark:text-gray-400">
@@ -66,7 +66,7 @@ export default function HomePage() {
               />
               <SoundPlayer
                   title="Synth Chord"
-                  soundUrl="https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3"
+                  soundUrl="./click.mp3"
               />
           </div>
       </div>
