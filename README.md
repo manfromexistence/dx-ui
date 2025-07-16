@@ -9,7 +9,7 @@ find . -maxdepth 1 -mindepth 1 -type d -exec du -sh {} + | sed 's/K/KB/; s/M/MB/
 git init && git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/manfromexistence/motion-packages.git
+git remote add origin https://github.com/manfromexistence/dx-sound.git
 git push -u origin main
 
 rm -rf libgit2 turborepo uv pnpm bun next-themes material-color-utilities GSAP react-bits mvpblocks magicui originui kibo indie-ui kokonutui redux material-ui G2 G6 F2 S2 X6 L7 chakra-ui heroui mantine luxe tailwindcss motion ui zustand redux material-ui ant-design base-ui primitives heroui G2 G6 F2 S2 X6 L7
