@@ -26,6 +26,7 @@ git clone https://github.com/vercel/turborepo && cd turborepo && rm -rf .git && 
 git clone https://github.com/pnpm/pnpm && cd pnpm && rm -rf .git && cd ..
 git clone https://github.com/libgit2/libgit2 && cd libgit2 && rm -rf .git && cd ..
 
+git clone https://github.com/thangngoc89/react-howler.git && cd react-howler && rm -rf .git && cd ..
 git clone https://github.com/react-hook-form/react-hook-form && cd react-hook-form && rm -rf .git && cd ..
 git clone https://github.com/spaansba/ForesightJS && cd ForesightJS && rm -rf .git && cd ..
 git clone https://github.com/aidenybai/react-scan && cd react-scan && rm -rf .git && cd ..
