@@ -2,7 +2,7 @@ import React from "react";
 import { HookOptions, PlayOptions, PlayFunction, ReturnedValue } from "@/types/sound";
 
 function useOnMount(callback: React.EffectCallback) {
-  React.useEffect(callback, []);
+    React.useEffect(callback, []);
 }
 
 export default function useSound<T = any>(
@@ -23,23 +23,21 @@ export default function useSound<T = any>(
     const [duration, setDuration] = React.useState<number | null>(null);
     const [sound, setSound] = React.useState<any | null>(null);
 
-    const handleLoad = function () {
+    const handleLoad = function (this: ({ duration: any; src: string[]; volume: number; rate: number; onload: () => void; } & Omit<HookOptions<T>, "id" | "volume" | "playbackRate" | "soundEnabled" | "interrupt" | "onload">) | ({ src: string[]; volume: number; onload: () => void; } & Omit<HookOptions<T>, "id" | "volume" | "playbackRate" | "soundEnabled" | "interrupt" | "onload">)) {
         if (typeof onload === "function") {
-            // @ts-ignore
             onload.call(this);
         }
 
         if (isMounted.current) {
-            // @ts-ignore
-            setDuration(this.duration() * 1000);
+            if ("duration" in this && typeof this.duration === "function") {
+                setDuration(this.duration() * 1000);
+            }
         }
 
-        // @ts-ignore
         setSound(this);
     };
 
     useOnMount(() => {
-        // @ts-ignore
         import("howler").then(mod => {
             if (!isMounted.current) {
                 HowlConstructor.current = mod.Howl ?? mod.default.Howl;
