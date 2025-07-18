@@ -6,6 +6,12 @@ Enhance your development experience!
 ```
 find . -maxdepth 1 -mindepth 1 -type d -exec du -sh {} + | sed 's/K/KB/; s/M/MB/; s|\./||'
 
+wget -qO- https://apt.llvm.org/llvm.sh | sudo bash -s 19
+sudo apt update
+sudo apt install -y build-essential cmake ninja-build python3 git curl
+npm install -g npm@11.4.2 bun
+bun run build
+
 git init && git add .
 git commit -m "first commit"
 git branch -M main
